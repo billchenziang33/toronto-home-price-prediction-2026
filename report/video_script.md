@@ -33,15 +33,15 @@
 
 ## Slide 5 | Where errors remain | 3:05-4:05
 
-**On screen:** The shared-price-decile chart from `figures/error_by_price_range.png`. Mark the cheapest and most expensive off-market deciles. Show the small Co-op Apt validation count beside its result.
+**On screen:** The shared-price-decile chart from `figures/error_by_price_range_final.png`. Mark the cheapest and most expensive off-market deciles. Show the small Co-op Apt validation count beside its result.
 
 **Narration:** “The error chart shows a remaining weakness. Off-market MdAPE is 13.10 percent in the cheapest price decile and 16.55 percent in the most expensive, versus roughly 8 to 12 percent through the middle. List-aware error is lower overall, but rises to 5.79 percent in the top decile. Off-market Co-op Apt has 14.33 percent MdAPE, but that estimate comes from only 48 validation homes, so we would not overinterpret it.”
 
 ## Slide 6 | What we would trust | 4:05-4:50
 
-**On screen:** “Useful as a starting estimate” beside “Not a real-world appraisal.” Close with one proposed next step: time-aware community comparables.
+**On screen:** “Useful as a starting estimate” beside “Not a real-world appraisal.” Close with one proposed next step: validate price-tail calibration.
 
-**Narration:** “The strongest result is a much better off-market estimate without using asking price. The main limit is that this is a synthetic dataset, and its community names and coordinates do not match real Toronto maps. The hidden period may also behave differently from the validation months. We would present this model as a starting estimate, not an appraisal, and next test community comparables built only from sales available before each prediction date. Thank you.”
+**Narration:** “The strongest result is a much better off-market estimate without using asking price. The main limit is that this is a synthetic dataset, and its community names and coordinates do not match real Toronto maps. We also excluded remarks because their relationship to price is not documented. The hidden period may behave differently from the validation months. We would present this model as a starting estimate, not an appraisal, and next test whether careful calibration can reduce errors at the price extremes without hurting the middle. Thank you.”
 
 ## Recording checklist
 

@@ -31,6 +31,7 @@ The official starter baselines were 20.8% MdAPE off-market and 7.3% list-aware. 
 - `report/report.tex` contains the filled official report template, but LaTeX compilation is unavailable because this machine has no Tectonic or TeX Live installation.
 - `report/create_pdf_report.py` generates the two-page PDF draft at `output/pdf/SSU_DataDash_submission_draft.pdf` with ReportLab from the bundled Codex Python runtime. Member names and team name (Toronto Fourcast) are filled in; the GitHub link is live and clickable. The video line is explicitly marked pending recording. Rebuilt and verified as two pages; `pdfplumber` confirms the exact GitHub hyperlink annotation and no member email. Do not submit until the final YouTube URL is added and the PDF is rebuilt.
 - `report/video_script.md` contains the six-slide, under-five-minute English storyboard and draft narration. All numeric claims in it come from the challenge's own walk-forward validation or reproduced starter validation.
+- The editable six-slide deck is `output/slides/toronto_fourcast_challenge_slides_v4.pptx`. Slide 6 now matches the validated experiments: remarks are excluded because their price relationship is undocumented, and the next proposed test is price-tail calibration. Speaker notes cite the challenge handout and unanswered Discord question. The finalizer receipt reports package/layout/font/chart checks passed; slides 2 and 6 were rendered and visually inspected after revision. Native PowerPoint opening remains unverified.
 
 ## Submission requirements and limits
 

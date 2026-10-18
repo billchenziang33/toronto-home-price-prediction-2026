@@ -38,6 +38,6 @@ The first run downloads the competition dataset from [Hugging Face](https://hugg
 - `features.py`, `models.py`, `run.py`, `data.py`: data pipeline, features, models, and commands.
 - `submissions/submission_off_market.csv` and `submissions/submission_list_aware.csv`: predictions for the two test tracks.
 - `report/report.tex`, `report/project_plan.md`, `report/video_script.md`: report source, working plan, and narration draft.
-- `output/slides/toronto_fourcast_challenge_slides_v2.pptx`: editable six-slide presentation.
+- `output/slides/toronto_fourcast_challenge_slides_v4.pptx`: editable six-slide presentation.
 
 The PDF and video links are intentionally not presented as final until the team records the video and replaces the draft link. The challenge requires a typed PDF report of at most four pages, a YouTube video no longer than five minutes, and this public repository. The deadline is Sunday, November 8, 2026 at 11:59 pm Eastern.

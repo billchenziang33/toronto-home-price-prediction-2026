@@ -35,7 +35,7 @@
 - 车库与地块面积的实验没有稳定增益；社区近期可比价实验也没有一致改善、且运行更慢，已移除。不要把失败实验包装成结果提升。
 - 预测 CSV 已生成并通过官方 `check`：off-market 3,974 行，list-aware 4,064 行；ID 唯一、价格为正且没有空值。
 - `report/video_script.md` 有 6 页幻灯片的英文讲稿草案，目标约 5 分钟。`report/create_pdf_report.py` 可生成 2 页 PDF 草稿；PDF 已核对为两页 Letter 页面，并检查了第一页布局。
-- 最终 slides 已制作并目视检查：`output/slides/toronto_fourcast_challenge_slides_v2.pptx`。旧版 v1 不纳入公开仓库。
+- 最终 slides 已制作并目视检查：`output/slides/toronto_fourcast_challenge_slides_v4.pptx`。已明确备注 remarks 未纳入的原因，并将下一步改为验证价格尾部校准；旧版 v1-v3 不纳入公开仓库。
 - `https://github.com/billchenziang33/toronto-home-price-prediction-2026` 已创建为 public。首个团队提交已推送；GitHub 只读核验确认仓库包含代码、测试、两份 CSV、报告源文件、视频脚本和最终 slides，不含数据缓存、成员邮箱或 PDF 草稿。CSV 分别为 3,974 与 4,064 行。
 - Discord 桌面已只读核验：`#announcements` 说明前五名于 11 月 20 日现场展示，提交视频的队伍也可参加决赛观摩和交流；`#links-and-documents` 中有正式 handout/rubric 与 Mapping the Market 空间建模工作坊 slides。组织方于 10 月 8 日公告下一场工作坊是 11 月 2 日 1:00–2:00 pm，700 University Ave, room 9199。`#rules` 禁止学术诚信违规、刷屏、离题和未经允许分享他人个人信息。
 - `#case-questions` 有两个尚未回答的问题：模拟挂牌是否使用利率，以及 `remarks` 是否藏有结构字段以外的价格信号。我们因此不使用 remarks，并把利率生成机制列为未知；没有向 Discord 发帖。
