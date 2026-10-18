@@ -116,6 +116,11 @@ def write_latex_table(scores):
     (ROOT / "reports" / "results_table.tex").write_text(table + "\n")
 
 
+def price_decile_labels(prices):
+    """Assign common price deciles so track curves use comparable x-axis bins."""
+    return pd.qcut(prices, 10, labels=False, duplicates="drop") + 1
+
+
 def error_by_price_range(predictions):
     """Figure: how big the errors are, from the cheapest tenth of homes to the dearest.
 
@@ -126,16 +131,17 @@ def error_by_price_range(predictions):
 
     fig, ax = plt.subplots(figsize=(8, 4.5))
     colours = {"off_market": "#2a78d6", "list_aware": "#eb6834"}
+    rows_by_price = predictions.copy()
+    rows_by_price["price_decile"] = price_decile_labels(rows_by_price["sold_price"])
     for track in TRACKS:
-        rows = predictions[predictions["track"] == track]
+        rows = rows_by_price[rows_by_price["track"] == track]
         error = 100 * (rows["predicted_price"] - rows["sold_price"]).abs() / rows["sold_price"]
-        decile = pd.qcut(rows["sold_price"], 10, labels=False) + 1   # 1 = cheapest tenth
-        by_decile = error.groupby(decile)
+        by_decile = error.groupby(rows["price_decile"])
         middle = by_decile.median()
         ax.plot(middle.index, middle.values, marker="o", linewidth=2, color=colours[track], label=track)
         ax.fill_between(middle.index, by_decile.quantile(0.25), by_decile.quantile(0.75),
                         color=colours[track], alpha=0.15, linewidth=0)
-    prices = rows["sold_price"].groupby(decile).median()
+    prices = rows_by_price.groupby("price_decile")["sold_price"].median()
     ax.set_xticks(prices.index, [f"{d}\n${p / 1e6:.2f}M" for d, p in prices.items()])
     ax.set_xlabel("Sold-price decile (1 = cheapest tenth of homes), with its median price")
     ax.set_ylabel("Absolute % error\n(line: median, band: middle 50%)")

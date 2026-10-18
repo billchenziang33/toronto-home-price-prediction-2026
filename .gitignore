@@ -4,6 +4,8 @@ outputs/
 reports/
 figures/
 submissions/
+!submissions/submission_off_market.csv
+!submissions/submission_list_aware.csv
 
 # Python and notebook clutter
 __pycache__/
@@ -14,3 +16,6 @@ venv/
 .DS_Store
 .Rhistory
 report/*.pdf
+.codex/
+.chart-data-*/
+tmp/

@@ -8,6 +8,7 @@ make_model() picks the model for each track. The two starting models are baselin
 deliberately simple, so you can measure how much your own ideas add.
 """
 import numpy as np
+import pandas as pd
 from sklearn.ensemble import HistGradientBoostingRegressor
 
 import features
@@ -16,10 +17,8 @@ import features
 def make_model(track):
     """Return a fresh, untrained model for "off_market" or "list_aware"."""
     if track == "list_aware":
-        return ListPriceBaseline()
-        # return FeatureModel(features.list_aware_features)   # try this instead
-    return NearestSalesBaseline(k=10)
-    # return FeatureModel(features.off_market_features)       # try this instead
+        return FeatureModel(features.list_aware_features)
+    return FeatureModel(features.off_market_features)
 
 
 class ListPriceBaseline:
@@ -82,11 +81,23 @@ class FeatureModel:
 
     def __init__(self, make_features):
         self.make_features = make_features
-        self.model = HistGradientBoostingRegressor(random_state=0)
+        self.model = HistGradientBoostingRegressor(random_state=0, categorical_features="from_dtype")
+
+    def prepare_features(self, homes):
+        X = self.make_features(homes)
+        for column, categories in self.category_values.items():
+            X[column] = pd.Categorical(X[column], categories=categories)
+        return X
 
     def fit(self, train):
-        self.model.fit(self.make_features(train), np.log(train["sold_price"]))
+        X = self.make_features(train)
+        self.categorical_columns = X.select_dtypes(include=["object", "category"]).columns.tolist()
+        self.category_values = {
+            column: X[column].dropna().unique().tolist()
+            for column in self.categorical_columns
+        }
+        self.model.fit(self.prepare_features(train), np.log(train["sold_price"]))
         return self
 
     def predict(self, homes):
-        return np.exp(self.model.predict(self.make_features(homes)))
+        return np.exp(self.model.predict(self.prepare_features(homes)))

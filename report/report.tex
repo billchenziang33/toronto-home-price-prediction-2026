@@ -1,78 +1,64 @@
-% SSU Data Dash 2026: team report template. Compile from this folder (Overleaf: upload the whole
-% repository as a zip). `python run.py report` writes the results table and figure it includes.
-% Keep the report to 4 pages, not counting the outside-data table and the appendix.
-\documentclass[11pt]{article}
-\usepackage[margin=2.2cm]{geometry}
+% SSU Data Dash 2026 submission draft. Replace the link placeholders before submission.
+\documentclass[10pt]{article}
+\usepackage[margin=1.8cm]{geometry}
 \usepackage{graphicx,booktabs,hyperref}
 \graphicspath{{../figures/}}
-\setlength{\parskip}{4pt}
-
-% Required: your team name and the full name of every team member.
-\title{SSU Data Dash 2026: \textit{Team name}}
-\author{\textit{Full name of every team member: First Last, First Last, \ldots}}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\title{SSU Data Dash 2026: Toronto Fourcast}
+\author{Yan Cui, Jiayi Guan, Shengde Wang, Ziang Chen}
 \date{}
 
 \begin{document}
 \maketitle
+\vspace{-1.2em}
 
-\noindent\begin{tabular}{@{}ll}
-\textbf{Video (YouTube, unlisted is fine):} & \url{https://youtu.be/YOUR-VIDEO} \\
-\textbf{Code and submission files (GitHub):} & \url{https://github.com/YOUR-TEAM/YOUR-REPO} \\
-\end{tabular}
+\textbf{Five-minute video:} \url{[Add unlisted YouTube URL]}\hfill
+\textbf{Code and predictions:} \url{[Add GitHub repository URL]}
 
 \section*{Summary}
-% Three or four sentences: your approach, your validation result, and your main finding.
-\textit{What you did, how well it worked when tested on later sales, and the one thing you learned.}
+We trained separate gradient-boosted models for the off-market and list-aware questions. In six monthly walk-forward validations from December 2025 through May 2026, the models reached MdAPE of 10.60\% off-market and 4.36\% list-aware across 10,069 homes per track. These are below the starter benchmarks of 20.8\% and 7.3\%, respectively. Community, municipality, and house-style categories helped the model distinguish homes with similar sizes and coordinates; the remaining errors are largest for high-priced off-market homes.
 
 \section{Data and features}
-% Which columns you used, what you built from them, and anything you dropped and why.
-\textit{Your features for each track.}
+We used the provided 150,000 synthetic sales from January 2021 through May 2026. Numeric features include the midpoint of the listed square-footage range, bedrooms, washrooms, parking, latitude, longitude, and months since January 2021. We added the provided property type, house style, municipality, and community as categorical features. The off-market feature set never uses list price; the list-aware feature set adds it. Garage and lot dimensions were tested, but paired validation did not show a reliable improvement, so we excluded them. We used no outside data. Listing remarks and third-party AVM estimates are absent from the prediction files, so they were not used.
 
 \section{Models}
-% One paragraph per track. Off-market has no list price; list-aware does. Explain how your two
-% models differ and why.
-\textit{Your off-market model and your list-aware model.}
+Both tracks use scikit-learn's histogram gradient-boosting regressor trained on log sale price. The model handles the categorical columns directly. Each validation model learns its category vocabulary from that fold's training sales; unseen categories at prediction time become missing values. The list-aware model receives list price because that field exists at prediction time. The off-market model does not.
 
-\section{Validation}
-% How you tested the models without using information from the future: which months you
-% trained on, which you predicted, and how you made sure nothing leaked.
-\textit{How you validated.}
+\section{Validation and results}
+We used the starter's expanding, month-by-month protocol. For each month from December 2025 to May 2026, the model trained only on sales before that month and predicted that month's sales. We did not use hidden test prices. The intervals below come from a bootstrap over validation homes; they do not account for homes sharing market conditions within a month.
 
-\section{Results}
 \begin{table}[h]
-\centering
+\centering\small
 \input{../reports/results_table.tex}
-\caption{Walk-forward validation on the listings. MdAPE: median absolute percentage error.
-MAPE: mean absolute percentage error. Brackets: bootstrap 95\% interval.}
+\caption{Walk-forward validation. MdAPE is median absolute percentage error; MAPE is mean absolute percentage error. Parentheses show 95\% home-level bootstrap intervals.}
 \end{table}
-% Describe the numbers in words. What improved over the baselines, and by how much?
-\textit{What the table shows.}
 
-\section{Where the model fails}
+Against the starter baselines, off-market MdAPE fell from 20.8\% to 10.60\% and list-aware MdAPE from 7.3\% to 4.36\%. The reductions were consistent in all six months. A paired bootstrap against our feature-only model estimated a further MdAPE reduction of 3.80 percentage points off-market (95\% interval: 3.52 to 4.12) and 0.19 points list-aware (0.14 to 0.24) after adding the three categorical features.
+
+\section{Where errors remain}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.85\linewidth]{error_by_price_range.png}
-\caption{Absolute percentage error by sold-price decile.}
+\includegraphics[width=0.82\linewidth]{error_by_price_range.png}
+\caption{Absolute percentage error by shared sold-price decile; line is the median and band is the middle 50\%.}
 \end{figure}
-% Add your own breakdowns: by month, property type, neighbourhood, size.
-\textit{Where errors are largest, and why you think so.}
+\vspace{-0.6em}
+Off-market error is highest for the cheapest and most expensive deciles (MdAPE 13.10\% and 16.55\%), compared with roughly 8\% to 12\% across the middle. List-aware error also rises in the top decile (5.79\%, versus 3.67\% in the second and third deciles). By property type, off-market Co-op Apt has 14.33\% MdAPE, but this group has only 48 validation homes. These segment results describe the synthetic validation set and do not establish why individual errors occur.
 
 \section{Limitations}
-\textit{What your model cannot do, and what you would try next.}
+The validation covers six months and may not match the hidden June--September 2026 distribution. Home-level bootstrap intervals understate uncertainty if errors are correlated within months. The competition data are synthetic: its communities and coordinates do not map to real Toronto locations, and these results should not be presented as a live-market valuation service. We would next test time-aware community comparables and segment calibration using the same forward-only validation.
 
 \section*{Outside data}
-% Every outside source, or write "None". Data may only cover periods up to and including May 2026.
-\begin{tabular}{lll}
-\toprule
-Source & URL & Periods covered \\
-\midrule
-\textit{None} & & \\
-\bottomrule
-\end{tabular}
+None.
 
-\section*{Reproducing our results}
-% The exact commands that produce your two submission files from a fresh copy of your repository.
-\texttt{pip install -r requirements.txt}\\
-\texttt{python run.py validate \&\& python run.py report \&\& python run.py predict \&\& python run.py check}
+\section*{Reproducing the predictions}
+From a clean clone, install the pinned requirements and run:
+\begin{verbatim}
+python -m pip install -r requirements.txt
+python run.py validate
+python run.py report
+python run.py predict
+python run.py check
+\end{verbatim}
 
 \end{document}

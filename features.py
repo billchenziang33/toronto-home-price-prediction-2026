@@ -37,6 +37,9 @@ def off_market_features(homes):
     X["parking"] = homes["parking_total"]
     X["latitude"] = homes["latitude"]
     X["longitude"] = homes["longitude"]
+    X["house_style"] = homes["house_style"].fillna("Unknown")
+    X["municipality"] = homes["municipality"].fillna("Unknown")
+    X["community"] = homes["community"].fillna("Unknown")
     # Months since January 2021, so the model can follow prices over time.
     X["months"] = (homes["date_listed"] - pd.Timestamp("2021-01-01")).dt.days / 30.44
     # One 0/1 column per property type.

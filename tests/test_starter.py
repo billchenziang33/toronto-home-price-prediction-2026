@@ -8,6 +8,7 @@ import pytest
 
 import check_submission
 import data
+import features
 import models
 import run
 
@@ -122,6 +123,40 @@ def test_metrics_on_known_errors():
     assert scores["median_signed_error"] == 5.0    # median of -10, 0, 10, 20
     low, high = scores["mape_95ci"]
     assert low <= 10.0 <= high
+
+
+def test_price_deciles_use_shared_cut_points_across_tracks():
+    prices = pd.Series([100, 200, 300, 400] * 5 + [100, 200, 300, 400] * 5)
+    tracks = pd.Series(["off_market"] * 20 + ["list_aware"] * 20)
+    deciles = run.price_decile_labels(prices)
+    assignments = pd.DataFrame({"price": prices, "track": tracks, "decile": deciles})
+    assert assignments.groupby("price")["decile"].nunique().max() == 1
+
+
+@pytest.mark.parametrize("track, expected_features", [
+    ("off_market", features.off_market_features),
+    ("list_aware", features.list_aware_features),
+])
+def test_make_model_selects_the_feature_model_for_each_track(track, expected_features):
+    model = models.make_model(track)
+    assert isinstance(model, models.FeatureModel)
+    assert model.make_features is expected_features
+
+
+def test_feature_model_encodes_categories_and_ignores_unseen_values():
+    train = make_listings(80)
+    homes = data.hide_answers(make_listings(3, seed=3, first_id=9000), "off_market")
+    homes["community"] = "NeverSeenCommunity"
+    homes["municipality"] = "NeverSeenMunicipality"
+    homes["house_style"] = "NeverSeenStyle"
+
+    X = features.off_market_features(data.hide_answers(train, "off_market"))
+    assert {"community", "municipality", "house_style"}.issubset(X.columns)
+    model = models.make_model("off_market").fit(train)
+    predictions = model.predict(homes)
+    assert predictions.shape == (3,)
+    assert np.isfinite(predictions).all()
+    assert model.model._bin_mapper.is_categorical_.sum() == 3
 
 
 # ---- every command runs end to end on tiny files ----

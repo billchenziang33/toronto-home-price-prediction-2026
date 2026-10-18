@@ -1,70 +1,43 @@
-# SSU Data Dash: predict Toronto home prices
+# Toronto Fourcast — SSU Data Dash 2026
 
-Start with the case handout, [`handout.md`](handout.md), and the judging rubric, [`rubric.md`](rubric.md).
+Reproducible submission for the SSU Data Dash synthetic Toronto home-price challenge. The project predicts sale prices for two separate tracks: homes without a list price (`off-market`) and homes with a list price (`list-aware`).
 
-Two tracks:
-- **Off-market:** value a home with no list price.
-- **List-aware:** predict a listed home's sale price, knowing its list price.
+## Data and rules
 
-Train on 150,000 sales (January 2021 to May 2026). Predict homes that sold June to September 2026.
+The challenge data contain synthetic sales from January 2021 through May 2026. The test sets cover June through September 2026. We do not use real listing or sale records, external data, or hidden test labels. In particular, the synthetic community names and coordinates should not be interpreted as a real Toronto map.
 
-**Data:** [huggingface.co/datasets/Baliyang/SSU_data_dash](https://huggingface.co/datasets/Baliyang/SSU_data_dash).
-All of it is synthetic.
+The `remarks` field is excluded: the organizers have not clarified whether its text contains additional price information. A question about whether listing simulation accounts for interest rates is also unanswered in the Discord case forum, so we make no claim about that data-generating mechanism.
 
-## Setup
+## Method
 
-Python 3.10 or newer (3.11+ on macOS 27):
+We fit one `HistGradientBoostingRegressor` per track to log sale price. The list-aware model may use list price; the off-market model does not. Both models use temporal and property features, with native categorical splits for house style, municipality, and community. Validation is a six-month expanding walk-forward evaluation: each month is predicted using only earlier sales.
 
-```
-pip install -r requirements.txt
-```
+| Track | MdAPE | MAPE | Median signed error |
+|---|---:|---:|---:|
+| Off-market | 10.60% | 13.40% | -0.13% |
+| List-aware | 4.36% | 5.57% | +0.65% |
 
-The data downloads itself on first use. No Python? Use the
-[Colab notebook](https://colab.research.google.com/github/erwinzhang7/SSU-Data-Dash/blob/main/notebooks/quickstart.ipynb).
-Prefer R? See `r/baseline.R`.
+These are validation results, not hidden-test scores. Home-level bootstrap intervals and experiment details are in `reports/validation_report_final.md` when generated locally.
 
-## Commands
+## Reproduce
 
-```
-python run.py validate   # test on Dec 2025 to May 2026
-python run.py report     # results table and a figure
-python run.py predict    # write both submission files
-python run.py check      # check them
-```
+Use Python 3.10 or newer:
 
-On Windows, use `py` if `python` is not found.
-
-## What to edit
-
-- **`features.py`**: the features.
-- **`models.py`**: the models. Two simple baselines to beat: list price (list-aware) and the
-  10 nearest earlier sales (off-market). `FeatureModel` (gradient-boosted trees) is ready to switch on.
-
-## Validation
-
-`validate` predicts each month from the sales before it, as in the real test. A random split lets
-the model see the future and makes your score look better than it is. Judges compare your
-validation error with your hidden-test error.
-
-## Submission
-
-One PDF report (template: `report/report.tex`, 4 pages max) that links to:
-1. your video on YouTube, 5 minutes max (unlisted is fine, not private);
-2. your GitHub repository (public, or shared with the organisers), holding your code and two files:
-
-```
-submissions/submission_off_market.csv    one row per home in test_off_market
-submissions/submission_list_aware.csv    one row per home in test_list_aware
-
-ml_num,predicted_price
-SYN-0123456,815000
+```powershell
+python -m pip install -r requirements.txt
+python run.py validate
+python run.py report
+python run.py predict
+python run.py check
 ```
 
-`predict` writes both; run `check` before you hand in. Deadline: see the case email.
+The first run downloads the competition dataset from [Hugging Face](https://huggingface.co/datasets/Baliyang/SSU_data_dash). `predict` writes the two checked files in `submissions/`.
 
-## Rules
+## Files
 
-- Outside data only if it covers May 2026 or earlier. List every source with its URL.
-- Neighbourhoods, coordinates and streets are synthetic, so map data will not line up.
-- No real listing or sales records.
-- Do not try to recover the hidden test prices.
+- `features.py`, `models.py`, `run.py`, `data.py`: data pipeline, features, models, and commands.
+- `submissions/submission_off_market.csv` and `submissions/submission_list_aware.csv`: predictions for the two test tracks.
+- `report/report.tex`, `report/project_plan.md`, `report/video_script.md`: report source, working plan, and narration draft.
+- `output/slides/toronto_fourcast_challenge_slides_v2.pptx`: editable six-slide presentation.
+
+The PDF and video links are intentionally not presented as final until the team records the video and replaces the draft link. The challenge requires a typed PDF report of at most four pages, a YouTube video no longer than five minutes, and this public repository. The deadline is Sunday, November 8, 2026 at 11:59 pm Eastern.
