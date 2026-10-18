@@ -29,7 +29,7 @@ The official starter baselines were 20.8% MdAPE off-market and 7.3% list-aware. 
 
 - `report/project_plan.md` records the challenge scope, rubric priorities, verified work, research boundaries, dated execution schedule through November 20, final deliverable layout, and remaining blockers.
 - `report/report.tex` contains the filled official report template, but LaTeX compilation is unavailable because this machine has no Tectonic or TeX Live installation.
-- `report/create_pdf_report.py` generates the two-page PDF draft at `output/pdf/SSU_DataDash_submission_draft.pdf` with ReportLab from the bundled Codex Python runtime. Member names are now filled in (Yan Cui, Jiayi Guan, Shengde Wang, Ziang Chen); team name, YouTube URL, and repository URL remain placeholders. Do not submit until those fields are replaced. Rebuilt after adding names; `pdfinfo` confirms two Letter pages and no encryption, and the first page was visually checked.
+- `report/create_pdf_report.py` generates the two-page PDF draft at `output/pdf/SSU_DataDash_submission_draft.pdf` with ReportLab from the bundled Codex Python runtime. Member names and team name (Toronto Fourcast) are filled in; the GitHub link is live and clickable. The video line is explicitly marked pending recording. Rebuilt and verified as two pages; `pdfplumber` confirms the exact GitHub hyperlink annotation and no member email. Do not submit until the final YouTube URL is added and the PDF is rebuilt.
 - `report/video_script.md` contains the six-slide, under-five-minute English storyboard and draft narration. All numeric claims in it come from the challenge's own walk-forward validation or reproduced starter validation.
 
 ## Submission requirements and limits
@@ -50,7 +50,7 @@ The logged-in Discord desktop window was inspected read-only on 2026-10-18. `#an
 
 ## Next steps
 
-1. The team name is Toronto Fourcast and a public GitHub repository has been created at https://github.com/billchenziang33/toronto-home-price-prediction-2026. Populate and verify its contents. Member names are recorded in the report; their email addresses were not included in the public report draft.
+1. The team name is Toronto Fourcast and the public GitHub repository is live at https://github.com/billchenziang33/toronto-home-price-prediction-2026. Its code, checked predictions, sources, and slides were pushed and verified through the public GitHub API. Member names are recorded in the report; their email addresses were not included in the public report or repository.
 2. Record and check the storyboard against the five-minute limit, then update the PDF links and re-render the final PDF.
-3. Prepare the public or organizer-shared GitHub repository with the code and both checked prediction CSVs; verify access in a private browser session.
+3. Repository publication and public API verification are complete. Before final submission, rerun a clean-clone reproducibility check and verify the final video is watchable without login.
 4. Before the November 8 deadline, have the team proofread the PDF/video and submit the Google Form. Do not claim completion until the form confirms it.

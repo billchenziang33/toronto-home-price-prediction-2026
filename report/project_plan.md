@@ -1,6 +1,6 @@
 # Toronto Home-Price Prediction Challenge：执行计划
 
-更新日期：2026-10-18。官方数据与提交规则以 [起始仓库](https://github.com/erwinzhang7/SSU-Data-Dash)、其中的 `handout.md` / `rubric.md` 和报告模板为准。队名已按推荐定为 **Toronto Fourcast**。当前工作副本已完成模型验证、两份预测 CSV 和一份报告草稿；GitHub 地址和视频地址还需填写。
+更新日期：2026-10-18。官方数据与提交规则以 [起始仓库](https://github.com/erwinzhang7/SSU-Data-Dash)、其中的 `handout.md` / `rubric.md`、报告模板和 Discord 公告为准。队名为 **Toronto Fourcast**。模型验证、两份预测 CSV、六页 slides 和两页报告草稿已完成；公开 GitHub 仓库已建立并上传代码与 CSV。最终 PDF 仍需等团队录制并上传视频后补入链接。
 
 ## 比赛要解决什么
 
@@ -35,6 +35,10 @@
 - 车库与地块面积的实验没有稳定增益；社区近期可比价实验也没有一致改善、且运行更慢，已移除。不要把失败实验包装成结果提升。
 - 预测 CSV 已生成并通过官方 `check`：off-market 3,974 行，list-aware 4,064 行；ID 唯一、价格为正且没有空值。
 - `report/video_script.md` 有 6 页幻灯片的英文讲稿草案，目标约 5 分钟。`report/create_pdf_report.py` 可生成 2 页 PDF 草稿；PDF 已核对为两页 Letter 页面，并检查了第一页布局。
+- 最终 slides 已制作并目视检查：`output/slides/toronto_fourcast_challenge_slides_v2.pptx`。旧版 v1 不纳入公开仓库。
+- `https://github.com/billchenziang33/toronto-home-price-prediction-2026` 已创建为 public。首个团队提交已推送；GitHub 只读核验确认仓库包含代码、测试、两份 CSV、报告源文件、视频脚本和最终 slides，不含数据缓存、成员邮箱或 PDF 草稿。CSV 分别为 3,974 与 4,064 行。
+- Discord 桌面已只读核验：`#announcements` 说明前五名于 11 月 20 日现场展示，提交视频的队伍也可参加决赛观摩和交流；`#links-and-documents` 中有正式 handout/rubric 与 Mapping the Market 空间建模工作坊 slides。组织方于 10 月 8 日公告下一场工作坊是 11 月 2 日 1:00–2:00 pm，700 University Ave, room 9199。`#rules` 禁止学术诚信违规、刷屏、离题和未经允许分享他人个人信息。
+- `#case-questions` 有两个尚未回答的问题：模拟挂牌是否使用利率，以及 `remarks` 是否藏有结构字段以外的价格信号。我们因此不使用 remarks，并把利率生成机制列为未知；没有向 Discord 发帖。
 
 ## 研究可借鉴什么，不能照搬什么
 
@@ -42,37 +46,35 @@
 - Zillow Prize 公开解法展示了清理缺失值、交互特征、区域聚合特征和严格线下验证的工作流。它适合借鉴实验纪律；其数据、目标和排行榜得分与本比赛不可直接比较。
 - scikit-learn 的官方文档支持直方图梯度提升原生类别特征。当前实现据此避免先生成很宽的 one-hot 矩阵；具体采用它的理由是本项目的实测运行与稳定性，不是引用文档当作模型优越性的实验证明。
 - TRREB 2026 年 9 月市场报告显示 GTA 平均成交价为 $1,006,409，同比下降 5.1%。这是对真实市场的背景核验，但晚于比赛允许的 2026 年 5 月数据截止，而且训练集是合成的，因此不纳入模型、报告结论或视频数字。
-- 五分钟短讲按“一页一个观点、标题直接表达结论、图表优先、少字”的原则制作。当前仅有讲稿结构，还没有录制视频或成品幻灯片。
+- 五分钟短讲按“一页一个观点、标题直接表达结论、图表优先、少字”的原则制作。六页可编辑 slides 和约 4 分 50 秒讲稿已完成；团队录制的视频尚未完成。
 
 ## 剩余工作和时间安排
 
-### 10 月 18–20 日：确认团队与比赛消息
+### 10 月 18–20 日：确认团队与比赛消息（已完成）
 
 - 目前已记录完整姓名：Yan Cui、Jiayi Guan、Shengde Wang、Ziang Chen。成员邮箱不写入公开 PDF 或 GitHub。
-- 队名已定为 Toronto Fourcast。已识别已登录 GitHub 账号 `billchenziang33`；建议新仓库名为 `toronto-home-price-prediction-2026`。
-- Discord 邀请页显示 SSU Data Dash 有 106 名成员、16 人在线，但打开的是账户创建/登录界面。当前 computer-use 窗口清单没有暴露桌面 Discord，也没有频道列表。因此公告、问答、规则/链接频道还待通过一个已登录并能被 computer use 读取的窗口核实。
-- 核实 Discord 中是否有最终提交说明或主办方更新；如果与公开 handout 不同，以主办方最新明确说明为准，并在 README 里记录。
+- 队名已定为 Toronto Fourcast。已识别 GitHub 账号 `billchenziang33`，并创建公开仓库 `toronto-home-price-prediction-2026`。
+- 已在桌面 Discord 核验公告、链接、规则、case questions 与 workshop questions。下一场工作坊为 11 月 2 日；以 Discord 最新明确说明为准。
+- case forum 的 remarks/利率问题尚未得到主办方答复；先在最终报告中说明不使用 remarks、模拟中的利率机制未知。若工作坊或后续公告有澄清，再核对是否改变分析。
 
-### 10 月 21–25 日：冻结模型与分析
+### 10 月 19–23 日：冻结模型、补全可复现性
 
 - 复核训练/验证切分、特征定义和类别未知值路径；重新执行完整六个月验证。
 - 只做少数可检验候选：例如按月份/物业类型/价格段拆分误差，检查残差偏差和样本量；只有通过同样的按时间验证且配对区间显示稳定增益，才保留特征变更。
 - 锁定最终代码和模型参数，保存验证结果、分组指标及其置信区间。
 - 不用随机切分分数作主结果，不挑选单个好月份，不把相关性写成因果解释。
 
-### 10 月 26–30 日：整理可复现 GitHub 项目
-
-- 从官方起始仓库建立团队自己的 repo，保留上游许可和来源说明。
-- 提交代码、`requirements.txt`、简洁 README、报告 PDF、两份已检查的 CSV；不提交缓存、虚拟环境、密钥或队员私人邮箱。
+- 已从官方起始仓库建立团队 repo，并保留 MIT 许可和来源说明；公开仓库已有代码、`requirements.txt`、README、测试、两份已检查 CSV、报告源文件、slides 和验证摘要。
+- 下一步从干净克隆执行完整复现命令，并确认 README 中文件链接实际打开。
 - README 写清楚安装与完整复现顺序：`python run.py validate`、`python run.py report`、`python run.py predict`、`python run.py check`；注明验证结果属于过去月份，隐藏集未知。
-- 在未登录/无权限的浏览器会话验证仓库公开可读，或按规则给主办方共享访问。
+- GitHub API 已从未登录可访问的公共读取接口核验仓库可读。
 
-### 10 月 31 日–11 月 3 日：完成 PDF 和幻灯片
+### 10 月 24 日–11 月 2 日：完善 PDF 与讲稿
 
-- 把正式队名、仓库地址填入报告；视频链接待录制后再填。
+- 正式队名和 GitHub 链接已填写/正在更新本地 PDF 草稿；视频链接待录制后再填。
 - 报告保留：任务定义、两条赛道特征与模型、时间验证、基线比较、主要发现、误差切片、限制、外部数据表（本模型为 None）和复现命令。
 - 保持最多 4 页。报告中的数字必须能追溯到验证输出；说明 bootstrap 是对房屋抽样，不能覆盖共享月份冲击。
-- 做成约 6 张幻灯片，每张一个结论：问题与两赛道 → 数据/防泄漏 → 方法 → 验证与基线 → 发现/错误 → 限制与复现。
+- 六张 slides 已完成：问题与两赛道 → 数据/防泄漏 → 方法 → 验证与基线 → 发现/错误 → 限制与复现。11 月 2 日工作坊后对照 Spatial Modelling 内容与组织方反馈。
 - 图表上标清 MdAPE/MAPE、赛道和时间窗口，字号适合视频观看，不在 slide 上堆论文背景。
 
 ### 11 月 4–6 日：录制并复核视频
@@ -114,9 +116,7 @@ team-repo/
 
 ## 当前未完成项
 
-- 正式队名。
-- 桌面 Discord 的频道核验（当前 computer-use 无法看到桌面应用窗口）。
-- 团队 GitHub 仓库地址和推送/权限验证。
 - 录制、上传并验证可播放的 unlisted YouTube 视频。
-- 将最终链接填入 PDF，重新检查页数和内容。
+- 用最终视频链接重新生成 PDF，确认视频与 GitHub 超链接、页数（≤4 页）及可读性。
+- 从干净克隆复现并在最终提交前检查两个 CSV 与公开仓库链接。
 - Google 表单的最终提交及确认证据。

@@ -89,7 +89,7 @@ def build():
         Spacer(1, 0.03 * inch),
         p("SSU Data Dash 2026: Toronto Home-Price Prediction", "TitleCustom"),
         p("TORONTO FOURCAST  |  Yan Cui · Jiayi Guan · Shengde Wang · Ziang Chen", "Deck"),
-        p("Five-minute video: [add unlisted YouTube link]  &nbsp;&nbsp; Code and predictions: [add GitHub repository link]", "SmallCustom"),
+        p("Five-minute video: [pending recording]  &nbsp;&nbsp; Code and predictions: <link href='https://github.com/billchenziang33/toronto-home-price-prediction-2026' color='#167A9E'>public GitHub repository</link>", "SmallCustom"),
         p("Summary", "SectionCustom"),
         p("We trained separate gradient-boosted models for the off-market and list-aware questions. Across six monthly walk-forward validations from December 2025 through May 2026, the models reached MdAPE of <b>10.60%</b> off-market and <b>4.36%</b> list-aware on 10,069 homes per track. These scores are below the starter benchmarks of 20.8% and 7.3%, respectively. Community, municipality, and house style helped distinguish homes with similar sizes and coordinates; remaining off-market errors are largest for the lowest- and highest-priced homes."),
         p("Data and features", "SectionCustom"),
@@ -132,7 +132,7 @@ def build():
         p("Limitations and outside data", "SectionCustom"),
         p("Validation covers six months and may differ from the hidden June-September 2026 distribution. Home-level bootstrap intervals understate uncertainty if errors correlate within months. The dataset is synthetic: community names and coordinates do not map to real Toronto locations, so these results are not a live-market valuation service. We would next test time-aware community comparables and segment calibration using the same forward-only validation. <b>Outside data used: none.</b>"),
         p("Reproducing the predictions", "SectionCustom"),
-        p("From a clean clone: <font name='Courier'>python -m pip install -r requirements.txt</font>, then run <font name='Courier'>python run.py validate</font>, <font name='Courier'>python run.py report</font>, <font name='Courier'>python run.py predict</font>, and <font name='Courier'>python run.py check</font>. The check command verifies the two required CSVs. Replace all team and link placeholders before submitting."),
+        p("From a clean clone: <font name='Courier'>python -m pip install -r requirements.txt</font>, then run <font name='Courier'>python run.py validate</font>, <font name='Courier'>python run.py report</font>, <font name='Courier'>python run.py predict</font>, and <font name='Courier'>python run.py check</font>. The check command verifies the two required CSVs. Add the recorded, tested YouTube link before submitting."),
     ])
 
     doc.build(story, onFirstPage=page_chrome, onLaterPages=page_chrome)
