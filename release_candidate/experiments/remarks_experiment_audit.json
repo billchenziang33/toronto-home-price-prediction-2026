@@ -1,0 +1,77 @@
+{
+  "frozen_commit": "7cffe186bd9f0a2e8fc22f3897d52b3dbaaa8df8",
+  "baseline_prediction_match": "exact; 0 price mismatches across 20,138 rows",
+  "target_match": "exact; 0 target mismatches across 20,138 rows",
+  "estimand": "median(remarks APE) - median(frozen APE), in percentage points",
+  "bootstrap": "Paired resampling of home indices; each resample calculates the two medians separately. Homes are treated as independent, so shared month-level shocks are not covered.",
+  "bootstrap_repeats": 1000,
+  "seed": 0,
+  "tracks": {
+    "off_market": {
+      "overall": {
+        "n": 10069,
+        "baseline_mdape": 10.596,
+        "remarks_mdape": 10.454,
+        "delta_pp_candidate_minus_baseline": -0.141,
+        "paired_home_bootstrap_95ci": [
+          -0.289,
+          0.034
+        ]
+      },
+      "selection_dec_to_feb": {
+        "n": 3738,
+        "baseline_mdape": 10.566,
+        "remarks_mdape": 10.389,
+        "delta_pp_candidate_minus_baseline": -0.177,
+        "paired_home_bootstrap_95ci": [
+          -0.437,
+          0.14
+        ]
+      },
+      "confirmation_mar_to_may": {
+        "n": 6331,
+        "baseline_mdape": 10.601,
+        "remarks_mdape": 10.5,
+        "delta_pp_candidate_minus_baseline": -0.101,
+        "paired_home_bootstrap_95ci": [
+          -0.335,
+          0.09
+        ]
+      }
+    },
+    "list_aware": {
+      "overall": {
+        "n": 10069,
+        "baseline_mdape": 4.36,
+        "remarks_mdape": 4.34,
+        "delta_pp_candidate_minus_baseline": -0.019,
+        "paired_home_bootstrap_95ci": [
+          -0.083,
+          0.03
+        ]
+      },
+      "selection_dec_to_feb": {
+        "n": 3738,
+        "baseline_mdape": 4.239,
+        "remarks_mdape": 4.223,
+        "delta_pp_candidate_minus_baseline": -0.016,
+        "paired_home_bootstrap_95ci": [
+          -0.104,
+          0.082
+        ]
+      },
+      "confirmation_mar_to_may": {
+        "n": 6331,
+        "baseline_mdape": 4.443,
+        "remarks_mdape": 4.405,
+        "delta_pp_candidate_minus_baseline": -0.037,
+        "paired_home_bootstrap_95ci": [
+          -0.111,
+          0.049
+        ]
+      }
+    }
+  },
+  "decision": "The confirmation-period 95% intervals include zero for both tracks. Keep the public no-remarks model frozen; retain remarks as an experiment.",
+  "legacy_issue": "The earlier helper bootstrapped median(per-home APE difference), while its point estimate was the difference between two MdAPEs. These are different estimands; earlier intervals are superseded."
+}

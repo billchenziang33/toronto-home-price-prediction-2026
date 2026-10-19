@@ -1,0 +1,469 @@
+{
+  "screen_months": [
+    "2022-03",
+    "2022-10"
+  ],
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "screen_results_are_not_confirmation": true,
+  "rankings": {
+    "off_market": [
+      {
+        "card_id": "OM08_C0_recency_oof_blend",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.54377944028817,
+        "relative_mdape_improvement": -0.002866850005007175,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.33133861731635,
+        "relative_mape_change": -0.0006758605790244215,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.673822215819046,
+            "mape_percent": 12.479882163622083
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.271833825186274,
+            "mape_percent": 12.024375386220774
+          }
+        }
+      },
+      {
+        "card_id": "OM07_C0_Q50_oof_blend",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.562910798122065,
+        "relative_mdape_improvement": -0.004877186128891678,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.28132611020103,
+        "relative_mape_change": -0.004728843566866385,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.688681775512942,
+            "mape_percent": 12.417934314093152
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.367769446582077,
+            "mape_percent": 11.999027102914784
+          }
+        }
+      },
+      {
+        "card_id": "OM01_Q50_raw",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.636262359002924,
+        "relative_mdape_improvement": -0.012585018153278468,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.542599357662205,
+        "relative_mape_change": 0.016444580606744027,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.783419023136247,
+            "mape_percent": 12.684836374316397
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.380779251427283,
+            "mape_percent": 12.248668484868164
+          }
+        }
+      },
+      {
+        "card_id": "OM09_recency_weighted",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.650489236790607,
+        "relative_mdape_improvement": -0.014079988170304484,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.485391970255433,
+        "relative_mape_change": 0.011808528920634715,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.754452147906472,
+            "mape_percent": 12.696150061973212
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.430523331740575,
+            "mape_percent": 12.049863221802962
+          }
+        }
+      },
+      {
+        "card_id": "OM04_C0_global_oof",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.768452517820188,
+        "relative_mdape_improvement": -0.026475650161715686,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.930618665763332,
+        "relative_mape_change": 0.047889428013851223,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.834120521172638,
+            "mape_percent": 13.107477154350795
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.630132023810337,
+            "mape_percent": 12.56514298907691
+          }
+        }
+      },
+      {
+        "card_id": "OM10_C0_rolling3mo_oof",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.768452517820188,
+        "relative_mdape_improvement": -0.026475650161715686,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.930618665763332,
+        "relative_mape_change": 0.047889428013851223,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.834120521172638,
+            "mape_percent": 13.107477154350795
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.630132023810337,
+            "mape_percent": 12.56514298907691
+          }
+        }
+      },
+      {
+        "card_id": "OM05_C0_type_shrink",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.796814936847886,
+        "relative_mdape_improvement": -0.02945599248907045,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.989047651727283,
+        "relative_mape_change": 0.05262447729987702,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.838563864135349,
+            "mape_percent": 13.17299908529141
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.720157506702414,
+            "mape_percent": 12.608914500097194
+          }
+        }
+      },
+      {
+        "card_id": "OM06_C0_predband",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 9.827152404665181,
+        "relative_mdape_improvement": -0.0326438742897149,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 12.942431009547946,
+        "relative_mape_change": 0.04884669312945901,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 9.870281765018607,
+            "mape_percent": 13.10630195467084
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.772299208349757,
+            "mape_percent": 12.603793915923719
+          }
+        }
+      },
+      {
+        "card_id": "OM03_Q50_type_shrink",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 10.278054786088028,
+        "relative_mdape_improvement": -0.0800250039298643,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 13.44559208349014,
+        "relative_mape_change": 0.08962255881701127,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 10.394853348090757,
+            "mape_percent": 13.736802837120695
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.976867011949482,
+            "mape_percent": 12.843808996393063
+          }
+        }
+      },
+      {
+        "card_id": "OM02_Q50_global_oof",
+        "n": 5673,
+        "parent_mdape_percent": 9.51649707061363,
+        "candidate_mdape_percent": 10.368974984746798,
+        "relative_mdape_improvement": -0.08957896038927687,
+        "parent_mape_percent": 12.339678519585572,
+        "candidate_mape_percent": 13.588788124969184,
+        "relative_mape_change": 0.1012270784365267,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 10.572693811824246,
+            "mape_percent": 13.967823132897069
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 9.969119151281726,
+            "mape_percent": 12.805517403180922
+          }
+        }
+      }
+    ],
+    "list_aware": [
+      {
+        "card_id": "LA07_C0_Q50_oof_blend",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.11749127242085,
+        "relative_mdape_improvement": 0.016574789438901824,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.251470625456348,
+        "relative_mape_change": -0.009119784262930928,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 5.607331422537336,
+            "mape_percent": 6.678401628341758
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.1555563456681,
+            "mape_percent": 5.369223477331526
+          }
+        }
+      },
+      {
+        "card_id": "LA01_Q50_raw",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.1242821042958875,
+        "relative_mdape_improvement": 0.015269799374222163,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.25196959044701,
+        "relative_mape_change": -0.00904069654626166,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 5.653792667509482,
+            "mape_percent": 6.681449055190904
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.127108652777755,
+            "mape_percent": 5.364456080330307
+          }
+        }
+      },
+      {
+        "card_id": "LA09_CB_MAE_raw",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.133798004646713,
+        "relative_mdape_improvement": 0.013441134544519001,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.246148056074557,
+        "relative_mape_change": -0.00996343034451508,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 5.5791138470522394,
+            "mape_percent": 6.673261713788624
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.142928092038625,
+            "mape_percent": 5.36352345421462
+          }
+        }
+      },
+      {
+        "card_id": "LA08_Q50_CB_oof_blend",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.135594978732233,
+        "relative_mdape_improvement": 0.013095811118576012,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.232305992306285,
+        "relative_mape_change": -0.012157446433641356,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 5.612843496191558,
+            "mape_percent": 6.6527212932399955
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.142928092038625,
+            "mape_percent": 5.36352345421462
+          }
+        }
+      },
+      {
+        "card_id": "LA10_recency_weighted",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.2034777303233675,
+        "relative_mdape_improvement": 5.08236973472634e-05,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.328720545518959,
+        "relative_mape_change": 0.003124601425392267,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 5.678270329072614,
+            "mape_percent": 6.742520658923666
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.282478490031206,
+            "mape_percent": 5.473608203061555
+          }
+        }
+      },
+      {
+        "card_id": "LA02_Q50_global_oof",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.668184035116242,
+        "relative_mdape_improvement": -0.08925150654850669,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.789561786080133,
+        "relative_mape_change": 0.07616956879808331,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 6.358611238008223,
+            "mape_percent": 7.362843221176197
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.505545859260383,
+            "mape_percent": 5.604883447500541
+          }
+        }
+      },
+      {
+        "card_id": "LA03_Q50_type_shrink",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.6684550108703275,
+        "relative_mdape_improvement": -0.08930357979569621,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.796447912153005,
+        "relative_mape_change": 0.07726104414804257,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 6.357291852911377,
+            "mape_percent": 7.361627551602039
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.528028215794089,
+            "mape_percent": 5.628511824794274
+          }
+        }
+      },
+      {
+        "card_id": "LA06_C0_type_shrink",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.705871757925072,
+        "relative_mdape_improvement": -0.09649393350457841,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.799504201724713,
+        "relative_mape_change": 0.07774547686021703,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 6.438300808200276,
+            "mape_percent": 7.414894917449586
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.339824562619523,
+            "mape_percent": 5.527807603770015
+          }
+        }
+      },
+      {
+        "card_id": "LA05_C0_global_oof",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.737865344467641,
+        "relative_mdape_improvement": -0.10264212172949881,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.814985717213062,
+        "relative_mape_change": 0.0801993518483783,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 6.4320580474934035,
+            "mape_percent": 7.436159441905364
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.371730267381874,
+            "mape_percent": 5.531338609375946
+          }
+        }
+      },
+      {
+        "card_id": "LA04_Q50_type_predband",
+        "n": 5673,
+        "parent_mdape_percent": 5.203742203742204,
+        "candidate_mdape_percent": 5.7669359850839035,
+        "relative_mdape_improvement": -0.10822860919910413,
+        "parent_mape_percent": 6.309007411966717,
+        "candidate_mape_percent": 6.813848315237187,
+        "relative_mape_change": 0.08001906961036441,
+        "monthly": {
+          "2022-03": {
+            "n": 3823,
+            "mdape_percent": 6.350157728706624,
+            "mape_percent": 7.353998083559175
+          },
+          "2022-10": {
+            "n": 1850,
+            "mdape_percent": 4.6055518318437265,
+            "mape_percent": 5.6976361183209905
+          }
+        }
+      }
+    ]
+  },
+  "shortlist": {
+    "off_market": [
+      "OM08_C0_recency_oof_blend",
+      "OM07_C0_Q50_oof_blend",
+      "OM01_Q50_raw",
+      "OM09_recency_weighted"
+    ],
+    "list_aware": [
+      "LA07_C0_Q50_oof_blend",
+      "LA01_Q50_raw",
+      "LA09_CB_MAE_raw",
+      "LA08_Q50_CB_oof_blend"
+    ]
+  },
+  "created_at_utc": "2026-10-19T06:55:06.438968+00:00"
+}

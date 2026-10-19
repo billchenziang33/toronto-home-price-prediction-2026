@@ -1,0 +1,28 @@
+{
+  "fingerprint": "c47b00a26e4c509d8b9bd69755c433d1b74bf5cfea768be8ea2b1f454f88ee08",
+  "pipeline_config": {
+    "candidate_component_sha256": "d908e4ada6fd95e8eb7f861c8a1dd0015c7face956696bb5b54fb27593dcf74d",
+    "frozen_component_sha256": "fe3fa6f3e036c21603b316a68120e82ff2e9cf63369059117edb3d6a392094c9",
+    "list_blend_weight": 0.75,
+    "method_id": "M19",
+    "model_config": {
+      "allow_writing_files": false,
+      "depth": 6,
+      "has_time": true,
+      "iterations": 600,
+      "l2_leaf_reg": 3,
+      "learning_rate": 0.05,
+      "loss_function": "RMSE",
+      "random_seed": 0,
+      "thread_count": 4,
+      "verbose": false
+    },
+    "model_family": "catboost",
+    "month": "2025-10",
+    "parent": "C0",
+    "round_rule": "frozen first; blend in price space; final round",
+    "target_override": null,
+    "track": "list_aware"
+  },
+  "prediction_sha256": "4173955775fbec7efffaf233a4348d0bf7b5947ed3bc0ca78f7fe5e0a5763daa"
+}

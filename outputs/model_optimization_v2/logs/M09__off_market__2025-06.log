@@ -1,0 +1,23 @@
+STDOUT
+
+STDERR
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\admin\Documents\New project\TorontoHomePriceChallenge\experiments\model_optimization_v2\worker.py", line 191, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\admin\Documents\New project\TorontoHomePriceChallenge\experiments\model_optimization_v2\worker.py", line 185, in main
+    result = execute(Path(sys.argv[2]))
+  File "C:\Users\admin\Documents\New project\TorontoHomePriceChallenge\experiments\model_optimization_v2\worker.py", line 148, in execute
+    result = fit_component(train, homes, job["track"], job["method_id"], job["month"],
+                           job["model_family"], job["model_config"],
+                           target_override=job.get("target_override"))
+  File "C:\Users\admin\Documents\New project\TorontoHomePriceChallenge\experiments\model_optimization_v2\worker.py", line 97, in fit_component
+    train_x = build_features(selected.drop(columns=["sold_price", "date_sold"], errors="ignore"),
+                             track, method_id, history=history, cutoff=cutoff, grid_origin=origin)
+  File "C:\Users\admin\Documents\New project\TorontoHomePriceChallenge\experiments\model_optimization_v2\features.py", line 75, in build_features
+    extras = asof_market_features(homes, history, cutoff)
+  File "C:\Users\admin\Documents\New project\TorontoHomePriceChallenge\experiments\model_optimization_v2\features.py", line 127, in asof_market_features
+    raise ValueError("as-of inputs are missing required columns")
+ValueError: as-of inputs are missing required columns

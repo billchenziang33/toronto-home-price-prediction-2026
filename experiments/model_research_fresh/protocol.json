@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_id": "model_research_fresh",
+  "parent": "model_candidate_v2",
+  "source_data": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "development_months": ["2024-10", "2024-12", "2025-01", "2025-03"],
+  "final_months": ["2025-05", "2025-08"],
+  "previously_evaluated_months": ["2025-02", "2025-04", "2025-06", "2025-07", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05"],
+  "budget": {
+    "wallclock_minutes": 240,
+    "development_minutes": 180,
+    "final_reserve_minutes": 60,
+    "fit_cap": 180,
+    "threads": 4,
+    "bootstrap_repeats": 10000
+  },
+  "development_gate": {
+    "min_relative_mdape_improvement": 0.01,
+    "min_months_improved": 3,
+    "max_month_relative_regression": 0.05,
+    "max_mape_relative_regression": 0.01,
+    "paired_home_bootstrap_upper_percentage_points_lt": 0.0
+  },
+  "final_gate": {
+    "min_relative_mdape_improvement_each_track": 0.01,
+    "min_months_improved": 2,
+    "max_month_relative_regression": 0.05,
+    "max_mape_relative_regression": 0.01,
+    "paired_home_bootstrap_upper_percentage_points_lt": 0.0,
+    "runs_per_frozen_candidate": 1
+  },
+  "candidate_order": ["Q50", "CB_MAE", "GAMMA_PRICE"],
+  "track_order": ["off_market", "list_aware"],
+  "candidate_selection": "For each track, among development-gate passers choose lowest pooled MdAPE; tie-break on pooled MAPE, then fixed candidate order. Final results cannot change selection.",
+  "holdout_policy": "Development runner reads only listing records sold before 2025-04-01. Do not load final-month labels until a manifest locks a passing candidate for both tracks. Final fold fits only after freeze. Never inspect hidden test labels.",
+  "baseline_policy": "Re-fit every v2 C0 learner inside each fold using only sales strictly before that held-out month. List-aware C0 is the locked LightGBM challenger blended at 0.75 with an HGBR log-sale-price model; round HGBR before blending and round the final price.",
+  "thread_policy": "At most four threads and one learner fit at a time."
+}

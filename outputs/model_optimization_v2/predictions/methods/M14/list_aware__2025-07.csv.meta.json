@@ -1,0 +1,20 @@
+{
+  "calibration_params": {
+    "factor": 1.0002235225585303,
+    "max_oof_date": "2025-04-30",
+    "n": 3586
+  },
+  "fingerprint": "d51a0748fa1e4daaaeb640ffe767929de252284615552f749b4225a2f3d096f4",
+  "pipeline_config": {
+    "cutoff": "2025-07-01T00:00:00",
+    "method_id": "M14",
+    "method_registry_sha256": "ecd7cadc371cf2dc52d76f6644163873ff2a6f856ff22a8a9f1fe08d2ab1d980",
+    "month": "2025-07",
+    "oof_prediction_sha256": [
+      "ae687479595fd03b7cc8770fa1112c9d5dab58f76d8515c1d671a3e79b5be890",
+      "c9047ab1fc417af48797c8651b3a57e69f00938c5fbdbb6e76f18c847da4b8f2"
+    ],
+    "track": "list_aware"
+  },
+  "prediction_sha256": "74604a41232deff93a123b54d7dc78d0c8999313abee285d58efb301e39dd2c6"
+}

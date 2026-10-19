@@ -14,9 +14,20 @@ Ideas to try:
 - off-market and list-aware can use different features: list-aware has list_price
 """
 import pandas as pd
+import re
 
 PROPERTY_TYPES = ["Condo Apt", "Detached", "Semi-Detached", "Condo Townhouse",
                   "Freehold Townhouse", "Co-Op Apt"]
+REMARKS_PATTERNS = {
+    "remarks_renovation_count": r"\b(?:renovat\w*|upgrad\w*|moderniz\w*|updated|newly built)\b",
+    "remarks_condition_count": r"\b(?:dated|original condition|needs? work|as[- ]is|fixer|tlc|repair\w*|worn|deferred maintenance)\b",
+    "remarks_systems_count": r"\b(?:electrical|plumbing|hvac|roof|foundation|furnace|boiler|windows?)\b",
+    "remarks_amenities_count": r"\b(?:park|ravine|waterfront|shopping|walkable|walkability|green space|lake|trail)\b",
+    "remarks_transit_schools_count": r"\b(?:transit|subway|t\.?t\.?c\.?|schools?|school district|bus stop|station)\b",
+    "remarks_views_count": r"\b(?:views?|panoramic|cityscape|lakefront)\b",
+    "remarks_investment_count": r"\b(?:income|rentals?|investment|investor|tenant|lease)\b",
+    "remarks_luxury_count": r"\b(?:luxury|luxurious|premium|executive|upscale|elegant|high[- ]end)\b",
+}
 
 
 def square_feet(house_area):
@@ -28,7 +39,25 @@ def square_feet(house_area):
     return (low + high) / 2
 
 
-def off_market_features(homes):
+def remarks_features(remarks):
+    """Fixed, interpretable text counts; patterns are not learned from prices."""
+    text = remarks.fillna("").astype(str)
+    result = pd.DataFrame(index=remarks.index)
+    result["remarks_word_count"] = text.str.findall(r"\b[\w'-]+\b").str.len()
+    for name, pattern in REMARKS_PATTERNS.items():
+        result[name] = text.str.count(pattern, flags=re.IGNORECASE)
+    return result
+
+
+def append_remarks_features(structured, remarks):
+    """Append remarks features while preserving structured row order and dtypes."""
+    aligned = remarks.reindex(structured.index)
+    if len(aligned) != len(structured):
+        raise ValueError("Remarks must have one entry per structured row")
+    return pd.concat([structured, remarks_features(aligned)], axis=1)
+
+
+def off_market_features(homes, include_remarks=True):
     """Features for homes with no list price."""
     X = pd.DataFrame(index=homes.index)
     X["square_feet"] = square_feet(homes["house_area"])
@@ -45,11 +74,13 @@ def off_market_features(homes):
     # One 0/1 column per property type.
     for kind in PROPERTY_TYPES:
         X["is_" + kind] = (homes["house_type_name"] == kind).astype(int)
+    if include_remarks:
+        X = append_remarks_features(X, homes["remarks"])
     return X
 
 
-def list_aware_features(homes):
+def list_aware_features(homes, include_remarks=True):
     """Features for homes that have a list price: everything above, plus the list price."""
-    X = off_market_features(homes)
+    X = off_market_features(homes, include_remarks=include_remarks)
     X["list_price"] = homes["list_price"]
     return X

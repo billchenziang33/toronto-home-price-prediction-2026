@@ -1,0 +1,1239 @@
+ml_num,track,month,model_id,model_family,target,house_type_name,sold_price,predicted_price,baseline_price
+SYN-0154350,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,797100.0,784744.5953694113,782350.0
+SYN-0150378,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1821500.0,1837810.8780148427,1837801.0
+SYN-0148591,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,711300.0,744612.3534198395,736422.0
+SYN-0155236,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,257500.0,264387.8087081089,288910.0
+SYN-0040814,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,516500.0,511619.1803975368,513982.0
+SYN-0034497,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1875100.0,1968914.0442791036,1999218.0
+SYN-0073015,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1162400.0,1124574.6427197058,1122789.0
+SYN-0093071,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,348700.0,360519.44855924055,353218.0
+SYN-0122093,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1574800.0,1568657.012007005,1562641.0
+SYN-0138169,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,459700.0,486599.84724424826,477701.0
+SYN-0129158,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1285800.0,1382753.5949281943,1382157.0
+SYN-0156700,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,409400.0,422938.0515106795,410877.0
+SYN-0028926,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,347700.0,352300.5030588104,362169.0
+SYN-0112975,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,317200.0,322265.3374680145,336302.0
+SYN-0128140,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,363900.0,390500.01069319673,396888.0
+SYN-0104463,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1534700.0,1256468.7605412917,1277608.0
+SYN-0151777,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,791300.0,761248.3075786453,779687.0
+SYN-0035044,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1624000.0,1600293.5627741036,1622491.0
+SYN-0073944,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,764900.0,758801.7475805817,774455.0
+SYN-0157585,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,799300.0,772878.7331631214,775944.0
+SYN-0131787,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1779300.0,1799520.58143926,1761682.0
+SYN-0017680,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,409400.0,415020.8854015987,421447.0
+SYN-0057648,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,863300.0,906749.09875611,907282.0
+SYN-0125434,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,445700.0,440490.56384565565,445440.0
+SYN-0103218,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,889200.0,886328.7589548194,885447.0
+SYN-0142185,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1043700.0,964923.3658118506,959091.0
+SYN-0150535,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,425000.0,420421.08331732434,424267.0
+SYN-0061625,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,833000.0,774780.8465994765,789794.0
+SYN-0125159,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3675600.0,4029360.6167211193,4373477.0
+SYN-0138141,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,984500.0,1003033.0012099249,998291.0
+SYN-0085828,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,963500.0,1024889.9972990813,1033768.0
+SYN-0018675,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1306500.0,1086523.391048874,1091202.0
+SYN-0141574,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,552300.0,549473.0883172139,547034.0
+SYN-0024646,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,718600.0,738096.7984635669,741003.0
+SYN-0108059,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,823100.0,919295.0397996528,914516.0
+SYN-0147022,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1343400.0,1523473.679690777,1491696.0
+SYN-0103934,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,890000.0,611651.707260477,620674.0
+SYN-0044229,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,368200.0,332979.26496204856,333991.0
+SYN-0073777,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,394800.0,413024.6340465023,425289.0
+SYN-0001124,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,771700.0,789886.6281998835,799247.0
+SYN-0044351,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,289400.0,316889.1329441722,331992.0
+SYN-0000731,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,599700.0,656025.4652864414,651422.0
+SYN-0039571,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,975400.0,923796.6168311756,923215.0
+SYN-0117301,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,447900.0,476422.80483983434,473695.0
+SYN-0090785,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1037300.0,1025303.311758381,1055924.0
+SYN-0118728,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,416800.0,413764.90974080184,408495.0
+SYN-0021810,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,1724800.0,1727605.5929633025,1789844.0
+SYN-0029194,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1364500.0,1133992.7726868957,1123971.0
+SYN-0030463,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,627800.0,598371.6240009386,616336.0
+SYN-0066113,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2453000.0,2161744.0551946466,2165569.0
+SYN-0044621,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,611700.0,650565.2219786805,642353.0
+SYN-0054136,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,422900.0,464608.9857170212,460893.0
+SYN-0109551,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1469000.0,1498969.3265026868,1509039.0
+SYN-0009279,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,566500.0,564482.5107660922,597190.0
+SYN-0039194,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1854200.0,1927601.1094478054,1978706.0
+SYN-0095410,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1690900.0,1699847.75121557,1674671.0
+SYN-0009641,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,850000.0,769392.174935014,766099.0
+SYN-0001311,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,692800.0,649080.7248999644,661596.0
+SYN-0007053,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,495500.0,470961.8291086292,472868.0
+SYN-0068143,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1729200.0,1713249.430363924,1705579.0
+SYN-0039971,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,478900.0,480192.4224455949,460599.0
+SYN-0126891,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,301200.0,305515.17976739653,314620.0
+SYN-0103911,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,667000.0,641259.1068390266,640742.0
+SYN-0085821,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,928400.0,954237.1530920786,974596.0
+SYN-0091797,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,978800.0,927869.8700450107,927796.0
+SYN-0073167,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,601000.0,625240.5732095551,621779.0
+SYN-0006249,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,500800.0,510417.861196763,508137.0
+SYN-0056769,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,624000.0,697250.8056788289,698220.0
+SYN-0018601,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2944000.0,2830164.7533181403,2856736.0
+SYN-0025558,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1113100.0,1149487.9022512324,1109004.0
+SYN-0151917,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,805000.0,838373.7009016841,826401.0
+SYN-0134833,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2167100.0,2116451.1853968618,2114074.0
+SYN-0084028,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1311600.0,1237045.3969278887,1214815.0
+SYN-0104607,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,380500.0,400889.07266419777,399255.0
+SYN-0138254,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,826700.0,882047.3943576673,871285.0
+SYN-0039657,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,737300.0,747347.0162127292,749558.0
+SYN-0084513,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1508600.0,1565090.1541461495,1523045.0
+SYN-0085279,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,632700.0,707528.7246268576,720399.0
+SYN-0119680,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1073900.0,1056242.1747093308,1080208.0
+SYN-0046507,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,797300.0,758843.3481767479,759883.0
+SYN-0122964,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,584000.0,539676.7140212778,541443.0
+SYN-0098505,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,777300.0,797709.542424268,798849.0
+SYN-0110721,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,503400.0,514468.135757421,519889.0
+SYN-0051056,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,575300.0,546299.2054020579,546304.0
+SYN-0135263,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,550600.0,506928.48903031106,497446.0
+SYN-0020438,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1457300.0,1386717.6099764179,1418492.0
+SYN-0155172,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3318900.0,3075147.5878245207,3200007.0
+SYN-0146955,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,420400.0,428341.6938605398,438297.0
+SYN-0047471,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,528900.0,579405.89446419,590137.0
+SYN-0029855,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,430000.0,432100.24142936105,435704.0
+SYN-0013711,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,655500.0,639553.3846182218,645464.0
+SYN-0018461,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,461900.0,461434.3087608315,450881.0
+SYN-0112609,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,549400.0,547821.5629889867,551454.0
+SYN-0109592,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1201000.0,1175220.2519277069,1158800.0
+SYN-0097740,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2056800.0,1996578.2458540772,2008816.0
+SYN-0112913,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1322200.0,1183506.5271314506,1154107.0
+SYN-0147044,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1129300.0,1203304.11375972,1230787.0
+SYN-0036041,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,938400.0,871660.3195807538,870436.0
+SYN-0145254,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1195100.0,1236999.6845584703,1230894.0
+SYN-0105902,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1227000.0,1150492.3489775418,1130732.0
+SYN-0136915,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3339800.0,3355616.8524126206,3310951.0
+SYN-0121027,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1105300.0,1154182.150629915,1173704.0
+SYN-0027769,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,687300.0,664978.2438967511,668225.0
+SYN-0119650,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,667700.0,673305.4350500753,677416.0
+SYN-0120595,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1344000.0,1245272.9151200834,1230864.0
+SYN-0058788,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,543600.0,582830.0004790782,603136.0
+SYN-0084163,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,1024400.0,1025696.4288954152,1043988.0
+SYN-0045786,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,693100.0,709488.6025684224,696598.0
+SYN-0018251,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,821800.0,833360.0671459096,842845.0
+SYN-0119879,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1231300.0,1317887.1386594404,1301184.0
+SYN-0055356,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,435900.0,449421.28336763877,456070.0
+SYN-0015640,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,520300.0,531028.473678307,535360.0
+SYN-0150374,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,531800.0,523900.34721086716,471591.0
+SYN-0035390,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,550100.0,580974.9150892461,595520.0
+SYN-0001055,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,613700.0,605311.1682019504,595197.0
+SYN-0156269,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,365900.0,349855.750182121,366649.0
+SYN-0121988,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,781100.0,800590.1090347033,812251.0
+SYN-0020129,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,583300.0,547989.5210285519,542188.0
+SYN-0018448,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,871700.0,923853.1706288104,908954.0
+SYN-0068565,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,384400.0,386014.8547698723,394053.0
+SYN-0017019,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,755500.0,762211.0038315883,760164.0
+SYN-0117322,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,745800.0,843406.1046281334,839617.0
+SYN-0136762,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,392600.0,438848.5701191009,444637.0
+SYN-0122477,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,2663600.0,2694190.0402878425,2688288.0
+SYN-0054578,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1009100.0,998555.8117211593,998598.0
+SYN-0070384,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,352100.0,383273.7424988689,392061.0
+SYN-0019594,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,652700.0,672606.9766205702,669056.0
+SYN-0016531,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,630800.0,642570.6565900288,637982.0
+SYN-0026666,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,624800.0,600980.0193443829,607511.0
+SYN-0051543,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1765000.0,1705656.6163962288,1671281.0
+SYN-0023574,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,443700.0,450383.064776894,449271.0
+SYN-0069589,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,429600.0,432736.4066069205,445296.0
+SYN-0052170,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,697900.0,787555.2400095958,787675.0
+SYN-0054169,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1363200.0,1552358.1997960366,1541793.0
+SYN-0146591,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,906600.0,914463.0850366111,917610.0
+SYN-0041418,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2413200.0,2302509.077433396,2331244.0
+SYN-0059940,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,636500.0,621347.7185604208,616954.0
+SYN-0002799,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,797400.0,931677.3150540405,935042.0
+SYN-0036566,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1094300.0,1062643.2718373016,1063882.0
+SYN-0008786,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,761000.0,766853.1927062568,788272.0
+SYN-0027897,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,575400.0,593958.9974181114,603799.0
+SYN-0152414,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,506500.0,504832.55230638594,500647.0
+SYN-0077365,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2215200.0,2267932.2799684796,2263454.0
+SYN-0063106,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,584700.0,551666.7258092199,567732.0
+SYN-0084489,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,461000.0,447827.8245942377,448478.0
+SYN-0123124,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,621500.0,626181.0114667646,645438.0
+SYN-0030484,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,831900.0,891048.1338267304,889785.0
+SYN-0017765,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1966200.0,2043169.1096175455,2081590.0
+SYN-0027293,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,704900.0,757503.6480404987,745699.0
+SYN-0000072,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2730200.0,2532626.493690199,2658198.0
+SYN-0155368,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1092200.0,998778.7288612645,987507.0
+SYN-0129454,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,592000.0,566029.4699424155,565732.0
+SYN-0155283,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,538100.0,632817.32900895,639267.0
+SYN-0007225,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,322900.0,343348.61364247696,340302.0
+SYN-0067083,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1116100.0,1173204.6970420547,1180325.0
+SYN-0003295,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1507100.0,1397034.502131156,1384240.0
+SYN-0095533,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,700900.0,695099.3689114254,699564.0
+SYN-0120527,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,376200.0,413162.1852000487,416417.0
+SYN-0005494,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,594200.0,596990.8228903012,616363.0
+SYN-0075647,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1458700.0,1356514.1281360283,1389176.0
+SYN-0016732,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,623400.0,574140.0678515952,574135.0
+SYN-0104318,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1126100.0,1128370.9845623549,1116099.0
+SYN-0113705,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1341200.0,1324682.11529876,1337883.0
+SYN-0035324,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,437400.0,409386.97996354714,423108.0
+SYN-0090665,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1078200.0,946484.4382679197,934635.0
+SYN-0059328,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,531000.0,480334.07374298316,482359.0
+SYN-0065312,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,739600.0,761543.748045251,763623.0
+SYN-0025588,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1414100.0,1211368.850237362,1212282.0
+SYN-0043979,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,428000.0,468732.4998839126,478178.0
+SYN-0020325,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,844900.0,823847.6499810433,820308.0
+SYN-0148436,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,927000.0,996194.0529742482,989328.0
+SYN-0041561,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,844900.0,941119.2264336209,936811.0
+SYN-0137404,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,949000.0,943456.0605036994,988240.0
+SYN-0093565,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,583200.0,570213.5626139351,567712.0
+SYN-0090372,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,744300.0,819969.7509283909,821531.0
+SYN-0153765,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,569000.0,640803.2565268534,634793.0
+SYN-0099682,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2079100.0,2154615.9844124117,2195663.0
+SYN-0065272,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,479700.0,471300.08552155446,472244.0
+SYN-0149464,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,662500.0,688309.2170636953,680608.0
+SYN-0001749,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,485000.0,469416.90754359326,461481.0
+SYN-0102559,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1163300.0,1293788.9217485595,1266160.0
+SYN-0012502,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,739300.0,633410.9460067922,602029.0
+SYN-0156979,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,354000.0,359718.3815658644,367428.0
+SYN-0109123,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,727300.0,774464.9004187973,759142.0
+SYN-0034579,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,784000.0,759603.08792582,759660.0
+SYN-0084835,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,732200.0,822189.6922473252,849212.0
+SYN-0056446,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,504600.0,504414.74642588926,502992.0
+SYN-0069232,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,570600.0,563055.5246201192,567140.0
+SYN-0026489,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,683400.0,675321.0936977594,684282.0
+SYN-0113440,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,506800.0,530798.1116492403,526440.0
+SYN-0099045,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,535400.0,570816.8747927448,561922.0
+SYN-0070802,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,901800.0,993500.7283063784,991309.0
+SYN-0125977,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,350100.0,376479.3656778414,386117.0
+SYN-0112788,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,465900.0,484388.2166726964,483868.0
+SYN-0088830,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,486100.0,471780.77717314137,470716.0
+SYN-0026495,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,759200.0,731199.8212413285,729394.0
+SYN-0021072,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,889000.0,891604.4821388297,880855.0
+SYN-0072245,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,625900.0,655154.9984979271,650637.0
+SYN-0106370,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1514800.0,1469503.6733804012,1476961.0
+SYN-0074907,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,500000.0,519215.784446328,518911.0
+SYN-0073877,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,404800.0,386955.4785507586,395439.0
+SYN-0079699,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,564800.0,624345.6171185942,619665.0
+SYN-0024068,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,3772100.0,3662510.8015179555,3483578.0
+SYN-0093960,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1946100.0,1806019.2998277447,1860911.0
+SYN-0102289,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2485200.0,2488138.0772712296,2541765.0
+SYN-0131313,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,453100.0,490649.6492992103,480754.0
+SYN-0021443,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,445700.0,435432.4245018643,447935.0
+SYN-0066095,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,927400.0,890646.5913269748,882725.0
+SYN-0069429,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1148100.0,1110197.824633025,1077320.0
+SYN-0092455,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,310500.0,308763.0738640122,324299.0
+SYN-0099277,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,514500.0,540409.1126604328,537637.0
+SYN-0032717,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,678500.0,643185.1930220228,647998.0
+SYN-0035329,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,512100.0,507428.0256219325,511450.0
+SYN-0120382,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3495400.0,3145117.866295235,3112390.0
+SYN-0022962,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,457100.0,477923.13698645396,469082.0
+SYN-0107990,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,784900.0,829913.4739705372,859532.0
+SYN-0108079,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1609500.0,1555471.8457964973,1552084.0
+SYN-0145382,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1081700.0,1137591.4424938043,1178206.0
+SYN-0005649,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2065600.0,2087318.2024885162,2113179.0
+SYN-0007021,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,561100.0,565602.3691702121,553359.0
+SYN-0082301,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,993000.0,1097089.879643374,1105517.0
+SYN-0147265,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,534700.0,503777.38783069525,533187.0
+SYN-0117550,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,790500.0,788972.1720156139,771486.0
+SYN-0129631,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,718500.0,783946.0380118038,792117.0
+SYN-0132910,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,582100.0,613060.899401972,596871.0
+SYN-0084126,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,517600.0,540405.9424213619,541668.0
+SYN-0122753,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1137600.0,1137318.8597270476,1142139.0
+SYN-0113821,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,497000.0,472334.9873366761,497274.0
+SYN-0045876,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,691500.0,750482.9358826618,778982.0
+SYN-0063566,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,552400.0,577124.1678787806,579011.0
+SYN-0150299,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,635300.0,626585.6131125496,631054.0
+SYN-0141024,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,844400.0,780754.7692574193,790662.0
+SYN-0090385,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1046800.0,1094389.7842978705,1095046.0
+SYN-0153110,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2831900.0,3009522.60151407,2979793.0
+SYN-0008337,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1495900.0,1422779.1853929327,1418582.0
+SYN-0097060,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,574700.0,546003.3136045896,548444.0
+SYN-0101870,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1249600.0,1168653.9728056148,1162780.0
+SYN-0083822,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,991100.0,877820.1427546671,878152.0
+SYN-0022576,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1370900.0,1366504.1094161682,1338858.0
+SYN-0013042,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,631500.0,702332.9811237982,703851.0
+SYN-0037529,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1143600.0,1177580.69443019,1184904.0
+SYN-0125679,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,622300.0,616994.918661924,616909.0
+SYN-0119043,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1126800.0,1244207.761954433,1218451.0
+SYN-0096455,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,504700.0,537016.1380818702,538595.0
+SYN-0068048,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,571200.0,533804.5795469274,546193.0
+SYN-0097268,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,553900.0,553404.6396853452,557802.0
+SYN-0094768,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,585500.0,608616.8069155919,607335.0
+SYN-0062667,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1085600.0,1056785.5704820328,1074390.0
+SYN-0046464,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,609400.0,640148.5723144788,641547.0
+SYN-0093978,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,511400.0,513869.93578515673,511013.0
+SYN-0125384,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3299400.0,3064134.4835715177,3095900.0
+SYN-0014795,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,976900.0,1018329.6495423506,983044.0
+SYN-0060206,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,926400.0,963609.839470197,998480.0
+SYN-0060083,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,679700.0,671169.9502664405,675319.0
+SYN-0150059,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,762900.0,756636.1829705966,755813.0
+SYN-0037287,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,612000.0,665063.1960643248,671216.0
+SYN-0138854,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,568000.0,654172.8424284369,663670.0
+SYN-0120613,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,615600.0,648668.0225411357,645128.0
+SYN-0075114,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,649300.0,754652.7674615551,754939.0
+SYN-0016059,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,768700.0,790088.7969959952,791601.0
+SYN-0070371,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4547800.0,4490943.92192934,4608958.0
+SYN-0072001,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,782300.0,795120.1614322903,796516.0
+SYN-0028522,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,5867800.0,5902109.731167114,7938995.0
+SYN-0033969,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,686300.0,757980.2236410754,761240.0
+SYN-0039494,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,410600.0,432478.38347419427,443997.0
+SYN-0014479,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,656200.0,646699.956240774,642753.0
+SYN-0069505,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,610300.0,635861.7349604558,636962.0
+SYN-0071083,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Co-Op Apt,309900.0,317909.60658060986,334163.0
+SYN-0114414,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,947700.0,1039023.8324704643,1036870.0
+SYN-0012802,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1547600.0,1741771.274600512,1732845.0
+SYN-0088635,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,288400.0,282814.902642502,287320.0
+SYN-0155134,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1489700.0,1407156.6378958665,1442172.0
+SYN-0112192,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1172700.0,1089188.6773177495,1089722.0
+SYN-0046669,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1377900.0,1354841.2016485054,1348064.0
+SYN-0051398,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,366400.0,360599.9353620405,366932.0
+SYN-0037967,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,556200.0,590888.3945772484,586114.0
+SYN-0103260,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,728900.0,765614.3887017706,779349.0
+SYN-0068507,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,578000.0,585489.3022590114,585230.0
+SYN-0135512,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,923400.0,883193.8387154548,895372.0
+SYN-0075630,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,805300.0,765112.1421245107,768927.0
+SYN-0025418,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,564800.0,540132.6630680785,545697.0
+SYN-0015998,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,732300.0,794086.8308477956,790178.0
+SYN-0138955,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,826500.0,801694.3178077742,798604.0
+SYN-0137379,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,562100.0,566003.1470605353,561530.0
+SYN-0128565,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,458800.0,470725.7522987068,472554.0
+SYN-0131862,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,524500.0,552989.4839973712,544645.0
+SYN-0085170,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,313800.0,313115.11818326294,323471.0
+SYN-0139510,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1450300.0,1716551.3827522052,1702838.0
+SYN-0149591,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,445600.0,453662.6446332493,464705.0
+SYN-0070595,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,844600.0,879194.1795960106,898805.0
+SYN-0057448,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,682800.0,687401.3531384971,683295.0
+SYN-0017098,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,623300.0,619770.3817340578,619419.0
+SYN-0155830,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,670600.0,630243.9976653174,650950.0
+SYN-0118842,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1608000.0,1810503.7548325958,1825460.0
+SYN-0021114,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,503100.0,498370.9136208908,503253.0
+SYN-0092759,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,957600.0,974840.628289653,992837.0
+SYN-0110294,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,670000.0,696502.1240042329,700545.0
+SYN-0146770,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1162300.0,1139906.345213127,1124033.0
+SYN-0006275,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,971000.0,945398.6877734476,952754.0
+SYN-0008317,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,492400.0,483376.6171743394,488876.0
+SYN-0040714,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,574700.0,605078.9182297799,593972.0
+SYN-0055575,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,525300.0,576253.0417389678,569782.0
+SYN-0020197,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,479400.0,495159.95224727347,487511.0
+SYN-0032009,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,717000.0,856415.4253705987,857576.0
+SYN-0128220,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,724700.0,718185.274943665,706823.0
+SYN-0019077,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1624000.0,1214269.9627622731,1201700.0
+SYN-0026120,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1192300.0,1030035.1646733221,1010065.0
+SYN-0141722,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,966400.0,1044036.3315052218,1042989.0
+SYN-0016948,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,772000.0,808763.8478595243,810605.0
+SYN-0036351,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1506000.0,1494207.0000553774,1486198.0
+SYN-0042392,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1101000.0,1151610.418614249,1148531.0
+SYN-0053002,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,556100.0,522634.9700235199,541029.0
+SYN-0111785,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1910400.0,1933906.4163176464,1940461.0
+SYN-0050782,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,551100.0,554278.6954481651,564609.0
+SYN-0041195,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,492600.0,516656.17658870365,518574.0
+SYN-0067798,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,439500.0,487058.00104499207,482646.0
+SYN-0144220,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1145900.0,1259567.1103196456,1202403.0
+SYN-0028330,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,548800.0,585564.8537493565,581058.0
+SYN-0024975,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,453800.0,431737.73168044974,445351.0
+SYN-0048505,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,322700.0,334341.8799713224,345684.0
+SYN-0104410,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1482000.0,1540311.3495653123,1489279.0
+SYN-0001158,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,421700.0,450647.7863545858,448366.0
+SYN-0054969,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1116900.0,1122976.5605582104,1128803.0
+SYN-0117997,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1077600.0,1091283.781712982,1048281.0
+SYN-0057179,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,645700.0,681725.0610252597,694387.0
+SYN-0030409,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1462500.0,1454874.6497330642,1482863.0
+SYN-0101403,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1129900.0,1177538.9506499893,1188974.0
+SYN-0022155,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4538700.0,4504082.065149525,5253156.0
+SYN-0091946,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1295000.0,1392957.160420031,1379125.0
+SYN-0150571,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1712300.0,1404791.218983985,1376612.0
+SYN-0065525,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,763100.0,753200.0940807117,774449.0
+SYN-0126538,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1206700.0,1235558.603255986,1240006.0
+SYN-0145323,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1011600.0,1026161.3448276882,1036728.0
+SYN-0004647,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1701200.0,1693660.194137356,1692567.0
+SYN-0136826,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,553100.0,565485.6487078553,561709.0
+SYN-0046291,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,930100.0,922553.1303944181,927196.0
+SYN-0031515,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1786900.0,1383194.5353698763,1414224.0
+SYN-0083615,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,883300.0,903104.3678301546,909464.0
+SYN-0125409,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1182000.0,893304.5985154152,864660.0
+SYN-0154426,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1542500.0,1504594.302163882,1488302.0
+SYN-0055469,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1221200.0,1370817.1772099517,1306727.0
+SYN-0072900,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1366100.0,1338209.1138379914,1312833.0
+SYN-0056968,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,855800.0,930465.8039576912,937737.0
+SYN-0039636,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,399700.0,397835.54374993104,412097.0
+SYN-0125822,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,392700.0,391179.4932697253,397656.0
+SYN-0031827,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,485500.0,494366.30465765606,480582.0
+SYN-0133520,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1155000.0,1259667.237459568,1242757.0
+SYN-0023176,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2050600.0,2260886.707981123,2266273.0
+SYN-0077761,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3759300.0,3612820.7284255344,3685985.0
+SYN-0048139,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,727600.0,806312.170029552,820227.0
+SYN-0090979,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,570400.0,549890.5851952106,528866.0
+SYN-0026246,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,380700.0,408974.7691603518,409817.0
+SYN-0122268,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,574200.0,576739.2795528731,584130.0
+SYN-0008001,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,716400.0,694243.5331857272,683631.0
+SYN-0146069,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,828600.0,830116.5465646824,819243.0
+SYN-0053156,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1287600.0,1346877.6469392085,1379667.0
+SYN-0045084,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,531300.0,579954.5803050913,576016.0
+SYN-0059201,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,874600.0,872731.3724643065,877049.0
+SYN-0046672,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,402000.0,402397.9824189053,399500.0
+SYN-0040429,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,552400.0,567841.2086961733,562490.0
+SYN-0115835,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,440200.0,457904.16643937223,433225.0
+SYN-0064609,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1061200.0,1150829.058763638,1125977.0
+SYN-0084946,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,618000.0,596078.9027104892,591439.0
+SYN-0046105,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,558400.0,559005.3253735017,539348.0
+SYN-0011152,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,743500.0,740979.4182858022,743954.0
+SYN-0043267,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,521800.0,568483.074665349,574418.0
+SYN-0107075,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,877000.0,826038.9846328938,848645.0
+SYN-0051796,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,880100.0,922958.5105110091,935810.0
+SYN-0129117,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,659600.0,645802.8628161855,638448.0
+SYN-0129445,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,716200.0,665451.1970717058,678907.0
+SYN-0117457,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1141500.0,1167121.7446414328,1190511.0
+SYN-0044226,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,421200.0,402822.3323870305,399975.0
+SYN-0118972,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,501800.0,572967.5585377221,573870.0
+SYN-0067004,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,658700.0,684639.2960370095,692958.0
+SYN-0087167,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1104300.0,1072290.8248497555,1093905.0
+SYN-0098420,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,516600.0,527926.0664681986,527409.0
+SYN-0050521,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,718200.0,694864.7665034807,694886.0
+SYN-0087446,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,2437200.0,2348285.1453099335,2378419.0
+SYN-0143155,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,935300.0,973924.95455285,978229.0
+SYN-0101835,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1238200.0,1263131.563001092,1242531.0
+SYN-0062630,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,645000.0,636328.0309385543,645461.0
+SYN-0083434,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,408400.0,409009.83828355256,417830.0
+SYN-0013543,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,636200.0,608392.4882626517,607590.0
+SYN-0022855,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,664600.0,644466.8762419338,647741.0
+SYN-0045293,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2189900.0,2057971.6531037905,2038183.0
+SYN-0014967,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1082800.0,1168754.363118893,1151602.0
+SYN-0150916,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,443600.0,463598.2482657906,460692.0
+SYN-0017341,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,912900.0,933182.3150324994,941635.0
+SYN-0026345,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1176100.0,1198920.199504619,1178219.0
+SYN-0139445,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,718900.0,742668.0185811628,728434.0
+SYN-0031807,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1155500.0,1128510.0637357049,1136973.0
+SYN-0009881,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1124100.0,1144688.2119755216,1145060.0
+SYN-0140510,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,509500.0,553942.3167933028,541336.0
+SYN-0001536,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,967600.0,904472.8215912128,894455.0
+SYN-0113559,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,944300.0,920299.4337787738,914170.0
+SYN-0153149,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,693700.0,691482.253731089,699717.0
+SYN-0001632,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,886900.0,924263.6599791062,947678.0
+SYN-0067402,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1091000.0,1073580.4106512743,1048072.0
+SYN-0006177,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,476400.0,459698.5022091974,459114.0
+SYN-0050256,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1136800.0,1195133.6639734618,1165439.0
+SYN-0100349,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,445500.0,454486.54832160904,448892.0
+SYN-0006967,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,454700.0,440731.0829806163,444970.0
+SYN-0098899,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,515700.0,520541.1447448078,527774.0
+SYN-0038649,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,457300.0,480735.4888733298,480021.0
+SYN-0098521,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,610400.0,599068.755960012,629057.0
+SYN-0146508,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1625800.0,1790780.4745661037,1765127.0
+SYN-0149790,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,465600.0,470994.21846676787,489238.0
+SYN-0088126,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1551200.0,1557347.3871616481,1547976.0
+SYN-0035630,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,683100.0,626215.0679312163,634144.0
+SYN-0128151,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1562800.0,1391800.3235694459,1384105.0
+SYN-0016551,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1958000.0,1735312.4413253528,1752550.0
+SYN-0050485,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,702000.0,679449.0981629706,678613.0
+SYN-0113324,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,405500.0,406291.847698488,415448.0
+SYN-0047415,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,471400.0,488259.2400312339,485102.0
+SYN-0070653,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,813200.0,847059.5766495158,875260.0
+SYN-0102742,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,632900.0,630475.9269007744,648190.0
+SYN-0031336,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,836400.0,805213.9340090072,792358.0
+SYN-0018248,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,446300.0,443683.2392864673,457263.0
+SYN-0114436,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,473200.0,446796.13767882943,449091.0
+SYN-0062818,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,768700.0,667773.7928809703,660704.0
+SYN-0110992,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,529600.0,513322.66972638556,528925.0
+SYN-0020274,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,740300.0,761367.592155433,774048.0
+SYN-0130075,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1016000.0,932868.8219204417,925074.0
+SYN-0058131,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,556700.0,572645.6772003894,589599.0
+SYN-0065032,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,5168500.0,5322713.542859037,4952546.0
+SYN-0058319,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1349800.0,1201902.4975805834,1209051.0
+SYN-0059297,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,486200.0,505512.5409153668,506848.0
+SYN-0004339,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,437700.0,464498.7975495005,449229.0
+SYN-0051881,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1610700.0,1791927.6780847672,1800933.0
+SYN-0071091,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1659200.0,1579851.2457433173,1572787.0
+SYN-0083827,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,6874800.0,6754650.7411448145,7387128.0
+SYN-0127469,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1303300.0,1268740.1814123031,1237356.0
+SYN-0063010,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,364600.0,382615.54704170185,387554.0
+SYN-0033092,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,310600.0,328222.488718001,337583.0
+SYN-0096866,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,430900.0,429184.9344554301,430885.0
+SYN-0015015,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1398600.0,1430860.5444487324,1441245.0
+SYN-0150754,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,468200.0,460474.5928580043,462687.0
+SYN-0133700,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,840800.0,848437.257019131,854267.0
+SYN-0107223,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1519500.0,1543521.759245896,1533333.0
+SYN-0071313,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1106900.0,1071915.0412223034,1100641.0
+SYN-0029251,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1799100.0,1607024.487209491,1627989.0
+SYN-0132880,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,452200.0,437801.0703834386,435197.0
+SYN-0067698,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,739300.0,729069.2388602915,749478.0
+SYN-0155445,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,517400.0,534059.4348647951,541736.0
+SYN-0125139,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,488100.0,446059.23965866753,451805.0
+SYN-0042987,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,619800.0,654614.9048898222,654293.0
+SYN-0063474,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1356100.0,1451357.1988511302,1484462.0
+SYN-0108509,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,524100.0,545323.8890612434,545502.0
+SYN-0039044,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,400600.0,378601.2591925998,364555.0
+SYN-0038888,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,600000.0,616965.2112092427,620772.0
+SYN-0055988,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,478900.0,490521.8537247649,475919.0
+SYN-0102757,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,734700.0,703550.7777706361,716209.0
+SYN-0040700,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,528400.0,559743.7389116671,564857.0
+SYN-0137188,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,429000.0,440279.7465422179,439797.0
+SYN-0059380,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,369600.0,375623.8457948066,380583.0
+SYN-0090333,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,889700.0,1012053.7482828764,1021540.0
+SYN-0010882,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1539000.0,1581921.107466807,1553794.0
+SYN-0051005,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,871600.0,913014.7585429067,905798.0
+SYN-0010038,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,373800.0,382720.0401971222,399342.0
+SYN-0060753,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,935000.0,942687.9622864887,951015.0
+SYN-0115297,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,550800.0,516971.33469656704,496186.0
+SYN-0102683,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1169800.0,1240652.6147812437,1237030.0
+SYN-0006021,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,926600.0,867866.0816993639,845518.0
+SYN-0151076,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,547800.0,576038.3337743061,572193.0
+SYN-0139634,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,489800.0,510712.41858851124,511710.0
+SYN-0046259,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1155300.0,1174422.1661073738,1178246.0
+SYN-0078397,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,740300.0,794994.8737086876,786518.0
+SYN-0101178,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1151000.0,1287775.3765157382,1267213.0
+SYN-0131212,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4019800.0,4198327.362922305,4102639.0
+SYN-0068388,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3456800.0,3133915.645886991,3085667.0
+SYN-0014650,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,553400.0,517249.1202910284,519319.0
+SYN-0091624,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,934900.0,982432.838245139,1010056.0
+SYN-0134193,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,554300.0,578168.5586722525,581845.0
+SYN-0069414,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,590700.0,587201.7159271281,572575.0
+SYN-0095873,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,666800.0,680549.3696705037,689248.0
+SYN-0072217,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1245800.0,1300056.3313396499,1298938.0
+SYN-0051846,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,393700.0,442011.86012554483,448266.0
+SYN-0130692,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1373400.0,1428991.6569402483,1464628.0
+SYN-0069395,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,511400.0,523045.7291680911,534228.0
+SYN-0088896,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3423400.0,3580728.2727475166,3501429.0
+SYN-0145128,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,395200.0,437017.71286188177,453100.0
+SYN-0147814,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,481500.0,496550.4914364703,496668.0
+SYN-0112714,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,664700.0,707982.4402848833,701700.0
+SYN-0119752,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,2292100.0,2365754.581081157,2409706.0
+SYN-0041943,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,442700.0,431688.6980013487,441390.0
+SYN-0060294,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,890900.0,903321.2013010278,893364.0
+SYN-0132686,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2300800.0,2379252.997092746,2452498.0
+SYN-0121851,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,376000.0,374492.9962208506,386076.0
+SYN-0085156,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,903700.0,927148.1247741731,916438.0
+SYN-0009254,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,453500.0,409355.24764802714,420574.0
+SYN-0156886,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,625200.0,666181.9439460895,678987.0
+SYN-0087473,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1305200.0,1207808.6375989025,1201736.0
+SYN-0110137,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,425900.0,436629.71467053035,437174.0
+SYN-0018498,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,700800.0,736844.1151392934,735682.0
+SYN-0029937,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1438500.0,1260076.7676794461,1244170.0
+SYN-0057476,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,569700.0,544701.9280442689,530708.0
+SYN-0096919,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,595300.0,596310.8236877414,601172.0
+SYN-0032401,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,614000.0,616480.4030058326,619457.0
+SYN-0104155,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,528500.0,561396.5132833011,568994.0
+SYN-0126217,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,405500.0,401386.9803415349,400166.0
+SYN-0151970,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,328400.0,333618.0997578829,302665.0
+SYN-0003743,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1229300.0,1321374.7540642412,1325682.0
+SYN-0121676,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,564100.0,614247.9078453403,644496.0
+SYN-0115469,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,780200.0,772580.8536160636,788591.0
+SYN-0121232,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,842800.0,911392.2932378381,918025.0
+SYN-0145013,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,791500.0,762410.7012384725,757047.0
+SYN-0027421,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,491300.0,505742.248320772,519902.0
+SYN-0097395,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1583100.0,1444378.4484243032,1488539.0
+SYN-0007017,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,659400.0,649722.393281289,643258.0
+SYN-0038657,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,573500.0,551306.146083609,546665.0
+SYN-0061501,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,549800.0,567999.6428653153,578818.0
+SYN-0023726,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1100900.0,1218717.8402554232,1202246.0
+SYN-0125866,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,491700.0,477776.19477500103,476844.0
+SYN-0102297,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,723700.0,691913.7364017168,689153.0
+SYN-0007147,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,942000.0,994163.9269636776,977342.0
+SYN-0101306,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1520500.0,1593061.7538047691,1627366.0
+SYN-0005106,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,531300.0,542590.0099416047,536081.0
+SYN-0007720,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,367300.0,387683.26992658275,392522.0
+SYN-0135596,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,607700.0,579232.9617941149,582837.0
+SYN-0134567,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,964100.0,927922.4997235815,946413.0
+SYN-0110508,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1024700.0,1059501.156958854,1077363.0
+SYN-0137751,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,506600.0,548061.4941642483,543623.0
+SYN-0065368,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,856700.0,786938.6887074165,794511.0
+SYN-0060716,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,565300.0,593707.8141621425,586774.0
+SYN-0024402,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,377300.0,392144.21028170176,386066.0
+SYN-0093601,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,647200.0,637807.3599658194,642653.0
+SYN-0146501,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,899400.0,895336.3384163376,907142.0
+SYN-0077783,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,351300.0,356087.4842647704,372086.0
+SYN-0008600,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,663800.0,670867.3641935175,664366.0
+SYN-0014980,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1127100.0,1099189.8568238833,1089343.0
+SYN-0143202,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1457500.0,1460219.4794584215,1504660.0
+SYN-0119340,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,317600.0,306307.03473490424,291106.0
+SYN-0130613,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,842900.0,862887.4783176886,874355.0
+SYN-0041486,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,752700.0,765636.1527952147,749939.0
+SYN-0039910,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,521500.0,504131.1778001968,515041.0
+SYN-0090126,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,696400.0,768914.1780627667,775297.0
+SYN-0117239,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1561900.0,1566455.739183591,1550005.0
+SYN-0015414,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,355600.0,384662.6571733908,390788.0
+SYN-0111214,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,418700.0,410026.80219136726,427328.0
+SYN-0112021,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,940800.0,935057.589064464,921607.0
+SYN-0016346,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1397500.0,1451819.4462510603,1466492.0
+SYN-0079552,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,924500.0,990225.843946587,999706.0
+SYN-0125180,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1097500.0,1127023.5981397957,1136796.0
+SYN-0135209,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1111800.0,1094877.4368246368,1109804.0
+SYN-0035668,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,807200.0,796018.2687079491,799537.0
+SYN-0140568,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,431300.0,430839.21093412256,432467.0
+SYN-0069018,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2836300.0,2845975.3476515347,2918950.0
+SYN-0048245,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,847500.0,836238.2948275089,828111.0
+SYN-0061076,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,550400.0,514391.87410856655,512087.0
+SYN-0112566,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1764600.0,1706724.3430067834,1678124.0
+SYN-0017933,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,1049600.0,1042308.1724001167,1057250.0
+SYN-0088364,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1254600.0,1155300.005125309,1166665.0
+SYN-0091966,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,499000.0,515371.14443757344,515031.0
+SYN-0092188,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1149600.0,1160041.320020628,1153961.0
+SYN-0038826,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,349300.0,350237.39665019664,365304.0
+SYN-0063863,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,916800.0,1024854.2688547818,1006774.0
+SYN-0031114,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,372900.0,398029.99564952496,398253.0
+SYN-0143224,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,763800.0,847533.9280047473,856176.0
+SYN-0122296,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,445600.0,444464.8391984131,436125.0
+SYN-0046097,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,849500.0,922193.0017300448,940770.0
+SYN-0087644,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1627000.0,1618611.245437111,1641556.0
+SYN-0021671,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,520800.0,503431.07973528956,504515.0
+SYN-0059059,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1007200.0,940688.5894718711,963172.0
+SYN-0080946,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1029400.0,1080776.7813010316,1077152.0
+SYN-0004550,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,544200.0,573700.188012152,595924.0
+SYN-0040872,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1670200.0,1742710.2280095427,1737900.0
+SYN-0139040,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1206600.0,1367153.4525332372,1364527.0
+SYN-0012206,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,773000.0,769663.5153070678,779419.0
+SYN-0119107,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,803100.0,827788.6389460391,783711.0
+SYN-0005364,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1201400.0,1242568.1700416296,1211941.0
+SYN-0063533,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,727400.0,822249.7053369186,816309.0
+SYN-0073814,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,424700.0,450417.3386229093,440246.0
+SYN-0096175,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1596700.0,1427034.8804032747,1408123.0
+SYN-0016087,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,425500.0,423661.6904420195,422636.0
+SYN-0034026,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,448100.0,476294.83861570066,463523.0
+SYN-0040174,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1131300.0,1207207.9676763427,1198043.0
+SYN-0152945,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,569800.0,592534.7402142272,585708.0
+SYN-0107993,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1116400.0,1026947.0660565107,1024247.0
+SYN-0129947,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,318300.0,369029.2373754156,359753.0
+SYN-0076223,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,576300.0,690343.0942877554,660176.0
+SYN-0051794,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,796000.0,798018.8116706336,786969.0
+SYN-0094633,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,695500.0,707258.168506474,722856.0
+SYN-0092194,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,754200.0,653216.1170076457,658013.0
+SYN-0028781,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,506300.0,535369.4091039653,536287.0
+SYN-0091759,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1012800.0,986795.472206757,977588.0
+SYN-0015267,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,644000.0,630115.9755253354,630763.0
+SYN-0064975,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,646000.0,679614.702331826,671622.0
+SYN-0135544,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,895500.0,891834.8891036558,870780.0
+SYN-0120927,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,802600.0,872600.7238324991,894311.0
+SYN-0146281,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,769200.0,711705.7334207405,707182.0
+SYN-0156010,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1123700.0,1137895.3828692595,1154389.0
+SYN-0083259,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1088900.0,1019566.1581059406,1009590.0
+SYN-0022436,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1041500.0,863422.9346105669,861657.0
+SYN-0020855,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,404500.0,409420.24576707074,414577.0
+SYN-0145693,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,778500.0,789519.8289127075,788988.0
+SYN-0045873,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,805300.0,773500.8256468945,762128.0
+SYN-0136207,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2336200.0,2461891.329132836,2411396.0
+SYN-0005440,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,849800.0,811737.555682254,829101.0
+SYN-0007838,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,995900.0,1035472.2409261852,1038204.0
+SYN-0077977,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,983600.0,1103651.930959194,1081697.0
+SYN-0075852,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1418800.0,1239067.3587301257,1238070.0
+SYN-0140493,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,2025500.0,2104693.793772945,2085299.0
+SYN-0097269,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,650600.0,709599.8776406604,718627.0
+SYN-0116454,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,853300.0,841747.5090385671,835986.0
+SYN-0122390,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,865100.0,814454.2939028408,832074.0
+SYN-0100719,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,382700.0,399589.23113403167,402936.0
+SYN-0029563,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,488400.0,489646.28764280584,489068.0
+SYN-0050111,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1042700.0,1057913.113940098,1061613.0
+SYN-0080592,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1094200.0,948778.846327394,943276.0
+SYN-0137047,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4383900.0,3690720.188865634,3655429.0
+SYN-0063201,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,601400.0,670665.731448863,663515.0
+SYN-0111571,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1020600.0,837516.9841848719,840114.0
+SYN-0108776,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,873600.0,858228.6461596175,869902.0
+SYN-0150798,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1311700.0,1492730.6481331075,1483274.0
+SYN-0021698,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1370400.0,1304965.7562290493,1298921.0
+SYN-0150864,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,941500.0,967333.5814015033,958652.0
+SYN-0074673,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,428300.0,461115.2894731913,458021.0
+SYN-0111127,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,816800.0,791965.9409992663,803078.0
+SYN-0017930,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1004600.0,990508.4057995969,1023799.0
+SYN-0097587,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1350900.0,1454889.8909768423,1472989.0
+SYN-0012832,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Co-Op Apt,874500.0,862680.9692117749,842557.0
+SYN-0067989,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,971700.0,1081195.3817798938,1072153.0
+SYN-0022492,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,477600.0,512947.05978462216,512446.0
+SYN-0026152,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,897400.0,1066322.0638605529,1049287.0
+SYN-0095908,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,437300.0,441886.2602224392,434581.0
+SYN-0118142,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,632200.0,614262.5515511996,614453.0
+SYN-0025366,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,976500.0,897614.2565185296,918460.0
+SYN-0018225,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2084500.0,2218130.807152427,2194385.0
+SYN-0110485,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,910700.0,885803.0727532353,872709.0
+SYN-0023898,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,616300.0,598052.428475381,592107.0
+SYN-0104347,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,361800.0,373415.69946079125,380548.0
+SYN-0032214,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,322100.0,319496.25843893044,304111.0
+SYN-0083971,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,701500.0,707665.880643378,710635.0
+SYN-0110835,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1555500.0,1786247.9875305328,1785296.0
+SYN-0011130,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,414000.0,428840.3565988859,437193.0
+SYN-0020446,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,699800.0,676111.2311374464,669466.0
+SYN-0090038,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,374100.0,348866.8992581665,348426.0
+SYN-0074371,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1219100.0,1285048.228809981,1279166.0
+SYN-0111721,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1474400.0,1486448.3227529072,1457366.0
+SYN-0040477,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,499000.0,538160.8597757986,536175.0
+SYN-0035058,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2038400.0,1735341.090539398,1742583.0
+SYN-0047076,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,880100.0,895090.4400011401,887108.0
+SYN-0146402,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,759700.0,783827.7389663191,794010.0
+SYN-0000449,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1381100.0,1326997.8159997421,1329812.0
+SYN-0086934,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,789300.0,800634.776865102,784078.0
+SYN-0086277,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,500300.0,520313.3929254076,515186.0
+SYN-0125478,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,628600.0,658988.5770808557,677713.0
+SYN-0127577,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1122200.0,1063578.80313029,1053092.0
+SYN-0101141,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,945500.0,1071291.9780286239,1077922.0
+SYN-0039142,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1058600.0,1084021.9295499919,1088538.0
+SYN-0017995,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,500800.0,491992.7246943995,485025.0
+SYN-0011752,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,371600.0,380874.7815600385,382067.0
+SYN-0056644,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,412800.0,439357.2819411623,458597.0
+SYN-0043093,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1965200.0,1888282.901520412,1927598.0
+SYN-0138340,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1376500.0,1313053.7238109477,1357136.0
+SYN-0001364,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2677300.0,2352535.800418093,2446739.0
+SYN-0028097,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,849900.0,889935.678090668,885087.0
+SYN-0012333,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1021800.0,973710.2592104919,1002817.0
+SYN-0024283,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,686600.0,669978.0041100039,671782.0
+SYN-0091022,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,993300.0,939839.5368564317,949451.0
+SYN-0044442,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,624200.0,647099.4184519304,649731.0
+SYN-0128124,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,995000.0,1042280.9409938052,1033028.0
+SYN-0074735,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,420400.0,403438.6520711238,397311.0
+SYN-0010917,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,815800.0,787823.2002526036,779487.0
+SYN-0007554,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,563000.0,581291.1666381861,596152.0
+SYN-0112161,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1496300.0,1414666.0967774151,1420230.0
+SYN-0127860,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,528600.0,543857.862838444,537251.0
+SYN-0047954,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,879600.0,849851.8508907997,826415.0
+SYN-0009265,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,854800.0,858376.5391929268,842442.0
+SYN-0073741,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,549100.0,590427.1418503599,591312.0
+SYN-0016499,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1071200.0,990445.8364648529,997962.0
+SYN-0028442,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,563700.0,536541.0012604429,527230.0
+SYN-0073846,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,423400.0,429885.82437292533,433680.0
+SYN-0087095,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1368700.0,1330248.9528617961,1358162.0
+SYN-0111446,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,564200.0,561909.4987483985,570598.0
+SYN-0000912,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,559700.0,541388.0812232551,531518.0
+SYN-0049321,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,673400.0,774640.7214578957,768796.0
+SYN-0142231,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,405700.0,406592.82609093236,407979.0
+SYN-0104282,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,701900.0,736893.5097119258,735890.0
+SYN-0142822,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1520300.0,1513778.030220595,1573158.0
+SYN-0071541,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1315800.0,1435477.8915483418,1421586.0
+SYN-0153069,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,650300.0,666698.782371821,653158.0
+SYN-0032170,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,249100.0,258974.95392166174,298000.0
+SYN-0152255,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,885900.0,898740.4780122149,890240.0
+SYN-0049853,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,863100.0,909638.7906852677,909877.0
+SYN-0148330,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,614400.0,689338.5802833377,690079.0
+SYN-0047130,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3107300.0,2856450.704302301,2905226.0
+SYN-0010239,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,412900.0,418347.612948187,414850.0
+SYN-0115483,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2018600.0,2090894.952838103,2078545.0
+SYN-0047526,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,652600.0,626049.8712301034,626799.0
+SYN-0099403,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,390400.0,431732.3696615539,435251.0
+SYN-0016407,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,630800.0,599582.604048537,607506.0
+SYN-0113004,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,552100.0,557625.0364588571,562689.0
+SYN-0128064,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,902700.0,885286.5478488068,893332.0
+SYN-0002303,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,346400.0,332668.1680415244,346087.0
+SYN-0021534,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,677700.0,698774.0367594439,695014.0
+SYN-0114322,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,669700.0,716484.6582189344,757101.0
+SYN-0125340,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,611000.0,590270.6887078774,591793.0
+SYN-0053624,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,472100.0,475905.16264928714,471391.0
+SYN-0126577,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,627800.0,700645.3871558603,700840.0
+SYN-0152344,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,644000.0,683067.3351910999,656645.0
+SYN-0137434,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,484100.0,511020.8271703765,499390.0
+SYN-0157702,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,490800.0,512280.57251643663,524080.0
+SYN-0081802,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1348300.0,1425066.9356281448,1416090.0
+SYN-0013665,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1391200.0,1437887.4805986187,1471103.0
+SYN-0022151,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,450700.0,478846.8773795915,485766.0
+SYN-0128699,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,475800.0,526460.8071247039,530271.0
+SYN-0126041,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,393400.0,416782.99206686765,416764.0
+SYN-0155222,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,722300.0,719604.1396367699,715856.0
+SYN-0125321,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,835900.0,854590.9394352213,858340.0
+SYN-0088151,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1735300.0,1750143.938328432,1812386.0
+SYN-0011170,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,776400.0,792342.3599756465,808745.0
+SYN-0077946,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,674000.0,662828.9187092592,653501.0
+SYN-0141445,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,436300.0,406137.3713059541,413359.0
+SYN-0088919,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1844100.0,1954688.1718301869,1981845.0
+SYN-0142889,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1145500.0,1131309.575188422,1130221.0
+SYN-0076035,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1609900.0,1660088.5337473918,1656185.0
+SYN-0145982,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,994200.0,994058.2669078645,998682.0
+SYN-0108965,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2535500.0,2370842.2490942846,2436183.0
+SYN-0008549,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,471100.0,535664.6828506828,536413.0
+SYN-0030007,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1183700.0,1182266.7723336923,1187942.0
+SYN-0083090,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,482500.0,454422.28377976187,467142.0
+SYN-0144636,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,878200.0,826102.0150013308,824846.0
+SYN-0049654,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,498700.0,548596.9209785142,545523.0
+SYN-0029008,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,573100.0,565889.1021808699,563813.0
+SYN-0011154,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,757600.0,817995.1675048196,836296.0
+SYN-0141741,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,589900.0,538916.8412776391,545319.0
+SYN-0120035,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,762300.0,748804.235945324,747574.0
+SYN-0080933,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,605400.0,590794.5303717583,585295.0
+SYN-0067626,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,398900.0,393811.6292155564,391234.0
+SYN-0073113,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,454900.0,460989.18517246435,465272.0
+SYN-0019838,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,533300.0,522456.89944399835,511826.0
+SYN-0050520,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1245900.0,1320145.2634741366,1272007.0
+SYN-0010497,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,966600.0,1094601.1008470072,1105197.0
+SYN-0087613,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,782200.0,752307.9870527451,794568.0
+SYN-0055488,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,336400.0,350761.24518322066,354956.0
+SYN-0111769,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2610500.0,2841258.027454081,2921444.0
+SYN-0064822,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,406300.0,375190.7415014731,381300.0
+SYN-0121969,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,933900.0,925924.467019304,937575.0
+SYN-0078002,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1218900.0,1277563.7784808946,1246990.0
+SYN-0111932,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,2263000.0,2267805.331049506,2326877.0
+SYN-0012289,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,877300.0,911766.8203405808,956488.0
+SYN-0116575,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1011100.0,995231.9494193732,1014123.0
+SYN-0090097,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,477200.0,460792.9085177632,474303.0
+SYN-0126324,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,750200.0,753807.104952956,755481.0
+SYN-0000519,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,816800.0,778748.6356852147,764265.0
+SYN-0116330,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,494400.0,509545.186856089,506289.0
+SYN-0070478,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,413700.0,430582.26664130454,436061.0
+SYN-0051531,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1277800.0,1250313.1505909653,1256517.0
+SYN-0053608,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,454900.0,453985.522563913,461937.0
+SYN-0041989,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,901400.0,759599.8525938891,761644.0
+SYN-0154948,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,587900.0,568151.0439386113,567926.0
+SYN-0020793,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,816000.0,804240.1301862084,833369.0
+SYN-0044616,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,587800.0,634758.7912581098,634279.0
+SYN-0151553,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2065800.0,2096276.9695769357,2115152.0
+SYN-0068582,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2457800.0,2362068.5787023357,2292814.0
+SYN-0070508,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,315000.0,340611.4005709067,332332.0
+SYN-0049755,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1002800.0,1016626.7179592381,1006135.0
+SYN-0004262,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,643900.0,640868.1923316728,636150.0
+SYN-0065460,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,366700.0,386399.5374143463,385608.0
+SYN-0036742,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1753700.0,1513429.5247796841,1483646.0
+SYN-0018047,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,720100.0,682854.0554685353,690818.0
+SYN-0129806,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,681000.0,668258.5757291436,661520.0
+SYN-0107416,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1372600.0,1537922.272409936,1548870.0
+SYN-0143857,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,810600.0,793325.134435287,786163.0
+SYN-0053846,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,703800.0,743432.7399222996,751325.0
+SYN-0110743,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1070200.0,1119270.5954474532,1098803.0
+SYN-0103553,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,447900.0,460571.78598906915,458760.0
+SYN-0112081,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,602900.0,612277.3821825744,614252.0
+SYN-0081749,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,727300.0,734280.6095669447,747724.0
+SYN-0078898,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2217500.0,2395279.2146381033,2394682.0
+SYN-0108995,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,527100.0,557277.7981589034,553472.0
+SYN-0103775,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1020300.0,1057737.0724548681,1077314.0
+SYN-0022510,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1968000.0,1882493.1114062315,1885504.0
+SYN-0013412,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,563800.0,570413.8735973758,570248.0
+SYN-0113517,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,494700.0,528065.3299988342,522667.0
+SYN-0077949,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,990400.0,835391.8054959081,853356.0
+SYN-0045435,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,978100.0,1036828.2805155924,1040039.0
+SYN-0146259,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1537900.0,1410258.0121758499,1411336.0
+SYN-0133911,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,599000.0,694545.76791451,695521.0
+SYN-0154078,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,505900.0,527843.8696191107,526400.0
+SYN-0138352,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,380000.0,394714.282482572,399688.0
+SYN-0089904,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,780700.0,788207.0385183025,780951.0
+SYN-0110208,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,760800.0,738748.1361325317,742347.0
+SYN-0143259,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1703100.0,1582285.362306005,1550174.0
+SYN-0076270,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,841000.0,821860.3812715834,822762.0
+SYN-0076461,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,933600.0,896960.142097933,896253.0
+SYN-0113365,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1241700.0,1282913.078329187,1283230.0
+SYN-0023591,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,552800.0,576989.5903966412,578700.0
+SYN-0147729,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1026700.0,989501.7097908196,983659.0
+SYN-0036987,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,590900.0,613543.570411167,618237.0
+SYN-0110364,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1089400.0,1078309.319924013,1074722.0
+SYN-0020279,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,851900.0,908308.0110218849,912006.0
+SYN-0111307,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2208500.0,2273947.7462900765,2278167.0
+SYN-0110568,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,448100.0,411383.93205592636,402279.0
+SYN-0028559,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,567600.0,542222.4327474993,549629.0
+SYN-0138984,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,505400.0,503766.1146918707,502856.0
+SYN-0105382,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1060700.0,1052585.8851274292,1056660.0
+SYN-0117984,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,440800.0,461890.82899947895,459205.0
+SYN-0113226,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,496600.0,530523.0918975822,530219.0
+SYN-0003738,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,683300.0,662740.5348146769,655546.0
+SYN-0061876,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1284100.0,1373238.2946265743,1354481.0
+SYN-0016495,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,867500.0,889924.653194405,907154.0
+SYN-0090301,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,368200.0,381457.12267654255,387265.0
+SYN-0057865,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1460700.0,1555595.921124454,1547214.0
+SYN-0108821,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,447300.0,498160.8044068484,507440.0
+SYN-0019067,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,563700.0,528835.700092346,540233.0
+SYN-0157721,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,712800.0,727302.4574998969,729834.0
+SYN-0098276,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,994300.0,1023658.3884074198,1028614.0
+SYN-0065376,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1735500.0,1583655.9629604558,1608946.0
+SYN-0134982,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,462500.0,431892.589230902,451375.0
+SYN-0110853,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,843800.0,902238.9377969137,917800.0
+SYN-0119474,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1464100.0,1445661.4824399524,1432393.0
+SYN-0097420,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,544600.0,564007.4992019304,570125.0
+SYN-0093697,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,661600.0,646127.048886273,632255.0
+SYN-0108473,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,454100.0,449469.5701529091,458789.0
+SYN-0108934,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1636600.0,1642876.6219377057,1659726.0
+SYN-0022607,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,774500.0,794433.1423077949,788821.0
+SYN-0086410,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,482200.0,506189.99422904593,487343.0
+SYN-0084413,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,817100.0,758650.9453946808,773499.0
+SYN-0095386,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,413000.0,407851.49748436845,422437.0
+SYN-0041811,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,691300.0,697332.1356937346,693353.0
+SYN-0061420,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1446700.0,1505696.2411350557,1504989.0
+SYN-0027767,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,641600.0,642697.8646571921,653892.0
+SYN-0028785,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,572500.0,619471.1879399995,606672.0
+SYN-0088196,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,710200.0,708112.5217303848,702396.0
+SYN-0009000,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1666900.0,1567829.2356903264,1591592.0
+SYN-0089112,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1252900.0,1258261.0303550689,1243972.0
+SYN-0026612,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,644800.0,573677.9721297722,577377.0
+SYN-0109324,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,861200.0,983505.3592827693,991359.0
+SYN-0087840,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,463000.0,466920.75477149826,470786.0
+SYN-0112499,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,468400.0,470875.81163392833,472847.0
+SYN-0082411,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1189100.0,1067795.819148436,1067947.0
+SYN-0032147,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1316300.0,1399328.8066418984,1404292.0
+SYN-0086688,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,450500.0,453040.97737069015,455315.0
+SYN-0094764,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,498000.0,510854.8480927109,512483.0
+SYN-0099347,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,371100.0,352483.64961608645,353066.0
+SYN-0036653,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1704400.0,1648295.4091378127,1658030.0
+SYN-0018899,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,447900.0,476626.7213101437,478876.0
+SYN-0008468,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,386000.0,376731.3146108177,394977.0
+SYN-0098245,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,538000.0,570504.7619146247,571988.0
+SYN-0081536,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1483100.0,1530062.5209253437,1517703.0
+SYN-0091255,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,892700.0,943382.0489441783,939847.0
+SYN-0086941,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1461600.0,1338475.3776194542,1340473.0
+SYN-0099111,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,487700.0,507754.2645456383,517425.0
+SYN-0037926,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1647500.0,1559313.855582883,1586337.0
+SYN-0087251,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,776800.0,748954.9649812547,754914.0
+SYN-0028159,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,996300.0,1104685.8972583634,1109119.0
+SYN-0056010,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,511400.0,521869.5242019771,515783.0
+SYN-0018931,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,609500.0,618825.5891608518,614672.0
+SYN-0054554,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,524700.0,551133.7503871334,548176.0
+SYN-0146882,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1025900.0,1094430.435732834,1103768.0
+SYN-0094749,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,802200.0,775670.4734336062,759661.0
+SYN-0140367,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,888700.0,947869.2859710574,993156.0
+SYN-0101608,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,7404900.0,7164379.674034544,6279190.0
+SYN-0126720,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,533800.0,529926.6404030737,528938.0
+SYN-0052961,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1199500.0,1153250.528654718,1185005.0
+SYN-0003166,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1224200.0,1268020.5937246196,1244712.0
+SYN-0131267,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,905800.0,875692.1585620819,852296.0
+SYN-0084774,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,727300.0,735881.0543688851,752477.0
+SYN-0080032,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1347800.0,1298104.563312805,1302472.0
+SYN-0070609,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,479000.0,522634.4812230504,539290.0
+SYN-0103460,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,542600.0,528840.8860992228,522546.0
+SYN-0026983,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,842000.0,860986.7417746555,863345.0
+SYN-0112148,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1435700.0,1687063.4351405303,1692332.0
+SYN-0024635,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,999800.0,1035003.5962072279,1044515.0
+SYN-0024968,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1454500.0,1531617.23139728,1535963.0
+SYN-0065033,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,586000.0,618857.3508987932,623623.0
+SYN-0134863,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,731700.0,742861.0864092311,751392.0
+SYN-0089956,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,690500.0,747345.0799754935,747168.0
+SYN-0095861,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1391500.0,1165231.104989201,1148121.0
+SYN-0087961,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,869200.0,843058.0531600384,853663.0
+SYN-0039132,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,669900.0,563815.7262976558,562063.0
+SYN-0084313,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1007700.0,1018323.3800761951,1038216.0
+SYN-0093634,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,817600.0,801655.0211650154,795598.0
+SYN-0012608,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,837800.0,837679.0500908683,826163.0
+SYN-0018053,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,632300.0,646302.6807726842,653891.0
+SYN-0067614,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,596900.0,632979.2848094433,619708.0
+SYN-0115130,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,837800.0,810354.5467600322,812720.0
+SYN-0131968,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,545000.0,551374.578546758,561729.0
+SYN-0110407,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,501400.0,542801.9084736361,547472.0
+SYN-0036315,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,518200.0,556755.1418411826,571274.0
+SYN-0123200,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,436200.0,448514.9872158766,451437.0
+SYN-0145133,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,559000.0,531622.811875215,522349.0
+SYN-0061855,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,773700.0,801795.1466873104,785820.0
+SYN-0060766,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1730200.0,1853601.9788775784,1819120.0
+SYN-0051853,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,596800.0,622968.863440389,625834.0
+SYN-0084944,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,920000.0,977103.9807144178,990574.0
+SYN-0076352,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4751900.0,3621359.805847964,3544422.0
+SYN-0092749,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1113200.0,1152275.6590958263,1135207.0
+SYN-0045037,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,748700.0,799622.5178412591,826919.0
+SYN-0096292,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,428500.0,416182.6298806642,422441.0
+SYN-0017351,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,840600.0,843354.8621255,833888.0
+SYN-0092171,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,755900.0,694815.5838984456,692099.0
+SYN-0131870,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,979500.0,970076.3367378297,999808.0
+SYN-0077237,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,773900.0,802237.1869171563,792056.0
+SYN-0065666,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,473800.0,548547.8083702594,546996.0
+SYN-0138627,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,650900.0,668659.660863217,680222.0
+SYN-0082950,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1024100.0,1076538.1401057513,1074662.0
+SYN-0119401,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,390800.0,377580.23215387494,382775.0
+SYN-0050815,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,501600.0,480108.7542426044,483722.0
+SYN-0084610,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,599200.0,609476.1606965995,624843.0
+SYN-0114952,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,867600.0,902938.3537815667,899510.0
+SYN-0084935,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,580500.0,577878.0559696818,571041.0
+SYN-0069289,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1064700.0,950837.7042087263,954160.0
+SYN-0140809,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1041000.0,979422.4845332601,987349.0
+SYN-0099091,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,559300.0,584814.4282944866,576608.0
+SYN-0001244,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1012700.0,1028932.2105179055,1042848.0
+SYN-0144614,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,586800.0,548299.0571493637,539730.0
+SYN-0119956,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,884700.0,815295.7926363284,821084.0
+SYN-0013840,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3564800.0,3566630.2826421726,3598871.0
+SYN-0112833,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,527400.0,585585.4359221181,578461.0
+SYN-0076548,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,973700.0,1082431.7453088607,1094692.0
+SYN-0045615,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,461500.0,457794.4984312804,456816.0
+SYN-0016037,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,638300.0,636353.1727645906,634535.0
+SYN-0121530,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,830800.0,896167.6191427219,875819.0
+SYN-0071886,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,2187500.0,2195118.252033705,2142621.0
+SYN-0104881,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1096200.0,1062992.2746320313,1075714.0
+SYN-0121544,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,528400.0,552364.2802522058,548685.0
+SYN-0154715,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2322200.0,2398855.174324066,2401367.0
+SYN-0069014,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,686900.0,797795.6193325177,787509.0
+SYN-0003315,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,747100.0,802194.5412843542,816179.0
+SYN-0082294,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1717200.0,1593726.739409151,1595237.0
+SYN-0107648,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,368700.0,394706.84439255693,392467.0
+SYN-0116368,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,338500.0,370052.7769649186,374650.0
+SYN-0027100,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,740100.0,799924.9896916044,807256.0
+SYN-0118109,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,534800.0,510497.328336538,513343.0
+SYN-0113669,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2370300.0,2319483.6940484587,2381405.0
+SYN-0128348,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,679900.0,794192.7901098386,793067.0
+SYN-0109069,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,859500.0,957789.6081795432,946402.0
+SYN-0038476,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1149500.0,1151564.7282499722,1140488.0
+SYN-0014027,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,784300.0,869885.7906692078,847344.0
+SYN-0029914,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,597300.0,587364.4814878379,587983.0
+SYN-0029645,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,698200.0,710550.0579507784,713092.0
+SYN-0128898,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1367000.0,1475299.6934609662,1507923.0
+SYN-0126717,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1086700.0,1074744.125909336,1067124.0
+SYN-0019189,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,887500.0,845528.1450712899,839765.0
+SYN-0139300,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,744000.0,590954.9032829779,543620.0
+SYN-0144719,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,528000.0,559346.6958043166,563460.0
+SYN-0103302,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1550200.0,1660843.7034076806,1669575.0
+SYN-0058854,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,859800.0,901617.3476963198,903363.0
+SYN-0051064,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,989300.0,1102416.0839363541,1054573.0
+SYN-0135556,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,896900.0,855888.9342667995,857560.0
+SYN-0077927,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1639600.0,1573901.5062211049,1583714.0
+SYN-0078814,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,633400.0,651404.3284710433,651710.0
+SYN-0088713,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1453800.0,1442571.313148904,1463765.0
+SYN-0042520,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,617900.0,618681.0057861177,618317.0
+SYN-0140645,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,720300.0,753294.6808236165,775320.0
+SYN-0124710,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,297300.0,310785.284206157,323652.0
+SYN-0043278,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,504800.0,501070.3842057709,503684.0
+SYN-0099331,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4442300.0,4560283.114318092,5033802.0
+SYN-0139364,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1271800.0,1074610.6677399462,1126283.0
+SYN-0113359,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1157600.0,1026366.8272451386,1016708.0
+SYN-0105587,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1089400.0,1155533.3094715828,1125695.0
+SYN-0117464,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4186600.0,4367149.029328608,4734258.0
+SYN-0054774,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,840500.0,893471.2484419129,883898.0
+SYN-0120493,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1245600.0,1276802.3274784042,1265289.0
+SYN-0048240,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,563900.0,542532.2562075069,543540.0
+SYN-0137158,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,314100.0,334197.98146159505,325460.0
+SYN-0132737,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,916800.0,911511.9469662909,921487.0
+SYN-0060805,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1269800.0,1262102.226545886,1263562.0
+SYN-0093461,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,864200.0,850920.3769392009,873607.0
+SYN-0152581,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,978200.0,871131.2787797241,889297.0
+SYN-0069382,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,868800.0,881455.9090864267,910638.0
+SYN-0146625,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1680700.0,1682826.8578450712,1699716.0
+SYN-0042538,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,793100.0,571290.7948839789,549631.0
+SYN-0102983,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1157100.0,1141089.000338536,1129362.0
+SYN-0144597,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1016100.0,1025572.730288376,1012377.0
+SYN-0136927,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,890000.0,1042973.7754079034,1030316.0
+SYN-0005885,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,992100.0,993142.3293881792,993457.0
+SYN-0154227,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,734500.0,701294.4910814665,701908.0
+SYN-0016911,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,345500.0,354660.7379176699,356702.0
+SYN-0050329,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,355100.0,355725.0850217703,361456.0
+SYN-0113054,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2108000.0,1978697.8032487496,1988408.0
+SYN-0083539,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3341000.0,2957638.756918255,2991771.0
+SYN-0018486,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,358200.0,395934.28130061855,397880.0
+SYN-0033443,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,609400.0,591495.3007249627,585296.0
+SYN-0056479,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,526000.0,554109.113244738,548370.0
+SYN-0113888,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,871300.0,897756.5357325911,893386.0
+SYN-0005536,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,532400.0,579480.4114717435,582499.0
+SYN-0057073,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,495400.0,534979.8818699387,538688.0
+SYN-0141697,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,697500.0,726191.2414456444,729724.0
+SYN-0019262,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,551500.0,532245.5634501869,523425.0
+SYN-0106785,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,621600.0,599044.3416690651,615516.0
+SYN-0025527,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1564500.0,1466695.9790426353,1478064.0
+SYN-0096853,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,945300.0,910899.8228152607,944616.0
+SYN-0039166,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,456100.0,486994.13583174144,485576.0
+SYN-0083656,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,503400.0,506171.4033563084,507589.0
+SYN-0057707,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,594300.0,767151.3804453906,750784.0
+SYN-0097784,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1331600.0,1329493.6975292335,1324263.0
+SYN-0042271,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1090900.0,1052053.970820207,1037928.0
+SYN-0013205,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1650400.0,1813289.494642938,1802615.0
+SYN-0119679,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1380200.0,1366488.5659832654,1350614.0
+SYN-0138611,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1079200.0,1118805.9554945736,1115020.0
+SYN-0080791,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,826300.0,894309.4074593358,913982.0
+SYN-0145690,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2678500.0,2515718.580487159,2557402.0
+SYN-0045514,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1266100.0,1282007.977695859,1243595.0
+SYN-0111190,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,688900.0,639542.8217212236,648767.0
+SYN-0059516,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,369400.0,376374.4841369843,393319.0
+SYN-0020284,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,540100.0,548068.3592351908,556391.0
+SYN-0034673,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1921500.0,1563021.7348556733,1531778.0
+SYN-0081851,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,510700.0,535093.5536837238,538081.0
+SYN-0014213,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,400600.0,427388.34478896,424047.0
+SYN-0003542,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,788100.0,782217.6500258546,795707.0
+SYN-0011682,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,507600.0,531859.7101636695,517428.0
+SYN-0132042,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1080700.0,1063302.6536623086,1068671.0
+SYN-0111027,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1139900.0,1264026.4359275557,1200298.0
+SYN-0071229,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1216400.0,956721.0544744959,996162.0
+SYN-0041983,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1906600.0,1908477.0484826039,1930698.0
+SYN-0067232,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,582200.0,583819.7939043915,582904.0
+SYN-0098603,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1643600.0,1652469.6828331286,1653756.0
+SYN-0024082,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,844800.0,855941.2057990447,874394.0
+SYN-0143711,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,644100.0,701448.9655733153,677636.0
+SYN-0090495,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,717800.0,776370.8444340053,764872.0
+SYN-0005003,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1619100.0,1581414.4770693982,1595661.0
+SYN-0076625,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1297600.0,1292496.523398847,1305439.0
+SYN-0141774,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,536800.0,531463.8041910925,524122.0
+SYN-0145417,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,428300.0,415736.4477687441,413309.0
+SYN-0120970,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,983600.0,907473.7306023914,932257.0
+SYN-0085772,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1296000.0,1069167.819148282,1073676.0
+SYN-0154210,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,872500.0,879322.630593824,878214.0
+SYN-0046596,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,558200.0,593247.8176586592,569749.0
+SYN-0082349,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2873100.0,2658837.126169787,2663042.0
+SYN-0147952,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1385400.0,1349016.1750989698,1353844.0
+SYN-0030586,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,493500.0,490415.97346125724,507440.0
+SYN-0026577,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1340400.0,1405297.86567093,1409768.0
+SYN-0017798,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,964300.0,1118510.4279310615,1092527.0
+SYN-0087775,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1087400.0,959356.4964749381,972684.0
+SYN-0085195,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,678500.0,678527.6999943543,667618.0
+SYN-0099089,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,636500.0,663288.1933094884,677000.0
+SYN-0044547,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,864600.0,850638.8891516486,853372.0
+SYN-0048771,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,580600.0,584492.3718735051,589723.0
+SYN-0073573,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,672800.0,743562.3056257126,767668.0
+SYN-0103647,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,534600.0,540990.528627071,550021.0
+SYN-0021287,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,388000.0,446864.03488211054,437305.0
+SYN-0118094,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,646200.0,663218.4780460524,669564.0
+SYN-0042555,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1222300.0,1310278.8113062738,1338881.0
+SYN-0118926,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,518500.0,517900.68917350465,526984.0
+SYN-0118545,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,447700.0,479375.27807988704,480459.0
+SYN-0145585,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,487200.0,480038.31429435953,475099.0
+SYN-0121201,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,977400.0,978434.8530397175,979732.0
+SYN-0107501,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1156500.0,1119835.179672418,1089645.0
+SYN-0137980,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,578600.0,454921.51236312767,437295.0
+SYN-0077179,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,393600.0,429948.73353766033,427530.0
+SYN-0073022,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,985400.0,935637.9658355748,900914.0
+SYN-0022161,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2058600.0,2089720.539133337,2098766.0
+SYN-0087294,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1461000.0,1462382.501980697,1467583.0
+SYN-0096707,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,543400.0,521298.5404907304,533467.0
+SYN-0025832,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,784000.0,767152.0683410978,768503.0
+SYN-0012586,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1708400.0,1817302.4094197173,1806365.0
+SYN-0148141,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1175800.0,1126870.5013580734,1136122.0
+SYN-0022389,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,495000.0,488043.0544605272,494431.0
+SYN-0068213,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1352400.0,1167353.441051259,1161901.0
+SYN-0066161,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,773900.0,770643.5507829556,791237.0
+SYN-0005081,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,772100.0,836779.3187808357,854676.0
+SYN-0147583,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1089700.0,1107738.827038325,1104096.0
+SYN-0062297,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1312500.0,1162987.3802054832,1161742.0
+SYN-0133903,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3232200.0,3145952.976703313,3048021.0
+SYN-0016182,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,617200.0,640199.7101024237,657513.0
+SYN-0094366,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,784100.0,847857.8245221191,830540.0
+SYN-0115222,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1083500.0,1127988.4833832455,1130043.0
+SYN-0135380,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1795900.0,1810491.6043880794,1765234.0
+SYN-0142029,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,569300.0,569757.9872874251,574928.0
+SYN-0046172,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1422600.0,1493986.2679738633,1488395.0
+SYN-0053040,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,660600.0,629664.3994699252,630497.0
+SYN-0020883,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,589300.0,671904.7492803184,678855.0
+SYN-0043663,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,807400.0,830363.0806646289,838670.0
+SYN-0022775,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,801100.0,796483.1442743584,795485.0
+SYN-0137523,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,889100.0,922562.7164912401,945523.0
+SYN-0102422,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,506100.0,532695.113960842,531123.0
+SYN-0115671,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,355900.0,346023.5437687678,359688.0
+SYN-0020494,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,677700.0,643871.1830905662,634421.0
+SYN-0138256,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2134900.0,2246659.593908778,2279403.0
+SYN-0043181,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,451400.0,461330.03797944,461492.0
+SYN-0113961,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,609900.0,640058.57283905,652259.0
+SYN-0002351,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1474900.0,1356373.944182265,1350015.0
+SYN-0001731,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,611200.0,730578.4535266886,735625.0
+SYN-0137392,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,988300.0,879874.6150438372,880221.0
+SYN-0094766,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,360600.0,352532.79938076803,356946.0
+SYN-0103804,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,748600.0,731226.013352008,745612.0
+SYN-0074616,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,477700.0,475850.20163175405,480845.0
+SYN-0130981,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,402500.0,407509.9293243713,416807.0
+SYN-0139854,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1858300.0,1762073.6799491511,1753817.0
+SYN-0053731,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1428100.0,1473471.9915987118,1443525.0
+SYN-0070330,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,454000.0,448564.8320883343,443753.0
+SYN-0134425,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,812900.0,747514.7797076498,746489.0
+SYN-0109479,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,544800.0,581449.7647112232,564829.0
+SYN-0122900,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,503000.0,502142.80397127365,499519.0
+SYN-0075500,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,789200.0,648023.0970051339,626362.0
+SYN-0010549,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1166700.0,1159143.0524084477,1181398.0
+SYN-0067334,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,653200.0,686223.3117546574,676737.0
+SYN-0075256,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,709500.0,730620.2631944688,733862.0
+SYN-0011106,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,681100.0,628047.2382251605,639947.0
+SYN-0073150,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,647400.0,600687.4693451553,579298.0
+SYN-0078283,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,608100.0,637119.5603147708,632414.0
+SYN-0073801,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,542400.0,547582.923061652,549461.0
+SYN-0073821,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1157700.0,1372795.3452116838,1361106.0
+SYN-0089345,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1236400.0,1183508.8374220976,1187679.0
+SYN-0126906,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,570200.0,622917.5569236181,625000.0
+SYN-0132026,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,834100.0,862770.2202832293,866117.0
+SYN-0102756,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,4472000.0,3314371.396501444,3179001.0
+SYN-0085887,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1366400.0,1409522.1414490642,1443739.0
+SYN-0122572,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,431800.0,418133.6672213951,411476.0
+SYN-0035571,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1167900.0,1256113.865610103,1284001.0
+SYN-0062396,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,941800.0,1025223.6857987699,1028419.0
+SYN-0039803,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,506700.0,512217.81658518745,512733.0
+SYN-0009148,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1509600.0,1640632.0047821484,1671058.0
+SYN-0097619,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,892000.0,900600.4527061572,908747.0
+SYN-0036286,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1891100.0,1997253.0208750514,1973874.0
+SYN-0057441,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,307700.0,354157.37190625496,357191.0
+SYN-0023602,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,490100.0,504388.0302244951,500402.0
+SYN-0085384,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,511200.0,550150.716773651,543613.0
+SYN-0101233,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,1171300.0,1174757.8022250736,1188106.0
+SYN-0139804,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,470300.0,513880.81977019034,515100.0
+SYN-0037329,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1353900.0,1409263.9496987646,1394591.0
+SYN-0117047,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,559100.0,548763.2587643305,550348.0
+SYN-0094622,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,504900.0,521318.73855831724,517371.0
+SYN-0007188,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1112900.0,1190441.7220431447,1195985.0
+SYN-0110221,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,952700.0,981885.2965185591,985348.0
+SYN-0003000,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,451400.0,461125.07435779,472999.0
+SYN-0042294,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,354700.0,376940.8401245241,398635.0
+SYN-0059426,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,988200.0,1005406.1791398664,1006668.0
+SYN-0012338,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,766400.0,778107.0680943358,764064.0
+SYN-0001771,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,956400.0,968291.5127678246,960117.0
+SYN-0071793,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,604100.0,567253.9122352795,569878.0
+SYN-0061103,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1357500.0,1399398.1551713045,1388294.0
+SYN-0087785,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,670600.0,644563.2195011955,638532.0
+SYN-0106957,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1145100.0,1102429.9416263213,1100192.0
+SYN-0063571,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,765800.0,787189.7570865302,791686.0
+SYN-0103698,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,268600.0,238834.52683405063,323426.0
+SYN-0123392,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,821200.0,780982.2248652283,771964.0
+SYN-0008900,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,423200.0,417558.9467559061,417394.0
+SYN-0014336,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,464300.0,418166.5059133326,420713.0
+SYN-0072841,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,430400.0,436119.48156910646,439034.0
+SYN-0099679,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,866200.0,887126.62861365,910674.0
+SYN-0109923,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,795700.0,791711.4219893939,802404.0
+SYN-0068139,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,699500.0,694097.573946983,715672.0
+SYN-0009598,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,540600.0,535487.3843254959,534109.0
+SYN-0093694,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1161100.0,1253000.0171027498,1243773.0
+SYN-0055315,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,605000.0,596759.9698665121,593108.0
+SYN-0109145,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1196200.0,1157034.070902008,1151654.0
+SYN-0118756,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,933200.0,1123200.1863118096,1098507.0
+SYN-0030681,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,798600.0,806814.9176861681,795418.0
+SYN-0145500,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,306400.0,327437.53758956416,333842.0
+SYN-0130255,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1132800.0,1088875.1682520804,1091482.0
+SYN-0021320,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,356900.0,358537.3513784242,366153.0
+SYN-0084659,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,827600.0,793034.1798802447,789379.0
+SYN-0037950,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1048400.0,1143267.8048363312,1142527.0
+SYN-0043514,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,601200.0,660639.3863993497,658917.0
+SYN-0140091,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2659200.0,2660175.466636003,2777255.0
+SYN-0068018,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,532200.0,539406.1938535409,522416.0
+SYN-0026721,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,514200.0,491684.61233040254,485204.0
+SYN-0082024,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,689400.0,671719.3956295627,700039.0
+SYN-0145786,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1539900.0,1487059.7687345713,1511386.0
+SYN-0032760,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,942600.0,947270.861540776,959330.0
+SYN-0021760,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,1588400.0,1683991.747658984,1778013.0
+SYN-0041178,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,427600.0,409710.4754429355,407230.0
+SYN-0008144,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,495800.0,516171.29560892744,520105.0
+SYN-0072773,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,612700.0,599252.361367914,596070.0
+SYN-0001878,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1320500.0,1350327.0382859742,1346335.0
+SYN-0084469,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1277700.0,1214292.4117635835,1200265.0
+SYN-0008675,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,859400.0,922727.9820303003,911560.0
+SYN-0097108,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1261400.0,1272071.4757957712,1257897.0
+SYN-0058323,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2877400.0,2583079.3181096576,2651811.0
+SYN-0051925,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1629700.0,1571057.603515056,1578543.0
+SYN-0022615,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,424100.0,440259.34887999686,451157.0
+SYN-0145340,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1545500.0,1596261.7046141627,1612931.0
+SYN-0006654,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,614100.0,629436.2791470495,642673.0
+SYN-0016296,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,984200.0,969643.4916713383,975919.0
+SYN-0028494,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1256100.0,1263201.733416304,1247396.0
+SYN-0009067,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,754400.0,730528.0965659467,742443.0
+SYN-0052687,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,992300.0,1082728.0096805834,1098492.0
+SYN-0054467,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2403000.0,2685001.7187212696,2636169.0
+SYN-0100997,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,564700.0,541901.4781682619,539007.0
+SYN-0134958,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,531700.0,497204.23487093975,496969.0
+SYN-0133262,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,914400.0,964224.7275265974,958497.0
+SYN-0015845,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,582300.0,598313.0959323007,585085.0
+SYN-0064957,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1082400.0,925132.1793762207,936002.0
+SYN-0006125,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,446400.0,447842.6137529407,430711.0
+SYN-0071665,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,525800.0,556114.8906366277,567366.0
+SYN-0126213,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1120900.0,1283598.3150725649,1248931.0
+SYN-0154637,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,646600.0,676408.0850463952,663225.0
+SYN-0012501,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,765000.0,770784.0771685784,774461.0
+SYN-0014815,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,573700.0,601084.7039740669,600471.0
+SYN-0147843,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,437900.0,465803.9922029784,458021.0
+SYN-0122653,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,507200.0,491242.76959978224,500331.0
+SYN-0102575,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Townhouse,1003100.0,1085776.8035451258,1097193.0
+SYN-0130278,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Freehold Townhouse,805100.0,868478.9997439123,862531.0
+SYN-0072493,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,727900.0,747983.8009355782,751139.0
+SYN-0137324,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1068200.0,1049065.7030928028,1050315.0
+SYN-0053203,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,981100.0,985198.368558093,989621.0
+SYN-0045904,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1213500.0,1325071.6549224677,1330160.0
+SYN-0028177,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,442100.0,435079.89543047093,425928.0
+SYN-0045124,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,463700.0,449330.5628786219,444078.0
+SYN-0070702,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,3990300.0,3731890.840818895,3967155.0
+SYN-0152295,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,731700.0,785856.067408075,780518.0
+SYN-0089155,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1207600.0,1160040.6718622243,1152263.0
+SYN-0082145,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,874100.0,896981.6548742662,906536.0
+SYN-0033390,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,439100.0,465217.26128093764,455996.0
+SYN-0139370,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,715600.0,723182.0951065697,727850.0
+SYN-0153752,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1123800.0,1147663.3332568565,1170755.0
+SYN-0036493,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,819700.0,815628.2180306041,825653.0
+SYN-0125718,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,913500.0,867079.892027469,877334.0
+SYN-0127862,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,961200.0,935656.2582473787,930045.0
+SYN-0096874,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,683600.0,702992.8024216876,694087.0
+SYN-0013332,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,698300.0,733864.2725848127,731718.0
+SYN-0076017,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,401700.0,397329.6150704923,405576.0
+SYN-0125521,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,726700.0,740900.4132405628,742150.0
+SYN-0060115,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,1232300.0,1212258.8237039899,1213819.0
+SYN-0097273,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,534700.0,519707.5792005538,518678.0
+SYN-0158033,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,818200.0,784751.9487057781,788632.0
+SYN-0089724,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1000500.0,936575.8727389547,917839.0
+SYN-0027517,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,984300.0,904949.0125733812,891294.0
+SYN-0123799,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,2556600.0,2263064.9643185805,2258949.0
+SYN-0013371,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,826300.0,937261.8778768387,941871.0
+SYN-0022760,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,349200.0,369916.8372633447,363641.0
+SYN-0041475,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,2466700.0,2554878.354464732,2495522.0
+SYN-0011532,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,848200.0,833923.5668586937,850565.0
+SYN-0122430,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,657800.0,665651.2679684637,683323.0
+SYN-0096363,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,490900.0,476254.2369001129,479726.0
+SYN-0061022,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,634600.0,651115.3515942749,646377.0
+SYN-0072411,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1254300.0,1307329.664678966,1300691.0
+SYN-0052837,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,859700.0,891693.064159768,878237.0
+SYN-0136837,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,405600.0,479473.8499352261,468780.0
+SYN-0112167,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1261400.0,1474412.123944651,1437831.0
+SYN-0141794,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,941300.0,881178.4725246109,881356.0
+SYN-0115719,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,394300.0,434436.0932275374,420819.0
+SYN-0113053,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,601100.0,590708.2141323918,593022.0
+SYN-0023023,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,499600.0,490444.91894047114,503500.0
+SYN-0123899,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,1219700.0,1148508.9379025493,1197403.0
+SYN-0127443,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,1129200.0,1111556.101765014,1120657.0
+SYN-0145514,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,949100.0,933995.469666034,923452.0
+SYN-0148301,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,325700.0,345212.1372211383,340977.0
+SYN-0074419,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Semi-Detached,928800.0,932399.2943724081,921530.0
+SYN-0039954,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,813600.0,954164.978059884,959170.0
+SYN-0079772,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,473100.0,464083.7204350748,469814.0
+SYN-0078912,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Condo Apt,768600.0,737523.1548822791,741626.0
+SYN-0094802,list_aware,2025-12,bfcb3f94a6ff3f8b,lightgbm,log_sold_over_list,Detached,967700.0,973478.1669696297,977496.0

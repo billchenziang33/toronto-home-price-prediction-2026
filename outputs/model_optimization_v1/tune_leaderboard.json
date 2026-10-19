@@ -1,0 +1,725 @@
+{
+  "attempted": [
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 1,
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "c14fb73035dd59dd"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 1,
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "7ff927bb019c2785"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 2,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "70eaec2e78019ddc"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 2,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "0f7e4d6f06022cca"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 3,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "1dcd6a0f4977854f"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 3,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "fe2307c7b534e237"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 4,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "4dfc705de6d81351"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 4,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "4a52af269f6a1e63"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 5,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "ef8dc2ca056c11b1"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 5,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "878859cbb8e7dfeb"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 6,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "fcfe7a1eabc8af02"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 6,
+      "status": "completed",
+      "track": "off_market",
+      "trial_id": "8d17dccdab5fc69f"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 1,
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "18352616138a5bc4"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 1,
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "2e20227b0928b075"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 2,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "05c54baa23d803a2"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 2,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "77815bcd5f713d3c"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 3,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "834e7b88167b2c73"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 3,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "71c1e7e90bdfaa3b"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 4,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "e06d4d1ce3303c2c"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 4,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "59786bf8096f9b21"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 5,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "b1841ffb05819b5d"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 5,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "0c5b47f045a4dace"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-06",
+      "preset_index": 6,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "cb562ea234f996c7"
+    },
+    {
+      "family": "lightgbm",
+      "month": "2025-11",
+      "preset_index": 6,
+      "status": "completed",
+      "track": "list_aware",
+      "trial_id": "cc087b986c2b19e9"
+    }
+  ],
+  "completed_at_utc": "2026-10-18T21:14:20.467539+00:00",
+  "fit_attempts": 20,
+  "locked": {
+    "list_aware": {
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 100,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "preset_index": 5,
+      "target": "log_sold_price",
+      "tuning_mape_percent": 5.6555978928285695,
+      "tuning_mdape_percent": 4.4465874746259075
+    },
+    "off_market": {
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "preset_index": 6,
+      "target": "log_sold_price",
+      "tuning_mape_percent": 12.468571215427874,
+      "tuning_mdape_percent": 9.479459883526882
+    }
+  },
+  "results": [
+    {
+      "mape_percent": 12.875186818751434,
+      "mdape_percent": 10.032184864803837,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 30,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 1
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 12.986921922603873,
+          "mdape_percent": 10.1708448354701,
+          "median_signed_percent": 3.01498502887707,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 12.73855519470477,
+          "mdape_percent": 9.925623473504018,
+          "median_signed_percent": 3.0050673561236487,
+          "n": 1867
+        }
+      },
+      "preset": [
+        600,
+        0.05,
+        31,
+        30,
+        1
+      ],
+      "preset_index": 1,
+      "track": "off_market"
+    },
+    {
+      "mape_percent": 12.843562454086419,
+      "mdape_percent": 9.944084193651422,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 50,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 1
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 13.009729987870575,
+          "mdape_percent": 10.137638077459568,
+          "median_signed_percent": 3.0270535616747702,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 12.640369910096473,
+          "mdape_percent": 9.756883382348501,
+          "median_signed_percent": 3.1826438874217713,
+          "n": 1867
+        }
+      },
+      "preset": [
+        1000,
+        0.03,
+        31,
+        50,
+        1
+      ],
+      "preset_index": 2,
+      "track": "off_market"
+    },
+    {
+      "mape_percent": 12.352024364107823,
+      "mdape_percent": 9.48734961716368,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 50,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 3
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 12.41809500786402,
+          "mdape_percent": 9.553249470683944,
+          "median_signed_percent": 3.128905642675687,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 12.271232034329898,
+          "mdape_percent": 9.413962738001574,
+          "median_signed_percent": 2.579613750088373,
+          "n": 1867
+        }
+      },
+      "preset": [
+        600,
+        0.05,
+        63,
+        50,
+        3
+      ],
+      "preset_index": 3,
+      "track": "off_market"
+    },
+    {
+      "mape_percent": 13.086995206715333,
+      "mdape_percent": 10.175769753667092,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 30,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 15,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 3
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 13.248205692434203,
+          "mdape_percent": 10.278122317583765,
+          "median_signed_percent": 3.474083823514229,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 12.88986422712445,
+          "mdape_percent": 10.074086584162862,
+          "median_signed_percent": 2.7367221959560464,
+          "n": 1867
+        }
+      },
+      "preset": [
+        800,
+        0.05,
+        15,
+        30,
+        3
+      ],
+      "preset_index": 4,
+      "track": "off_market"
+    },
+    {
+      "mape_percent": 12.539119725280107,
+      "mdape_percent": 9.633835925802522,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 100,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 12.670580165851291,
+          "mdape_percent": 9.77866070987649,
+          "median_signed_percent": 3.3527800065442888,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 12.378367617179405,
+          "mdape_percent": 9.498864541202265,
+          "median_signed_percent": 2.6168482656038177,
+          "n": 1867
+        }
+      },
+      "preset": [
+        800,
+        0.03,
+        63,
+        100,
+        5
+      ],
+      "preset_index": 5,
+      "track": "off_market"
+    },
+    {
+      "mape_percent": 12.468571215427874,
+      "mdape_percent": 9.479459883526882,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 12.574228742666529,
+          "mdape_percent": 9.643930830115108,
+          "median_signed_percent": 2.8831101054999984,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 12.33937135753508,
+          "mdape_percent": 9.311926342127883,
+          "median_signed_percent": 2.5879715571990465,
+          "n": 1867
+        }
+      },
+      "preset": [
+        1000,
+        0.05,
+        31,
+        100,
+        5
+      ],
+      "preset_index": 6,
+      "track": "off_market"
+    },
+    {
+      "mape_percent": 5.6539598450480595,
+      "mdape_percent": 4.521318589485166,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 30,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 1
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.855132376799588,
+          "mdape_percent": 4.653107997939726,
+          "median_signed_percent": 1.7609570599046445,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 5.407962582065342,
+          "mdape_percent": 4.361197557439296,
+          "median_signed_percent": 1.4070081817619282,
+          "n": 1867
+        }
+      },
+      "preset": [
+        600,
+        0.05,
+        31,
+        30,
+        1
+      ],
+      "preset_index": 1,
+      "track": "list_aware"
+    },
+    {
+      "mape_percent": 5.659819149247163,
+      "mdape_percent": 4.512257162985726,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 50,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 1
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.856175976568416,
+          "mdape_percent": 4.654830074620773,
+          "median_signed_percent": 1.7116030169463183,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 5.419710613213729,
+          "mdape_percent": 4.371477758643095,
+          "median_signed_percent": 1.4775942890181248,
+          "n": 1867
+        }
+      },
+      "preset": [
+        1000,
+        0.03,
+        31,
+        50,
+        1
+      ],
+      "preset_index": 2,
+      "track": "list_aware"
+    },
+    {
+      "mape_percent": 5.649714714021299,
+      "mdape_percent": 4.487839183532336,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 50,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 3
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.814197949281999,
+          "mdape_percent": 4.66177524874495,
+          "median_signed_percent": 1.6085783185685234,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 5.448581759495227,
+          "mdape_percent": 4.309295444665056,
+          "median_signed_percent": 1.4527216914633605,
+          "n": 1867
+        }
+      },
+      "preset": [
+        600,
+        0.05,
+        63,
+        50,
+        3
+      ],
+      "preset_index": 3,
+      "track": "list_aware"
+    },
+    {
+      "mape_percent": 5.6788821736988435,
+      "mdape_percent": 4.540331968157634,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 30,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 15,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 3
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.878722014806914,
+          "mdape_percent": 4.706110067617559,
+          "median_signed_percent": 1.7332721133985192,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 5.434514547962515,
+          "mdape_percent": 4.375990605085685,
+          "median_signed_percent": 1.6190862627804803,
+          "n": 1867
+        }
+      },
+      "preset": [
+        800,
+        0.05,
+        15,
+        30,
+        3
+      ],
+      "preset_index": 4,
+      "track": "list_aware"
+    },
+    {
+      "mape_percent": 5.6555978928285695,
+      "mdape_percent": 4.4465874746259075,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 100,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.824309708123336,
+          "mdape_percent": 4.5649108355558035,
+          "median_signed_percent": 1.7513784647315984,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 5.449294157253877,
+          "mdape_percent": 4.2878272365609895,
+          "median_signed_percent": 1.5037948096982992,
+          "n": 1867
+        }
+      },
+      "preset": [
+        800,
+        0.03,
+        63,
+        100,
+        5
+      ],
+      "preset_index": 5,
+      "track": "list_aware"
+    },
+    {
+      "mape_percent": 5.655018700313945,
+      "mdape_percent": 4.493955455210531,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.8281648667630925,
+          "mdape_percent": 4.603677628014904,
+          "median_signed_percent": 1.5563565098464196,
+          "n": 2283
+        },
+        "2025-11": {
+          "mape_percent": 5.44329256319375,
+          "mdape_percent": 4.374968131341254,
+          "median_signed_percent": 1.4600145741177475,
+          "n": 1867
+        }
+      },
+      "preset": [
+        1000,
+        0.05,
+        31,
+        100,
+        5
+      ],
+      "preset_index": 6,
+      "track": "list_aware"
+    }
+  ],
+  "total_fit_attempts": 38,
+  "winners": {
+    "list_aware": "lightgbm",
+    "off_market": "lightgbm"
+  }
+}

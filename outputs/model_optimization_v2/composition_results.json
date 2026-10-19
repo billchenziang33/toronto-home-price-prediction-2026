@@ -1,0 +1,882 @@
+{
+  "checkpoint_C1": {
+    "checkpoint": "C1",
+    "dual_track_upgrade": false,
+    "generated_at_utc": "2026-10-19T02:02:47.468628+00:00",
+    "interpretation": "A C1 promotion requires both tracks to independently pass the prespecified development gate; single-track passes are recorded but do not count as a dual-track upgrade.",
+    "parent_id": "C0",
+    "reports": [
+      {
+        "candidate": {
+          "mape_percent": 12.477721324007426,
+          "mdape_percent": 9.502929086392516,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0030459268294553976,
+        "method_id": "M04",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.08250636768611486,
+            0.08667241396846848
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.012426331298404761,
+          "2025-07": 0.010407942490105656,
+          "2025-10": -0.0053540832784592495,
+          "2025-11": -0.01221377452652068
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.12154211246364972,
+            0.11321151891830224
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.0005617466027061061,
+        "stage": "four_month_confirmation",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.01221377452652068
+      },
+      {
+        "candidate": {
+          "mape_percent": 12.453887148976044,
+          "mdape_percent": 9.520362574439096,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0011299702566338018,
+        "method_id": "M05",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.04061956783990439,
+            0.09000038084231221
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.003907014064123685,
+          "2025-07": 0.006618776883418398,
+          "2025-10": -0.013187597049748265,
+          "2025-11": -0.010951884884336344
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.12034654147155051,
+            0.15894526158067784
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": -0.0012717612226701318,
+        "stage": "four_month_confirmation",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.013187597049748265
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.414545106914402,
+          "mdape_percent": 4.34608719877858,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0011523144534386122,
+        "method_id": "M04",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.05533138634341572,
+            0.016390342609370556
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.00272806721003906,
+          "2025-07": 0.006356542989237219,
+          "2025-10": 0.00466139270875809,
+          "2025-11": 0.009750788665207677
+        },
+        "months_improved": 4,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.06488316509832175,
+            0.018859910187659697
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.006749301707806123,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.392329163784644,
+          "mdape_percent": 4.281699405642204,
+          "n": 8468
+        },
+        "mape_relative_change": -0.002955425429219492,
+        "method_id": "M13",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.17783985836170313,
+            0.02967497141526465
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.04449693047274865,
+          "2025-07": 0.03340241279419029,
+          "2025-10": -0.017494222919614662,
+          "2025-11": 0.024060522724651718
+        },
+        "months_improved": 3,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.17135072136822782,
+            -0.014056078590741304
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": true,
+        "relative_mdape_improvement": 0.021464427651936336,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.017494222919614662
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.413550056010624,
+          "mdape_percent": 4.379885596951441,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0009683290039417032,
+        "method_id": "M14",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.009480232189808646,
+            0.018173655083506546
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.0032557736776887085,
+          "2025-07": -0.0039008838061416035,
+          "2025-10": 0.0006217291075557639,
+          "2025-11": -0.003979116691748397
+        },
+        "months_improved": 1,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.009136241142754464,
+            0.018667551169375417
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": -0.0009749525583729489,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.003979116691748397
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.431542473212371,
+          "mdape_percent": 4.321881956397666,
+          "n": 8468
+        },
+        "mape_relative_change": 0.004295136661548685,
+        "method_id": "M19",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.0813930328571617,
+            -0.006028476144218864
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.01696151619534716,
+          "2025-07": 0.02386028169362532,
+          "2025-10": 0.007963002611520813,
+          "2025-11": 0.0004423765410764996
+        },
+        "months_improved": 4,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.12752036010014248,
+            0.02550420913780762
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.012281145133297254,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.383875458556613,
+          "mdape_percent": 4.3472525659616466,
+          "n": 8468
+        },
+        "mape_relative_change": -0.004518520091399406,
+        "method_id": "M20",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.07060270729369567,
+            -0.0009380520855151175
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.009424418739230412,
+          "2025-07": 0.008726980797815536,
+          "2025-10": 0.023105261747925578,
+          "2025-11": 0.013155086130890505
+        },
+        "months_improved": 4,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.08489160475673407,
+            0.02529106838779797
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.006482969783156086,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0
+      }
+    ],
+    "selected_by_track": {
+      "list_aware": {
+        "method_id": "M13",
+        "metrics": {
+          "candidate": {
+            "mape_percent": 5.392329163784644,
+            "mdape_percent": 4.281699405642204,
+            "n": 8468
+          },
+          "mape_relative_change": -0.002955425429219492,
+          "method_id": "M13",
+          "month_cluster_sensitivity": {
+            "ci95_percentage_points": [
+              -0.17783985836170313,
+              0.02967497141526465
+            ],
+            "clusters": 4,
+            "repeats": 10000,
+            "seed": 20261020
+          },
+          "monthly_relative_improvement": {
+            "2025-06": 0.04449693047274865,
+            "2025-07": 0.03340241279419029,
+            "2025-10": -0.017494222919614662,
+            "2025-11": 0.024060522724651718
+          },
+          "months_improved": 3,
+          "n": 8468,
+          "paired_home_bootstrap": {
+            "ci95_percentage_points": [
+              -0.17135072136822782,
+              -0.014056078590741304
+            ],
+            "repeats": 10000,
+            "seed": 20261019
+          },
+          "parent": {
+            "mape_percent": 5.408313029641626,
+            "mdape_percent": 4.375619575451887,
+            "n": 8468
+          },
+          "passes_metrics": true,
+          "relative_mdape_improvement": 0.021464427651936336,
+          "stage": "four_month_confirmation",
+          "track": "list_aware",
+          "worst_month_relative_regression": 0.017494222919614662
+        },
+        "relative_mdape_improvement": 0.021464427651936336
+      },
+      "off_market": null
+    },
+    "selection_gate": {
+      "bootstrap_repeats": 10000,
+      "max_mape_relative_regression": 0.01,
+      "max_month_relative_regression": 0.05,
+      "min_months_improved": 3,
+      "min_relative_mdape_improvement": 0.01,
+      "paired_home_bootstrap_upper_percentage_points_lt": 0.0
+    }
+  },
+  "checkpoint_C2": {
+    "candidate_parent": {
+      "list_aware": "M13",
+      "off_market": "C0"
+    },
+    "checkpoint": "C2",
+    "dual_track_cumulative_upgrade": false,
+    "generated_at_utc": "2026-10-19T02:45:54.125923+00:00",
+    "notes": [
+      "C2 list-aware promotion is measured against the passing C1 M13 parent",
+      "off-market candidates are measured against C0 because C1 did not pass for that track"
+    ],
+    "reports": [
+      {
+        "candidate": {
+          "mape_percent": 12.408465026209285,
+          "mdape_percent": 9.429031631595564,
+          "n": 8468
+        },
+        "comparison_role": "candidate_vs_C0_for_first_track_promotion",
+        "mape_relative_change": -0.002521375533681735,
+        "method_id": "M13+M04",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.40362127459254005,
+            0.2798656085647835
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261021
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.03968503786043391,
+          "2025-07": 0.05113729530819209,
+          "2025-10": 0.025684450818169835,
+          "2025-11": 0.018410938051789356
+        },
+        "months_improved": 3,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.3347943684298903,
+            0.12034296450644451
+          ],
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "parent_id": "C0",
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.00833366013392755,
+        "stage": "four_month_composition",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.03968503786043391
+      },
+      {
+        "candidate": {
+          "mape_percent": 12.405362954819068,
+          "mdape_percent": 9.368098365361913,
+          "n": 8468
+        },
+        "comparison_role": "candidate_vs_C0_for_first_track_promotion",
+        "mape_relative_change": -0.0027707415831305453,
+        "method_id": "M13+M05",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.4107074775771391,
+            0.1464748226626842
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261021
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.010792083841672254,
+          "2025-07": 0.049067589876550036,
+          "2025-10": 0.026154755131498543,
+          "2025-11": -0.010008123081401839
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.3458080459905759,
+            0.08293912330788397
+          ],
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "parent_id": "C0",
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.014742109215753795,
+        "stage": "four_month_composition",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.010792083841672254
+      },
+      {
+        "candidate": {
+          "mape_percent": 12.425360731733248,
+          "mdape_percent": 9.444454869688244,
+          "n": 8468
+        },
+        "comparison_role": "candidate_vs_C0_for_first_track_promotion",
+        "mape_relative_change": -0.001163181343680556,
+        "method_id": "M13+M03",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.38042795057569023,
+            0.142606963960894
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261021
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.027942304168719945,
+          "2025-07": 0.04994606932398865,
+          "2025-10": 0.0049962088391819585,
+          "2025-11": 0.004610178324636603
+        },
+        "months_improved": 3,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.26814102199661166,
+            0.1177899066477916
+          ],
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "parent_id": "C0",
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.006711573511903693,
+        "stage": "four_month_composition",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.027942304168719945
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.385577378609814,
+          "mdape_percent": 4.286015227732219,
+          "n": 8468
+        },
+        "comparison_role": "incremental_bundle_vs_direct_M13_parent",
+        "mape_relative_change": -0.0012521092406923397,
+        "method_id": "M13+M04",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.01203350377384016,
+            0.034989673022328915
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261021
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.0004584932733350666,
+          "2025-07": -0.007063268005457235,
+          "2025-10": -0.009220169552991726,
+          "2025-11": 0.007049454627470847
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.02819550720514048,
+            0.04493142586566514
+          ],
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "parent": {
+          "mape_percent": 5.392329163784644,
+          "mdape_percent": 4.281699405642204,
+          "n": 8468
+        },
+        "parent_id": "M13",
+        "passes_metrics": false,
+        "relative_mdape_improvement": -0.0010079694254873728,
+        "stage": "four_month_composition",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.009220169552991726
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.381529168558279,
+          "mdape_percent": 4.24932736790023,
+          "n": 8468
+        },
+        "comparison_role": "incremental_bundle_vs_direct_M13_parent",
+        "mape_relative_change": -0.002002844206711006,
+        "method_id": "M13+M05",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.05591251311739853,
+            0.004290629333979723
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261021
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.01260218935230613,
+          "2025-07": -0.0009819721796541822,
+          "2025-10": 0.008731556661635486,
+          "2025-11": 0.0022211567646261174
+        },
+        "months_improved": 3,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.0682922587226857,
+            0.02197243382127106
+          ],
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "parent": {
+          "mape_percent": 5.392329163784644,
+          "mdape_percent": 4.281699405642204,
+          "n": 8468
+        },
+        "parent_id": "M13",
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.007560558244540801,
+        "stage": "four_month_composition",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0009819721796541822
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.38553720838588,
+          "mdape_percent": 4.2994477157209365,
+          "n": 8468
+        },
+        "comparison_role": "incremental_bundle_vs_direct_M13_parent",
+        "mape_relative_change": -0.0012595587532709977,
+        "method_id": "M13+M03",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.05074972781772846,
+            0.06390690554430645
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261021
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.004448717425344184,
+          "2025-07": -0.011744964109992517,
+          "2025-10": 0.01943431016426279,
+          "2025-11": -0.007385071921129468
+        },
+        "months_improved": 1,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.034037948315507126,
+            0.05600898334170151
+          ],
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "parent": {
+          "mape_percent": 5.392329163784644,
+          "mdape_percent": 4.281699405642204,
+          "n": 8468
+        },
+        "parent_id": "M13",
+        "passes_metrics": false,
+        "relative_mdape_improvement": -0.004145155555605971,
+        "stage": "four_month_composition",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.011744964109992517
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.35915130295522,
+          "mdape_percent": 4.262061794734708,
+          "n": 8468
+        },
+        "comparison_role": "fixed_half_blend_vs_C1_M13",
+        "mape_relative_change": -0.0061527884930039885,
+        "method_id": "M13_M19_blend",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.05956639039001388,
+            0.03505653627724925
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261023
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.002398584460839078,
+          "2025-07": -0.005554572207994903,
+          "2025-10": 0.016405334168820836,
+          "2025-11": 0.008893453366451438
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.07111095695652384,
+            0.04105552048749075
+          ],
+          "repeats": 10000,
+          "seed": 20261022
+        },
+        "parent": {
+          "mape_percent": 5.392329163784644,
+          "mdape_percent": 4.281699405642204,
+          "n": 8468
+        },
+        "parent_id": "M13",
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.004586405781222794,
+        "stage": "four_month_C2_blend",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.005554572207994903
+      }
+    ],
+    "selected_by_track": {
+      "list_aware": null,
+      "off_market": null
+    }
+  },
+  "checkpoint_C3": {
+    "checkpoint": "C3",
+    "dual_track_cumulative_upgrade": false,
+    "generated_at_utc": "2026-10-19T02:45:54.131320+00:00",
+    "notes": [
+      "C3 is attempted only after a C2 feature bundle passes its direct-parent gate",
+      "the C3 blend uses fixed 0.5 weight and the already fitted CatBoost challenger"
+    ],
+    "parent_by_track": {
+      "list_aware": "M13",
+      "off_market": "C0"
+    },
+    "selected_by_track": {
+      "list_aware": null,
+      "off_market": null
+    }
+  },
+  "elapsed_minutes": 138.27,
+  "final_by_track": {
+    "list_aware": "M13",
+    "off_market": "C0"
+  },
+  "fit_attempts": 128,
+  "freeze_manifest": {
+    "benchmark_is_retrospective": true,
+    "benchmark_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05"
+    ],
+    "code_sha256": {
+      "calibration.py": "463059d174bc4788f2a44d8aa754ff85817a1575ca419b5df92f04700c46b987",
+      "features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+      "learners.py": "4c32d40b972e4ee77be3d8fe5e5728f392d0e8c0bca32680ec46263467f58a0a",
+      "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+      "model_candidate_v2/winner_config.json": "26a4dea164fad3023c641ab62aa5a28f5804e6c77ff0fbb743a2317fd6378a18",
+      "pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+      "runner.py": "906293198ae637442f38159521a69aa2195bde59364c08aa8583210f52c346bd",
+      "worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa"
+    },
+    "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+    "final_by_track": {
+      "list_aware": "M13",
+      "off_market": "C0"
+    },
+    "freeze_id": "v2_research_final",
+    "frozen_at_utc": "2026-10-19T02:45:58.952806+00:00",
+    "frozen_pipeline_configs": {
+      "list_aware": {
+        "blend_weight": 0.75,
+        "candidate_id": "M13",
+        "feature_cards": [
+          "M13"
+        ],
+        "frozen_hgbr_config": {
+          "categorical_features": "from_dtype",
+          "early_stopping": "auto",
+          "interaction_cst": null,
+          "l2_regularization": 0.0,
+          "learning_rate": 0.1,
+          "loss": "squared_error",
+          "max_bins": 255,
+          "max_depth": null,
+          "max_features": 1.0,
+          "max_iter": 100,
+          "max_leaf_nodes": 31,
+          "min_samples_leaf": 20,
+          "monotonic_cst": null,
+          "n_iter_no_change": 10,
+          "quantile": null,
+          "random_state": 0,
+          "scoring": "loss",
+          "tol": 1e-07,
+          "validation_fraction": 0.1,
+          "verbose": 0,
+          "warm_start": false
+        },
+        "model_config": {
+          "deterministic": true,
+          "force_col_wise": true,
+          "learning_rate": 0.03,
+          "min_child_samples": 100,
+          "n_estimators": 800,
+          "n_jobs": 4,
+          "num_leaves": 63,
+          "objective": "mape",
+          "random_state": 0,
+          "reg_lambda": 5
+        },
+        "model_family": "lightgbm",
+        "postprocessing": "round frozen HGBR first; blend in price space; round final",
+        "target": "dollar_price"
+      },
+      "off_market": {
+        "blend_weight": 1.0,
+        "candidate_id": "C0",
+        "feature_cards": [],
+        "model_config": {
+          "deterministic": true,
+          "force_col_wise": true,
+          "learning_rate": 0.05,
+          "min_child_samples": 100,
+          "n_estimators": 1000,
+          "n_jobs": 4,
+          "num_leaves": 31,
+          "objective": "regression",
+          "random_state": 0,
+          "reg_lambda": 5
+        },
+        "model_family": "lightgbm",
+        "postprocessing": "round final",
+        "target": "log_sold_price"
+      }
+    },
+    "notes": [
+      "Final pipeline selection uses only predeclared development folds.",
+      "Do not change selection after examining final benchmark results."
+    ],
+    "pipeline_fingerprints": {
+      "list_aware": "be5aa2b96c664e33f1e82b53b5b91a2295cd95b32c76f2cb08baffa84970e943",
+      "off_market": "9f03e84a49619e2629735909d2d979f19d40012772638f1389370309c9c13c70"
+    },
+    "runtime_versions": {
+      "catboost": "1.2.10",
+      "lightgbm": "4.7.0",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "pyarrow": "22.0.0",
+      "python": "3.13.1",
+      "scikit-learn": "1.7.2",
+      "xgboost": null
+    }
+  },
+  "plan": {
+    "created_at_utc": "2026-10-19T02:43:48.206823+00:00",
+    "feature_bundles": [
+      "M13+M04",
+      "M13+M05",
+      "M13+M03"
+    ],
+    "fit_cap": 24,
+    "months": [
+      "2025-06",
+      "2025-07",
+      "2025-10",
+      "2025-11"
+    ],
+    "parent_candidates": {
+      "list_aware": "M13",
+      "off_market": "C0"
+    },
+    "rationale": "test fixed listing-time feature bundles; compare list-aware children to their passing direct-M13 C1 parent and off-market bundles to C0 because M13 off-market did not pass C1",
+    "stage": "A3"
+  },
+  "stage_fits": {
+    "A0": 18,
+    "A1": 74,
+    "A2": 12,
+    "A3": 24
+  }
+}

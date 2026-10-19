@@ -1,0 +1,28 @@
+{
+  "fingerprint": "d1675c7f060802bf6be81155170d7ff4f0e3abec45905ce94907777990453277",
+  "pipeline_config": {
+    "candidate_component_sha256": "f4c4c5eb034576c62e566d012c4185ede0839e41f9ae4419bc7e14cad16f3225",
+    "frozen_component_sha256": "fe3fa6f3e036c21603b316a68120e82ff2e9cf63369059117edb3d6a392094c9",
+    "list_blend_weight": 0.75,
+    "method_id": "M13+M05",
+    "model_config": {
+      "deterministic": true,
+      "force_col_wise": true,
+      "learning_rate": 0.03,
+      "min_child_samples": 100,
+      "n_estimators": 800,
+      "n_jobs": 4,
+      "num_leaves": 63,
+      "objective": "mape",
+      "random_state": 0,
+      "reg_lambda": 5
+    },
+    "model_family": "lightgbm",
+    "month": "2025-10",
+    "parent": "C0",
+    "round_rule": "frozen first; blend in price space; final round",
+    "target_override": null,
+    "track": "list_aware"
+  },
+  "prediction_sha256": "5d032111118c0f7dcf58dbb20b6983cc7f4c3579f246f0d0dc7741eafaf70b24"
+}

@@ -1,0 +1,56 @@
+{
+  "stage": "screen",
+  "month": "2022-10",
+  "track": "off_market",
+  "allowed_months": [
+    "2022-02",
+    "2022-03",
+    "2022-10",
+    "2023-03",
+    "2023-07",
+    "2023-11",
+    "2024-03",
+    "2024-06",
+    "2024-09"
+  ],
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "prediction_path": "outputs\\model_research_next\\predictions\\screen\\components\\off_market\\C0_LGBM__2022-10.csv",
+  "component_id": "C0_LGBM",
+  "spec": {
+    "model_family": "lightgbm",
+    "model_config": {
+      "deterministic": true,
+      "force_col_wise": true,
+      "learning_rate": 0.05,
+      "min_child_samples": 100,
+      "n_estimators": 1000,
+      "n_jobs": 4,
+      "num_leaves": 31,
+      "objective": "regression",
+      "random_state": 0,
+      "reg_lambda": 5
+    },
+    "method_id": "C0",
+    "target_override": null
+  },
+  "job_fingerprint": "ae60fe65409283cacd75c453603b2bd7253e962b791ba633e2a4d8f7023e8cb6",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "code_sha256": {
+    "experiments/model_research_next/protocol.json": "b0aace3c694bcc15d867a84ef26adacc00ad0be67a630a350506605ab81a397a",
+    "experiments/model_research_next/method_registry.json": "58b9c2821f7de22563c2a37903f309168214e08f8c64eb25678cbb066bb34d65",
+    "experiments/model_research_next/methods.py": "7748792c3c515f9bbc849f6bb45819d1447aea4bfa00cd408498d575a7d4847e",
+    "experiments/model_research_next/diagnostics.py": "db11ef40180c77cc29d900058c0eb2ca93dead8fcbe2c445eb68a82a51034dc7",
+    "experiments/model_research_next/audit_months.py": "2d0edbae35f9fc318eea059cd04ff37b55f37f140f56ba2cedcc9208429d40ac",
+    "experiments/model_research_next/worker.py": "45f9f4e3ba52ad78d4e29432c88aa08650090dd72ffce7e0c6a921c5254e05ca",
+    "experiments/model_research_next/runner.py": "214bdb35c8e6742300469a459cc0573381ce1fc497e900085cca47a3ccf1bddc",
+    "experiments/model_optimization_v2/folds.py": "c22a3fa88c4414d0f003842fb0d9e2040dfbfeda9cc7f78af2c81b0da16c63de",
+    "experiments/model_optimization_v2/features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+    "experiments/model_optimization_v2/learners.py": "4c32d40b972e4ee77be3d8fe5e5728f392d0e8c0bca32680ec46263467f58a0a",
+    "experiments/model_optimization_v2/worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa",
+    "experiments/model_optimization_v2/pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+    "model_candidate_v2/winner_config.json": "26a4dea164fad3023c641ab62aa5a28f5804e6c77ff0fbb743a2317fd6378a18",
+    "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+    "model_candidate_v2/models/frozen_list_aware.json": "55da2495e9d5087cda2cdd07ada6729028bed6660bb11165c8111b2ffc98cf2a",
+    "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf"
+  }
+}

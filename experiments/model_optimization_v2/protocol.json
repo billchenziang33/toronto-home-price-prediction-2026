@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "run_id": "model_optimization_v2",
+  "parent": "model_candidate_v2",
+  "source_data": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "goal_started_at_utc": "2026-10-19T00:27:43+00:00",
+  "screen_months": ["2025-06", "2025-11"],
+  "confirmation_months": ["2025-07", "2025-10"],
+  "oof_seed_months": ["2025-02", "2025-04"],
+  "development_months": ["2025-06", "2025-07", "2025-10", "2025-11"],
+  "retrospective_benchmark_months": ["2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05"],
+  "c0": {
+    "off_market_mdape_percent": 9.173340266944011,
+    "off_market_mape_percent": 11.980344048336713,
+    "list_aware_mdape_percent": 4.235682201010668,
+    "list_aware_mape_percent": 5.35754037464399,
+    "list_aware_challenger_weight": 0.75,
+    "postprocessing": "round frozen HGBR to whole dollar; blend in price space; round final prediction"
+  },
+  "historical_v1": {
+    "off_market": {"mdape_percent": 10.595575340617833, "mape_percent": 13.400081178158745},
+    "list_aware": {"mdape_percent": 4.359647086138843, "mape_percent": 5.565052943473581}
+  },
+  "budget": {
+    "wallclock_minutes": 240,
+    "fit_cap": 180,
+    "research_wallclock_minutes": 180,
+    "final_acceptance_reserve_minutes": 60,
+    "threads": 4,
+    "development_fit_timeout_seconds": 180,
+    "final_fit_timeout_seconds": 300,
+    "stage_fit_caps": {"A0": 18, "A1": 80, "A2": 16, "A3": 24, "A4": 24, "A5": 8, "failure_buffer": 8}
+  },
+  "development_promotion": {
+    "min_relative_mdape_improvement": 0.01,
+    "min_months_improved": 3,
+    "max_month_relative_regression": 0.05,
+    "max_mape_relative_regression": 0.01,
+    "paired_home_bootstrap_upper_percentage_points_lt": 0.0,
+    "bootstrap_repeats": 10000
+  },
+  "final_promotion": {
+    "min_relative_mdape_improvement_each_track": 0.02,
+    "aspirational_relative_mdape_improvement_each_track": 0.03,
+    "min_months_improved": 4,
+    "max_month_relative_regression": 0.10,
+    "max_mape_relative_regression": 0.01,
+    "paired_home_bootstrap_upper_percentage_points_lt": 0.0,
+    "benchmark_runs_per_track": 1
+  },
+  "fit_accounting": "Every attempted real-data learner or calibration fit, including failed attempts and replay seeds, consumes one slot. Prediction cache hits and prespecified blend enumeration do not; they are logged separately.",
+  "holdout_policy": "Do not inspect the six retrospective benchmark months until final configurations are frozen. Run each final track pipeline once. Do not select a replacement after seeing its result.",
+  "hidden_target_policy": "Hidden data files are out of scope until a final candidate passes all gates; then read features only to write submission predictions. Never inspect hidden labels.",
+  "thread_policy": "Run at most one learner process at a time and use no more than four CPU threads."
+}

@@ -1,0 +1,51 @@
+{
+  "calibration_params": {
+    "global_factor": 1.0002235225585303,
+    "groups": {
+      "Condo Apt": {
+        "factor": 0.9993988124939867,
+        "n": 1725
+      },
+      "Condo Townhouse": {
+        "factor": 0.9954787829460341,
+        "n": 222
+      },
+      "Detached": {
+        "factor": 1.0160301841565849,
+        "n": 1083
+      },
+      "Freehold Townhouse": {
+        "factor": 1.0109006658059019,
+        "n": 120
+      },
+      "Semi-Detached": {
+        "factor": 1.020842224144047,
+        "n": 415
+      }
+    },
+    "max_oof_date": "2025-04-30",
+    "min_group": 100,
+    "n": 3586,
+    "pseudocount": 200.0
+  },
+  "compatibility_reuse": {
+    "method_id": "M15",
+    "reason": "code change is limited to runner orchestration and M08/M09-only house_area parsing",
+    "source_completed_event_attempt": 76,
+    "source_completed_event_timestamp_utc": "2026-10-19T01:24:10.795105+00:00"
+  },
+  "fingerprint": "fb0d0b11c11e77c2066dc8d9ad3254b79d5ab717215127497f2fdbd88d91141c",
+  "pipeline_config": {
+    "cutoff": "2025-11-01T00:00:00",
+    "method_id": "M15",
+    "method_registry_sha256": "ecd7cadc371cf2dc52d76f6644163873ff2a6f856ff22a8a9f1fe08d2ab1d980",
+    "month": "2025-11",
+    "oof_prediction_sha256": [
+      "ae687479595fd03b7cc8770fa1112c9d5dab58f76d8515c1d671a3e79b5be890",
+      "c9047ab1fc417af48797c8651b3a57e69f00938c5fbdbb6e76f18c847da4b8f2"
+    ],
+    "track": "list_aware"
+  },
+  "prediction_sha256": "656fef319ad623dbc52b69e5b95eb9c6328742de1b18df71995869bb5abbad53",
+  "prior_fingerprint": "941fea914f5b71c093fbab4a1472ae79e3f08b5a2e5ac7bad3cdd982fcb70711"
+}

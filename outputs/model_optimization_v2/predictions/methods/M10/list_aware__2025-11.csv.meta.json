@@ -1,0 +1,31 @@
+{
+  "calibration_params": {
+    "coverage": 1857,
+    "coverage_rate": 0.9946438136047134,
+    "days": 365,
+    "max_oof_date": "2025-04-30",
+    "n_oof": 3586,
+    "neighbors": 30,
+    "pseudocount": 50.0
+  },
+  "compatibility_reuse": {
+    "method_id": "M10",
+    "reason": "code change is limited to runner orchestration and M08/M09-only house_area parsing",
+    "source_completed_event_attempt": 58,
+    "source_completed_event_timestamp_utc": "2026-10-19T01:18:53.394800+00:00"
+  },
+  "fingerprint": "b885252a51d1843a2b47bb3dd51c4a35bdd0dd3167a10489759b5ef1eb624b1d",
+  "pipeline_config": {
+    "cutoff": "2025-11-01T00:00:00",
+    "method_id": "M10",
+    "method_registry_sha256": "ecd7cadc371cf2dc52d76f6644163873ff2a6f856ff22a8a9f1fe08d2ab1d980",
+    "month": "2025-11",
+    "oof_prediction_sha256": [
+      "ae687479595fd03b7cc8770fa1112c9d5dab58f76d8515c1d671a3e79b5be890",
+      "c9047ab1fc417af48797c8651b3a57e69f00938c5fbdbb6e76f18c847da4b8f2"
+    ],
+    "track": "list_aware"
+  },
+  "prediction_sha256": "f6a45d1ead9f090feb11f59417145991fd4e44153e7ddeffb26091a6c1a7d7ff",
+  "prior_fingerprint": "6c249f0f1f0f0d1a29ac173c56626743e1793689cfb526e502f504200d19c69a"
+}

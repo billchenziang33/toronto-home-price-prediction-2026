@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "run_id": "model_research_next",
+  "parent": "model_candidate_v2",
+  "source_data": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "month_audit": "outputs/model_research_next/month_audit.json",
+  "residual_diagnostic": "outputs/model_research_next/residual_diagnostics/residual_diagnostics.json",
+  "oof_seed_months": ["2022-02"],
+  "screen_months": ["2022-03", "2022-10"],
+  "confirmation_months": ["2023-03", "2023-07", "2023-11", "2024-03", "2024-06", "2024-09"],
+  "development_months": ["2022-02", "2022-03", "2022-10", "2023-03", "2023-07", "2023-11", "2024-03", "2024-06", "2024-09"],
+  "final_months": ["2025-05", "2025-08"],
+  "previously_evaluated_months": ["2024-10", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-06", "2025-07", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05"],
+  "fold_counts": {
+    "2022-02": {"train_rows": 44725, "evaluation_rows": 3201},
+    "2022-03": {"train_rows": 47926, "evaluation_rows": 3823},
+    "2022-10": {"train_rows": 65176, "evaluation_rows": 1850},
+    "2023-03": {"train_rows": 72641, "evaluation_rows": 2466},
+    "2023-07": {"train_rows": 83717, "evaluation_rows": 2010},
+    "2023-11": {"train_rows": 91213, "evaluation_rows": 1625},
+    "2024-03": {"train_rows": 97492, "evaluation_rows": 2250},
+    "2024-06": {"train_rows": 105007, "evaluation_rows": 2196},
+    "2024-09": {"train_rows": 110812, "evaluation_rows": 1825}
+  },
+  "baseline": {
+    "source": "model_candidate_v2/winner_config.json and models/frozen_list_aware.json",
+    "off_market": {"mdape_percent": 9.173340266944011, "mape_percent": 11.980344048336713},
+    "list_aware": {"mdape_percent": 4.235682201010668, "mape_percent": 5.35754037464399},
+    "list_aware_challenger_weight": 0.75,
+    "list_aware_postprocessing": "round frozen HGBR to whole dollar; blend 0.75 challenger with 0.25 rounded HGBR in dollar space; round result"
+  },
+  "screening": {
+    "score_months": ["2022-03", "2022-10"],
+    "oof_seed_role": "2022-02 supplies only past out-of-fold predictions for calibration and blend fitting; it is not included in model selection scores",
+    "shortlist_per_track": 4,
+    "ranking": "pooled screen MdAPE ascending, pooled screen MAPE ascending, then fixed card_id",
+    "screen_results_are_not_confirmation": true
+  },
+  "budget": {
+    "wallclock_minutes": 240,
+    "development_minutes": 180,
+    "final_reserve_minutes": 60,
+    "fit_cap": 180,
+    "planned_upper_bound_if_all_cards_screened_and_four_per_track_confirmed": 150,
+    "threads": 4,
+    "parallel_fit_processes": 1,
+    "fit_timeout_seconds": 240,
+    "bootstrap_repeats_screen": 2000,
+    "bootstrap_repeats_confirmation": 10000
+  },
+  "development_gate": {
+    "evaluation_months": ["2023-03", "2023-07", "2023-11", "2024-03", "2024-06", "2024-09"],
+    "min_relative_mdape_improvement": 0.01,
+    "min_month_fraction_improved": 0.75,
+    "min_months_improved": 5,
+    "max_month_relative_regression": 0.05,
+    "max_mape_relative_regression": 0.01,
+    "paired_home_bootstrap_upper_percentage_points_lt": 0.0
+  },
+  "final_gate": {
+    "months": ["2025-05", "2025-08"],
+    "min_relative_mdape_improvement_each_track": 0.01,
+    "months_must_improve": 2,
+    "max_month_relative_regression": 0.05,
+    "max_mape_relative_regression": 0.01,
+    "paired_home_bootstrap_upper_percentage_points_lt": 0.0,
+    "runs_per_frozen_candidate": 1
+  },
+  "information_policy": {
+    "fold_read_cutoff": "For each seed/screen/confirmation fold, source rows are filtered to date_sold before the first day of the following month; training rows remain strictly before that held-out month.",
+    "calibration_and_blend_fit": "Use only saved chronological OOF predictions whose sale dates are strictly earlier than the current fold cutoff.",
+    "off_market_inputs": "Never expose list_price to the off-market learner or its calibrators.",
+    "actual_sale_price_bands": "Post-hoc descriptive diagnostics only; never model features, calibration groups, or selection input.",
+    "final_months": "Do not read 2025-05 or 2025-08 labels until both track confirmation candidates are frozen and pass development gates.",
+    "hidden_labels": "Never read hidden test sale labels."
+  },
+  "selection_policy": "Shortlist is fixed after screen scoring. Confirmation outcomes cannot change candidate definitions or screen selection. Final outcomes cannot change the selected candidate.",
+  "fit_accounting": "Every real learner, calibration fit, OOF blend-weight fit, failed attempt, or retry consumes one fit. Cache hits do not. Record all starts before execution.",
+  "three_checkpoint_policy": "Track independent methods against C0 separately from direct-parent cumulative checkpoints. Attempt C0->C1->C2->C3 only when a fixed method improves both tracks against the direct parent on the screen folds; otherwise retain the parent and stop that path. No final-stage tuning."
+}

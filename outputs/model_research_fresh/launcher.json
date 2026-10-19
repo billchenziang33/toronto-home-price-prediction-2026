@@ -1,0 +1,13 @@
+{
+  "pid": 37128,
+  "started_at": "2026-10-19T03:44:29.924Z",
+  "stdout": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_research_fresh\\logs\\runner.stdout.log",
+  "stderr": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_research_fresh\\logs\\runner.stderr.log",
+  "command": [
+    "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\.venv-opt\\Scripts\\python.exe",
+    "-m",
+    "experiments.model_research_fresh.runner",
+    "--stage",
+    "all"
+  ]
+}

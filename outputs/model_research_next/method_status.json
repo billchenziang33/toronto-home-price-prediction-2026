@@ -1,0 +1,586 @@
+{
+  "LA01_Q50_raw": {
+    "card_id": "LA01_Q50_raw",
+    "track": "list_aware",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 5.090635317752419,
+        "mape_percent": 6.308007647227609
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 5.061885769100402,
+        "mape_percent": 6.300095057349121
+      },
+      "relative_mdape_improvement": 0.005647536477767163,
+      "mape_relative_change": -0.0012543722710872155,
+      "monthly_relative_improvement": {
+        "2023-03": -0.015668283862425178,
+        "2023-07": 0.011383208955555302,
+        "2023-11": 0.02699193900017115,
+        "2024-03": -0.002189568393779695,
+        "2024-06": 0.012489144578403865,
+        "2024-09": 0.015388101162088282
+      },
+      "months_improved": 4,
+      "worst_month_relative_regression": 0.015668283862425178,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.09118933074881641,
+          0.031051626435034677
+        ],
+        "repeats": 10000,
+        "seed": 1101
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.10753652410318626,
+          0.03662426259816165
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1102
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "LA02_Q50_global_oof": {
+    "card_id": "LA02_Q50_global_oof",
+    "track": "list_aware",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "LA03_Q50_type_shrink": {
+    "card_id": "LA03_Q50_type_shrink",
+    "track": "list_aware",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "LA04_Q50_type_predband": {
+    "card_id": "LA04_Q50_type_predband",
+    "track": "list_aware",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "LA05_C0_global_oof": {
+    "card_id": "LA05_C0_global_oof",
+    "track": "list_aware",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "LA06_C0_type_shrink": {
+    "card_id": "LA06_C0_type_shrink",
+    "track": "list_aware",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "LA07_C0_Q50_oof_blend": {
+    "card_id": "LA07_C0_Q50_oof_blend",
+    "track": "list_aware",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 5.090635317752419,
+        "mape_percent": 6.308007647227609
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 5.075720690351874,
+        "mape_percent": 6.290390454581391
+      },
+      "relative_mdape_improvement": 0.002929816510040233,
+      "mape_relative_change": -0.002792829944326612,
+      "monthly_relative_improvement": {
+        "2023-03": -0.009351335212833763,
+        "2023-07": 0.006470406486272836,
+        "2023-11": 0.02911375377973318,
+        "2024-03": -0.009454498335460904,
+        "2024-06": 0.0170345044741485,
+        "2024-09": 0.009384065420531908
+      },
+      "months_improved": 4,
+      "worst_month_relative_regression": 0.009454498335460904,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.061514132203799844,
+          0.034392780779779884
+        ],
+        "repeats": 10000,
+        "seed": 1100
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.07858715216195655,
+          0.032719247241359106
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1101
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "LA08_Q50_CB_oof_blend": {
+    "card_id": "LA08_Q50_CB_oof_blend",
+    "track": "list_aware",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 5.090635317752419,
+        "mape_percent": 6.308007647227609
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 5.052908098719957,
+        "mape_percent": 6.296245407794072
+      },
+      "relative_mdape_improvement": 0.007411102284403834,
+      "mape_relative_change": -0.001864652056772092,
+      "monthly_relative_improvement": {
+        "2023-03": -0.02828203690611497,
+        "2023-07": 0.014344028107179082,
+        "2023-11": 0.012260300060199712,
+        "2024-03": 0.0011919887447596547,
+        "2024-06": 0.006563459196237391,
+        "2024-09": 0.016635807188626322
+      },
+      "months_improved": 5,
+      "worst_month_relative_regression": 0.02828203690611497,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.0965386683157358,
+          0.04836514662284564
+        ],
+        "repeats": 10000,
+        "seed": 1103
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.08878848954823404,
+          0.04253976126573633
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1104
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": true,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "LA09_CB_MAE_raw": {
+    "card_id": "LA09_CB_MAE_raw",
+    "track": "list_aware",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 5.090635317752419,
+        "mape_percent": 6.308007647227609
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 5.0786125367630905,
+        "mape_percent": 6.304490760006384
+      },
+      "relative_mdape_improvement": 0.0023617447015702765,
+      "mape_relative_change": -0.0005575274187834044,
+      "monthly_relative_improvement": {
+        "2023-03": -0.02828203690611497,
+        "2023-07": 0.03605840364244935,
+        "2023-11": 0.012260300060199712,
+        "2024-03": -0.013489693108079162,
+        "2024-06": 0.001768605035365928,
+        "2024-09": -0.0034589443821356628
+      },
+      "months_improved": 3,
+      "worst_month_relative_regression": 0.02828203690611497,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.09116564187509761,
+          0.06304174069174277
+        ],
+        "repeats": 10000,
+        "seed": 1102
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.10875046033477531,
+          0.05962754132336556
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1103
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "LA10_recency_weighted": {
+    "card_id": "LA10_recency_weighted",
+    "track": "list_aware",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "OM01_Q50_raw": {
+    "card_id": "OM01_Q50_raw",
+    "track": "off_market",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 9.316052901114686,
+        "mape_percent": 12.173855525376094
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 9.35646331079141,
+        "mape_percent": 12.259334172879084
+      },
+      "relative_mdape_improvement": -0.004337717926858162,
+      "mape_relative_change": 0.007021493505061891,
+      "monthly_relative_improvement": {
+        "2023-03": -0.033445415739083155,
+        "2023-07": -0.023163901062258532,
+        "2023-11": -0.013881878595301569,
+        "2024-03": -0.00682140765555422,
+        "2024-06": -0.002503172632430713,
+        "2024-09": 0.0233206382737503
+      },
+      "months_improved": 1,
+      "worst_month_relative_regression": 0.033445415739083155,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.11227643452773162,
+          0.1955116725992739
+        ],
+        "repeats": 10000,
+        "seed": 1002
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.08381025792380292,
+          0.16302843194126915
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1003
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "OM02_Q50_global_oof": {
+    "card_id": "OM02_Q50_global_oof",
+    "track": "off_market",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "OM03_Q50_type_shrink": {
+    "card_id": "OM03_Q50_type_shrink",
+    "track": "off_market",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "OM04_C0_global_oof": {
+    "card_id": "OM04_C0_global_oof",
+    "track": "off_market",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "OM05_C0_type_shrink": {
+    "card_id": "OM05_C0_type_shrink",
+    "track": "off_market",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "OM06_C0_predband": {
+    "card_id": "OM06_C0_predband",
+    "track": "off_market",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  },
+  "OM07_C0_Q50_oof_blend": {
+    "card_id": "OM07_C0_Q50_oof_blend",
+    "track": "off_market",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 9.316052901114686,
+        "mape_percent": 12.173855525376094
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 9.322916924748613,
+        "mape_percent": 12.111393954784074
+      },
+      "relative_mdape_improvement": -0.0007367952615539273,
+      "mape_relative_change": -0.005130796111537635,
+      "monthly_relative_improvement": {
+        "2023-03": -0.009663054826682565,
+        "2023-07": -0.008427965543907087,
+        "2023-11": -0.00587107340977191,
+        "2024-03": 0.0016293145738889706,
+        "2024-06": 0.004387169521511021,
+        "2024-09": -3.8561918287845604e-05
+      },
+      "months_improved": 2,
+      "worst_month_relative_regression": 0.009663054826682565,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.08060694136235838,
+          0.07301377176366412
+        ],
+        "repeats": 10000,
+        "seed": 1001
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.07213452316608837,
+          0.06581375278774537
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1002
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "OM08_C0_recency_oof_blend": {
+    "card_id": "OM08_C0_recency_oof_blend",
+    "track": "off_market",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 9.316052901114686,
+        "mape_percent": 12.173855525376094
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 9.334114129968542,
+        "mape_percent": 12.188239617575677
+      },
+      "relative_mdape_improvement": -0.0019387211564347309,
+      "mape_relative_change": 0.0011815560131791883,
+      "monthly_relative_improvement": {
+        "2023-03": -0.0005025281850737897,
+        "2023-07": -0.007229208957095387,
+        "2023-11": 0.0,
+        "2024-03": 0.0,
+        "2024-06": 0.0,
+        "2024-09": 0.0
+      },
+      "months_improved": 0,
+      "worst_month_relative_regression": 0.007229208957095387,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.03316340719833653,
+          0.05322612241738511
+        ],
+        "repeats": 10000,
+        "seed": 1000
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.007649697815011791,
+          0.04264498693657082
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1001
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": true,
+          "mape_relative_regression_at_most_1pct": true,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "OM09_recency_weighted": {
+    "card_id": "OM09_recency_weighted",
+    "track": "off_market",
+    "status": "no_gain",
+    "screened": true,
+    "selected_for_confirmation": true,
+    "screen_status": "completed",
+    "confirmation_report": {
+      "n": 12372,
+      "parent": {
+        "n": 12372,
+        "mdape_percent": 9.316052901114686,
+        "mape_percent": 12.173855525376094
+      },
+      "candidate": {
+        "n": 12372,
+        "mdape_percent": 9.629765930817777,
+        "mape_percent": 12.472827770184406
+      },
+      "relative_mdape_improvement": -0.03367445773794984,
+      "mape_relative_change": 0.024558550426782323,
+      "monthly_relative_improvement": {
+        "2023-03": -0.03147943698022803,
+        "2023-07": -0.035627617650667784,
+        "2023-11": -0.050071560432682106,
+        "2024-03": -0.028332228676904783,
+        "2024-06": -0.026934698372538667,
+        "2024-09": -0.03429975611198013
+      },
+      "months_improved": 0,
+      "worst_month_relative_regression": 0.050071560432682106,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          0.16287261805372172,
+          0.4633430472387985
+        ],
+        "repeats": 10000,
+        "seed": 1003
+      },
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          0.20609249706428123,
+          0.4017364783606183
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 1004
+      },
+      "passes_metrics": false,
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "mdape_improvement_at_least_1pct": false,
+          "months_improved_at_least_fraction": false,
+          "worst_month_regression_at_most_5pct": false,
+          "mape_relative_regression_at_most_1pct": false,
+          "paired_home_bootstrap_upper_below_zero": false
+        }
+      }
+    }
+  },
+  "OM10_C0_rolling3mo_oof": {
+    "card_id": "OM10_C0_rolling3mo_oof",
+    "track": "off_market",
+    "status": "budget_skipped",
+    "screened": true,
+    "selected_for_confirmation": false,
+    "screen_status": "budget_skipped"
+  }
+}

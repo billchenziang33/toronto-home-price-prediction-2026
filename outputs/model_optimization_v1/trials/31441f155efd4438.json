@@ -1,0 +1,90 @@
+{
+  "categorical_columns": [
+    "house_style",
+    "municipality",
+    "community"
+  ],
+  "cutoff_exclusive": "2026-02-01T00:00:00",
+  "evaluation_ids_sha256": "dd0e7908d4c757918e1efd242eeb7c3859982bce34bc020acfb8f3cefc491e5b",
+  "evaluation_rows": 1442,
+  "feature_columns": [
+    "square_feet",
+    "bedrooms",
+    "washrooms",
+    "parking",
+    "latitude",
+    "longitude",
+    "house_style",
+    "municipality",
+    "community",
+    "months",
+    "is_Condo Apt",
+    "is_Detached",
+    "is_Semi-Detached",
+    "is_Condo Townhouse",
+    "is_Freehold Townhouse",
+    "is_Co-Op Apt"
+  ],
+  "fit_parameters": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 1.0,
+    "deterministic": true,
+    "force_col_wise": true,
+    "importance_type": "split",
+    "learning_rate": 0.05,
+    "max_depth": -1,
+    "min_child_samples": 100,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": 4,
+    "num_leaves": 31,
+    "objective": "regression",
+    "random_state": 0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 5,
+    "subsample": 1.0,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0,
+    "verbosity": -1
+  },
+  "fit_seconds": 7.751045899989549,
+  "metrics": {
+    "mape_percent": 11.644586603244619,
+    "mdape_percent": 8.993772419338274,
+    "median_signed_percent": -2.4312609236105125,
+    "n": 1442
+  },
+  "model_config": {
+    "deterministic": true,
+    "force_col_wise": true,
+    "learning_rate": 0.05,
+    "min_child_samples": 100,
+    "n_estimators": 1000,
+    "n_jobs": 4,
+    "num_leaves": 31,
+    "objective": "regression",
+    "random_state": 0,
+    "reg_lambda": 5
+  },
+  "model_family": "lightgbm",
+  "month": "2026-02",
+  "prediction_and_write_seconds": 8.004155199974775,
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\31441f155efd4438.csv",
+  "target": "log_sold_price",
+  "track": "off_market",
+  "train_ids_sha256": "f4b1c0af7a6d7c649a1578f856531aa433429e58d35e36d182854354dccb8a63",
+  "train_rows": 142227,
+  "trial_id": "31441f155efd4438",
+  "unknown_category_counts": {
+    "community": 0,
+    "house_style": 0,
+    "municipality": 0
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "archived_pair": [
+    "outputs/validation_predictions_feature_v1.csv",
+    "outputs/validation_predictions_final.csv"
+  ],
+  "reported_claim": {
+    "off_market_gain_pp": 3.8,
+    "off_market_interval": [
+      3.52,
+      4.12
+    ],
+    "list_aware_gain_pp": 0.19,
+    "list_aware_interval": [
+      0.14,
+      0.24
+    ]
+  },
+  "recomputed_from_archived_pair": {
+    "list_aware": {
+      "n": 10069,
+      "feature_v1_mdape": 4.613,
+      "frozen_mdape": 4.36,
+      "delta_pp_candidate_minus_baseline": -0.253,
+      "paired_home_bootstrap_95ci": [
+        -0.334,
+        -0.158
+      ]
+    },
+    "off_market": {
+      "n": 10069,
+      "feature_v1_mdape": 14.865,
+      "frozen_mdape": 10.596,
+      "delta_pp_candidate_minus_baseline": -4.27,
+      "paired_home_bootstrap_95ci": [
+        -4.646,
+        -3.925
+      ]
+    }
+  },
+  "disposition": "Do not use the prior feature-ablation claim in submission materials. The published point estimates and intervals are not reproduced by the archived feature_v1/frozen prediction pair, and the exact comparison baseline specification is not preserved with that claim.",
+  "method": "For each bootstrap sample, calculate median(candidate APE) minus median(baseline APE) on the same resampled home indices.",
+  "bootstrap_repeats": 2000,
+  "seed": 0
+}

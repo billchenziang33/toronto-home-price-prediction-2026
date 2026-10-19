@@ -1,0 +1,21 @@
+{
+  "baseline_prediction_path": "outputs\\model_optimization_v1\\predictions\\2b7e9157491d7b51.csv",
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "model_config": {
+    "depth": 6,
+    "has_time": true,
+    "iterations": 600,
+    "l2_leaf_reg": 3,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "random_seed": 0,
+    "thread_count": 4
+  },
+  "model_family": "catboost",
+  "month": "2025-09",
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\606cb487440afeb1.csv",
+  "result_path": "outputs\\model_optimization_v1\\trials\\606cb487440afeb1.json",
+  "target": "log_sold_price",
+  "track": "off_market",
+  "trial_id": "606cb487440afeb1"
+}

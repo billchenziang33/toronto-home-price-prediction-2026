@@ -1,0 +1,28 @@
+{
+  "fingerprint": "c4d9d5556c03798cffc2725dfdb1b4bdfcd8579a137e7d8d1d498d363aae60e8",
+  "pipeline_config": {
+    "candidate_component_sha256": "49125e40d6cfc0e9794a9609755578b0f134b4579cd93c6b45e4de1e77fb27ed",
+    "frozen_component_sha256": null,
+    "list_blend_weight": 1.0,
+    "method_id": "M13+M04",
+    "model_config": {
+      "deterministic": true,
+      "force_col_wise": true,
+      "learning_rate": 0.05,
+      "min_child_samples": 100,
+      "n_estimators": 1000,
+      "n_jobs": 4,
+      "num_leaves": 31,
+      "objective": "mape",
+      "random_state": 0,
+      "reg_lambda": 5
+    },
+    "model_family": "lightgbm",
+    "month": "2025-11",
+    "parent": "C0",
+    "round_rule": "round final",
+    "target_override": null,
+    "track": "off_market"
+  },
+  "prediction_sha256": "6bdaf63ac80a57a9034f3cfcbe35bddee9a05d687168ad0d4fb4a4cd31d86de7"
+}

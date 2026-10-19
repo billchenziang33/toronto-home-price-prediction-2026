@@ -1,0 +1,32 @@
+{
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "method_id": "C0",
+  "model_config": {
+    "categorical_features": "from_dtype",
+    "early_stopping": "auto",
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "squared_error",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "quantile": null,
+    "random_state": 0,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "model_family": "hgbr",
+  "month": "2025-10",
+  "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\components\\C0_HGBR__list_aware__2025-10.csv",
+  "target_override": "log_sold_price",
+  "track": "list_aware"
+}

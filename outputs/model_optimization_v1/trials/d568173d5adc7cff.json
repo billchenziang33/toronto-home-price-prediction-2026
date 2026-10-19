@@ -1,0 +1,82 @@
+{
+  "categorical_columns": [
+    "house_style",
+    "municipality",
+    "community"
+  ],
+  "cutoff_exclusive": "2025-11-01T00:00:00",
+  "evaluation_ids_sha256": "d0aaec3d59fd01fbe760b52bfd4987860a4d8965a1990a8943db4f3c1792eff3",
+  "evaluation_rows": 1867,
+  "feature_columns": [
+    "square_feet",
+    "bedrooms",
+    "washrooms",
+    "parking",
+    "latitude",
+    "longitude",
+    "house_style",
+    "municipality",
+    "community",
+    "months",
+    "is_Condo Apt",
+    "is_Detached",
+    "is_Semi-Detached",
+    "is_Condo Townhouse",
+    "is_Freehold Townhouse",
+    "is_Co-Op Apt"
+  ],
+  "fit_parameters": {
+    "categorical_features": "from_dtype",
+    "early_stopping": "auto",
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "squared_error",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "quantile": null,
+    "random_state": 0,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "fit_seconds": 2.885275600012392,
+  "metrics": {
+    "mape_percent": 13.692249091665145,
+    "mdape_percent": 10.584086980417416,
+    "median_signed_percent": 3.3514432029183587,
+    "n": 1867
+  },
+  "model_config": {
+    "categorical_features": "from_dtype",
+    "loss": "squared_error",
+    "random_state": 0
+  },
+  "model_family": "hgbr",
+  "month": "2025-11",
+  "prediction_and_write_seconds": 3.0881563000148162,
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\d568173d5adc7cff.csv",
+  "target": "log_sold_price",
+  "track": "off_market",
+  "train_ids_sha256": "5ccc701076622fda3e86fb8e581db5a8abaa484607e8d488403e8382897a26e6",
+  "train_rows": 138064,
+  "trial_id": "d568173d5adc7cff",
+  "unknown_category_counts": {
+    "community": 0,
+    "house_style": 0,
+    "municipality": 0
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "categorical_columns": [
+    "house_style",
+    "municipality",
+    "community"
+  ],
+  "cutoff_exclusive": "2025-06-01T00:00:00",
+  "evaluation_ids_sha256": "7ff1def645e046a70cb76be4b14dab0ff62ed347c65e3ce5e75b1d6588a5ab8a",
+  "evaluation_rows": 2283,
+  "feature_columns": [
+    "square_feet",
+    "bedrooms",
+    "washrooms",
+    "parking",
+    "latitude",
+    "longitude",
+    "house_style",
+    "municipality",
+    "community",
+    "months",
+    "is_Condo Apt",
+    "is_Detached",
+    "is_Semi-Detached",
+    "is_Condo Townhouse",
+    "is_Freehold Townhouse",
+    "is_Co-Op Apt",
+    "list_price"
+  ],
+  "fit_parameters": {
+    "allow_writing_files": false,
+    "cat_features": [
+      "house_style",
+      "municipality",
+      "community"
+    ],
+    "depth": 6,
+    "has_time": true,
+    "iterations": 600,
+    "l2_leaf_reg": 3,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "random_seed": 0,
+    "thread_count": 4,
+    "verbose": false
+  },
+  "fit_seconds": 30.516368000011425,
+  "metrics": {
+    "mape_percent": 5.95606351434567,
+    "mdape_percent": 4.814960004468907,
+    "median_signed_percent": 1.8160107009228803,
+    "n": 2283
+  },
+  "model_config": {
+    "depth": 6,
+    "has_time": true,
+    "iterations": 600,
+    "l2_leaf_reg": 3,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "random_seed": 0,
+    "thread_count": 4
+  },
+  "model_family": "catboost",
+  "month": "2025-06",
+  "prediction_and_write_seconds": 30.740017700009048,
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\ab9343657e8a3502.csv",
+  "target": "log_sold_price",
+  "track": "list_aware",
+  "train_ids_sha256": "715018bdce06b25dba0fcf1360a44250629c69eaaeeb96b210720525ccaf0b5b",
+  "train_rows": 127762,
+  "trial_id": "ab9343657e8a3502",
+  "unknown_category_counts": {
+    "community": 0,
+    "house_style": 0,
+    "municipality": 0
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  }
+}

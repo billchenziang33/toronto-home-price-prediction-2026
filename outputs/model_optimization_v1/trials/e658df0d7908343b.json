@@ -1,0 +1,83 @@
+{
+  "categorical_columns": [
+    "house_style",
+    "municipality",
+    "community"
+  ],
+  "cutoff_exclusive": "2025-06-01T00:00:00",
+  "evaluation_ids_sha256": "7ff1def645e046a70cb76be4b14dab0ff62ed347c65e3ce5e75b1d6588a5ab8a",
+  "evaluation_rows": 2283,
+  "feature_columns": [
+    "square_feet",
+    "bedrooms",
+    "washrooms",
+    "parking",
+    "latitude",
+    "longitude",
+    "house_style",
+    "municipality",
+    "community",
+    "months",
+    "is_Condo Apt",
+    "is_Detached",
+    "is_Semi-Detached",
+    "is_Condo Townhouse",
+    "is_Freehold Townhouse",
+    "is_Co-Op Apt",
+    "list_price"
+  ],
+  "fit_parameters": {
+    "categorical_features": "from_dtype",
+    "early_stopping": "auto",
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "squared_error",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "quantile": null,
+    "random_state": 0,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "fit_seconds": 2.2775951000512578,
+  "metrics": {
+    "mape_percent": 5.973013190029127,
+    "mdape_percent": 4.697325675869444,
+    "median_signed_percent": 1.9957461424527532,
+    "n": 2283
+  },
+  "model_config": {
+    "categorical_features": "from_dtype",
+    "loss": "squared_error",
+    "random_state": 0
+  },
+  "model_family": "hgbr",
+  "month": "2025-06",
+  "prediction_and_write_seconds": 2.471193100034725,
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\e658df0d7908343b.csv",
+  "target": "log_sold_price",
+  "track": "list_aware",
+  "train_ids_sha256": "715018bdce06b25dba0fcf1360a44250629c69eaaeeb96b210720525ccaf0b5b",
+  "train_rows": 127762,
+  "trial_id": "e658df0d7908343b",
+  "unknown_category_counts": {
+    "community": 0,
+    "house_style": 0,
+    "municipality": 0
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  }
+}

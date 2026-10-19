@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-10-19T02:43:48.206823+00:00",
+  "feature_bundles": [
+    "M13+M04",
+    "M13+M05",
+    "M13+M03"
+  ],
+  "fit_cap": 24,
+  "months": [
+    "2025-06",
+    "2025-07",
+    "2025-10",
+    "2025-11"
+  ],
+  "parent_candidates": {
+    "list_aware": "M13",
+    "off_market": "C0"
+  },
+  "rationale": "test fixed listing-time feature bundles; compare list-aware children to their passing direct-M13 C1 parent and off-market bundles to C0 because M13 off-market did not pass C1",
+  "stage": "A3"
+}

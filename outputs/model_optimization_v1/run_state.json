@@ -1,0 +1,20 @@
+{
+  "fit_count_by_stage": {
+    "benchmark": 17,
+    "methods": 11,
+    "pilot": 4,
+    "screen": 14,
+    "tune": 20
+  },
+  "last_stage": "package",
+  "last_updated_at_utc": "2026-10-18T21:32:38Z",
+  "package_completed_at_utc": "2026-10-18T17:29:05.370738-04:00",
+  "pilot_completed_at_utc": "2026-10-18T17:00:37.570417-04:00",
+  "real_data_fits": 66,
+  "screen_completed_at_utc": "2026-10-18T17:06:46.466305-04:00",
+  "started_at_utc": "2026-10-18T16:47:29-04:00",
+  "status": "completed",
+  "wallclock_cap_minutes": 180,
+  "completed_at_utc": "2026-10-18T21:32:38Z",
+  "stop_reason": "Both tracks passed the predeclared retrospective adoption thresholds; v2 models and CSVs were exported, reproduced, and verified at 66 of 72 real-data fits."
+}

@@ -1,0 +1,16 @@
+{
+  "baseline_prediction_path": null,
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "model_config": {
+    "categorical_features": "from_dtype",
+    "loss": "squared_error",
+    "random_state": 0
+  },
+  "model_family": "hgbr",
+  "month": "2025-09",
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\2b7e9157491d7b51.csv",
+  "result_path": "outputs\\model_optimization_v1\\trials\\2b7e9157491d7b51.json",
+  "target": "log_sold_price",
+  "track": "off_market",
+  "trial_id": "2b7e9157491d7b51"
+}

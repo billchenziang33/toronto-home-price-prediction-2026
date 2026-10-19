@@ -1,0 +1,356 @@
+{
+  "completed_at_utc": "2026-10-18T21:00:37.573814+00:00",
+  "fits_used": 4,
+  "results": [
+    {
+      "categorical_columns": [
+        "house_style",
+        "municipality",
+        "community"
+      ],
+      "cutoff_exclusive": "2025-06-01T00:00:00",
+      "evaluation_ids_sha256": "7ff1def645e046a70cb76be4b14dab0ff62ed347c65e3ce5e75b1d6588a5ab8a",
+      "evaluation_rows": 2283,
+      "feature_columns": [
+        "square_feet",
+        "bedrooms",
+        "washrooms",
+        "parking",
+        "latitude",
+        "longitude",
+        "house_style",
+        "municipality",
+        "community",
+        "months",
+        "is_Condo Apt",
+        "is_Detached",
+        "is_Semi-Detached",
+        "is_Condo Townhouse",
+        "is_Freehold Townhouse",
+        "is_Co-Op Apt"
+      ],
+      "fit_parameters": {
+        "categorical_features": "from_dtype",
+        "early_stopping": "auto",
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 0,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "fit_seconds": 2.046872099977918,
+      "metrics": {
+        "mape_percent": 14.055307183381695,
+        "mdape_percent": 11.022801744951906,
+        "median_signed_percent": 4.082195693865225,
+        "n": 2283
+      },
+      "model_config": {
+        "categorical_features": "from_dtype",
+        "loss": "squared_error",
+        "random_state": 0
+      },
+      "model_family": "hgbr",
+      "month": "2025-06",
+      "prediction_and_write_seconds": 2.22676789999241,
+      "prediction_path": "outputs\\model_optimization_v1\\predictions\\b1aed12a8bdcb77e.csv",
+      "status": "completed",
+      "target": "log_sold_price",
+      "track": "off_market",
+      "train_ids_sha256": "715018bdce06b25dba0fcf1360a44250629c69eaaeeb96b210720525ccaf0b5b",
+      "train_rows": 127762,
+      "trial_id": "b1aed12a8bdcb77e",
+      "unknown_category_counts": {
+        "community": 0,
+        "house_style": 0,
+        "municipality": 0
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "sklearn": "1.7.2"
+      }
+    },
+    {
+      "categorical_columns": [
+        "house_style",
+        "municipality",
+        "community"
+      ],
+      "cutoff_exclusive": "2025-06-01T00:00:00",
+      "evaluation_ids_sha256": "7ff1def645e046a70cb76be4b14dab0ff62ed347c65e3ce5e75b1d6588a5ab8a",
+      "evaluation_rows": 2283,
+      "feature_columns": [
+        "square_feet",
+        "bedrooms",
+        "washrooms",
+        "parking",
+        "latitude",
+        "longitude",
+        "house_style",
+        "municipality",
+        "community",
+        "months",
+        "is_Condo Apt",
+        "is_Detached",
+        "is_Semi-Detached",
+        "is_Condo Townhouse",
+        "is_Freehold Townhouse",
+        "is_Co-Op Apt"
+      ],
+      "fit_parameters": {
+        "allow_writing_files": false,
+        "cat_features": [
+          "house_style",
+          "municipality",
+          "community"
+        ],
+        "depth": 6,
+        "has_time": true,
+        "iterations": 600,
+        "l2_leaf_reg": 3,
+        "learning_rate": 0.05,
+        "loss_function": "RMSE",
+        "random_seed": 0,
+        "thread_count": 4,
+        "verbose": false
+      },
+      "fit_seconds": 31.691197799984366,
+      "metrics": {
+        "mape_percent": 14.096817413342507,
+        "mdape_percent": 11.170999347249456,
+        "median_signed_percent": 3.2777600488004373,
+        "n": 2283
+      },
+      "model_config": {
+        "depth": 6,
+        "has_time": true,
+        "iterations": 600,
+        "l2_leaf_reg": 3,
+        "learning_rate": 0.05,
+        "loss_function": "RMSE",
+        "random_seed": 0,
+        "thread_count": 4
+      },
+      "model_family": "catboost",
+      "month": "2025-06",
+      "prediction_and_write_seconds": 31.870736499957275,
+      "prediction_path": "outputs\\model_optimization_v1\\predictions\\1307f1ca3f300924.csv",
+      "status": "completed",
+      "target": "log_sold_price",
+      "track": "off_market",
+      "train_ids_sha256": "715018bdce06b25dba0fcf1360a44250629c69eaaeeb96b210720525ccaf0b5b",
+      "train_rows": 127762,
+      "trial_id": "1307f1ca3f300924",
+      "unknown_category_counts": {
+        "community": 0,
+        "house_style": 0,
+        "municipality": 0
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "sklearn": "1.7.2"
+      }
+    },
+    {
+      "categorical_columns": [
+        "house_style",
+        "municipality",
+        "community"
+      ],
+      "cutoff_exclusive": "2025-06-01T00:00:00",
+      "evaluation_ids_sha256": "7ff1def645e046a70cb76be4b14dab0ff62ed347c65e3ce5e75b1d6588a5ab8a",
+      "evaluation_rows": 2283,
+      "feature_columns": [
+        "square_feet",
+        "bedrooms",
+        "washrooms",
+        "parking",
+        "latitude",
+        "longitude",
+        "house_style",
+        "municipality",
+        "community",
+        "months",
+        "is_Condo Apt",
+        "is_Detached",
+        "is_Semi-Detached",
+        "is_Condo Townhouse",
+        "is_Freehold Townhouse",
+        "is_Co-Op Apt"
+      ],
+      "fit_parameters": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 1.0,
+        "deterministic": true,
+        "force_col_wise": true,
+        "importance_type": "split",
+        "learning_rate": 0.05,
+        "max_depth": -1,
+        "min_child_samples": 30,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1,
+        "subsample": 1.0,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 0,
+        "verbosity": -1
+      },
+      "fit_seconds": 3.4726448000292294,
+      "metrics": {
+        "mape_percent": 12.986921922603873,
+        "mdape_percent": 10.1708448354701,
+        "median_signed_percent": 3.01498502887707,
+        "n": 2283
+      },
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 30,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 1
+      },
+      "model_family": "lightgbm",
+      "month": "2025-06",
+      "prediction_and_write_seconds": 3.6864065999980085,
+      "prediction_path": "outputs\\model_optimization_v1\\predictions\\c14fb73035dd59dd.csv",
+      "status": "completed",
+      "target": "log_sold_price",
+      "track": "off_market",
+      "train_ids_sha256": "715018bdce06b25dba0fcf1360a44250629c69eaaeeb96b210720525ccaf0b5b",
+      "train_rows": 127762,
+      "trial_id": "c14fb73035dd59dd",
+      "unknown_category_counts": {
+        "community": 0,
+        "house_style": 0,
+        "municipality": 0
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "sklearn": "1.7.2"
+      }
+    },
+    {
+      "categorical_columns": [
+        "house_style",
+        "municipality",
+        "community"
+      ],
+      "cutoff_exclusive": "2025-06-01T00:00:00",
+      "evaluation_ids_sha256": "7ff1def645e046a70cb76be4b14dab0ff62ed347c65e3ce5e75b1d6588a5ab8a",
+      "evaluation_rows": 2283,
+      "feature_columns": [
+        "square_feet",
+        "bedrooms",
+        "washrooms",
+        "parking",
+        "latitude",
+        "longitude",
+        "house_style",
+        "municipality",
+        "community",
+        "months",
+        "is_Condo Apt",
+        "is_Detached",
+        "is_Semi-Detached",
+        "is_Condo Townhouse",
+        "is_Freehold Townhouse",
+        "is_Co-Op Apt",
+        "list_price"
+      ],
+      "fit_parameters": {
+        "categorical_features": "from_dtype",
+        "early_stopping": "auto",
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 0,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "fit_seconds": 2.2775951000512578,
+      "metrics": {
+        "mape_percent": 5.973013190029127,
+        "mdape_percent": 4.697325675869444,
+        "median_signed_percent": 1.9957461424527532,
+        "n": 2283
+      },
+      "model_config": {
+        "categorical_features": "from_dtype",
+        "loss": "squared_error",
+        "random_state": 0
+      },
+      "model_family": "hgbr",
+      "month": "2025-06",
+      "prediction_and_write_seconds": 2.471193100034725,
+      "prediction_path": "outputs\\model_optimization_v1\\predictions\\e658df0d7908343b.csv",
+      "status": "completed",
+      "target": "log_sold_price",
+      "track": "list_aware",
+      "train_ids_sha256": "715018bdce06b25dba0fcf1360a44250629c69eaaeeb96b210720525ccaf0b5b",
+      "train_rows": 127762,
+      "trial_id": "e658df0d7908343b",
+      "unknown_category_counts": {
+        "community": 0,
+        "house_style": 0,
+        "municipality": 0
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "sklearn": "1.7.2"
+      }
+    }
+  ],
+  "total_fits_used": 4,
+  "versions": {
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0",
+    "scikit-learn": "1.7.2",
+    "xgboost": null
+  }
+}

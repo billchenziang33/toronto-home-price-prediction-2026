@@ -1,0 +1,17 @@
+{
+  "checkpoint": "C3",
+  "dual_track_cumulative_upgrade": false,
+  "generated_at_utc": "2026-10-19T02:45:54.131320+00:00",
+  "notes": [
+    "C3 is attempted only after a C2 feature bundle passes its direct-parent gate",
+    "the C3 blend uses fixed 0.5 weight and the already fitted CatBoost challenger"
+  ],
+  "parent_by_track": {
+    "list_aware": "M13",
+    "off_market": "C0"
+  },
+  "selected_by_track": {
+    "list_aware": null,
+    "off_market": null
+  }
+}

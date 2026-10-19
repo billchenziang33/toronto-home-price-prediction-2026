@@ -1,0 +1,1 @@
+{"fit_seconds": 9.61637389997486, "metrics": {"mape_percent": 5.8243097081233355, "mdape_percent": 4.5649108355558035, "median_signed_percent": 1.7513784647315984, "n": 2283}, "trial_id": "b1841ffb05819b5d"}

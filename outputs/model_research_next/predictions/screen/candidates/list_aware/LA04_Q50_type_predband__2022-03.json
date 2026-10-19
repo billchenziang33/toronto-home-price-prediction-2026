@@ -1,0 +1,86 @@
+{
+  "card_id": "LA04_Q50_type_predband",
+  "track": "list_aware",
+  "month": "2022-03",
+  "stage": "screen",
+  "fit": {
+    "operation": "oof_predicted_band_calibration",
+    "base": "Q50",
+    "card_id": "LA04_Q50_type_predband",
+    "fit_count": 1,
+    "fit_seconds": 0.08529269997961819,
+    "calibration": {
+      "global_factor": 1.0296915784134042,
+      "group_factors": {
+        "Condo Apt|P1": {
+          "factor": 1.0355657020373668,
+          "n": 763
+        },
+        "Condo Apt|P2": {
+          "factor": 1.0283778268497985,
+          "n": 677
+        },
+        "Condo Apt|P3": {
+          "factor": 1.0268985621459101,
+          "n": 323
+        },
+        "Detached|P3": {
+          "factor": 1.0350294667551831,
+          "n": 215
+        },
+        "Detached|P4": {
+          "factor": 1.0216288671157696,
+          "n": 574
+        }
+      },
+      "group_columns": [
+        "house_type_name",
+        "predicted_price_band"
+      ],
+      "n_oof": 3201,
+      "max_oof_date": "2022-02-28",
+      "oof_months": [
+        "2022-02"
+      ],
+      "cutoff": "2022-03-01",
+      "pseudocount": 300.0,
+      "min_group": 200,
+      "max_months": null,
+      "min_oof_months": 1,
+      "clip": [
+        0.95,
+        1.05
+      ],
+      "band_edges": [
+        672777.0,
+        890660.0,
+        1321549.0
+      ],
+      "requested_bands": 4
+    },
+    "oof_signature": "e3e5d5358d332e9c4a8047d6b4b6d18bd51e1b367b5a5637441f9630f16ceeb2"
+  },
+  "prediction_sha256": "700cdead65f717ef906429ac4ba2f6605e90efc4a9b7c7edff940f40a4427c25",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "code_sha256": {
+    "experiments/model_research_next/protocol.json": "b0aace3c694bcc15d867a84ef26adacc00ad0be67a630a350506605ab81a397a",
+    "experiments/model_research_next/method_registry.json": "58b9c2821f7de22563c2a37903f309168214e08f8c64eb25678cbb066bb34d65",
+    "experiments/model_research_next/methods.py": "7748792c3c515f9bbc849f6bb45819d1447aea4bfa00cd408498d575a7d4847e",
+    "experiments/model_research_next/diagnostics.py": "db11ef40180c77cc29d900058c0eb2ca93dead8fcbe2c445eb68a82a51034dc7",
+    "experiments/model_research_next/audit_months.py": "2d0edbae35f9fc318eea059cd04ff37b55f37f140f56ba2cedcc9208429d40ac",
+    "experiments/model_research_next/worker.py": "45f9f4e3ba52ad78d4e29432c88aa08650090dd72ffce7e0c6a921c5254e05ca",
+    "experiments/model_research_next/runner.py": "214bdb35c8e6742300469a459cc0573381ce1fc497e900085cca47a3ccf1bddc",
+    "experiments/model_optimization_v2/folds.py": "c22a3fa88c4414d0f003842fb0d9e2040dfbfeda9cc7f78af2c81b0da16c63de",
+    "experiments/model_optimization_v2/features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+    "experiments/model_optimization_v2/learners.py": "4c32d40b972e4ee77be3d8fe5e5728f392d0e8c0bca32680ec46263467f58a0a",
+    "experiments/model_optimization_v2/worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa",
+    "experiments/model_optimization_v2/pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+    "model_candidate_v2/winner_config.json": "26a4dea164fad3023c641ab62aa5a28f5804e6c77ff0fbb743a2317fd6378a18",
+    "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+    "model_candidate_v2/models/frozen_list_aware.json": "55da2495e9d5087cda2cdd07ada6729028bed6660bb11165c8111b2ffc98cf2a",
+    "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf"
+  },
+  "job_fingerprint": "17c700f67e84cd35c99726dfef586ae97399f8011cb42d1c9ffbd9ad1c767970",
+  "oof_signature": "e3e5d5358d332e9c4a8047d6b4b6d18bd51e1b367b5a5637441f9630f16ceeb2",
+  "created_at_utc": "2026-10-19T06:42:29.699787+00:00"
+}

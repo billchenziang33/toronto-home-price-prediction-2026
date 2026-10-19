@@ -1,0 +1,486 @@
+{
+  "checkpoint_C1": {
+    "checkpoint": "C1",
+    "dual_track_upgrade": false,
+    "generated_at_utc": "2026-10-19T02:02:47.468628+00:00",
+    "interpretation": "A C1 promotion requires both tracks to independently pass the prespecified development gate; single-track passes are recorded but do not count as a dual-track upgrade.",
+    "parent_id": "C0",
+    "reports": [
+      {
+        "candidate": {
+          "mape_percent": 12.477721324007426,
+          "mdape_percent": 9.502929086392516,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0030459268294553976,
+        "method_id": "M04",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.08250636768611486,
+            0.08667241396846848
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.012426331298404761,
+          "2025-07": 0.010407942490105656,
+          "2025-10": -0.0053540832784592495,
+          "2025-11": -0.01221377452652068
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.12154211246364972,
+            0.11321151891830224
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.0005617466027061061,
+        "stage": "four_month_confirmation",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.01221377452652068
+      },
+      {
+        "candidate": {
+          "mape_percent": 12.453887148976044,
+          "mdape_percent": 9.520362574439096,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0011299702566338018,
+        "method_id": "M05",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.04061956783990439,
+            0.09000038084231221
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.003907014064123685,
+          "2025-07": 0.006618776883418398,
+          "2025-10": -0.013187597049748265,
+          "2025-11": -0.010951884884336344
+        },
+        "months_improved": 2,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.12034654147155051,
+            0.15894526158067784
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 12.439830510501611,
+          "mdape_percent": 9.508270324945165,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": -0.0012717612226701318,
+        "stage": "four_month_confirmation",
+        "track": "off_market",
+        "worst_month_relative_regression": 0.013187597049748265
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.414545106914402,
+          "mdape_percent": 4.34608719877858,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0011523144534386122,
+        "method_id": "M04",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.05533138634341572,
+            0.016390342609370556
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.00272806721003906,
+          "2025-07": 0.006356542989237219,
+          "2025-10": 0.00466139270875809,
+          "2025-11": 0.009750788665207677
+        },
+        "months_improved": 4,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.06488316509832175,
+            0.018859910187659697
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.006749301707806123,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.392329163784644,
+          "mdape_percent": 4.281699405642204,
+          "n": 8468
+        },
+        "mape_relative_change": -0.002955425429219492,
+        "method_id": "M13",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.17783985836170313,
+            0.02967497141526465
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.04449693047274865,
+          "2025-07": 0.03340241279419029,
+          "2025-10": -0.017494222919614662,
+          "2025-11": 0.024060522724651718
+        },
+        "months_improved": 3,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.17135072136822782,
+            -0.014056078590741304
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": true,
+        "relative_mdape_improvement": 0.021464427651936336,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.017494222919614662
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.413550056010624,
+          "mdape_percent": 4.379885596951441,
+          "n": 8468
+        },
+        "mape_relative_change": 0.0009683290039417032,
+        "method_id": "M14",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.009480232189808646,
+            0.018173655083506546
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": -0.0032557736776887085,
+          "2025-07": -0.0039008838061416035,
+          "2025-10": 0.0006217291075557639,
+          "2025-11": -0.003979116691748397
+        },
+        "months_improved": 1,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.009136241142754464,
+            0.018667551169375417
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": -0.0009749525583729489,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.003979116691748397
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.431542473212371,
+          "mdape_percent": 4.321881956397666,
+          "n": 8468
+        },
+        "mape_relative_change": 0.004295136661548685,
+        "method_id": "M19",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.0813930328571617,
+            -0.006028476144218864
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.01696151619534716,
+          "2025-07": 0.02386028169362532,
+          "2025-10": 0.007963002611520813,
+          "2025-11": 0.0004423765410764996
+        },
+        "months_improved": 4,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.12752036010014248,
+            0.02550420913780762
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.012281145133297254,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0
+      },
+      {
+        "candidate": {
+          "mape_percent": 5.383875458556613,
+          "mdape_percent": 4.3472525659616466,
+          "n": 8468
+        },
+        "mape_relative_change": -0.004518520091399406,
+        "method_id": "M20",
+        "month_cluster_sensitivity": {
+          "ci95_percentage_points": [
+            -0.07060270729369567,
+            -0.0009380520855151175
+          ],
+          "clusters": 4,
+          "repeats": 10000,
+          "seed": 20261020
+        },
+        "monthly_relative_improvement": {
+          "2025-06": 0.009424418739230412,
+          "2025-07": 0.008726980797815536,
+          "2025-10": 0.023105261747925578,
+          "2025-11": 0.013155086130890505
+        },
+        "months_improved": 4,
+        "n": 8468,
+        "paired_home_bootstrap": {
+          "ci95_percentage_points": [
+            -0.08489160475673407,
+            0.02529106838779797
+          ],
+          "repeats": 10000,
+          "seed": 20261019
+        },
+        "parent": {
+          "mape_percent": 5.408313029641626,
+          "mdape_percent": 4.375619575451887,
+          "n": 8468
+        },
+        "passes_metrics": false,
+        "relative_mdape_improvement": 0.006482969783156086,
+        "stage": "four_month_confirmation",
+        "track": "list_aware",
+        "worst_month_relative_regression": 0.0
+      }
+    ],
+    "selected_by_track": {
+      "list_aware": {
+        "method_id": "M13",
+        "metrics": {
+          "candidate": {
+            "mape_percent": 5.392329163784644,
+            "mdape_percent": 4.281699405642204,
+            "n": 8468
+          },
+          "mape_relative_change": -0.002955425429219492,
+          "method_id": "M13",
+          "month_cluster_sensitivity": {
+            "ci95_percentage_points": [
+              -0.17783985836170313,
+              0.02967497141526465
+            ],
+            "clusters": 4,
+            "repeats": 10000,
+            "seed": 20261020
+          },
+          "monthly_relative_improvement": {
+            "2025-06": 0.04449693047274865,
+            "2025-07": 0.03340241279419029,
+            "2025-10": -0.017494222919614662,
+            "2025-11": 0.024060522724651718
+          },
+          "months_improved": 3,
+          "n": 8468,
+          "paired_home_bootstrap": {
+            "ci95_percentage_points": [
+              -0.17135072136822782,
+              -0.014056078590741304
+            ],
+            "repeats": 10000,
+            "seed": 20261019
+          },
+          "parent": {
+            "mape_percent": 5.408313029641626,
+            "mdape_percent": 4.375619575451887,
+            "n": 8468
+          },
+          "passes_metrics": true,
+          "relative_mdape_improvement": 0.021464427651936336,
+          "stage": "four_month_confirmation",
+          "track": "list_aware",
+          "worst_month_relative_regression": 0.017494222919614662
+        },
+        "relative_mdape_improvement": 0.021464427651936336
+      },
+      "off_market": null
+    },
+    "selection_gate": {
+      "bootstrap_repeats": 10000,
+      "max_mape_relative_regression": 0.01,
+      "max_month_relative_regression": 0.05,
+      "min_months_improved": 3,
+      "min_relative_mdape_improvement": 0.01,
+      "paired_home_bootstrap_upper_percentage_points_lt": 0.0
+    }
+  },
+  "completed_predictions": [
+    {
+      "method_id": "M04",
+      "month": "2025-07",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M04\\off_market__2025-07.csv",
+      "track": "off_market"
+    },
+    {
+      "method_id": "M04",
+      "month": "2025-10",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M04\\off_market__2025-10.csv",
+      "track": "off_market"
+    },
+    {
+      "method_id": "M05",
+      "month": "2025-07",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M05\\off_market__2025-07.csv",
+      "track": "off_market"
+    },
+    {
+      "method_id": "M05",
+      "month": "2025-10",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M05\\off_market__2025-10.csv",
+      "track": "off_market"
+    },
+    {
+      "method_id": "M04",
+      "month": "2025-07",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M04\\list_aware__2025-07.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M04",
+      "month": "2025-10",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M04\\list_aware__2025-10.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M13",
+      "month": "2025-07",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M13\\list_aware__2025-07.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M13",
+      "month": "2025-10",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M13\\list_aware__2025-10.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M14",
+      "month": "2025-07",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M14\\list_aware__2025-07.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M14",
+      "month": "2025-10",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M14\\list_aware__2025-10.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M19",
+      "month": "2025-07",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M19\\list_aware__2025-07.csv",
+      "track": "list_aware"
+    },
+    {
+      "method_id": "M19",
+      "month": "2025-10",
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\methods\\M19\\list_aware__2025-10.csv",
+      "track": "list_aware"
+    }
+  ],
+  "confirmation_plan": {
+    "candidates": {
+      "derived_blends": {
+        "list_aware": [
+          "M20"
+        ]
+      },
+      "list_aware": [
+        "M04",
+        "M13",
+        "M14",
+        "M19"
+      ],
+      "off_market": [
+        "M04",
+        "M05"
+      ]
+    },
+    "created_at_utc": "2026-10-19T01:55:12.736413+00:00",
+    "fit_cap": 16,
+    "months_to_add": [
+      "2025-07",
+      "2025-10"
+    ],
+    "selection_basis": "best two-month screen candidates by track, including all list-aware candidates with positive screen delta or materially different learner family; no off-market candidate screened positive",
+    "stage": "A2"
+  },
+  "elapsed_minutes": 95.07,
+  "fit_attempts": 104,
+  "stage_fits": {
+    "A0": 18,
+    "A1": 74,
+    "A2": 12
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "elapsed_seconds": 606.7,
+  "tracks": {
+    "off_market": {
+      "overall": {
+        "n": 10069,
+        "baseline_mdape": 10.596,
+        "remarks_mdape": 10.454,
+        "mdape_delta_pp_remarks_minus_baseline": -0.141,
+        "baseline_mape": 13.4,
+        "remarks_mape": 13.054,
+        "mape_delta_pp_remarks_minus_baseline": -0.346,
+        "remarks_median_signed_error": -0.066,
+        "paired_mdape_delta_95ci": [
+          -0.245,
+          -0.102
+        ]
+      },
+      "months": {
+        "2025-12": {
+          "n": 1238,
+          "baseline_mdape": 10.901,
+          "remarks_mdape": 10.815,
+          "mdape_delta_pp_remarks_minus_baseline": -0.086,
+          "baseline_mape": 13.834,
+          "remarks_mape": 13.607,
+          "mape_delta_pp_remarks_minus_baseline": -0.227,
+          "remarks_median_signed_error": 4.131,
+          "paired_mdape_delta_95ci": [
+            -0.295,
+            0.071
+          ]
+        },
+        "2026-01": {
+          "n": 1058,
+          "baseline_mdape": 10.434,
+          "remarks_mdape": 10.225,
+          "mdape_delta_pp_remarks_minus_baseline": -0.209,
+          "baseline_mape": 13.399,
+          "remarks_mape": 13.232,
+          "mape_delta_pp_remarks_minus_baseline": -0.167,
+          "remarks_median_signed_error": 1.013,
+          "paired_mdape_delta_95ci": [
+            -0.444,
+            -0.076
+          ]
+        },
+        "2026-02": {
+          "n": 1442,
+          "baseline_mdape": 10.375,
+          "remarks_mdape": 10.283,
+          "mdape_delta_pp_remarks_minus_baseline": -0.092,
+          "baseline_mape": 12.93,
+          "remarks_mape": 12.595,
+          "mape_delta_pp_remarks_minus_baseline": -0.335,
+          "remarks_median_signed_error": -1.616,
+          "paired_mdape_delta_95ci": [
+            -0.319,
+            -0.027
+          ]
+        },
+        "2026-03": {
+          "n": 1816,
+          "baseline_mdape": 10.397,
+          "remarks_mdape": 10.076,
+          "mdape_delta_pp_remarks_minus_baseline": -0.321,
+          "baseline_mape": 13.277,
+          "remarks_mape": 12.717,
+          "mape_delta_pp_remarks_minus_baseline": -0.56,
+          "remarks_median_signed_error": -1.727,
+          "paired_mdape_delta_95ci": [
+            -0.52,
+            -0.209
+          ]
+        },
+        "2026-04": {
+          "n": 2224,
+          "baseline_mdape": 10.481,
+          "remarks_mdape": 10.557,
+          "mdape_delta_pp_remarks_minus_baseline": 0.076,
+          "baseline_mape": 13.304,
+          "remarks_mape": 12.968,
+          "mape_delta_pp_remarks_minus_baseline": -0.336,
+          "remarks_median_signed_error": -0.145,
+          "paired_mdape_delta_95ci": [
+            -0.256,
+            0.041
+          ]
+        },
+        "2026-05": {
+          "n": 2291,
+          "baseline_mdape": 10.973,
+          "remarks_mdape": 10.887,
+          "mdape_delta_pp_remarks_minus_baseline": -0.087,
+          "baseline_mape": 13.652,
+          "remarks_mape": 13.314,
+          "mape_delta_pp_remarks_minus_baseline": -0.339,
+          "remarks_median_signed_error": -0.267,
+          "paired_mdape_delta_95ci": [
+            -0.218,
+            0.049
+          ]
+        }
+      },
+      "selection_dec_to_feb": {
+        "n": 3738,
+        "baseline_mdape": 10.566,
+        "remarks_mdape": 10.389,
+        "mdape_delta_pp_remarks_minus_baseline": -0.177,
+        "baseline_mape": 13.362,
+        "remarks_mape": 13.11,
+        "mape_delta_pp_remarks_minus_baseline": -0.252,
+        "remarks_median_signed_error": 0.892,
+        "paired_mdape_delta_95ci": [
+          -0.283,
+          -0.075
+        ]
+      },
+      "confirmation_mar_to_may": {
+        "n": 6331,
+        "baseline_mdape": 10.601,
+        "remarks_mdape": 10.5,
+        "mdape_delta_pp_remarks_minus_baseline": -0.101,
+        "baseline_mape": 13.423,
+        "remarks_mape": 13.021,
+        "mape_delta_pp_remarks_minus_baseline": -0.401,
+        "remarks_median_signed_error": -0.692,
+        "paired_mdape_delta_95ci": [
+          -0.265,
+          -0.093
+        ]
+      }
+    },
+    "list_aware": {
+      "overall": {
+        "n": 10069,
+        "baseline_mdape": 4.36,
+        "remarks_mdape": 4.34,
+        "mdape_delta_pp_remarks_minus_baseline": -0.019,
+        "baseline_mape": 5.565,
+        "remarks_mape": 5.509,
+        "mape_delta_pp_remarks_minus_baseline": -0.056,
+        "remarks_median_signed_error": 0.614,
+        "paired_mdape_delta_95ci": [
+          -0.057,
+          -0.016
+        ]
+      },
+      "months": {
+        "2025-12": {
+          "n": 1238,
+          "baseline_mdape": 4.091,
+          "remarks_mdape": 4.139,
+          "mdape_delta_pp_remarks_minus_baseline": 0.048,
+          "baseline_mape": 5.317,
+          "remarks_mape": 5.32,
+          "mape_delta_pp_remarks_minus_baseline": 0.004,
+          "remarks_median_signed_error": 1.534,
+          "paired_mdape_delta_95ci": [
+            -0.052,
+            0.073
+          ]
+        },
+        "2026-01": {
+          "n": 1058,
+          "baseline_mdape": 4.164,
+          "remarks_mdape": 4.134,
+          "mdape_delta_pp_remarks_minus_baseline": -0.029,
+          "baseline_mape": 5.264,
+          "remarks_mape": 5.21,
+          "mape_delta_pp_remarks_minus_baseline": -0.054,
+          "remarks_median_signed_error": 1.41,
+          "paired_mdape_delta_95ci": [
+            -0.076,
+            0.03
+          ]
+        },
+        "2026-02": {
+          "n": 1442,
+          "baseline_mdape": 4.416,
+          "remarks_mdape": 4.358,
+          "mdape_delta_pp_remarks_minus_baseline": -0.058,
+          "baseline_mape": 5.494,
+          "remarks_mape": 5.432,
+          "mape_delta_pp_remarks_minus_baseline": -0.061,
+          "remarks_median_signed_error": 0.205,
+          "paired_mdape_delta_95ci": [
+            -0.084,
+            0.002
+          ]
+        },
+        "2026-03": {
+          "n": 1816,
+          "baseline_mdape": 4.239,
+          "remarks_mdape": 4.205,
+          "mdape_delta_pp_remarks_minus_baseline": -0.033,
+          "baseline_mape": 5.589,
+          "remarks_mape": 5.546,
+          "mape_delta_pp_remarks_minus_baseline": -0.043,
+          "remarks_median_signed_error": -0.432,
+          "paired_mdape_delta_95ci": [
+            -0.085,
+            -0.001
+          ]
+        },
+        "2026-04": {
+          "n": 2224,
+          "baseline_mdape": 4.321,
+          "remarks_mdape": 4.313,
+          "mdape_delta_pp_remarks_minus_baseline": -0.008,
+          "baseline_mape": 5.563,
+          "remarks_mape": 5.496,
+          "mape_delta_pp_remarks_minus_baseline": -0.067,
+          "remarks_median_signed_error": 0.63,
+          "paired_mdape_delta_95ci": [
+            -0.086,
+            -0.001
+          ]
+        },
+        "2026-05": {
+          "n": 2291,
+          "baseline_mdape": 4.716,
+          "remarks_mdape": 4.68,
+          "mdape_delta_pp_remarks_minus_baseline": -0.036,
+          "baseline_mape": 5.866,
+          "remarks_mape": 5.779,
+          "mape_delta_pp_remarks_minus_baseline": -0.087,
+          "remarks_median_signed_error": 0.849,
+          "paired_mdape_delta_95ci": [
+            -0.09,
+            -0.002
+          ]
+        }
+      },
+      "selection_dec_to_feb": {
+        "n": 3738,
+        "baseline_mdape": 4.239,
+        "remarks_mdape": 4.223,
+        "mdape_delta_pp_remarks_minus_baseline": -0.016,
+        "baseline_mape": 5.37,
+        "remarks_mape": 5.332,
+        "mape_delta_pp_remarks_minus_baseline": -0.038,
+        "remarks_median_signed_error": 1.003,
+        "paired_mdape_delta_95ci": [
+          -0.055,
+          0.004
+        ]
+      },
+      "confirmation_mar_to_may": {
+        "n": 6331,
+        "baseline_mdape": 4.443,
+        "remarks_mdape": 4.405,
+        "mdape_delta_pp_remarks_minus_baseline": -0.037,
+        "baseline_mape": 5.68,
+        "remarks_mape": 5.613,
+        "mape_delta_pp_remarks_minus_baseline": -0.067,
+        "remarks_median_signed_error": 0.396,
+        "paired_mdape_delta_95ci": [
+          -0.068,
+          -0.019
+        ]
+      }
+    }
+  }
+}

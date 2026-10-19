@@ -1,0 +1,1326 @@
+{
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "prediction_source": "outputs/model_research_fresh/predictions/development/pipelines/",
+  "months": [
+    "2024-10",
+    "2024-12",
+    "2025-01",
+    "2025-03"
+  ],
+  "source_filter_exclusive": "2025-04-01",
+  "source_columns_read": [
+    "ml_num",
+    "date_sold",
+    "sold_price",
+    "house_type_name",
+    "house_style",
+    "municipality",
+    "community"
+  ],
+  "actual_price_band_policy": "post-hoc descriptive segmentation only; never used as model feature or calibration input",
+  "min_segment_n": 100,
+  "results": {
+    "off_market/Gamma": {
+      "overall": {
+        "n": 7066,
+        "parent_mdape_percent": 9.174460382464988,
+        "candidate_mdape_percent": 9.063610596259114,
+        "relative_mdape_improvement": 0.012082431182300301,
+        "parent_mape_percent": 11.786659677052748,
+        "candidate_mape_percent": 11.900594394311314,
+        "relative_mape_change": 0.009666412739512914,
+        "parent_median_signed_error_percent": 0.06881081788560761,
+        "candidate_median_signed_error_percent": 0.7713639908100262
+      },
+      "by_group": {
+        "month": {
+          "2024-10": {
+            "n": 2451,
+            "parent_mdape_percent": 9.002957850628544,
+            "candidate_mdape_percent": 8.861482558139535,
+            "relative_mdape_improvement": 0.01571431243334452,
+            "parent_mape_percent": 11.58579801486293,
+            "candidate_mape_percent": 11.70776836074988,
+            "relative_mape_change": 0.010527573994512915,
+            "parent_median_signed_error_percent": -0.6994047619047619,
+            "candidate_median_signed_error_percent": 0.009203980099502488
+          },
+          "2024-12": {
+            "n": 1345,
+            "parent_mdape_percent": 9.345132743362832,
+            "candidate_mdape_percent": 9.400052534804308,
+            "relative_mdape_improvement": -0.005876833743263987,
+            "parent_mape_percent": 12.323476902663588,
+            "candidate_mape_percent": 12.478512553814554,
+            "relative_mape_change": 0.012580512170023749,
+            "parent_median_signed_error_percent": 1.709795045894631,
+            "candidate_median_signed_error_percent": 2.2291860760565765
+          },
+          "2025-01": {
+            "n": 1339,
+            "parent_mdape_percent": 9.035431512272368,
+            "candidate_mdape_percent": 9.046672582076308,
+            "relative_mdape_improvement": -0.0012441099009684582,
+            "parent_mape_percent": 11.817386407210778,
+            "candidate_mape_percent": 12.059989156578341,
+            "relative_mape_change": 0.02052930665104858,
+            "parent_median_signed_error_percent": 1.0682444852941178,
+            "candidate_median_signed_error_percent": 1.8366430668278364
+          },
+          "2025-03": {
+            "n": 1931,
+            "parent_mdape_percent": 9.219969564577095,
+            "candidate_mdape_percent": 8.98560103543116,
+            "relative_mdape_improvement": 0.02541966407854254,
+            "parent_mape_percent": 11.646395396316889,
+            "candidate_mape_percent": 11.632281135404881,
+            "relative_mape_change": -0.0012118995132580934,
+            "parent_median_signed_error_percent": -0.7486258702821547,
+            "candidate_median_signed_error_percent": -0.13826025459688826
+          }
+        },
+        "actual_price_band": {
+          "Q1": {
+            "n": 1767,
+            "parent_mdape_percent": 7.635654885654886,
+            "candidate_mdape_percent": 7.579642421779765,
+            "relative_mdape_improvement": 0.0073356463478138675,
+            "parent_mape_percent": 10.130641172188954,
+            "candidate_mape_percent": 10.368302276868123,
+            "relative_mape_change": 0.023459631097349134,
+            "parent_median_signed_error_percent": 5.207182320441989,
+            "candidate_median_signed_error_percent": 5.665519783730646
+          },
+          "Q2": {
+            "n": 1766,
+            "parent_mdape_percent": 8.07791701343263,
+            "candidate_mdape_percent": 7.940900611830278,
+            "relative_mdape_improvement": 0.01696184813170401,
+            "parent_mape_percent": 10.687428715255832,
+            "candidate_mape_percent": 10.874839941960415,
+            "relative_mape_change": 0.017535670337343337,
+            "parent_median_signed_error_percent": 0.32829819108056935,
+            "candidate_median_signed_error_percent": 0.8409421464873064
+          },
+          "Q3": {
+            "n": 1766,
+            "parent_mdape_percent": 9.26016682092644,
+            "candidate_mdape_percent": 9.142208591046277,
+            "relative_mdape_improvement": 0.012738240267291586,
+            "parent_mape_percent": 11.236196898448293,
+            "candidate_mape_percent": 11.40680037795391,
+            "relative_mape_change": 0.015183382869445572,
+            "parent_median_signed_error_percent": -1.1422398636533728,
+            "candidate_median_signed_error_percent": 0.04783260664017024
+          },
+          "Q4": {
+            "n": 1767,
+            "parent_mdape_percent": 12.654318181818182,
+            "candidate_mdape_percent": 12.385321647886483,
+            "relative_mdape_improvement": 0.021257291785044145,
+            "parent_mape_percent": 15.091438309561596,
+            "candidate_mape_percent": 14.951575020944583,
+            "relative_mape_change": -0.009267724238610098,
+            "parent_median_signed_error_percent": -7.2283271587346825,
+            "candidate_median_signed_error_percent": -5.579837238669847
+          }
+        },
+        "house_type_name": {
+          "Condo Apt": {
+            "n": 3560,
+            "parent_mdape_percent": 7.9117554655426465,
+            "candidate_mdape_percent": 7.7369158107657245,
+            "relative_mdape_improvement": 0.022098718234958768,
+            "parent_mape_percent": 10.281388735132445,
+            "candidate_mape_percent": 10.332177290730552,
+            "relative_mape_change": 0.004939853642977021,
+            "parent_median_signed_error_percent": 0.5822969628456276,
+            "candidate_median_signed_error_percent": 0.9301974968494926
+          },
+          "Condo Townhouse": {
+            "n": 427,
+            "parent_mdape_percent": 7.4967770615692375,
+            "candidate_mdape_percent": 7.660231095509727,
+            "relative_mdape_improvement": -0.0218032405923346,
+            "parent_mape_percent": 9.179696610445424,
+            "candidate_mape_percent": 9.34054260660525,
+            "relative_mape_change": 0.01752192942594669,
+            "parent_median_signed_error_percent": -0.05091526245605528,
+            "candidate_median_signed_error_percent": 0.40290661719233145
+          },
+          "Detached": {
+            "n": 2099,
+            "parent_mdape_percent": 11.324749163879599,
+            "candidate_mdape_percent": 11.624480805538074,
+            "relative_mdape_improvement": -0.026466956337935704,
+            "parent_mape_percent": 14.291044191103898,
+            "candidate_mape_percent": 14.48596505170891,
+            "relative_mape_change": 0.013639371483180231,
+            "parent_median_signed_error_percent": -0.4194976771196283,
+            "candidate_median_signed_error_percent": 1.0833017317658955
+          },
+          "Freehold Townhouse": {
+            "n": 274,
+            "parent_mdape_percent": 10.20377364449568,
+            "candidate_mdape_percent": 10.174955314918801,
+            "relative_mdape_improvement": 0.002824281543370443,
+            "parent_mape_percent": 12.702820269984034,
+            "candidate_mape_percent": 12.784870853534931,
+            "relative_mape_change": 0.006459241476066342,
+            "parent_median_signed_error_percent": 0.24345578756498704,
+            "candidate_median_signed_error_percent": 0.27445659393957533
+          },
+          "Semi-Detached": {
+            "n": 673,
+            "parent_mdape_percent": 10.938126104890983,
+            "candidate_mdape_percent": 11.163439275941906,
+            "relative_mdape_improvement": -0.020598882193374406,
+            "parent_mape_percent": 13.130619993145615,
+            "candidate_mape_percent": 13.25914196351685,
+            "relative_mape_change": 0.009787959017801556,
+            "parent_median_signed_error_percent": -2.5319498924459065,
+            "candidate_median_signed_error_percent": -1.3292137476459511
+          }
+        },
+        "house_style": {
+          "2 1/2 Storey": {
+            "n": 147,
+            "parent_mdape_percent": 13.50968288549988,
+            "candidate_mdape_percent": 12.313589628967367,
+            "relative_mdape_improvement": 0.0885359979704849,
+            "parent_mape_percent": 14.81945160160121,
+            "candidate_mape_percent": 14.995773853169794,
+            "relative_mape_change": 0.011898028099064905,
+            "parent_median_signed_error_percent": -1.6922228060956386,
+            "candidate_median_signed_error_percent": -0.20584884162552222
+          },
+          "2-Storey": {
+            "n": 1736,
+            "parent_mdape_percent": 11.032090233907496,
+            "candidate_mdape_percent": 11.252622228613271,
+            "relative_mdape_improvement": -0.01999004631306971,
+            "parent_mape_percent": 13.885716731950216,
+            "candidate_mape_percent": 13.96500139219847,
+            "relative_mape_change": 0.005709799629271165,
+            "parent_median_signed_error_percent": -1.6368586946292805,
+            "candidate_median_signed_error_percent": -0.5528270130136121
+          },
+          "3-Storey": {
+            "n": 452,
+            "parent_mdape_percent": 10.54900556224105,
+            "candidate_mdape_percent": 11.1451581282055,
+            "relative_mdape_improvement": -0.05651267908117424,
+            "parent_mape_percent": 13.416944186022176,
+            "candidate_mape_percent": 13.795028891777669,
+            "relative_mape_change": 0.028179643629238815,
+            "parent_median_signed_error_percent": 1.17773623895842,
+            "candidate_median_signed_error_percent": 1.9988878966282557
+          },
+          "Apartment": {
+            "n": 3375,
+            "parent_mdape_percent": 7.82245348470514,
+            "candidate_mdape_percent": 7.643364928909953,
+            "relative_mdape_improvement": 0.022894166919030054,
+            "parent_mape_percent": 9.928907533386653,
+            "candidate_mape_percent": 9.9659957853386,
+            "relative_mape_change": 0.003735380939668953,
+            "parent_median_signed_error_percent": 0.5804897631473304,
+            "candidate_median_signed_error_percent": 0.8992468619246862
+          },
+          "Bungalow": {
+            "n": 650,
+            "parent_mdape_percent": 10.693126673948765,
+            "candidate_mdape_percent": 10.833879894202607,
+            "relative_mdape_improvement": -0.013162962017157562,
+            "parent_mape_percent": 13.072029623565456,
+            "candidate_mape_percent": 13.298336058145257,
+            "relative_mape_change": 0.017312264514137064,
+            "parent_median_signed_error_percent": 0.47229573914234696,
+            "candidate_median_signed_error_percent": 2.03409579164175
+          },
+          "Bungalow-Raised": {
+            "n": 110,
+            "parent_mdape_percent": 9.741827041371506,
+            "candidate_mdape_percent": 10.273740236023606,
+            "relative_mdape_improvement": -0.05460096883194249,
+            "parent_mape_percent": 12.719138015342768,
+            "candidate_mape_percent": 13.411306740188964,
+            "relative_mape_change": 0.05441946804974133,
+            "parent_median_signed_error_percent": 0.05115346474883858,
+            "candidate_median_signed_error_percent": 2.4462585820741376
+          },
+          "Loft": {
+            "n": 121,
+            "parent_mdape_percent": 8.738830486202366,
+            "candidate_mdape_percent": 8.819169027384325,
+            "relative_mdape_improvement": -0.009193282935148428,
+            "parent_mape_percent": 13.717950218202855,
+            "candidate_mape_percent": 14.042628078081744,
+            "relative_mape_change": 0.023668103084968355,
+            "parent_median_signed_error_percent": 0.9152620112372435,
+            "candidate_median_signed_error_percent": 1.0921751878321422
+          }
+        },
+        "municipality": {
+          "Etobicoke": {
+            "n": 678,
+            "parent_mdape_percent": 9.614200742295548,
+            "candidate_mdape_percent": 9.66366601289709,
+            "relative_mdape_improvement": -0.0051450216120338624,
+            "parent_mape_percent": 11.669120747071021,
+            "candidate_mape_percent": 11.761028770637212,
+            "relative_mape_change": 0.00787617384019786,
+            "parent_median_signed_error_percent": 0.417340147365833,
+            "candidate_median_signed_error_percent": 0.6750097220679929
+          },
+          "North York": {
+            "n": 1318,
+            "parent_mdape_percent": 8.243464025105684,
+            "candidate_mdape_percent": 8.413760414864786,
+            "relative_mdape_improvement": -0.020658352998261385,
+            "parent_mape_percent": 11.428508709137937,
+            "candidate_mape_percent": 11.565862912694724,
+            "relative_mape_change": 0.012018558768473684,
+            "parent_median_signed_error_percent": -0.3653915909746094,
+            "candidate_median_signed_error_percent": 0.4630494926078208
+          },
+          "Scarborough": {
+            "n": 977,
+            "parent_mdape_percent": 9.17930449533503,
+            "candidate_mdape_percent": 8.819990165839704,
+            "relative_mdape_improvement": 0.03914396016364114,
+            "parent_mape_percent": 11.757839981932781,
+            "candidate_mape_percent": 11.937773389335229,
+            "relative_mape_change": 0.015303270641455867,
+            "parent_median_signed_error_percent": -0.5927818588310444,
+            "candidate_median_signed_error_percent": 0.5344738206324521
+          },
+          "Toronto": {
+            "n": 4019,
+            "parent_mdape_percent": 9.350509930220076,
+            "candidate_mdape_percent": 9.311880409126672,
+            "relative_mdape_improvement": 0.00413127427078131,
+            "parent_mape_percent": 11.96665942462334,
+            "candidate_mape_percent": 12.063580627447335,
+            "relative_mape_change": 0.008099269761497765,
+            "parent_median_signed_error_percent": 0.37541133455210235,
+            "candidate_median_signed_error_percent": 0.915521978021978
+          }
+        },
+        "community": {
+          "Ashworth": {
+            "n": 109,
+            "parent_mdape_percent": 9.087634356541106,
+            "candidate_mdape_percent": 8.130249447426587,
+            "relative_mdape_improvement": 0.10535028936605606,
+            "parent_mape_percent": 11.905523629287474,
+            "candidate_mape_percent": 11.763627724623968,
+            "relative_mape_change": -0.011918493388601917,
+            "parent_median_signed_error_percent": -1.3882705079038444,
+            "candidate_median_signed_error_percent": -1.8299628559636814
+          },
+          "Beechbourne": {
+            "n": 126,
+            "parent_mdape_percent": 10.014582173307812,
+            "candidate_mdape_percent": 8.872881050862276,
+            "relative_mdape_improvement": 0.11400386982579748,
+            "parent_mape_percent": 13.578455363669843,
+            "candidate_mape_percent": 13.668694846439218,
+            "relative_mape_change": 0.006645784100805566,
+            "parent_median_signed_error_percent": -0.6524932457598533,
+            "candidate_median_signed_error_percent": -1.2417818785029113
+          },
+          "Cedarview": {
+            "n": 116,
+            "parent_mdape_percent": 9.098725510732411,
+            "candidate_mdape_percent": 9.41887027548384,
+            "relative_mdape_improvement": -0.03518567126503621,
+            "parent_mape_percent": 11.755746692781528,
+            "candidate_mape_percent": 12.072527392779154,
+            "relative_mape_change": 0.026946880387627013,
+            "parent_median_signed_error_percent": 2.039946815232056,
+            "candidate_median_signed_error_percent": 2.3223602485298196
+          },
+          "Cypressdale": {
+            "n": 106,
+            "parent_mdape_percent": 12.29981390516203,
+            "candidate_mdape_percent": 12.078934432863452,
+            "relative_mdape_improvement": 0.01795795237242392,
+            "parent_mape_percent": 13.722614492915309,
+            "candidate_mape_percent": 13.6869315149961,
+            "relative_mape_change": -0.0026003046239935273,
+            "parent_median_signed_error_percent": 1.4657800925178148,
+            "candidate_median_signed_error_percent": 2.041890251232418
+          },
+          "Cypresspark": {
+            "n": 100,
+            "parent_mdape_percent": 7.2620007539563165,
+            "candidate_mdape_percent": 8.016748502639203,
+            "relative_mdape_improvement": -0.10393110304645756,
+            "parent_mape_percent": 9.818570681129223,
+            "candidate_mape_percent": 9.973328625473782,
+            "relative_mape_change": 0.01576175895357099,
+            "parent_median_signed_error_percent": -0.1862768225460271,
+            "candidate_median_signed_error_percent": 0.3408808088829163
+          },
+          "Elmview": {
+            "n": 122,
+            "parent_mdape_percent": 11.038598482459719,
+            "candidate_mdape_percent": 9.462367825028721,
+            "relative_mdape_improvement": 0.14279264346244866,
+            "parent_mape_percent": 14.640345246790853,
+            "candidate_mape_percent": 14.88250004171419,
+            "relative_mape_change": 0.01654023800951123,
+            "parent_median_signed_error_percent": -0.5946697327580732,
+            "candidate_median_signed_error_percent": 0.16831770098525523
+          },
+          "Hemlockvale": {
+            "n": 134,
+            "parent_mdape_percent": 11.852408085860862,
+            "candidate_mdape_percent": 11.560902610126895,
+            "relative_mdape_improvement": 0.024594620234322975,
+            "parent_mape_percent": 14.645199800591973,
+            "candidate_mape_percent": 14.641336608659547,
+            "relative_mape_change": -0.00026378553963259636,
+            "parent_median_signed_error_percent": 0.43004409701924745,
+            "candidate_median_signed_error_percent": 2.8271709096599693
+          },
+          "Hickorybourne": {
+            "n": 105,
+            "parent_mdape_percent": 5.929820773051177,
+            "candidate_mdape_percent": 6.104139351938565,
+            "relative_mdape_improvement": -0.029396938888878583,
+            "parent_mape_percent": 8.472034911164169,
+            "candidate_mape_percent": 8.40571970446474,
+            "relative_mape_change": -0.007827541717520614,
+            "parent_median_signed_error_percent": -0.5557519516865518,
+            "candidate_median_signed_error_percent": 1.1506570004531038
+          },
+          "Hickoryhaven": {
+            "n": 162,
+            "parent_mdape_percent": 7.372562074439161,
+            "candidate_mdape_percent": 7.696208177595435,
+            "relative_mdape_improvement": -0.04389872881211298,
+            "parent_mape_percent": 9.3220612326936,
+            "candidate_mape_percent": 9.431955347112703,
+            "relative_mape_change": 0.011788606798000012,
+            "parent_median_signed_error_percent": 1.191125684512658,
+            "candidate_median_signed_error_percent": 1.4511953390180041
+          },
+          "Junipergardens": {
+            "n": 134,
+            "parent_mdape_percent": 9.545548340216083,
+            "candidate_mdape_percent": 8.942873683875714,
+            "relative_mdape_improvement": 0.06313672456104563,
+            "parent_mape_percent": 12.098377480896659,
+            "candidate_mape_percent": 12.602258697809889,
+            "relative_mape_change": 0.04164866055046298,
+            "parent_median_signed_error_percent": 1.7813385123784196,
+            "candidate_median_signed_error_percent": 2.2279690913594616
+          },
+          "Lindenridge": {
+            "n": 109,
+            "parent_mdape_percent": 6.899490619952789,
+            "candidate_mdape_percent": 6.9020558248370385,
+            "relative_mdape_improvement": -0.00037179627099301273,
+            "parent_mape_percent": 8.910752174883426,
+            "candidate_mape_percent": 8.858546808314083,
+            "relative_mape_change": -0.005858693581052903,
+            "parent_median_signed_error_percent": -0.9094123384540356,
+            "candidate_median_signed_error_percent": -0.34261501210653755
+          },
+          "Oakbourne": {
+            "n": 100,
+            "parent_mdape_percent": 8.520145342791526,
+            "candidate_mdape_percent": 8.41838147466932,
+            "relative_mdape_improvement": 0.011943912225429659,
+            "parent_mape_percent": 10.306850846558302,
+            "candidate_mape_percent": 10.370370007425226,
+            "relative_mape_change": 0.006162809747861548,
+            "parent_median_signed_error_percent": 0.8551843272995368,
+            "candidate_median_signed_error_percent": 1.3613666189613904
+          },
+          "Willowglen": {
+            "n": 150,
+            "parent_mdape_percent": 7.227756829115789,
+            "candidate_mdape_percent": 7.682720829696334,
+            "relative_mdape_improvement": -0.06294677744937403,
+            "parent_mape_percent": 9.945575373741478,
+            "candidate_mape_percent": 10.07685060900416,
+            "relative_mape_change": 0.013199360552761644,
+            "parent_median_signed_error_percent": -0.6581762900154668,
+            "candidate_median_signed_error_percent": 0.04312131806926051
+          }
+        }
+      }
+    },
+    "list_aware/Q50": {
+      "overall": {
+        "n": 7066,
+        "parent_mdape_percent": 4.472619681779734,
+        "candidate_mdape_percent": 4.403873524818984,
+        "relative_mdape_improvement": 0.01537044547758079,
+        "parent_mape_percent": 5.576871213632914,
+        "candidate_mape_percent": 5.530198882504627,
+        "relative_mape_change": -0.008368909616236788,
+        "parent_median_signed_error_percent": 0.7652978763031001,
+        "candidate_median_signed_error_percent": 0.43952590682963477
+      },
+      "by_group": {
+        "month": {
+          "2024-10": {
+            "n": 2451,
+            "parent_mdape_percent": 4.513053956352925,
+            "candidate_mdape_percent": 4.45820128947656,
+            "relative_mdape_improvement": 0.012154223593792906,
+            "parent_mape_percent": 5.681368066997551,
+            "candidate_mape_percent": 5.628662546381281,
+            "relative_mape_change": -0.009276906546933703,
+            "parent_median_signed_error_percent": 0.4717378808200805,
+            "candidate_median_signed_error_percent": 0.2285701174743025
+          },
+          "2024-12": {
+            "n": 1345,
+            "parent_mdape_percent": 4.539100486223663,
+            "candidate_mdape_percent": 4.473227474150665,
+            "relative_mdape_improvement": 0.014512349368101583,
+            "parent_mape_percent": 5.610943371737911,
+            "candidate_mape_percent": 5.542089932020072,
+            "relative_mape_change": -0.012271276888063364,
+            "parent_median_signed_error_percent": 1.0519327731092436,
+            "candidate_median_signed_error_percent": 0.6443162701273732
+          },
+          "2025-01": {
+            "n": 1339,
+            "parent_mdape_percent": 4.421421616358325,
+            "candidate_mdape_percent": 4.39995840266223,
+            "relative_mdape_improvement": 0.0048543693767375455,
+            "parent_mape_percent": 5.4948511189411615,
+            "candidate_mape_percent": 5.443195015928702,
+            "relative_mape_change": -0.009400819402439664,
+            "parent_median_signed_error_percent": 1.1445180279617366,
+            "candidate_median_signed_error_percent": 0.9391575663026521
+          },
+          "2025-03": {
+            "n": 1931,
+            "parent_mdape_percent": 4.397190635451505,
+            "candidate_mdape_percent": 4.348185576481397,
+            "relative_mdape_improvement": 0.011144629158220756,
+            "parent_mape_percent": 5.477376685691075,
+            "candidate_mape_percent": 5.457267901450878,
+            "relative_mape_change": -0.0036712436252062685,
+            "parent_median_signed_error_percent": 0.6327981651376147,
+            "candidate_median_signed_error_percent": 0.21392921960072595
+          }
+        },
+        "actual_price_band": {
+          "Q1": {
+            "n": 1767,
+            "parent_mdape_percent": 3.8358265480022724,
+            "candidate_mdape_percent": 3.7908214166943797,
+            "relative_mdape_improvement": 0.0117328379541384,
+            "parent_mape_percent": 4.738394345161567,
+            "candidate_mape_percent": 4.633059165635476,
+            "relative_mape_change": -0.02223014208043915,
+            "parent_median_signed_error_percent": 1.881578947368421,
+            "candidate_median_signed_error_percent": 1.606651662915729
+          },
+          "Q2": {
+            "n": 1766,
+            "parent_mdape_percent": 4.059222808088851,
+            "candidate_mdape_percent": 3.964819883678662,
+            "relative_mdape_improvement": 0.023256403718975797,
+            "parent_mape_percent": 5.060588216643343,
+            "candidate_mape_percent": 4.973178613276214,
+            "relative_mape_change": -0.017272617258139195,
+            "parent_median_signed_error_percent": 0.8314064986803896,
+            "candidate_median_signed_error_percent": 0.6437754340065015
+          },
+          "Q3": {
+            "n": 1766,
+            "parent_mdape_percent": 4.81566543611898,
+            "candidate_mdape_percent": 4.7876033057763525,
+            "relative_mdape_improvement": 0.005827259122312143,
+            "parent_mape_percent": 5.857191074273159,
+            "candidate_mape_percent": 5.81456833711788,
+            "relative_mape_change": -0.007276992779438881,
+            "parent_median_signed_error_percent": 0.5085565880957856,
+            "candidate_median_signed_error_percent": 0.11781560273360608
+          },
+          "Q4": {
+            "n": 1767,
+            "parent_mdape_percent": 5.4285138620245,
+            "candidate_mdape_percent": 5.419974831255005,
+            "relative_mdape_improvement": 0.001572996032897799,
+            "parent_mape_percent": 6.651177679610149,
+            "candidate_mape_percent": 6.699835112452654,
+            "relative_mape_change": 0.00731561163847249,
+            "parent_median_signed_error_percent": -0.5467000108731108,
+            "candidate_median_signed_error_percent": -1.0529822135629439
+          }
+        },
+        "house_type_name": {
+          "Condo Apt": {
+            "n": 3560,
+            "parent_mdape_percent": 3.6854831839700344,
+            "candidate_mdape_percent": 3.61810551134431,
+            "relative_mdape_improvement": 0.018281910203466093,
+            "parent_mape_percent": 4.51463037614293,
+            "candidate_mape_percent": 4.438244520664459,
+            "relative_mape_change": -0.01691962555387106,
+            "parent_median_signed_error_percent": 0.7657676595590048,
+            "candidate_median_signed_error_percent": 0.5809033461710014
+          },
+          "Condo Townhouse": {
+            "n": 427,
+            "parent_mdape_percent": 4.5645702775290955,
+            "candidate_mdape_percent": 4.456887486855941,
+            "relative_mdape_improvement": 0.023591002904099274,
+            "parent_mape_percent": 5.552496389126903,
+            "candidate_mape_percent": 5.5538606532996315,
+            "relative_mape_change": 0.00024570284735353905,
+            "parent_median_signed_error_percent": 0.9927043402992457,
+            "candidate_median_signed_error_percent": 0.9581543747699104
+          },
+          "Detached": {
+            "n": 2099,
+            "parent_mdape_percent": 5.835177960028664,
+            "candidate_mdape_percent": 5.669960572940061,
+            "relative_mdape_improvement": 0.028314027133422938,
+            "parent_mape_percent": 6.912119025853578,
+            "candidate_mape_percent": 6.883025042894817,
+            "relative_mape_change": -0.004209126441535399,
+            "parent_median_signed_error_percent": 0.7090909090909091,
+            "candidate_median_signed_error_percent": 0.01837215544752304
+          },
+          "Freehold Townhouse": {
+            "n": 274,
+            "parent_mdape_percent": 5.384779989544947,
+            "candidate_mdape_percent": 5.384611897420234,
+            "relative_mdape_improvement": 3.1216154613549286e-05,
+            "parent_mape_percent": 6.4828623552472795,
+            "candidate_mape_percent": 6.386983461309226,
+            "relative_mape_change": -0.014789592726806569,
+            "parent_median_signed_error_percent": 1.8289691773067775,
+            "candidate_median_signed_error_percent": 1.1464311309320343
+          },
+          "Semi-Detached": {
+            "n": 673,
+            "parent_mdape_percent": 5.621693995084553,
+            "candidate_mdape_percent": 5.844011577876867,
+            "relative_mdape_improvement": -0.039546368583331354,
+            "parent_mape_percent": 6.700882197033625,
+            "candidate_mape_percent": 6.753787580171388,
+            "relative_mape_change": 0.007895286259648566,
+            "parent_median_signed_error_percent": 0.33463344742497814,
+            "candidate_median_signed_error_percent": -0.37312954253954683
+          }
+        },
+        "house_style": {
+          "2 1/2 Storey": {
+            "n": 147,
+            "parent_mdape_percent": 5.637535051408733,
+            "candidate_mdape_percent": 5.271925272444213,
+            "relative_mdape_improvement": 0.06485277264451941,
+            "parent_mape_percent": 6.464892939079525,
+            "candidate_mape_percent": 6.4271141082956875,
+            "relative_mape_change": -0.005843690087343745,
+            "parent_median_signed_error_percent": -0.4890424946979813,
+            "candidate_median_signed_error_percent": -1.3469553969242563
+          },
+          "2-Storey": {
+            "n": 1736,
+            "parent_mdape_percent": 5.666554767666134,
+            "candidate_mdape_percent": 5.494380722437587,
+            "relative_mdape_improvement": 0.030384255034644262,
+            "parent_mape_percent": 6.712559708062746,
+            "candidate_mape_percent": 6.693537841425917,
+            "relative_mape_change": -0.0028337724302074183,
+            "parent_median_signed_error_percent": 0.9096860286653177,
+            "candidate_median_signed_error_percent": 0.29525822749065134
+          },
+          "3-Storey": {
+            "n": 452,
+            "parent_mdape_percent": 5.608609736257521,
+            "candidate_mdape_percent": 5.701085214154045,
+            "relative_mdape_improvement": -0.01648812847481701,
+            "parent_mape_percent": 6.532460167690926,
+            "candidate_mape_percent": 6.4864860018036525,
+            "relative_mape_change": -0.007037802712469456,
+            "parent_median_signed_error_percent": 1.6485015104978888,
+            "candidate_median_signed_error_percent": 0.8155455927373207
+          },
+          "Apartment": {
+            "n": 3375,
+            "parent_mdape_percent": 3.688048615800135,
+            "candidate_mdape_percent": 3.6156757960365176,
+            "relative_mdape_improvement": 0.019623607848758252,
+            "parent_mape_percent": 4.518854709824814,
+            "candidate_mape_percent": 4.444240823726734,
+            "relative_mape_change": -0.016511680699947337,
+            "parent_median_signed_error_percent": 0.7254575707154742,
+            "candidate_median_signed_error_percent": 0.569453809844909
+          },
+          "Bungalow": {
+            "n": 650,
+            "parent_mdape_percent": 5.603100282135575,
+            "candidate_mdape_percent": 5.684592201722844,
+            "relative_mdape_improvement": -0.0145440765797269,
+            "parent_mape_percent": 6.709027744414995,
+            "candidate_mape_percent": 6.707340520004453,
+            "relative_mape_change": -0.0002514856809090843,
+            "parent_median_signed_error_percent": 0.46160157146962344,
+            "candidate_median_signed_error_percent": -0.10198020369088982
+          },
+          "Bungalow-Raised": {
+            "n": 110,
+            "parent_mdape_percent": 6.424305295457396,
+            "candidate_mdape_percent": 5.948871683417654,
+            "relative_mdape_improvement": 0.07400545120044648,
+            "parent_mape_percent": 7.15149924024941,
+            "candidate_mape_percent": 6.911744226509141,
+            "relative_mape_change": -0.0335251400700572,
+            "parent_median_signed_error_percent": 1.1601984423630873,
+            "candidate_median_signed_error_percent": 0.7367636800581681
+          },
+          "Loft": {
+            "n": 121,
+            "parent_mdape_percent": 2.746238870125883,
+            "candidate_mdape_percent": 3.0463016552841764,
+            "relative_mdape_improvement": -0.10926317751250064,
+            "parent_mape_percent": 3.8010479389001417,
+            "candidate_mape_percent": 3.783828982393687,
+            "relative_mape_change": -0.004530055075137275,
+            "parent_median_signed_error_percent": 0.4312528788576693,
+            "candidate_median_signed_error_percent": 0.3002278769464489
+          }
+        },
+        "municipality": {
+          "Etobicoke": {
+            "n": 678,
+            "parent_mdape_percent": 4.240381412019502,
+            "candidate_mdape_percent": 4.29449651269627,
+            "relative_mdape_improvement": -0.012761847442160903,
+            "parent_mape_percent": 5.492977719247673,
+            "candidate_mape_percent": 5.4464842640874895,
+            "relative_mape_change": -0.008464162342633903,
+            "parent_median_signed_error_percent": 0.5606704964930538,
+            "candidate_median_signed_error_percent": 0.28537430606162223
+          },
+          "North York": {
+            "n": 1318,
+            "parent_mdape_percent": 4.325810071284916,
+            "candidate_mdape_percent": 4.317598156773161,
+            "relative_mdape_improvement": 0.001898352996648366,
+            "parent_mape_percent": 5.41300549074465,
+            "candidate_mape_percent": 5.3766832392344295,
+            "relative_mape_change": -0.0067101819076899,
+            "parent_median_signed_error_percent": 0.5813356253845094,
+            "candidate_median_signed_error_percent": 0.21803419009016595
+          },
+          "Scarborough": {
+            "n": 977,
+            "parent_mdape_percent": 4.645570856528958,
+            "candidate_mdape_percent": 4.384569850039464,
+            "relative_mdape_improvement": 0.056182763012360394,
+            "parent_mape_percent": 5.664782044573986,
+            "candidate_mape_percent": 5.599829938280548,
+            "relative_mape_change": -0.01146594975452804,
+            "parent_median_signed_error_percent": 0.700933075933076,
+            "candidate_median_signed_error_percent": 0.26837606837606837
+          },
+          "Toronto": {
+            "n": 4019,
+            "parent_mdape_percent": 4.513053956352925,
+            "candidate_mdape_percent": 4.4662219941850525,
+            "relative_mdape_improvement": 0.010377000279810138,
+            "parent_mape_percent": 5.625946157904306,
+            "candidate_mape_percent": 5.579412518312285,
+            "relative_mape_change": -0.008271255764977904,
+            "parent_median_signed_error_percent": 0.9525516055045872,
+            "candidate_median_signed_error_percent": 0.6120950323974083
+          }
+        },
+        "community": {
+          "Ashworth": {
+            "n": 109,
+            "parent_mdape_percent": 3.9982536910620734,
+            "candidate_mdape_percent": 4.174937343358396,
+            "relative_mdape_improvement": -0.044190205511794124,
+            "parent_mape_percent": 5.118757416339371,
+            "candidate_mape_percent": 5.010907735553042,
+            "relative_mape_change": -0.021069504181242687,
+            "parent_median_signed_error_percent": 1.4959177008491182,
+            "candidate_median_signed_error_percent": 0.9464659475124778
+          },
+          "Beechbourne": {
+            "n": 126,
+            "parent_mdape_percent": 3.649895560445228,
+            "candidate_mdape_percent": 3.463611594951759,
+            "relative_mdape_improvement": 0.051038163259319425,
+            "parent_mape_percent": 5.209300125500406,
+            "candidate_mape_percent": 5.181984759703208,
+            "relative_mape_change": -0.005243576898840051,
+            "parent_median_signed_error_percent": 1.033645986020541,
+            "candidate_median_signed_error_percent": 0.17989977746661762
+          },
+          "Cedarview": {
+            "n": 116,
+            "parent_mdape_percent": 3.818046874535538,
+            "candidate_mdape_percent": 3.7248688474849487,
+            "relative_mdape_improvement": 0.024404631507287174,
+            "parent_mape_percent": 4.867496941491358,
+            "candidate_mape_percent": 4.7535047857574275,
+            "relative_mape_change": -0.02341905030535142,
+            "parent_median_signed_error_percent": 0.7095252909837058,
+            "candidate_median_signed_error_percent": 0.7663841259111724
+          },
+          "Cypressdale": {
+            "n": 106,
+            "parent_mdape_percent": 4.125552496257848,
+            "candidate_mdape_percent": 3.9651149727358908,
+            "relative_mdape_improvement": 0.038888736397727296,
+            "parent_mape_percent": 5.09486356952615,
+            "candidate_mape_percent": 5.037024385039309,
+            "relative_mape_change": -0.011352450109320728,
+            "parent_median_signed_error_percent": 1.2031652871504996,
+            "candidate_median_signed_error_percent": 0.7265487796097462
+          },
+          "Cypresspark": {
+            "n": 100,
+            "parent_mdape_percent": 3.7912199017662385,
+            "candidate_mdape_percent": 3.67411181540839,
+            "relative_mdape_improvement": 0.030889288775702663,
+            "parent_mape_percent": 4.5584197310498045,
+            "candidate_mape_percent": 4.4297297923255625,
+            "relative_mape_change": -0.028231261339904,
+            "parent_median_signed_error_percent": 2.3929127201366676,
+            "candidate_median_signed_error_percent": 1.5255449493924793
+          },
+          "Elmview": {
+            "n": 122,
+            "parent_mdape_percent": 4.491370530103106,
+            "candidate_mdape_percent": 4.475734368390118,
+            "relative_mdape_improvement": 0.0034813787034911115,
+            "parent_mape_percent": 5.395006645557239,
+            "candidate_mape_percent": 5.409433918331274,
+            "relative_mape_change": 0.002674189991205232,
+            "parent_median_signed_error_percent": 1.9671974321214643,
+            "candidate_median_signed_error_percent": 1.5488096997329408
+          },
+          "Hemlockvale": {
+            "n": 134,
+            "parent_mdape_percent": 6.4057622445352695,
+            "candidate_mdape_percent": 6.301023467016067,
+            "relative_mdape_improvement": 0.016350712611688696,
+            "parent_mape_percent": 7.442455352352992,
+            "candidate_mape_percent": 7.469665564928969,
+            "relative_mape_change": 0.003656080055270297,
+            "parent_median_signed_error_percent": 1.1046509790880168,
+            "candidate_median_signed_error_percent": 0.4338712476950694
+          },
+          "Hickorybourne": {
+            "n": 105,
+            "parent_mdape_percent": 2.497276095009806,
+            "candidate_mdape_percent": 2.5913318820502673,
+            "relative_mdape_improvement": -0.037663351372484874,
+            "parent_mape_percent": 3.567492465769854,
+            "candidate_mape_percent": 3.4975610164372135,
+            "relative_mape_change": -0.01960240981687663,
+            "parent_median_signed_error_percent": 1.5795555555555556,
+            "candidate_median_signed_error_percent": 1.5768418087054514
+          },
+          "Hickoryhaven": {
+            "n": 162,
+            "parent_mdape_percent": 3.6958266104431656,
+            "candidate_mdape_percent": 3.7289527053509395,
+            "relative_mdape_improvement": -0.008963108500320503,
+            "parent_mape_percent": 4.343257510928276,
+            "candidate_mape_percent": 4.391587487938878,
+            "relative_mape_change": 0.011127587274988117,
+            "parent_median_signed_error_percent": 0.3960227209904843,
+            "candidate_median_signed_error_percent": -0.019668164328088416
+          },
+          "Junipergardens": {
+            "n": 134,
+            "parent_mdape_percent": 4.926045499795135,
+            "candidate_mdape_percent": 4.76843726851041,
+            "relative_mdape_improvement": 0.03199487931877202,
+            "parent_mape_percent": 6.815951818888976,
+            "candidate_mape_percent": 6.655155350255276,
+            "relative_mape_change": -0.023591197958308135,
+            "parent_median_signed_error_percent": 1.2127738399240218,
+            "candidate_median_signed_error_percent": 0.9284425702590857
+          },
+          "Lindenridge": {
+            "n": 109,
+            "parent_mdape_percent": 3.9106796116504854,
+            "candidate_mdape_percent": 3.7735368956743,
+            "relative_mdape_improvement": 0.035068767987952054,
+            "parent_mape_percent": 4.763104488536522,
+            "candidate_mape_percent": 4.687447480945092,
+            "relative_mape_change": -0.015883969745680553,
+            "parent_median_signed_error_percent": -0.21187055579741693,
+            "candidate_median_signed_error_percent": 0.009630818619582664
+          },
+          "Oakbourne": {
+            "n": 100,
+            "parent_mdape_percent": 4.145108484880323,
+            "candidate_mdape_percent": 3.596300751393017,
+            "relative_mdape_improvement": 0.13239888304229777,
+            "parent_mape_percent": 5.145342330037787,
+            "candidate_mape_percent": 4.829195602355144,
+            "relative_mape_change": -0.06144328353762248,
+            "parent_median_signed_error_percent": 0.7802907420896477,
+            "candidate_median_signed_error_percent": 0.43001978901635196
+          },
+          "Willowglen": {
+            "n": 150,
+            "parent_mdape_percent": 5.167187734492326,
+            "candidate_mdape_percent": 5.336686672341288,
+            "relative_mdape_improvement": -0.032802937798739606,
+            "parent_mape_percent": 6.254322843441062,
+            "candidate_mape_percent": 6.209432122887767,
+            "relative_mape_change": -0.007177550899914291,
+            "parent_median_signed_error_percent": -0.12659368070953436,
+            "candidate_median_signed_error_percent": 0.19740737870608402
+          }
+        }
+      }
+    },
+    "list_aware/CatBoost_MAE": {
+      "overall": {
+        "n": 7066,
+        "parent_mdape_percent": 4.472619681779734,
+        "candidate_mdape_percent": 4.40956683692151,
+        "relative_mdape_improvement": 0.014097519875227648,
+        "parent_mape_percent": 5.576871213632914,
+        "candidate_mape_percent": 5.56232917345912,
+        "relative_mape_change": -0.002607562487411401,
+        "parent_median_signed_error_percent": 0.7652978763031001,
+        "candidate_median_signed_error_percent": 0.3103885905532288
+      },
+      "by_group": {
+        "month": {
+          "2024-10": {
+            "n": 2451,
+            "parent_mdape_percent": 4.513053956352925,
+            "candidate_mdape_percent": 4.440170149805807,
+            "relative_mdape_improvement": 0.01614955355109839,
+            "parent_mape_percent": 5.681368066997551,
+            "candidate_mape_percent": 5.635024513396566,
+            "relative_mape_change": -0.008157111641857798,
+            "parent_median_signed_error_percent": 0.4717378808200805,
+            "candidate_median_signed_error_percent": -0.10702266098272381
+          },
+          "2024-12": {
+            "n": 1345,
+            "parent_mdape_percent": 4.539100486223663,
+            "candidate_mdape_percent": 4.3882190837065105,
+            "relative_mdape_improvement": 0.0332403750423862,
+            "parent_mape_percent": 5.610943371737911,
+            "candidate_mape_percent": 5.606952339699433,
+            "relative_mape_change": -0.0007112943000960012,
+            "parent_median_signed_error_percent": 1.0519327731092436,
+            "candidate_median_signed_error_percent": 0.92848115381756
+          },
+          "2025-01": {
+            "n": 1339,
+            "parent_mdape_percent": 4.421421616358325,
+            "candidate_mdape_percent": 4.4255396555905895,
+            "relative_mdape_improvement": -0.000931383520863231,
+            "parent_mape_percent": 5.4948511189411615,
+            "candidate_mape_percent": 5.514716938563899,
+            "relative_mape_change": 0.0036153517525268266,
+            "parent_median_signed_error_percent": 1.1445180279617366,
+            "candidate_median_signed_error_percent": 0.8711385701676964
+          },
+          "2025-03": {
+            "n": 1931,
+            "parent_mdape_percent": 4.397190635451505,
+            "candidate_mdape_percent": 4.348478164975739,
+            "relative_mdape_improvement": 0.011078089287971974,
+            "parent_mape_percent": 5.477376685691075,
+            "candidate_mape_percent": 5.471991703622145,
+            "relative_mape_change": -0.0009831315934502023,
+            "parent_median_signed_error_percent": 0.6327981651376147,
+            "candidate_median_signed_error_percent": 0.07172449508026929
+          }
+        },
+        "actual_price_band": {
+          "Q1": {
+            "n": 1767,
+            "parent_mdape_percent": 3.8358265480022724,
+            "candidate_mdape_percent": 3.7948597029002595,
+            "relative_mdape_improvement": 0.010680056720330254,
+            "parent_mape_percent": 4.738394345161567,
+            "candidate_mape_percent": 4.619337948429838,
+            "relative_mape_change": -0.02512589456664781,
+            "parent_median_signed_error_percent": 1.881578947368421,
+            "candidate_median_signed_error_percent": 1.3997255103791388
+          },
+          "Q2": {
+            "n": 1766,
+            "parent_mdape_percent": 4.059222808088851,
+            "candidate_mdape_percent": 3.9899698548816556,
+            "relative_mdape_improvement": 0.01706064349786232,
+            "parent_mape_percent": 5.060588216643343,
+            "candidate_mape_percent": 5.012140867607674,
+            "relative_mape_change": -0.009573462009087154,
+            "parent_median_signed_error_percent": 0.8314064986803896,
+            "candidate_median_signed_error_percent": 0.44669014488488273
+          },
+          "Q3": {
+            "n": 1766,
+            "parent_mdape_percent": 4.81566543611898,
+            "candidate_mdape_percent": 4.774922497620253,
+            "relative_mdape_improvement": 0.008460500223529404,
+            "parent_mape_percent": 5.857191074273159,
+            "candidate_mape_percent": 5.856372786394577,
+            "relative_mape_change": -0.00013970653649601373,
+            "parent_median_signed_error_percent": 0.5085565880957856,
+            "candidate_median_signed_error_percent": 0.029304540126524635
+          },
+          "Q4": {
+            "n": 1767,
+            "parent_mdape_percent": 5.4285138620245,
+            "candidate_mdape_percent": 5.5259797700088455,
+            "relative_mdape_improvement": -0.017954436603022032,
+            "parent_mape_percent": 6.651177679610149,
+            "candidate_mape_percent": 6.7613201311933455,
+            "relative_mape_change": 0.01655984201427201,
+            "parent_median_signed_error_percent": -0.5467000108731108,
+            "candidate_median_signed_error_percent": -1.0857142857142856
+          }
+        },
+        "house_type_name": {
+          "Condo Apt": {
+            "n": 3560,
+            "parent_mdape_percent": 3.6854831839700344,
+            "candidate_mdape_percent": 3.641104861805508,
+            "relative_mdape_improvement": 0.012041385063849752,
+            "parent_mape_percent": 4.51463037614293,
+            "candidate_mape_percent": 4.441520983719051,
+            "relative_mape_change": -0.01619388218584126,
+            "parent_median_signed_error_percent": 0.7657676595590048,
+            "candidate_median_signed_error_percent": 0.388513521921371
+          },
+          "Condo Townhouse": {
+            "n": 427,
+            "parent_mdape_percent": 4.5645702775290955,
+            "candidate_mdape_percent": 4.429035446970767,
+            "relative_mdape_improvement": 0.029692790847268245,
+            "parent_mape_percent": 5.552496389126903,
+            "candidate_mape_percent": 5.685891265613492,
+            "relative_mape_change": 0.024024306751069254,
+            "parent_median_signed_error_percent": 0.9927043402992457,
+            "candidate_median_signed_error_percent": 0.8760380190095047
+          },
+          "Detached": {
+            "n": 2099,
+            "parent_mdape_percent": 5.835177960028664,
+            "candidate_mdape_percent": 5.816963721400581,
+            "relative_mdape_improvement": 0.003121453836172899,
+            "parent_mape_percent": 6.912119025853578,
+            "candidate_mape_percent": 6.933187842672646,
+            "relative_mape_change": 0.003048098092678061,
+            "parent_median_signed_error_percent": 0.7090909090909091,
+            "candidate_median_signed_error_percent": 0.08856642481861396
+          },
+          "Freehold Townhouse": {
+            "n": 274,
+            "parent_mdape_percent": 5.384779989544947,
+            "candidate_mdape_percent": 5.861867881763985,
+            "relative_mdape_improvement": -0.08859932869037324,
+            "parent_mape_percent": 6.4828623552472795,
+            "candidate_mape_percent": 6.535650541564996,
+            "relative_mape_change": 0.008142728230993405,
+            "parent_median_signed_error_percent": 1.8289691773067775,
+            "candidate_median_signed_error_percent": 0.6765357275837265
+          },
+          "Semi-Detached": {
+            "n": 673,
+            "parent_mdape_percent": 5.621693995084553,
+            "candidate_mdape_percent": 5.647347816074308,
+            "relative_mdape_improvement": -0.004563361330621253,
+            "parent_mape_percent": 6.700882197033625,
+            "candidate_mape_percent": 6.773949371394783,
+            "relative_mape_change": 0.010904112654525412,
+            "parent_median_signed_error_percent": 0.33463344742497814,
+            "candidate_median_signed_error_percent": -0.1373275236020334
+          }
+        },
+        "house_style": {
+          "2 1/2 Storey": {
+            "n": 147,
+            "parent_mdape_percent": 5.637535051408733,
+            "candidate_mdape_percent": 5.551535745219535,
+            "relative_mdape_improvement": 0.015254770995651337,
+            "parent_mape_percent": 6.464892939079525,
+            "candidate_mape_percent": 6.459446244282752,
+            "relative_mape_change": -0.0008425034796552361,
+            "parent_median_signed_error_percent": -0.4890424946979813,
+            "candidate_median_signed_error_percent": -0.906648451730419
+          },
+          "2-Storey": {
+            "n": 1736,
+            "parent_mdape_percent": 5.666554767666134,
+            "candidate_mdape_percent": 5.577690484589548,
+            "relative_mdape_improvement": 0.015682241983021806,
+            "parent_mape_percent": 6.712559708062746,
+            "candidate_mape_percent": 6.744704991690475,
+            "relative_mape_change": 0.004788826472428704,
+            "parent_median_signed_error_percent": 0.9096860286653177,
+            "candidate_median_signed_error_percent": 0.33376462117772754
+          },
+          "3-Storey": {
+            "n": 452,
+            "parent_mdape_percent": 5.608609736257521,
+            "candidate_mdape_percent": 5.860678224984779,
+            "relative_mdape_improvement": -0.04494313218082043,
+            "parent_mape_percent": 6.532460167690926,
+            "candidate_mape_percent": 6.554483878897534,
+            "relative_mape_change": 0.0033714267888742687,
+            "parent_median_signed_error_percent": 1.6485015104978888,
+            "candidate_median_signed_error_percent": 0.4688453441877011
+          },
+          "Apartment": {
+            "n": 3375,
+            "parent_mdape_percent": 3.688048615800135,
+            "candidate_mdape_percent": 3.665532879818594,
+            "relative_mdape_improvement": 0.006105054007444535,
+            "parent_mape_percent": 4.518854709824814,
+            "candidate_mape_percent": 4.445109320572098,
+            "relative_mape_change": -0.016319486681521334,
+            "parent_median_signed_error_percent": 0.7254575707154742,
+            "candidate_median_signed_error_percent": 0.38972377272076714
+          },
+          "Bungalow": {
+            "n": 650,
+            "parent_mdape_percent": 5.603100282135575,
+            "candidate_mdape_percent": 5.828198800384907,
+            "relative_mdape_improvement": -0.04017392281323545,
+            "parent_mape_percent": 6.709027744414995,
+            "candidate_mape_percent": 6.774114047881522,
+            "relative_mape_change": 0.009701301879502341,
+            "parent_median_signed_error_percent": 0.46160157146962344,
+            "candidate_median_signed_error_percent": 0.25186685975679834
+          },
+          "Bungalow-Raised": {
+            "n": 110,
+            "parent_mdape_percent": 6.424305295457396,
+            "candidate_mdape_percent": 6.259615939976368,
+            "relative_mdape_improvement": 0.02563535633922614,
+            "parent_mape_percent": 7.15149924024941,
+            "candidate_mape_percent": 7.232567949154815,
+            "relative_mape_change": 0.011335904008650562,
+            "parent_median_signed_error_percent": 1.1601984423630873,
+            "candidate_median_signed_error_percent": 0.006831330521307993
+          },
+          "Loft": {
+            "n": 121,
+            "parent_mdape_percent": 2.746238870125883,
+            "candidate_mdape_percent": 3.029289399234482,
+            "relative_mdape_improvement": -0.10306843013099745,
+            "parent_mape_percent": 3.8010479389001417,
+            "candidate_mape_percent": 3.782844171047649,
+            "relative_mape_change": -0.004789144505701833,
+            "parent_median_signed_error_percent": 0.4312528788576693,
+            "candidate_median_signed_error_percent": -0.026715799170888992
+          }
+        },
+        "municipality": {
+          "Etobicoke": {
+            "n": 678,
+            "parent_mdape_percent": 4.240381412019502,
+            "candidate_mdape_percent": 4.27087234729838,
+            "relative_mdape_improvement": -0.007190611484252392,
+            "parent_mape_percent": 5.492977719247673,
+            "candidate_mape_percent": 5.486176246685555,
+            "relative_mape_change": -0.0012382122975458305,
+            "parent_median_signed_error_percent": 0.5606704964930538,
+            "candidate_median_signed_error_percent": 0.43007786799402015
+          },
+          "North York": {
+            "n": 1318,
+            "parent_mdape_percent": 4.325810071284916,
+            "candidate_mdape_percent": 4.436856816928717,
+            "relative_mdape_improvement": -0.025670740003343732,
+            "parent_mape_percent": 5.41300549074465,
+            "candidate_mape_percent": 5.428470141381279,
+            "relative_mape_change": 0.00285694346016658,
+            "parent_median_signed_error_percent": 0.5813356253845094,
+            "candidate_median_signed_error_percent": 0.18737455009947074
+          },
+          "Scarborough": {
+            "n": 977,
+            "parent_mdape_percent": 4.645570856528958,
+            "candidate_mdape_percent": 4.455148905633298,
+            "relative_mdape_improvement": 0.04099000031999051,
+            "parent_mape_percent": 5.664782044573986,
+            "candidate_mape_percent": 5.747711725081566,
+            "relative_mape_change": 0.014639518317746104,
+            "parent_median_signed_error_percent": 0.700933075933076,
+            "candidate_median_signed_error_percent": 0.3827352689343816
+          },
+          "Toronto": {
+            "n": 4019,
+            "parent_mdape_percent": 4.513053956352925,
+            "candidate_mdape_percent": 4.411468330134357,
+            "relative_mdape_improvement": 0.022509286882238112,
+            "parent_mape_percent": 5.625946157904306,
+            "candidate_mape_percent": 5.578969105199481,
+            "relative_mape_change": -0.008350071505541146,
+            "parent_median_signed_error_percent": 0.9525516055045872,
+            "candidate_median_signed_error_percent": 0.31066734074823055
+          }
+        },
+        "community": {
+          "Ashworth": {
+            "n": 109,
+            "parent_mdape_percent": 3.9982536910620734,
+            "candidate_mdape_percent": 4.706298509513016,
+            "relative_mdape_improvement": -0.17708851742793283,
+            "parent_mape_percent": 5.118757416339371,
+            "candidate_mape_percent": 5.04555754820384,
+            "relative_mape_change": -0.01430031982017218,
+            "parent_median_signed_error_percent": 1.4959177008491182,
+            "candidate_median_signed_error_percent": 0.9337760733327097
+          },
+          "Beechbourne": {
+            "n": 126,
+            "parent_mdape_percent": 3.649895560445228,
+            "candidate_mdape_percent": 4.004575521041309,
+            "relative_mdape_improvement": -0.09717537247910066,
+            "parent_mape_percent": 5.209300125500406,
+            "candidate_mape_percent": 5.270336249479183,
+            "relative_mape_change": 0.011716760890775894,
+            "parent_median_signed_error_percent": 1.033645986020541,
+            "candidate_median_signed_error_percent": 0.05714797550940111
+          },
+          "Cedarview": {
+            "n": 116,
+            "parent_mdape_percent": 3.818046874535538,
+            "candidate_mdape_percent": 3.7224747191086274,
+            "relative_mdape_improvement": 0.02503168729130308,
+            "parent_mape_percent": 4.867496941491358,
+            "candidate_mape_percent": 4.743589776546583,
+            "relative_mape_change": -0.025456033446794753,
+            "parent_median_signed_error_percent": 0.7095252909837058,
+            "candidate_median_signed_error_percent": 0.6687967268091894
+          },
+          "Cypressdale": {
+            "n": 106,
+            "parent_mdape_percent": 4.125552496257848,
+            "candidate_mdape_percent": 3.7735402441449173,
+            "relative_mdape_improvement": 0.08532487525785441,
+            "parent_mape_percent": 5.09486356952615,
+            "candidate_mape_percent": 5.066316075427525,
+            "relative_mape_change": -0.005603191078437426,
+            "parent_median_signed_error_percent": 1.2031652871504996,
+            "candidate_median_signed_error_percent": -0.19811043279869878
+          },
+          "Cypresspark": {
+            "n": 100,
+            "parent_mdape_percent": 3.7912199017662385,
+            "candidate_mdape_percent": 3.7745955052963844,
+            "relative_mdape_improvement": 0.0043849728848777995,
+            "parent_mape_percent": 4.5584197310498045,
+            "candidate_mape_percent": 4.349711156094799,
+            "relative_mape_change": -0.045785291234455815,
+            "parent_median_signed_error_percent": 2.3929127201366676,
+            "candidate_median_signed_error_percent": 1.2818877812805294
+          },
+          "Elmview": {
+            "n": 122,
+            "parent_mdape_percent": 4.491370530103106,
+            "candidate_mdape_percent": 4.263563111630813,
+            "relative_mdape_improvement": 0.05072113666539641,
+            "parent_mape_percent": 5.395006645557239,
+            "candidate_mape_percent": 5.2972880418865955,
+            "relative_mape_change": -0.018112786524760716,
+            "parent_median_signed_error_percent": 1.9671974321214643,
+            "candidate_median_signed_error_percent": 1.1095310061863493
+          },
+          "Hemlockvale": {
+            "n": 134,
+            "parent_mdape_percent": 6.4057622445352695,
+            "candidate_mdape_percent": 6.4638299500680265,
+            "relative_mdape_improvement": -0.009064917384702236,
+            "parent_mape_percent": 7.442455352352992,
+            "candidate_mape_percent": 7.419583886524845,
+            "relative_mape_change": -0.003073107562669628,
+            "parent_median_signed_error_percent": 1.1046509790880168,
+            "candidate_median_signed_error_percent": -0.13352259516671683
+          },
+          "Hickorybourne": {
+            "n": 105,
+            "parent_mdape_percent": 2.497276095009806,
+            "candidate_mdape_percent": 2.734053862508859,
+            "relative_mdape_improvement": -0.09481441318090342,
+            "parent_mape_percent": 3.567492465769854,
+            "candidate_mape_percent": 3.3568174080448974,
+            "relative_mape_change": -0.05905410025287706,
+            "parent_median_signed_error_percent": 1.5795555555555556,
+            "candidate_median_signed_error_percent": 0.5396943719716735
+          },
+          "Hickoryhaven": {
+            "n": 162,
+            "parent_mdape_percent": 3.6958266104431656,
+            "candidate_mdape_percent": 3.6667896178385995,
+            "relative_mdape_improvement": 0.00785669774726914,
+            "parent_mape_percent": 4.343257510928276,
+            "candidate_mape_percent": 4.389862314792847,
+            "relative_mape_change": 0.010730380077005847,
+            "parent_median_signed_error_percent": 0.3960227209904843,
+            "candidate_median_signed_error_percent": 0.031773965411870886
+          },
+          "Junipergardens": {
+            "n": 134,
+            "parent_mdape_percent": 4.926045499795135,
+            "candidate_mdape_percent": 4.924452413392731,
+            "relative_mdape_improvement": 0.00032340066742589553,
+            "parent_mape_percent": 6.815951818888976,
+            "candidate_mape_percent": 6.576121730401925,
+            "relative_mape_change": -0.03518658800116697,
+            "parent_median_signed_error_percent": 1.2127738399240218,
+            "candidate_median_signed_error_percent": 1.1033314104725251
+          },
+          "Lindenridge": {
+            "n": 109,
+            "parent_mdape_percent": 3.9106796116504854,
+            "candidate_mdape_percent": 4.355427126602853,
+            "relative_mdape_improvement": -0.11372640029814769,
+            "parent_mape_percent": 4.763104488536522,
+            "candidate_mape_percent": 5.084111760132351,
+            "relative_mape_change": 0.06739454747810071,
+            "parent_median_signed_error_percent": -0.21187055579741693,
+            "candidate_median_signed_error_percent": 1.2698138789596942
+          },
+          "Oakbourne": {
+            "n": 100,
+            "parent_mdape_percent": 4.145108484880323,
+            "candidate_mdape_percent": 3.7822083109952445,
+            "relative_mdape_improvement": 0.08754901716295035,
+            "parent_mape_percent": 5.145342330037787,
+            "candidate_mape_percent": 4.875283044938731,
+            "relative_mape_change": -0.052486164724645644,
+            "parent_median_signed_error_percent": 0.7802907420896477,
+            "candidate_median_signed_error_percent": 1.1464306974669733
+          },
+          "Willowglen": {
+            "n": 150,
+            "parent_mdape_percent": 5.167187734492326,
+            "candidate_mdape_percent": 4.932361994431636,
+            "relative_mdape_improvement": 0.04544555996933629,
+            "parent_mape_percent": 6.254322843441062,
+            "candidate_mape_percent": 6.2318050667174685,
+            "relative_mape_change": -0.003600354073056536,
+            "parent_median_signed_error_percent": -0.12659368070953436,
+            "candidate_median_signed_error_percent": -0.22495725006762052
+          }
+        }
+      }
+    }
+  }
+}

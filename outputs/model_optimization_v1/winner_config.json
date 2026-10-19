@@ -1,0 +1,238 @@
+{
+  "attempted": [
+    {
+      "month": "2025-06",
+      "status": "cached",
+      "target": "log_sold_price",
+      "track": "list_aware"
+    },
+    {
+      "month": "2025-09",
+      "status": "cached",
+      "target": "log_sold_price",
+      "track": "list_aware"
+    },
+    {
+      "month": "2025-11",
+      "status": "cached",
+      "target": "log_sold_price",
+      "track": "list_aware"
+    },
+    {
+      "month": "2025-06",
+      "status": "cached",
+      "target": "log_sold_over_list",
+      "track": "list_aware"
+    },
+    {
+      "month": "2025-09",
+      "status": "cached",
+      "target": "log_sold_over_list",
+      "track": "list_aware"
+    },
+    {
+      "month": "2025-11",
+      "status": "cached",
+      "target": "log_sold_over_list",
+      "track": "list_aware"
+    },
+    {
+      "month": "2025-06",
+      "status": "cached",
+      "target": "log_sold_price",
+      "track": "off_market"
+    },
+    {
+      "month": "2025-09",
+      "status": "cached",
+      "target": "log_sold_price",
+      "track": "off_market"
+    },
+    {
+      "month": "2025-11",
+      "status": "cached",
+      "target": "log_sold_price",
+      "track": "off_market"
+    },
+    {
+      "month": "2025-06",
+      "status": "completed",
+      "target": "log_sold_price_mae",
+      "track": "off_market"
+    },
+    {
+      "month": "2025-09",
+      "status": "completed",
+      "target": "log_sold_price_mae",
+      "track": "off_market"
+    },
+    {
+      "month": "2025-11",
+      "status": "completed",
+      "target": "log_sold_price_mae",
+      "track": "off_market"
+    }
+  ],
+  "config_sha256": "d52607d3ef6d4c07755a895facf56f90116c30392e97529bc1b0d98554c14d70",
+  "diagnostics": {
+    "list_aware": {
+      "alternative_target": {
+        "mape_percent": 5.454597669526163,
+        "mdape_percent": 4.399461385152225,
+        "median_signed_percent": 1.5208070091725783,
+        "n": 6185
+      },
+      "best_weight": {
+        "mape_percent": 5.4707525207367595,
+        "mdape_percent": 4.388958594730238,
+        "weight": 0.75
+      },
+      "blend_weights": [
+        {
+          "mape_percent": 5.72118740263519,
+          "mdape_percent": 4.535919147773832,
+          "weight": 0.0
+        },
+        {
+          "mape_percent": 5.609220442419547,
+          "mdape_percent": 4.463141524105755,
+          "weight": 0.25
+        },
+        {
+          "mape_percent": 5.525900021210978,
+          "mdape_percent": 4.402295186483902,
+          "weight": 0.5
+        },
+        {
+          "mape_percent": 5.4707525207367595,
+          "mdape_percent": 4.388958594730238,
+          "weight": 0.75
+        },
+        {
+          "mape_percent": 5.454596686070195,
+          "mdape_percent": 4.399559471365639,
+          "weight": 1.0
+        }
+      ],
+      "raw_target": {
+        "mape_percent": 5.584225382655492,
+        "mdape_percent": 4.405501255691528,
+        "median_signed_percent": 1.5037948096982992,
+        "n": 6185
+      },
+      "selected_target": "log_sold_over_list"
+    },
+    "off_market": {
+      "alternative_target": {
+        "mape_percent": 12.488049220602152,
+        "mdape_percent": 9.532116440488723,
+        "median_signed_percent": 2.090875920354497,
+        "n": 6185
+      },
+      "best_weight": {
+        "mape_percent": 12.475973771778817,
+        "mdape_percent": 9.510653284028878,
+        "weight": 1.0
+      },
+      "blend_weights": [
+        {
+          "mape_percent": 13.889128828854203,
+          "mdape_percent": 10.878733227528496,
+          "weight": 0.0
+        },
+        {
+          "mape_percent": 13.43840441488731,
+          "mdape_percent": 10.485090218423553,
+          "weight": 0.25
+        },
+        {
+          "mape_percent": 13.043533676136777,
+          "mdape_percent": 10.092307692307692,
+          "weight": 0.5
+        },
+        {
+          "mape_percent": 12.722552789018001,
+          "mdape_percent": 9.716230010207553,
+          "weight": 0.75
+        },
+        {
+          "mape_percent": 12.475973771778817,
+          "mdape_percent": 9.510653284028878,
+          "weight": 1.0
+        }
+      ],
+      "raw_target": {
+        "mape_percent": 12.475973676335077,
+        "mdape_percent": 9.510640239137562,
+        "median_signed_percent": 2.0727084478611046,
+        "n": 6185
+      },
+      "selected_target": "log_sold_price"
+    }
+  },
+  "fit_attempts": 11,
+  "invalid_legacy_l1_trials_excluded": [
+    "0c7914041c5e73c3",
+    "9c3de7c969210a3a",
+    "f6ab9b2c6a343f69"
+  ],
+  "locked": {
+    "list_aware": {
+      "alternative_target": "log_sold_over_list",
+      "alternative_target_mdape_percent": 4.399461385152225,
+      "blend_weight": 0.75,
+      "development_mape_percent": 5.4707525207367595,
+      "development_mdape_percent": 4.388958594730238,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 100,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "preset_index": 5,
+      "raw_target_mdape_percent": 4.405501255691528,
+      "target": "log_sold_over_list",
+      "tuning_mape_percent": 5.6555978928285695,
+      "tuning_mdape_percent": 4.4465874746259075
+    },
+    "off_market": {
+      "alternative_target": "log_sold_price_mae",
+      "alternative_target_mdape_percent": 9.532116440488723,
+      "blend_weight": 1.0,
+      "development_mape_percent": 12.475973771778817,
+      "development_mdape_percent": 9.510653284028878,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "preset_index": 6,
+      "raw_target_mdape_percent": 9.510640239137562,
+      "target": "log_sold_price",
+      "tuning_mape_percent": 12.468571215427874,
+      "tuning_mdape_percent": 9.479459883526882
+    }
+  },
+  "locked_at_utc": "2026-10-18T21:20:08.041738+00:00",
+  "reallocated_fit_slots": {
+    "count": 3,
+    "from_stage": "screen",
+    "to_stage": "methods"
+  },
+  "total_fit_attempts": 49
+}

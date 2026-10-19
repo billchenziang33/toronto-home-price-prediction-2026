@@ -1,0 +1,30 @@
+{
+  "off_market": {
+    "n": 10069,
+    "mape": 27.43,
+    "mape_95ci": [
+      26.95,
+      27.94
+    ],
+    "mdape": 20.84,
+    "mdape_95ci": [
+      20.4,
+      21.36
+    ],
+    "median_signed_error": 8.07
+  },
+  "list_aware": {
+    "n": 10069,
+    "mape": 8.09,
+    "mape_95ci": [
+      7.98,
+      8.2
+    ],
+    "mdape": 7.26,
+    "mdape_95ci": [
+      7.12,
+      7.41
+    ],
+    "median_signed_error": 5.68
+  }
+}

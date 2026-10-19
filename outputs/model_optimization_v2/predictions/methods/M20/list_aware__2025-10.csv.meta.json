@@ -1,0 +1,15 @@
+{
+  "fingerprint": "ce6bb0e7615c020211b8bb1a2b954f418d1357247816f83d9191c1e17ff95d10",
+  "pipeline_config": {
+    "challenger_family": "catboost",
+    "challenger_method_id": "M19",
+    "fixed_challenger_weight": 0.5,
+    "method_id": "M20",
+    "month": "2025-10",
+    "parent_id": "C0",
+    "residual_correlation": 0.9748575792153957,
+    "round_rule": "round parent first; fixed price-space average; round final",
+    "track": "list_aware"
+  },
+  "prediction_sha256": "f5382ac2b1f8922b27431a209a455043c24d4fc31ff92a7a6e6299985d1259ca"
+}

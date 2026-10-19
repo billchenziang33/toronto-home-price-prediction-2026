@@ -1,0 +1,17 @@
+{
+  "fingerprint": "c0154494aa9349be44318da0b3f2a31e0d8d5ff50a51deace2df496b0cadf303",
+  "pipeline_config": {
+    "candidate_component_sha256": "328a94211c2745da6e16ac9887ce46935a796a1d5015d9917338ff152a3d1f3c",
+    "frozen_component_sha256": "29a6100e13c2d99adf737eb9473c2f9664c6a091589c99e87bf60f74d46c6680",
+    "list_blend_weight": 0.75,
+    "method_id": "M16",
+    "model_config": {},
+    "model_family": "sklearn_ridge",
+    "month": "2025-11",
+    "parent": "C0",
+    "round_rule": "frozen first; blend in price space; final round",
+    "target_override": null,
+    "track": "list_aware"
+  },
+  "prediction_sha256": "64b600aad8adba0fb10525a574245c75b76f284e88f7f9ad5b942bf7caf8544d"
+}

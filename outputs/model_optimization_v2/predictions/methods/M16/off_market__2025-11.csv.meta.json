@@ -1,0 +1,17 @@
+{
+  "fingerprint": "88d1580b8e64f3030d4f959249796d224b9f115f90155685faf0db1bd9a59ac9",
+  "pipeline_config": {
+    "candidate_component_sha256": "baa724e581b297141559c6673ee0e4b013afe0ed4bf576a43803be11d1eae835",
+    "frozen_component_sha256": null,
+    "list_blend_weight": 1.0,
+    "method_id": "M16",
+    "model_config": {},
+    "model_family": "sklearn_ridge",
+    "month": "2025-11",
+    "parent": "C0",
+    "round_rule": "round final",
+    "target_override": null,
+    "track": "off_market"
+  },
+  "prediction_sha256": "4aa06b3f19f94756c9024ed4f54cec732fe9fc7f92260706204aa014b056f74d"
+}

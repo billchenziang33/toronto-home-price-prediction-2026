@@ -1,0 +1,13 @@
+{
+  "fingerprint": "14b17967883401a51f4d6762571219c4fb85966654496a3d84cbb20a69fe1881",
+  "pipeline_config": {
+    "frozen_hgbr_component_sha256": null,
+    "lightgbm_component_sha256": "efb2619d871cef5dbb575b9b985a1921c5717e6b65ed3b11072fe9af12a06420",
+    "list_blend_weight": 1.0,
+    "month": "2025-10",
+    "parent": "C0",
+    "postprocessing": "round final",
+    "track": "off_market"
+  },
+  "prediction_sha256": "2533b75a768e155c54466d3359c0348d9111605999d1025c0c190066fa4aed62"
+}

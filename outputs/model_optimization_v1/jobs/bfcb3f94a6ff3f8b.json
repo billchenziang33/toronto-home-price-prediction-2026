@@ -1,0 +1,23 @@
+{
+  "baseline_prediction_path": "outputs\\model_optimization_v1\\baseline\\list_aware_2025-12.csv",
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "model_config": {
+    "deterministic": true,
+    "force_col_wise": true,
+    "learning_rate": 0.03,
+    "min_child_samples": 100,
+    "n_estimators": 800,
+    "n_jobs": 4,
+    "num_leaves": 63,
+    "objective": "regression",
+    "random_state": 0,
+    "reg_lambda": 5
+  },
+  "model_family": "lightgbm",
+  "month": "2025-12",
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\bfcb3f94a6ff3f8b.csv",
+  "result_path": "outputs\\model_optimization_v1\\trials\\bfcb3f94a6ff3f8b.json",
+  "target": "log_sold_over_list",
+  "track": "list_aware",
+  "trial_id": "bfcb3f94a6ff3f8b"
+}

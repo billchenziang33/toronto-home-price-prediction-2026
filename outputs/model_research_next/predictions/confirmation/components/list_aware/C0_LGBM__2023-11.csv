@@ -1,0 +1,1626 @@
+ml_num,track,month,date_sold,sold_price,raw_prediction,house_type_name,house_style,municipality,community
+SYN-0152960,list_aware,2023-11,2023-11-01,636000.0,668609.2710116735,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0091564,list_aware,2023-11,2023-11-01,701600.0,699398.7941512129,Condo Apt,Apartment,Toronto,Juniperheights
+SYN-0062635,list_aware,2023-11,2023-11-01,646100.0,668891.6183813645,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0122851,list_aware,2023-11,2023-11-01,1435200.0,1506210.7329988345,Detached,2 1/2 Storey,Etobicoke,Maplevale
+SYN-0144248,list_aware,2023-11,2023-11-01,375400.0,392462.4969872269,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0064172,list_aware,2023-11,2023-11-01,581900.0,591971.6195702817,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0032410,list_aware,2023-11,2023-11-01,3469900.0,3770434.8723250516,Detached,2-Storey,North York,Sycamoreglen
+SYN-0077788,list_aware,2023-11,2023-11-01,1237400.0,1307728.6384115736,Detached,2-Storey,Toronto,Cedarbank
+SYN-0084966,list_aware,2023-11,2023-11-01,536100.0,540353.9224768798,Condo Apt,Apartment,Etobicoke,Chestnutmills
+SYN-0037679,list_aware,2023-11,2023-11-01,859200.0,934870.4418927915,Condo Apt,Apartment,Toronto,Willowpark
+SYN-0026381,list_aware,2023-11,2023-11-01,679000.0,644605.3710239806,Condo Apt,Apartment,Toronto,Birchbrook
+SYN-0119040,list_aware,2023-11,2023-11-01,902200.0,824513.558806823,Condo Apt,Apartment,Toronto,Elmview
+SYN-0084974,list_aware,2023-11,2023-11-01,898900.0,940479.4364438768,Condo Apt,Apartment,Toronto,Elmview
+SYN-0094341,list_aware,2023-11,2023-11-01,401700.0,434205.76367047307,Condo Apt,Apartment,North York,Cypressbrook
+SYN-0008268,list_aware,2023-11,2023-11-01,707900.0,700580.6327553327,Condo Apt,Apartment,Toronto,Alderworth
+SYN-0098116,list_aware,2023-11,2023-11-01,1834300.0,1615422.2132002714,Detached,2-Storey,York,Birchheights
+SYN-0122628,list_aware,2023-11,2023-11-01,734700.0,689656.4206266664,Condo Apt,Apartment,Scarborough,Ashhollow
+SYN-0045967,list_aware,2023-11,2023-11-01,1054100.0,1138231.3956500615,Detached,2-Storey,Toronto,Chestnutgrove
+SYN-0029209,list_aware,2023-11,2023-11-01,1962900.0,2247874.7152499305,Detached,3-Storey,Scarborough,Maplegrove
+SYN-0149370,list_aware,2023-11,2023-11-01,893500.0,915168.0744672738,Detached,2-Storey,Toronto,Alderhaven
+SYN-0091721,list_aware,2023-11,2023-11-01,793700.0,850947.8779367271,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0149971,list_aware,2023-11,2023-11-01,619300.0,617608.1660501674,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0100515,list_aware,2023-11,2023-11-01,494300.0,449874.9102460792,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0051559,list_aware,2023-11,2023-11-01,978100.0,1059388.8639766593,Detached,Bungalow,North York,Pineglen
+SYN-0061446,list_aware,2023-11,2023-11-01,1090000.0,1009942.1455882718,Condo Apt,Apartment,North York,Hickoryvale
+SYN-0000662,list_aware,2023-11,2023-11-01,1420300.0,1209968.9011177828,Condo Apt,Apartment,Etobicoke,Lindenvale
+SYN-0038504,list_aware,2023-11,2023-11-01,1165800.0,1062853.8855356686,Semi-Detached,2-Storey,Scarborough,Spruceview
+SYN-0106468,list_aware,2023-11,2023-11-01,862100.0,827391.5744395225,Detached,2-Storey,North York,Lindencrest
+SYN-0145418,list_aware,2023-11,2023-11-01,941400.0,887198.3077421443,Condo Apt,Apartment,Toronto,Elmview
+SYN-0074565,list_aware,2023-11,2023-11-01,605800.0,651168.9922858422,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0127510,list_aware,2023-11,2023-11-01,1285400.0,1398904.618348267,Semi-Detached,2-Storey,Scarborough,Hazelfield
+SYN-0074188,list_aware,2023-11,2023-11-01,525300.0,513256.887859785,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0075770,list_aware,2023-11,2023-11-01,636900.0,608482.0435134454,Condo Apt,Apartment,Toronto,Cedarbank
+SYN-0104332,list_aware,2023-11,2023-11-01,997700.0,1123025.4885085858,Semi-Detached,2-Storey,Toronto,Junipergardens
+SYN-0127880,list_aware,2023-11,2023-11-01,738700.0,791068.9914810687,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0019638,list_aware,2023-11,2023-11-01,735400.0,660307.6794329544,Freehold Townhouse,2-Storey,Toronto,Elmbourne
+SYN-0117696,list_aware,2023-11,2023-11-01,602400.0,568531.3260579917,Condo Apt,Loft,Etobicoke,Cypressglen
+SYN-0085614,list_aware,2023-11,2023-11-01,1626100.0,1761851.5925848114,Semi-Detached,Backsplit 5,Scarborough,Hazelfield
+SYN-0042594,list_aware,2023-11,2023-11-01,1093400.0,881086.9219536011,Detached,Bungalow,Toronto,Sycamoreview
+SYN-0150116,list_aware,2023-11,2023-11-01,1129500.0,1243429.0195491682,Condo Apt,2-Storey,Toronto,Elmgardens
+SYN-0141677,list_aware,2023-11,2023-11-01,1655200.0,1718313.5537620117,Detached,Bungalow-Raised,Toronto,Poplarview
+SYN-0006530,list_aware,2023-11,2023-11-01,592600.0,630682.3330232595,Detached,Bungalow,Scarborough,Juniperpark
+SYN-0062935,list_aware,2023-11,2023-11-01,588200.0,615601.9142176185,Condo Townhouse,Stacked Townhse,North York,Hickorybourne
+SYN-0104655,list_aware,2023-11,2023-11-01,2015500.0,2300335.090804472,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0093253,list_aware,2023-11,2023-11-01,1399100.0,1471276.9508358692,Semi-Detached,2-Storey,Toronto,Hickoryridge
+SYN-0010505,list_aware,2023-11,2023-11-01,874000.0,874711.9317111521,Condo Apt,Apartment,Toronto,Elmview
+SYN-0105055,list_aware,2023-11,2023-11-01,485900.0,465888.02946677106,Condo Apt,Apartment,Scarborough,Dogwoodhaven
+SYN-0005838,list_aware,2023-11,2023-11-01,849800.0,872069.1612126854,Detached,Bungalow,Toronto,Rowanbank
+SYN-0078993,list_aware,2023-11,2023-11-01,1776900.0,1890984.5364896469,Detached,Backsplit 4,Toronto,Hickoryridge
+SYN-0039913,list_aware,2023-11,2023-11-01,1648000.0,1698124.5898571769,Detached,Backsplit 3,Toronto,Rowanridge
+SYN-0093729,list_aware,2023-11,2023-11-01,864500.0,803249.4911760681,Condo Apt,Apartment,Scarborough,Sumaccrest
+SYN-0039151,list_aware,2023-11,2023-11-02,450100.0,468838.10794964066,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0055324,list_aware,2023-11,2023-11-02,419700.0,422867.4079823968,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0157988,list_aware,2023-11,2023-11-02,1653800.0,1838115.6162620264,Condo Townhouse,3-Storey,Toronto,Beechglen
+SYN-0067092,list_aware,2023-11,2023-11-02,663000.0,706072.0815770008,Detached,Backsplit 3,North York,Elmpark
+SYN-0029314,list_aware,2023-11,2023-11-02,849900.0,805218.7919354424,Detached,2-Storey,Toronto,Dogwoodcliffe
+SYN-0004458,list_aware,2023-11,2023-11-02,810600.0,780729.4065784662,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0036535,list_aware,2023-11,2023-11-02,379400.0,395993.3294453963,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0095958,list_aware,2023-11,2023-11-02,756500.0,841398.6330153361,Detached,1 1/2 Storey,North York,Cedargardens
+SYN-0046434,list_aware,2023-11,2023-11-02,596900.0,579689.7276652135,Condo Apt,Apartment,Toronto,Dogwoodcliffe
+SYN-0077662,list_aware,2023-11,2023-11-02,639500.0,612930.3050017724,Condo Apt,Apartment,Toronto,Chestnutbourne
+SYN-0047663,list_aware,2023-11,2023-11-02,604200.0,587346.9516605805,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0085417,list_aware,2023-11,2023-11-02,1457000.0,1253118.148195115,Detached,2-Storey,Scarborough,Beechbourne
+SYN-0145309,list_aware,2023-11,2023-11-02,828200.0,963910.445943731,Detached,Bungalow,Scarborough,Birchhollow
+SYN-0038100,list_aware,2023-11,2023-11-02,1200800.0,1150194.2927752733,Semi-Detached,2 1/2 Storey,Toronto,Juniperbrook
+SYN-0033432,list_aware,2023-11,2023-11-02,3144400.0,3358233.168770524,Detached,Bungalow,Scarborough,Sumaccrest
+SYN-0023186,list_aware,2023-11,2023-11-02,698200.0,738151.8452676538,Condo Apt,Apartment,Toronto,Pineridge
+SYN-0010970,list_aware,2023-11,2023-11-02,616300.0,654308.9569192219,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0054565,list_aware,2023-11,2023-11-02,585700.0,591337.3414171371,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0154314,list_aware,2023-11,2023-11-02,400500.0,376488.2160337443,Condo Apt,Apartment,Etobicoke,Cypressglen
+SYN-0129313,list_aware,2023-11,2023-11-02,707300.0,705040.9737731082,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0129550,list_aware,2023-11,2023-11-02,2335700.0,2200633.4450151045,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0106608,list_aware,2023-11,2023-11-02,482800.0,566480.0685503542,Condo Townhouse,2-Storey,Toronto,Sumacwood
+SYN-0091872,list_aware,2023-11,2023-11-02,1416700.0,1425845.9403941212,Detached,Bungalow,Toronto,Hemlockvale
+SYN-0077773,list_aware,2023-11,2023-11-02,894200.0,884490.391894683,Condo Townhouse,3-Storey,North York,Lindenridge
+SYN-0136776,list_aware,2023-11,2023-11-02,1067700.0,1157904.3490942854,Detached,Bungalow,North York,Cypressbrook
+SYN-0063501,list_aware,2023-11,2023-11-02,1017000.0,1023768.8448159796,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0064612,list_aware,2023-11,2023-11-02,478900.0,516008.1550866972,Condo Townhouse,Stacked Townhse,Toronto,Sequoiaview
+SYN-0088153,list_aware,2023-11,2023-11-02,700400.0,802682.304362865,Detached,2-Storey,North York,Lindencrest
+SYN-0017663,list_aware,2023-11,2023-11-02,1067300.0,1233428.2069684875,Detached,Backsplit 3,Toronto,Balsamgrove
+SYN-0023193,list_aware,2023-11,2023-11-02,554600.0,565874.5532683753,Condo Apt,Apartment,North York,Willowglen
+SYN-0041774,list_aware,2023-11,2023-11-02,631000.0,607147.9694519009,Condo Apt,Apartment,Toronto,Chestnutview
+SYN-0105440,list_aware,2023-11,2023-11-02,493300.0,492552.2272647767,Condo Apt,Apartment,North York,Lindenridge
+SYN-0038171,list_aware,2023-11,2023-11-02,789200.0,735810.9152722136,Condo Apt,Apartment,North York,Oakhaven
+SYN-0079128,list_aware,2023-11,2023-11-02,391500.0,435355.3606928655,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0006567,list_aware,2023-11,2023-11-02,488100.0,463408.30479063035,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0097933,list_aware,2023-11,2023-11-02,639300.0,619254.8707337795,Condo Apt,Apartment,Toronto,Hickorymills
+SYN-0128757,list_aware,2023-11,2023-11-02,457000.0,470828.2687464457,Condo Apt,Apartment,North York,Willowglen
+SYN-0133771,list_aware,2023-11,2023-11-02,939000.0,1029431.3957523173,Semi-Detached,2-Storey,Toronto,Cypresspark
+SYN-0092504,list_aware,2023-11,2023-11-02,1402600.0,1489898.6852230753,Detached,2-Storey,Toronto,Walnuthollow
+SYN-0014881,list_aware,2023-11,2023-11-02,427800.0,456674.9613800964,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0103313,list_aware,2023-11,2023-11-02,903600.0,914700.540182424,Detached,2-Storey,North York,Hickoryvale
+SYN-0129859,list_aware,2023-11,2023-11-02,528500.0,556666.2656482755,Condo Apt,Apartment,North York,Willowglen
+SYN-0008264,list_aware,2023-11,2023-11-02,1352400.0,1438761.2118746503,Detached,2-Storey,Toronto,Sequoiaview
+SYN-0027810,list_aware,2023-11,2023-11-02,1986900.0,2123288.2219962403,Semi-Detached,2-Storey,Scarborough,Hazelfield
+SYN-0158009,list_aware,2023-11,2023-11-02,804000.0,754922.5645150259,Condo Apt,Apartment,Toronto,Sumacfield
+SYN-0012591,list_aware,2023-11,2023-11-02,1000600.0,1030838.9279397974,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0127816,list_aware,2023-11,2023-11-02,1280600.0,1213173.1541717295,Condo Apt,Apartment,Toronto,Willowpark
+SYN-0063166,list_aware,2023-11,2023-11-02,487700.0,487420.4517955326,Condo Apt,Apartment,Scarborough,Magnoliavale
+SYN-0062802,list_aware,2023-11,2023-11-02,651900.0,670821.7683773593,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0121974,list_aware,2023-11,2023-11-02,1907600.0,2117562.7047411725,Detached,2-Storey,North York,Hemlockhollow
+SYN-0042784,list_aware,2023-11,2023-11-02,543700.0,532500.1008511012,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0090391,list_aware,2023-11,2023-11-02,769600.0,768192.45834564,Semi-Detached,Bungalow-Raised,Toronto,Chestnutview
+SYN-0046068,list_aware,2023-11,2023-11-02,862900.0,836974.4308149641,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0017471,list_aware,2023-11,2023-11-02,1273200.0,1400411.0113626823,Freehold Townhouse,2-Storey,Toronto,Magnoliaglen
+SYN-0099576,list_aware,2023-11,2023-11-03,1142200.0,1005710.7845888755,Semi-Detached,2-Storey,Toronto,Lindencliffe
+SYN-0144324,list_aware,2023-11,2023-11-03,607100.0,606233.9310011631,Condo Apt,Apartment,North York,Hazelmills
+SYN-0055047,list_aware,2023-11,2023-11-03,804200.0,912164.0423891714,Semi-Detached,2-Storey,Toronto,Dogwoodcliffe
+SYN-0004935,list_aware,2023-11,2023-11-03,818800.0,838772.3024822581,Condo Townhouse,Stacked Townhse,North York,Hickorybourne
+SYN-0053984,list_aware,2023-11,2023-11-03,410400.0,420270.7811315275,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0149087,list_aware,2023-11,2023-11-03,749600.0,806685.2579122706,Condo Apt,Apartment,Scarborough,Sequoiabourne
+SYN-0046276,list_aware,2023-11,2023-11-03,786300.0,800171.9659002809,Detached,2-Storey,North York,Cedargardens
+SYN-0149899,list_aware,2023-11,2023-11-03,655200.0,710050.4026790302,Semi-Detached,2-Storey,Toronto,Dogwoodcliffe
+SYN-0141501,list_aware,2023-11,2023-11-03,786600.0,869369.2607484538,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0154022,list_aware,2023-11,2023-11-03,642500.0,661806.7545493318,Condo Townhouse,Stacked Townhse,Etobicoke,Sumacvale
+SYN-0076614,list_aware,2023-11,2023-11-03,889700.0,937194.0164191416,Semi-Detached,Bungalow-Raised,Scarborough,Juniperpark
+SYN-0125783,list_aware,2023-11,2023-11-03,673100.0,682742.1515110242,Condo Apt,Apartment,Toronto,Sumacfield
+SYN-0045385,list_aware,2023-11,2023-11-03,655800.0,645355.497446664,Condo Apt,Apartment,Toronto,Juniperhaven
+SYN-0013678,list_aware,2023-11,2023-11-03,605900.0,705665.9377830321,Detached,Bungalow,Etobicoke,Walnutpark
+SYN-0115718,list_aware,2023-11,2023-11-03,460200.0,523254.4262496321,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0144596,list_aware,2023-11,2023-11-03,1778200.0,1656455.6644316246,Condo Apt,Loft,North York,Hawthornbourne
+SYN-0019688,list_aware,2023-11,2023-11-03,898900.0,851531.5882163427,Condo Apt,Apartment,Toronto,Chestnutvale
+SYN-0087704,list_aware,2023-11,2023-11-03,1028600.0,1013105.2639075473,Detached,Bungalow,Toronto,Alderhaven
+SYN-0048155,list_aware,2023-11,2023-11-03,998600.0,1152142.505866521,Detached,Bungalow,Toronto,Rowanbank
+SYN-0122100,list_aware,2023-11,2023-11-03,1449800.0,1315432.241200832,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0146365,list_aware,2023-11,2023-11-03,1421600.0,1471498.7353829525,Detached,2-Storey,Toronto,Chestnutbourne
+SYN-0114461,list_aware,2023-11,2023-11-03,1140900.0,1108164.7246436768,Detached,Bungalow-Raised,Toronto,Hawthorncliffe
+SYN-0139241,list_aware,2023-11,2023-11-03,579600.0,630126.2459300208,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0120099,list_aware,2023-11,2023-11-03,647500.0,622596.1672259602,Condo Apt,Apartment,North York,Elmcrest
+SYN-0138002,list_aware,2023-11,2023-11-03,1471400.0,1563482.9663918496,Detached,2-Storey,Toronto,Sumacdale
+SYN-0001410,list_aware,2023-11,2023-11-03,624900.0,653945.1620874064,Condo Townhouse,Stacked Townhse,Toronto,Magnoliaview
+SYN-0036550,list_aware,2023-11,2023-11-03,551400.0,614824.5565024356,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0021696,list_aware,2023-11,2023-11-03,468300.0,538637.5446317808,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0039411,list_aware,2023-11,2023-11-03,489400.0,498474.47795584996,Condo Apt,Apartment,Toronto,Willowview
+SYN-0082850,list_aware,2023-11,2023-11-03,546000.0,500373.3086125824,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0031630,list_aware,2023-11,2023-11-03,1367800.0,1393416.1108116235,Semi-Detached,2-Storey,Toronto,Cypressdale
+SYN-0083472,list_aware,2023-11,2023-11-03,1686100.0,1631861.5767111753,Detached,2-Storey,Toronto,Hickorymills
+SYN-0115847,list_aware,2023-11,2023-11-03,692100.0,665444.2013965698,Condo Apt,Apartment,Toronto,Oakcrest
+SYN-0025066,list_aware,2023-11,2023-11-03,885800.0,923077.8732347449,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0052128,list_aware,2023-11,2023-11-03,845100.0,1087324.4358947286,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0024931,list_aware,2023-11,2023-11-03,569800.0,637413.2409294676,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0037857,list_aware,2023-11,2023-11-03,877800.0,910576.2972294136,Condo Apt,Multi-Level,Toronto,Alderworth
+SYN-0141000,list_aware,2023-11,2023-11-03,1032800.0,1190661.6669105028,Semi-Detached,2-Storey,Toronto,Juniperhaven
+SYN-0113073,list_aware,2023-11,2023-11-03,1515900.0,1415208.1886004382,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0015337,list_aware,2023-11,2023-11-03,945000.0,984535.3739806709,Freehold Townhouse,3-Storey,Toronto,Chestnutgrove
+SYN-0137883,list_aware,2023-11,2023-11-03,1049200.0,1175774.9879398872,Condo Townhouse,3-Storey,Toronto,Cypresspark
+SYN-0122083,list_aware,2023-11,2023-11-03,1257100.0,1264141.665047577,Semi-Detached,2-Storey,Etobicoke,Maplevale
+SYN-0027222,list_aware,2023-11,2023-11-03,1642500.0,1665020.8100092516,Condo Apt,Apartment,Toronto,Elmview
+SYN-0092684,list_aware,2023-11,2023-11-03,1878200.0,2080661.4027121072,Semi-Detached,2-Storey,Toronto,Cypressdale
+SYN-0103715,list_aware,2023-11,2023-11-03,1158500.0,1259381.3711289053,Semi-Detached,2-Storey,North York,Elmcrest
+SYN-0114618,list_aware,2023-11,2023-11-03,405400.0,415517.7793383787,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0038838,list_aware,2023-11,2023-11-03,1461100.0,1244817.3441752712,Semi-Detached,2 1/2 Storey,Scarborough,Sumacworth
+SYN-0153513,list_aware,2023-11,2023-11-03,1015500.0,1049145.475214914,Detached,2-Storey,North York,Lindencrest
+SYN-0011802,list_aware,2023-11,2023-11-03,670700.0,805520.187676071,Condo Townhouse,2-Storey,North York,Lindenridge
+SYN-0025742,list_aware,2023-11,2023-11-03,1020100.0,910599.4996483623,Condo Apt,Apartment,North York,Sycamoreglen
+SYN-0018929,list_aware,2023-11,2023-11-03,909900.0,1048259.3146368745,Condo Townhouse,3-Storey,Toronto,Cedargrove
+SYN-0157234,list_aware,2023-11,2023-11-03,808300.0,800560.0921846377,Condo Apt,Loft,North York,Lindenridge
+SYN-0080871,list_aware,2023-11,2023-11-03,523600.0,583439.4662329089,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0127363,list_aware,2023-11,2023-11-03,1130000.0,1196430.1103270808,Semi-Detached,2-Storey,Etobicoke,Maplevale
+SYN-0141347,list_aware,2023-11,2023-11-03,4307500.0,4312093.358682037,Detached,2-Storey,Toronto,Maplepark
+SYN-0107111,list_aware,2023-11,2023-11-03,557200.0,623326.8165632687,Condo Townhouse,2-Storey,Etobicoke,Cedarglen
+SYN-0079871,list_aware,2023-11,2023-11-03,710400.0,690385.3420282133,Condo Apt,Apartment,Scarborough,Hazelfield
+SYN-0008069,list_aware,2023-11,2023-11-03,1013200.0,1055130.1646974757,Detached,Backsplit 3,Toronto,Cedarbank
+SYN-0157419,list_aware,2023-11,2023-11-04,905600.0,898809.0044303878,Condo Apt,Loft,Toronto,Ashworth
+SYN-0128458,list_aware,2023-11,2023-11-04,1202100.0,1260594.0264405583,Detached,2-Storey,Toronto,Elmbourne
+SYN-0001313,list_aware,2023-11,2023-11-04,928700.0,876215.2552120691,Semi-Detached,2-Storey,Toronto,Magnoliaworth
+SYN-0113874,list_aware,2023-11,2023-11-04,963700.0,1029273.4973565789,Detached,Bungalow,Toronto,Sumacdale
+SYN-0041085,list_aware,2023-11,2023-11-04,669000.0,644102.9120454438,Condo Apt,Apartment,North York,Willowglen
+SYN-0005692,list_aware,2023-11,2023-11-04,912700.0,926207.3955474745,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0141745,list_aware,2023-11,2023-11-04,5139000.0,5865453.950008696,Detached,3-Storey,Toronto,Maplepark
+SYN-0062592,list_aware,2023-11,2023-11-04,1379200.0,1491879.791626289,Semi-Detached,2 1/2 Storey,Toronto,Cypressdale
+SYN-0033776,list_aware,2023-11,2023-11-04,639200.0,669414.8994051049,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0058987,list_aware,2023-11,2023-11-04,345400.0,366404.91377967567,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0149512,list_aware,2023-11,2023-11-04,1425700.0,1487246.660764784,Detached,Bungalow,Toronto,Chestnutvale
+SYN-0122276,list_aware,2023-11,2023-11-04,852400.0,788707.8570757457,Semi-Detached,2-Storey,York,Birchheights
+SYN-0009085,list_aware,2023-11,2023-11-04,629400.0,597021.2088873445,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0041501,list_aware,2023-11,2023-11-04,1917100.0,2039884.4538499967,Semi-Detached,3-Storey,North York,Maplemills
+SYN-0079146,list_aware,2023-11,2023-11-04,892900.0,902493.8634582342,Condo Apt,Apartment,Etobicoke,Elmbrook
+SYN-0117970,list_aware,2023-11,2023-11-04,662400.0,744050.7377681213,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0136868,list_aware,2023-11,2023-11-04,506900.0,493178.66461054137,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0021771,list_aware,2023-11,2023-11-04,628100.0,611649.6810617737,Condo Apt,Apartment,Toronto,Larchview
+SYN-0113121,list_aware,2023-11,2023-11-04,1139000.0,1115719.1161668107,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0124521,list_aware,2023-11,2023-11-04,684200.0,699242.0734727229,Condo Townhouse,2-Storey,Scarborough,Magnoliavale
+SYN-0042442,list_aware,2023-11,2023-11-04,1354100.0,1546486.1639776062,Detached,2 1/2 Storey,Toronto,Chestnutgrove
+SYN-0085115,list_aware,2023-11,2023-11-04,782800.0,827503.8967858849,Freehold Townhouse,3-Storey,Toronto,Elmbourne
+SYN-0091969,list_aware,2023-11,2023-11-04,698600.0,643984.7670195247,Condo Apt,Apartment,North York,Maplebank
+SYN-0054766,list_aware,2023-11,2023-11-04,1267600.0,1252042.7082397924,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0044860,list_aware,2023-11,2023-11-04,578100.0,549849.609642076,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0104383,list_aware,2023-11,2023-11-04,945400.0,924269.8552600075,Condo Apt,Apartment,Toronto,Elmview
+SYN-0077967,list_aware,2023-11,2023-11-04,424800.0,446426.2289939419,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0101934,list_aware,2023-11,2023-11-04,932400.0,838561.9458232948,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0041859,list_aware,2023-11,2023-11-04,899500.0,924407.9079206324,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0128533,list_aware,2023-11,2023-11-04,1645500.0,1715994.763843629,Detached,Bungalow,Etobicoke,Maplevale
+SYN-0053557,list_aware,2023-11,2023-11-04,855200.0,831848.348686833,Semi-Detached,2-Storey,Toronto,Balsamwood
+SYN-0024359,list_aware,2023-11,2023-11-04,492900.0,519375.77807177446,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0112275,list_aware,2023-11,2023-11-04,655400.0,651832.7883242677,Condo Apt,Apartment,North York,Cypressbrook
+SYN-0064459,list_aware,2023-11,2023-11-04,1875100.0,1853977.6536406958,Detached,Bungalow,Etobicoke,Maplevale
+SYN-0058965,list_aware,2023-11,2023-11-04,1104800.0,1172034.1928547786,Detached,2-Storey,Scarborough,Dogwoodhaven
+SYN-0070703,list_aware,2023-11,2023-11-04,1589500.0,1539354.5788832142,Detached,Backsplit 4,Toronto,Cedarhaven
+SYN-0052571,list_aware,2023-11,2023-11-04,1612500.0,1379169.5157694463,Detached,Sidesplit 4,Toronto,Walnuthollow
+SYN-0089132,list_aware,2023-11,2023-11-04,737900.0,685932.1805662626,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0142621,list_aware,2023-11,2023-11-04,505800.0,508454.7260042669,Condo Apt,Apartment,Toronto,Mulberrygrove
+SYN-0047822,list_aware,2023-11,2023-11-04,954200.0,951699.5491177168,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0025958,list_aware,2023-11,2023-11-04,1618300.0,1612477.3999426858,Detached,2-Storey,Toronto,Sumacfield
+SYN-0141260,list_aware,2023-11,2023-11-04,2069400.0,1981412.4240179004,Detached,2 1/2 Storey,Toronto,Hemlockvale
+SYN-0044669,list_aware,2023-11,2023-11-04,450900.0,477646.7109587007,Co-Op Apt,Apartment,North York,Lindenridge
+SYN-0117821,list_aware,2023-11,2023-11-04,652700.0,734526.5413541527,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0117695,list_aware,2023-11,2023-11-04,797000.0,762762.1958026326,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0082954,list_aware,2023-11,2023-11-04,623900.0,655544.5232451354,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0054785,list_aware,2023-11,2023-11-04,638700.0,644124.6077708693,Condo Apt,Apartment,Toronto,Chestnutgrove
+SYN-0146111,list_aware,2023-11,2023-11-04,514400.0,477573.8628642667,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0125806,list_aware,2023-11,2023-11-04,499300.0,492421.10551603633,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0111580,list_aware,2023-11,2023-11-04,1885600.0,1870731.954975755,Detached,2-Storey,North York,Cypressbrook
+SYN-0058675,list_aware,2023-11,2023-11-05,571200.0,611553.6518914402,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0010375,list_aware,2023-11,2023-11-05,697900.0,687802.740338234,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0147445,list_aware,2023-11,2023-11-05,755100.0,739377.6335580577,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0139797,list_aware,2023-11,2023-11-05,883800.0,924772.6916039835,Condo Townhouse,3-Storey,Toronto,Chestnutbank
+SYN-0155024,list_aware,2023-11,2023-11-05,682400.0,673239.0029345885,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0031441,list_aware,2023-11,2023-11-05,859700.0,847889.2305556565,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0147889,list_aware,2023-11,2023-11-05,810000.0,948696.0302262106,Semi-Detached,2-Storey,North York,Hickoryvale
+SYN-0017323,list_aware,2023-11,2023-11-05,434500.0,444323.2966460956,Condo Apt,Apartment,North York,Willowglen
+SYN-0065211,list_aware,2023-11,2023-11-05,497100.0,551710.0017733864,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0155693,list_aware,2023-11,2023-11-05,875300.0,917054.8700934295,Condo Apt,Apartment,Toronto,Elmview
+SYN-0128417,list_aware,2023-11,2023-11-05,763900.0,679674.160067456,Condo Apt,Apartment,Scarborough,Spruceview
+SYN-0109193,list_aware,2023-11,2023-11-05,493500.0,549191.911280627,Condo Townhouse,2-Storey,Toronto,Sumacwood
+SYN-0143307,list_aware,2023-11,2023-11-05,555800.0,600348.0656710373,Condo Apt,Apartment,Toronto,Hemlockvale
+SYN-0144488,list_aware,2023-11,2023-11-05,1033400.0,917396.7089612887,Detached,Bungalow,Toronto,Sycamorehaven
+SYN-0126510,list_aware,2023-11,2023-11-05,600500.0,641043.34633936,Condo Apt,Apartment,Toronto,Elmview
+SYN-0104139,list_aware,2023-11,2023-11-05,635800.0,650902.5049399225,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0100608,list_aware,2023-11,2023-11-05,904700.0,952627.328531445,Condo Apt,Apartment,Toronto,Chestnutglen
+SYN-0128463,list_aware,2023-11,2023-11-05,548000.0,651091.7077657769,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0129906,list_aware,2023-11,2023-11-05,2876500.0,3013359.003934403,Detached,3-Storey,Toronto,Cypressdale
+SYN-0094902,list_aware,2023-11,2023-11-05,2438200.0,2251296.4589134157,Detached,Backsplit 4,Etobicoke,Maplevale
+SYN-0003788,list_aware,2023-11,2023-11-05,1131300.0,1165215.4843942407,Detached,Bungalow,Toronto,Hemlockvale
+SYN-0063681,list_aware,2023-11,2023-11-05,1213900.0,1150824.3713621502,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0013075,list_aware,2023-11,2023-11-05,1878100.0,2278362.8994955416,Detached,Bungalow,Toronto,Balsamgrove
+SYN-0102272,list_aware,2023-11,2023-11-05,1226400.0,1260273.3077868184,Detached,2-Storey,North York,Mulberrydale
+SYN-0084924,list_aware,2023-11,2023-11-05,808600.0,826371.3853251351,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0106201,list_aware,2023-11,2023-11-05,1081400.0,1125306.1615186972,Semi-Detached,2-Storey,Scarborough,Sumacworth
+SYN-0149218,list_aware,2023-11,2023-11-05,1181000.0,1237447.6780756696,Condo Townhouse,3-Storey,Toronto,Poplarcrest
+SYN-0032497,list_aware,2023-11,2023-11-05,2394100.0,1826054.2502047406,Detached,2-Storey,North York,Poplargardens
+SYN-0104970,list_aware,2023-11,2023-11-05,706500.0,706401.3932870298,Condo Townhouse,3-Storey,Scarborough,Birchhollow
+SYN-0082069,list_aware,2023-11,2023-11-05,609300.0,662277.0066289329,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0018098,list_aware,2023-11,2023-11-05,783000.0,814259.0995177211,Detached,Bungalow-Raised,Toronto,Chestnutridge
+SYN-0022580,list_aware,2023-11,2023-11-05,1339400.0,1494772.3688899965,Semi-Detached,2-Storey,York,Birchheights
+SYN-0055745,list_aware,2023-11,2023-11-05,1153100.0,1126411.716006576,Freehold Townhouse,3-Storey,North York,Mulberryvale
+SYN-0140993,list_aware,2023-11,2023-11-05,464100.0,471027.5196027688,Condo Apt,Apartment,Scarborough,Magnoliavale
+SYN-0148618,list_aware,2023-11,2023-11-05,550100.0,600175.0257036024,Condo Apt,Apartment,North York,Oakhaven
+SYN-0102986,list_aware,2023-11,2023-11-05,641800.0,635466.7709716691,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0146243,list_aware,2023-11,2023-11-05,1048300.0,970089.8384784727,Detached,Bungalow,Scarborough,Sumaccrest
+SYN-0022854,list_aware,2023-11,2023-11-05,1337900.0,1323796.768434839,Condo Townhouse,Stacked Townhse,Toronto,Rowanbrook
+SYN-0127331,list_aware,2023-11,2023-11-05,1261700.0,1330760.6663216515,Semi-Detached,Bungalow,Toronto,Elmgardens
+SYN-0061428,list_aware,2023-11,2023-11-05,818900.0,759133.6576761733,Semi-Detached,Backsplit 4,North York,Cypressbrook
+SYN-0031783,list_aware,2023-11,2023-11-05,724000.0,727266.2406487281,Co-Op Apt,Apartment,Toronto,Aspenworth
+SYN-0140314,list_aware,2023-11,2023-11-05,480200.0,524944.5857409188,Co-Op Apt,Apartment,North York,Hazelmills
+SYN-0083139,list_aware,2023-11,2023-11-05,706000.0,668298.0284603969,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0137233,list_aware,2023-11,2023-11-05,877500.0,853388.3659606383,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0136753,list_aware,2023-11,2023-11-05,665800.0,666557.4592944225,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0072934,list_aware,2023-11,2023-11-05,914300.0,971736.7026914811,Detached,Bungalow,Toronto,Rowanridge
+SYN-0143729,list_aware,2023-11,2023-11-05,606000.0,515600.2776123889,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0098238,list_aware,2023-11,2023-11-06,556100.0,581844.8807304766,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0125565,list_aware,2023-11,2023-11-06,572000.0,601468.3188692676,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0153190,list_aware,2023-11,2023-11-06,776200.0,800045.5105897922,Condo Apt,Apartment,Toronto,Rowangrove
+SYN-0043403,list_aware,2023-11,2023-11-06,650300.0,628635.764871798,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0148091,list_aware,2023-11,2023-11-06,1232700.0,1263115.9611560535,Condo Apt,Loft,Etobicoke,Cedarheights
+SYN-0006142,list_aware,2023-11,2023-11-06,377700.0,397828.8831201795,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0117300,list_aware,2023-11,2023-11-06,572100.0,571464.9395374203,Condo Townhouse,Stacked Townhse,Etobicoke,Cedarview
+SYN-0143194,list_aware,2023-11,2023-11-06,1393100.0,1292007.715210761,Semi-Detached,2-Storey,Toronto,Sycamoredale
+SYN-0156502,list_aware,2023-11,2023-11-06,615200.0,617161.0688240207,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0123803,list_aware,2023-11,2023-11-06,1059800.0,1156232.3485023533,Detached,1 1/2 Storey,North York,Willowglen
+SYN-0088093,list_aware,2023-11,2023-11-06,1038600.0,1031471.1560286906,Detached,Bungalow,North York,Cedargardens
+SYN-0041319,list_aware,2023-11,2023-11-06,1315700.0,1270056.744947308,Condo Apt,Apartment,Toronto,Willowpark
+SYN-0151920,list_aware,2023-11,2023-11-06,720400.0,712027.7035273556,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0077093,list_aware,2023-11,2023-11-06,1966200.0,2063985.506250647,Detached,3-Storey,Toronto,Hemlockvale
+SYN-0005355,list_aware,2023-11,2023-11-06,502100.0,522872.54708507535,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0021682,list_aware,2023-11,2023-11-06,1759300.0,1761066.831675623,Condo Townhouse,3-Storey,Toronto,Elmview
+SYN-0131119,list_aware,2023-11,2023-11-06,774300.0,837035.455458323,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0072313,list_aware,2023-11,2023-11-06,1994000.0,1830188.7612390525,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0126810,list_aware,2023-11,2023-11-06,989600.0,980534.1375099513,Detached,2-Storey,Toronto,Sequoiaview
+SYN-0025636,list_aware,2023-11,2023-11-06,1723200.0,1822925.6827965886,Detached,Bungalow,North York,Elmcrest
+SYN-0055629,list_aware,2023-11,2023-11-06,1579200.0,1533966.223303581,Condo Apt,Apartment,Toronto,Chestnutbourne
+SYN-0117177,list_aware,2023-11,2023-11-06,476900.0,476127.02098635864,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0044525,list_aware,2023-11,2023-11-06,784200.0,960148.5505472313,Semi-Detached,2-Storey,Toronto,Sycamoredale
+SYN-0064512,list_aware,2023-11,2023-11-06,1175900.0,1268976.1779864663,Detached,2-Storey,Toronto,Aspenwood
+SYN-0112696,list_aware,2023-11,2023-11-06,707200.0,715887.664772704,Condo Apt,Apartment,North York,Elmcrest
+SYN-0120234,list_aware,2023-11,2023-11-06,2158600.0,1542218.5329483475,Semi-Detached,2-Storey,North York,Cypressbrook
+SYN-0153665,list_aware,2023-11,2023-11-06,698600.0,744607.1311357709,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0107323,list_aware,2023-11,2023-11-06,605300.0,603450.5302017719,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0115597,list_aware,2023-11,2023-11-06,646700.0,643345.4603522739,Detached,Bungalow,Toronto,Chestnutridge
+SYN-0000273,list_aware,2023-11,2023-11-06,431800.0,488934.7633103281,Condo Apt,Apartment,Toronto,Cedarbank
+SYN-0031265,list_aware,2023-11,2023-11-06,1552800.0,1585553.0010015606,Semi-Detached,2-Storey,Scarborough,Spruceview
+SYN-0002770,list_aware,2023-11,2023-11-06,461500.0,496578.83672932925,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0007411,list_aware,2023-11,2023-11-06,2537300.0,2577358.6907419977,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0142561,list_aware,2023-11,2023-11-06,609000.0,585054.3346266482,Condo Apt,Multi-Level,Toronto,Chestnutgrove
+SYN-0141867,list_aware,2023-11,2023-11-06,377400.0,387082.4846247622,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0086865,list_aware,2023-11,2023-11-06,662400.0,645867.0578988076,Condo Apt,Apartment,York,Mulberryhaven
+SYN-0078147,list_aware,2023-11,2023-11-06,868900.0,960989.5623744826,Freehold Townhouse,2-Storey,North York,Cypressheights
+SYN-0119918,list_aware,2023-11,2023-11-06,772800.0,827151.8322674796,Condo Apt,Apartment,Toronto,Juniperheights
+SYN-0037560,list_aware,2023-11,2023-11-06,824200.0,999422.2200655593,Detached,2-Storey,Etobicoke,Chestnutmills
+SYN-0153243,list_aware,2023-11,2023-11-06,1884000.0,2197570.6738043996,Detached,3-Storey,Scarborough,Beechbourne
+SYN-0099823,list_aware,2023-11,2023-11-06,1145700.0,1144150.6147390495,Detached,3-Storey,Scarborough,Magnoliavale
+SYN-0093931,list_aware,2023-11,2023-11-06,982400.0,972988.7403564776,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0062299,list_aware,2023-11,2023-11-06,529400.0,510235.0847660346,Condo Apt,Apartment,North York,Cypressbrook
+SYN-0062375,list_aware,2023-11,2023-11-06,442600.0,419140.88716222416,Condo Apt,Apartment,Toronto,Elmbank
+SYN-0063880,list_aware,2023-11,2023-11-06,1090900.0,1200380.4391188486,Freehold Townhouse,2-Storey,North York,Hemlockhollow
+SYN-0084351,list_aware,2023-11,2023-11-06,561500.0,568731.2497312264,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0096054,list_aware,2023-11,2023-11-06,1700700.0,1589598.175741065,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0054795,list_aware,2023-11,2023-11-06,1915000.0,2062350.937226767,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0005629,list_aware,2023-11,2023-11-06,531200.0,596827.8989449532,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0125633,list_aware,2023-11,2023-11-06,1276400.0,1293235.7587171947,Freehold Townhouse,3-Storey,Toronto,Cedarhaven
+SYN-0065539,list_aware,2023-11,2023-11-06,502700.0,549468.6752478189,Condo Apt,Apartment,North York,Maplebank
+SYN-0111795,list_aware,2023-11,2023-11-06,655900.0,615251.3543423538,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0009696,list_aware,2023-11,2023-11-06,539000.0,573863.428159792,Condo Apt,Apartment,Toronto,Cedarbank
+SYN-0104362,list_aware,2023-11,2023-11-06,852200.0,931427.7163017727,Detached,2-Storey,Toronto,Chestnutgrove
+SYN-0146318,list_aware,2023-11,2023-11-07,872200.0,890223.2672301013,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0092777,list_aware,2023-11,2023-11-07,1845000.0,2073249.8135534143,Detached,Bungalow,Toronto,Walnuthollow
+SYN-0105225,list_aware,2023-11,2023-11-07,690200.0,733187.7869427173,Condo Apt,Apartment,North York,Lindenglen
+SYN-0105386,list_aware,2023-11,2023-11-07,794500.0,812466.9564543746,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0122382,list_aware,2023-11,2023-11-07,760700.0,804132.921199616,Semi-Detached,2-Storey,Toronto,Walnuthollow
+SYN-0035191,list_aware,2023-11,2023-11-07,838200.0,996223.1258867619,Semi-Detached,2-Storey,Toronto,Cedarhaven
+SYN-0006162,list_aware,2023-11,2023-11-07,579900.0,614927.0759964781,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0098893,list_aware,2023-11,2023-11-07,489600.0,465134.3529121273,Condo Apt,Apartment,Scarborough,Magnoliavale
+SYN-0050242,list_aware,2023-11,2023-11-07,634600.0,636898.557898498,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0070622,list_aware,2023-11,2023-11-07,753400.0,731451.4836411508,Condo Apt,Apartment,Toronto,Chestnutbourne
+SYN-0081100,list_aware,2023-11,2023-11-07,663800.0,629168.611833953,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0136891,list_aware,2023-11,2023-11-07,721600.0,664058.8469226343,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0157941,list_aware,2023-11,2023-11-07,1001200.0,939962.1748728985,Semi-Detached,2-Storey,Scarborough,Beechbourne
+SYN-0032994,list_aware,2023-11,2023-11-07,888900.0,821319.8694705707,Condo Apt,Apartment,Scarborough,Sumacworth
+SYN-0051773,list_aware,2023-11,2023-11-07,5010500.0,4584824.044659964,Detached,2-Storey,Toronto,Willowpark
+SYN-0118323,list_aware,2023-11,2023-11-07,594500.0,615445.725069098,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0047462,list_aware,2023-11,2023-11-07,536700.0,539993.942523016,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0010939,list_aware,2023-11,2023-11-07,976200.0,1003906.4433136277,Semi-Detached,2-Storey,Toronto,Alderhaven
+SYN-0024526,list_aware,2023-11,2023-11-07,429100.0,467296.98884860094,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0093818,list_aware,2023-11,2023-11-07,882300.0,810924.9978984088,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0115050,list_aware,2023-11,2023-11-07,466200.0,468160.66664753645,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0021612,list_aware,2023-11,2023-11-07,1017800.0,1019256.8963137139,Detached,Bungalow,Etobicoke,Magnoliabank
+SYN-0004651,list_aware,2023-11,2023-11-07,604300.0,604792.3733652828,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0102776,list_aware,2023-11,2023-11-07,751900.0,798856.6356171725,Condo Apt,Apartment,North York,Lindenridge
+SYN-0047038,list_aware,2023-11,2023-11-07,729800.0,740250.6211431602,Condo Townhouse,2-Storey,North York,Lindenridge
+SYN-0066194,list_aware,2023-11,2023-11-07,486800.0,494050.76493713434,Condo Apt,Apartment,Toronto,Lindendale
+SYN-0072095,list_aware,2023-11,2023-11-07,1158500.0,1284178.1408609007,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0016693,list_aware,2023-11,2023-11-07,530600.0,524801.4097596161,Condo Apt,Apartment,North York,Lindenridge
+SYN-0007067,list_aware,2023-11,2023-11-07,606200.0,585227.71063175,Condo Apt,Apartment,York,Birchheights
+SYN-0089781,list_aware,2023-11,2023-11-07,732400.0,702967.8425556751,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0127127,list_aware,2023-11,2023-11-07,583300.0,658417.3264628027,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0011234,list_aware,2023-11,2023-11-07,986900.0,945873.4534161899,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0004902,list_aware,2023-11,2023-11-07,722000.0,706656.3420675248,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0050017,list_aware,2023-11,2023-11-07,1776700.0,2004588.622267419,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0120089,list_aware,2023-11,2023-11-07,516200.0,538381.7257154352,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0066327,list_aware,2023-11,2023-11-07,1098000.0,1055769.9844858057,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0082867,list_aware,2023-11,2023-11-07,953100.0,941912.6287393483,Detached,Bungalow,Scarborough,Magnoliavale
+SYN-0132905,list_aware,2023-11,2023-11-07,1762600.0,1906826.1181735403,Semi-Detached,3-Storey,Toronto,Beechglen
+SYN-0156762,list_aware,2023-11,2023-11-07,929300.0,1009098.2521038605,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0043232,list_aware,2023-11,2023-11-07,678600.0,651008.6123631564,Condo Apt,Apartment,Toronto,Chestnutview
+SYN-0094629,list_aware,2023-11,2023-11-07,1157000.0,1109649.8212360675,Detached,Backsplit 4,Toronto,Cedarbank
+SYN-0088786,list_aware,2023-11,2023-11-07,914600.0,945641.1893592231,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0082503,list_aware,2023-11,2023-11-07,1062600.0,1047855.0595840854,Detached,2-Storey,Toronto,Rowanridge
+SYN-0071406,list_aware,2023-11,2023-11-07,639900.0,712792.8794614937,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0100922,list_aware,2023-11,2023-11-07,716900.0,802144.9847567267,Detached,Bungalow,Scarborough,Magnoliavale
+SYN-0081237,list_aware,2023-11,2023-11-07,437800.0,397434.0355976077,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0085507,list_aware,2023-11,2023-11-07,1184400.0,1270696.8795473676,Condo Townhouse,2-Storey,North York,Hawthornbourne
+SYN-0121375,list_aware,2023-11,2023-11-07,1435500.0,1228161.5152374976,Semi-Detached,Bungalow-Raised,Toronto,Magnoliacrest
+SYN-0075723,list_aware,2023-11,2023-11-07,694100.0,670035.5097146317,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0032565,list_aware,2023-11,2023-11-07,596700.0,602081.5956773876,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0008121,list_aware,2023-11,2023-11-07,991700.0,1010006.873886804,Semi-Detached,2-Storey,North York,Cypressheights
+SYN-0101207,list_aware,2023-11,2023-11-07,586600.0,603696.5574858033,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0149827,list_aware,2023-11,2023-11-07,321100.0,361361.27888657927,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0120565,list_aware,2023-11,2023-11-07,883500.0,909161.7314716456,Semi-Detached,2-Storey,Toronto,Chestnutvale
+SYN-0139929,list_aware,2023-11,2023-11-07,1115000.0,1155439.9422809372,Detached,2-Storey,Scarborough,Sequoiafield
+SYN-0137301,list_aware,2023-11,2023-11-07,611800.0,611976.8261782516,Condo Apt,Apartment,North York,Hazelmills
+SYN-0137462,list_aware,2023-11,2023-11-07,559000.0,570581.3244781026,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0050270,list_aware,2023-11,2023-11-08,720100.0,680502.8315207586,Condo Apt,Apartment,Toronto,Rowangrove
+SYN-0149134,list_aware,2023-11,2023-11-08,1131000.0,1221586.9273579747,Detached,Bungalow-Raised,Toronto,Chestnutview
+SYN-0032302,list_aware,2023-11,2023-11-08,1235100.0,1329178.3715890674,Detached,2-Storey,Toronto,Sumacdale
+SYN-0090427,list_aware,2023-11,2023-11-08,1242300.0,1426987.81212033,Detached,2-Storey,Toronto,Mapleview
+SYN-0006219,list_aware,2023-11,2023-11-08,854200.0,811169.7495105901,Semi-Detached,2-Storey,North York,Cypressheights
+SYN-0018442,list_aware,2023-11,2023-11-08,535000.0,529659.9582580978,Condo Apt,Apartment,Toronto,Birchgrove
+SYN-0103060,list_aware,2023-11,2023-11-08,676000.0,635845.8142559214,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0034916,list_aware,2023-11,2023-11-08,368000.0,366139.9072546502,Condo Apt,Apartment,Scarborough,Chestnutbrook
+SYN-0031011,list_aware,2023-11,2023-11-08,793600.0,823357.8672267161,Condo Townhouse,Stacked Townhse,North York,Hawthornbourne
+SYN-0155047,list_aware,2023-11,2023-11-08,1175900.0,1174339.03970906,Detached,Bungalow,Toronto,Sequoiaview
+SYN-0109995,list_aware,2023-11,2023-11-08,661500.0,653658.1275808506,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0087472,list_aware,2023-11,2023-11-08,1065700.0,1057350.6428615171,Detached,Bungalow-Raised,Toronto,Hemlockvale
+SYN-0110575,list_aware,2023-11,2023-11-08,1406000.0,1431902.905672121,Detached,2 1/2 Storey,York,Birchheights
+SYN-0143287,list_aware,2023-11,2023-11-08,614800.0,634642.9492977327,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0129488,list_aware,2023-11,2023-11-08,387800.0,406928.7210722729,Condo Apt,Apartment,Etobicoke,Magnoliabank
+SYN-0145568,list_aware,2023-11,2023-11-08,1259500.0,1165865.7924507186,Freehold Townhouse,3-Storey,Toronto,Chestnutview
+SYN-0117610,list_aware,2023-11,2023-11-08,729400.0,687543.7411029362,Condo Apt,Apartment,Toronto,Magnoliacrest
+SYN-0111064,list_aware,2023-11,2023-11-08,604900.0,588354.6481253555,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0014201,list_aware,2023-11,2023-11-08,459900.0,464659.46648908954,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0066457,list_aware,2023-11,2023-11-08,1132100.0,906368.064193881,Semi-Detached,2-Storey,Toronto,Balsamwood
+SYN-0141552,list_aware,2023-11,2023-11-08,639700.0,623838.5612255872,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0075514,list_aware,2023-11,2023-11-08,585700.0,604210.1254459587,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0019131,list_aware,2023-11,2023-11-08,518800.0,499154.79131567193,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0123715,list_aware,2023-11,2023-11-08,1166500.0,1298644.9923504356,Detached,Bungalow-Raised,North York,Poplargardens
+SYN-0122735,list_aware,2023-11,2023-11-08,1391400.0,1523812.5539461535,Semi-Detached,Bungalow,North York,Elmcrest
+SYN-0115808,list_aware,2023-11,2023-11-08,547900.0,595409.0394734162,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0049274,list_aware,2023-11,2023-11-08,1065800.0,1203321.1894819732,Detached,Bungalow-Raised,North York,Balsamcrest
+SYN-0061107,list_aware,2023-11,2023-11-08,1114400.0,1071186.207026426,Detached,Backsplit 4,North York,Elmpark
+SYN-0131904,list_aware,2023-11,2023-11-08,1442600.0,1345916.640887312,Detached,2-Storey,North York,Pinevale
+SYN-0068055,list_aware,2023-11,2023-11-08,1059500.0,1014808.9461488597,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0080624,list_aware,2023-11,2023-11-08,1871800.0,1881863.8112793087,Semi-Detached,Backsplit 4,Toronto,Rowanbrook
+SYN-0018059,list_aware,2023-11,2023-11-08,527600.0,524367.0642599243,Condo Apt,Apartment,North York,Tamarackmills
+SYN-0128974,list_aware,2023-11,2023-11-08,1146200.0,1052869.4270745737,Detached,1 1/2 Storey,Toronto,Elmbourne
+SYN-0071530,list_aware,2023-11,2023-11-08,1233600.0,1281867.8170753035,Detached,2-Storey,North York,Mulberrydale
+SYN-0047270,list_aware,2023-11,2023-11-08,838900.0,838300.8499249296,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0023713,list_aware,2023-11,2023-11-08,946400.0,958950.9745458656,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0118292,list_aware,2023-11,2023-11-08,503200.0,489755.25482729933,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0148747,list_aware,2023-11,2023-11-08,1153100.0,1135853.4188399836,Semi-Detached,2-Storey,Toronto,Birchgrove
+SYN-0028296,list_aware,2023-11,2023-11-08,922400.0,944798.3647258863,Condo Apt,2-Storey,Etobicoke,Cedarview
+SYN-0091905,list_aware,2023-11,2023-11-08,916100.0,992759.111714621,Detached,Sidesplit 4,Toronto,Sequoiaview
+SYN-0146947,list_aware,2023-11,2023-11-08,685000.0,705346.3896143415,Condo Apt,Apartment,North York,Willowglen
+SYN-0083828,list_aware,2023-11,2023-11-08,1079500.0,1138652.6247635928,Detached,Bungalow,Scarborough,Rowangardens
+SYN-0146693,list_aware,2023-11,2023-11-08,870500.0,877377.0076649359,Condo Apt,2-Storey,Scarborough,Beechbourne
+SYN-0056226,list_aware,2023-11,2023-11-08,679200.0,706345.3386534208,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0116084,list_aware,2023-11,2023-11-08,769100.0,776526.7305488207,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0074625,list_aware,2023-11,2023-11-08,445100.0,460375.88676704443,Condo Apt,Apartment,Etobicoke,Lindenvale
+SYN-0053059,list_aware,2023-11,2023-11-08,1137400.0,1144429.0753895908,Detached,Bungalow,Toronto,Sumacwood
+SYN-0088129,list_aware,2023-11,2023-11-08,686800.0,743887.2687814414,Condo Apt,2-Storey,Toronto,Larchbank
+SYN-0144792,list_aware,2023-11,2023-11-08,980200.0,1033941.962313652,Detached,2-Storey,North York,Hemlockhollow
+SYN-0147065,list_aware,2023-11,2023-11-08,1053600.0,1041476.6183549076,Semi-Detached,2-Storey,Toronto,Beechglen
+SYN-0149465,list_aware,2023-11,2023-11-09,1134800.0,1264475.6751432924,Detached,2-Storey,Toronto,Aspenworth
+SYN-0146054,list_aware,2023-11,2023-11-09,554700.0,569365.7218145686,Condo Apt,Apartment,Toronto,Pineridge
+SYN-0105568,list_aware,2023-11,2023-11-09,983800.0,910254.3660894849,Condo Townhouse,3-Storey,Toronto,Cypresspark
+SYN-0052657,list_aware,2023-11,2023-11-09,968400.0,1018871.4865189976,Detached,Sidesplit 4,Toronto,Chestnutgrove
+SYN-0134459,list_aware,2023-11,2023-11-09,842900.0,931566.6514586433,Detached,2-Storey,Scarborough,Magnoliavale
+SYN-0035537,list_aware,2023-11,2023-11-09,416100.0,437170.7716521796,Condo Apt,Apartment,North York,Lindenridge
+SYN-0084817,list_aware,2023-11,2023-11-09,482900.0,491697.49518794805,Condo Apt,Apartment,Etobicoke,Elmbrook
+SYN-0093128,list_aware,2023-11,2023-11-09,1026400.0,1080315.4577486606,Detached,Bungalow,Toronto,Cedarwood
+SYN-0055689,list_aware,2023-11,2023-11-09,1077300.0,1199247.9768243765,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0121231,list_aware,2023-11,2023-11-09,902600.0,1015037.0688633532,Freehold Townhouse,3-Storey,Etobicoke,Elmbrook
+SYN-0030983,list_aware,2023-11,2023-11-09,448000.0,430430.9176875552,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0022564,list_aware,2023-11,2023-11-09,407500.0,398821.91695302405,Condo Apt,Apartment,North York,Maplebank
+SYN-0123599,list_aware,2023-11,2023-11-09,1414300.0,1553626.9590245725,Detached,2-Storey,Toronto,Magnoliaglen
+SYN-0025027,list_aware,2023-11,2023-11-09,841000.0,740176.4344372891,Condo Apt,Apartment,North York,Hemlockhollow
+SYN-0049999,list_aware,2023-11,2023-11-09,900500.0,951621.7470235812,Condo Townhouse,2-Storey,Toronto,Cypresspark
+SYN-0038316,list_aware,2023-11,2023-11-09,888200.0,942707.2079693049,Condo Apt,Apartment,North York,Tamarackmills
+SYN-0092896,list_aware,2023-11,2023-11-09,592400.0,562704.518118093,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0148342,list_aware,2023-11,2023-11-09,668300.0,695897.9211988857,Condo Apt,Apartment,Toronto,Elmview
+SYN-0103812,list_aware,2023-11,2023-11-09,1007000.0,1070003.4817764065,Condo Apt,Apartment,Toronto,Elmview
+SYN-0037861,list_aware,2023-11,2023-11-09,1449700.0,1337833.4588644288,Detached,Bungalow,Toronto,Tamarackbourne
+SYN-0153220,list_aware,2023-11,2023-11-09,1341100.0,1392479.4763658228,Detached,Bungalow,Toronto,Hemlockvale
+SYN-0033025,list_aware,2023-11,2023-11-09,913100.0,970351.5884670451,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0082651,list_aware,2023-11,2023-11-09,634300.0,602813.992162285,Condo Apt,Apartment,Etobicoke,Maplebourne
+SYN-0154308,list_aware,2023-11,2023-11-09,583100.0,558495.8328225465,Condo Apt,Apartment,Toronto,Pineridge
+SYN-0009707,list_aware,2023-11,2023-11-09,670100.0,677043.666788308,Condo Apt,Apartment,North York,Mulberryvale
+SYN-0004429,list_aware,2023-11,2023-11-09,639400.0,628820.8567480062,Condo Apt,2-Storey,Scarborough,Hickoryglen
+SYN-0110024,list_aware,2023-11,2023-11-09,969200.0,1054360.5673559022,Semi-Detached,2 1/2 Storey,Toronto,Rowanridge
+SYN-0009884,list_aware,2023-11,2023-11-09,1127800.0,1140100.7759037884,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0035642,list_aware,2023-11,2023-11-09,1503100.0,1540693.6313519976,Detached,2-Storey,Toronto,Larchview
+SYN-0154095,list_aware,2023-11,2023-11-09,655700.0,685642.652188636,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0034074,list_aware,2023-11,2023-11-09,782400.0,689627.5434368517,Condo Apt,Apartment,Toronto,Elmview
+SYN-0141760,list_aware,2023-11,2023-11-09,909700.0,869900.1982369006,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0081534,list_aware,2023-11,2023-11-09,970400.0,919107.4098630515,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0145671,list_aware,2023-11,2023-11-09,909800.0,906189.5676455229,Detached,Bungalow,Toronto,Hemlockvale
+SYN-0064808,list_aware,2023-11,2023-11-09,765900.0,760302.1199812515,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0076228,list_aware,2023-11,2023-11-09,981900.0,1079685.7257905102,Semi-Detached,2-Storey,Toronto,Juniperhaven
+SYN-0003540,list_aware,2023-11,2023-11-09,800800.0,866650.9721809417,Condo Apt,Loft,Toronto,Chestnutglen
+SYN-0154815,list_aware,2023-11,2023-11-09,1687800.0,1626988.169337073,Freehold Townhouse,3-Storey,Toronto,Beechglen
+SYN-0129087,list_aware,2023-11,2023-11-09,947000.0,1049673.9003487895,Detached,Bungalow,Toronto,Cedarhaven
+SYN-0038053,list_aware,2023-11,2023-11-09,1434600.0,1466813.1736596632,Detached,Bungalow,Toronto,Chestnutview
+SYN-0050286,list_aware,2023-11,2023-11-09,920100.0,806932.1435325813,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0027308,list_aware,2023-11,2023-11-09,466300.0,475550.24140784243,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0120054,list_aware,2023-11,2023-11-09,479200.0,479439.2014620102,Condo Apt,Apartment,North York,Willowglen
+SYN-0156959,list_aware,2023-11,2023-11-09,948000.0,959390.2278780241,Freehold Townhouse,3-Storey,Toronto,Sprucehaven
+SYN-0055506,list_aware,2023-11,2023-11-09,942300.0,904311.6266600491,Freehold Townhouse,3-Storey,Toronto,Chestnutview
+SYN-0124779,list_aware,2023-11,2023-11-09,1589100.0,1785577.808768856,Detached,Bungalow-Raised,Scarborough,Beechbourne
+SYN-0044920,list_aware,2023-11,2023-11-09,953900.0,1022039.7319098149,Detached,Bungalow,North York,Elmpark
+SYN-0084003,list_aware,2023-11,2023-11-09,776600.0,806591.0048180724,Condo Apt,Apartment,Etobicoke,Mulberryhollow
+SYN-0137348,list_aware,2023-11,2023-11-09,474300.0,466238.98683584126,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0017582,list_aware,2023-11,2023-11-09,1039800.0,1231821.0449888224,Semi-Detached,Bungalow,Scarborough,Spruceview
+SYN-0061352,list_aware,2023-11,2023-11-09,1108000.0,1118895.319663533,Detached,Sidesplit 4,Toronto,Chestnutbourne
+SYN-0019356,list_aware,2023-11,2023-11-09,1248400.0,1328761.39886488,Detached,2-Storey,Toronto,Rowanbank
+SYN-0066519,list_aware,2023-11,2023-11-09,788600.0,639957.89788766,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0100449,list_aware,2023-11,2023-11-09,638000.0,684999.5708026313,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0121326,list_aware,2023-11,2023-11-09,692100.0,676571.1788323326,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0050347,list_aware,2023-11,2023-11-09,627200.0,649659.0191898736,Condo Townhouse,Stacked Townhse,Toronto,Sumacfield
+SYN-0091188,list_aware,2023-11,2023-11-09,1435800.0,1294253.1157113416,Detached,Sidesplit 3,North York,Mulberrydale
+SYN-0153410,list_aware,2023-11,2023-11-09,652900.0,677300.8048089821,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0059683,list_aware,2023-11,2023-11-09,991300.0,1118197.178449884,Detached,Bungalow,Toronto,Sycamoredale
+SYN-0087066,list_aware,2023-11,2023-11-09,1427200.0,1395211.257680803,Condo Apt,Apartment,North York,Sycamoreglen
+SYN-0092217,list_aware,2023-11,2023-11-09,796800.0,733455.8174852222,Condo Townhouse,Stacked Townhse,North York,Cypressheights
+SYN-0009556,list_aware,2023-11,2023-11-09,987500.0,1057423.4167715635,Semi-Detached,Bungalow,Toronto,Cedarwood
+SYN-0050634,list_aware,2023-11,2023-11-09,881700.0,942228.6638475038,Detached,2-Storey,Toronto,Sycamoreview
+SYN-0033280,list_aware,2023-11,2023-11-10,1555900.0,1829622.4611304512,Semi-Detached,2-Storey,Toronto,Beechglen
+SYN-0100764,list_aware,2023-11,2023-11-10,582900.0,619111.6161710185,Condo Townhouse,2-Storey,Scarborough,Magnoliavale
+SYN-0140080,list_aware,2023-11,2023-11-10,595900.0,571493.2090624961,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0106985,list_aware,2023-11,2023-11-10,462600.0,443325.1951848038,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0122544,list_aware,2023-11,2023-11-10,536700.0,582190.9974661552,Condo Apt,Multi-Level,Toronto,Larchview
+SYN-0087635,list_aware,2023-11,2023-11-10,501600.0,505943.05097882194,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0140233,list_aware,2023-11,2023-11-10,481200.0,507793.3868770455,Condo Apt,Apartment,Toronto,Juniperhaven
+SYN-0106260,list_aware,2023-11,2023-11-10,643900.0,663788.1686006287,Condo Apt,Apartment,Toronto,Cedarwood
+SYN-0149488,list_aware,2023-11,2023-11-10,769300.0,796828.4843467019,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0066164,list_aware,2023-11,2023-11-10,948100.0,1003707.4293603967,Detached,Bungalow,North York,Mulberrydale
+SYN-0097054,list_aware,2023-11,2023-11-10,1630900.0,1613346.229083035,Semi-Detached,Bungalow,Toronto,Elmview
+SYN-0103956,list_aware,2023-11,2023-11-10,1500100.0,1649882.1351449932,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0136462,list_aware,2023-11,2023-11-10,845800.0,788062.8934230581,Condo Apt,Loft,North York,Hickoryvale
+SYN-0019503,list_aware,2023-11,2023-11-10,409700.0,406814.0418619017,Condo Apt,Apartment,North York,Balsamcrest
+SYN-0060715,list_aware,2023-11,2023-11-10,3427000.0,3705952.166645188,Detached,2-Storey,Toronto,Lindendale
+SYN-0131513,list_aware,2023-11,2023-11-10,652400.0,631447.8988968992,Condo Townhouse,2-Storey,Scarborough,Oakbourne
+SYN-0149850,list_aware,2023-11,2023-11-10,758700.0,829294.4431336053,Condo Townhouse,2-Storey,Scarborough,Hickoryglen
+SYN-0013624,list_aware,2023-11,2023-11-10,534300.0,560449.2551708301,Condo Apt,Apartment,Scarborough,Spruceview
+SYN-0101680,list_aware,2023-11,2023-11-10,760300.0,819915.8584640649,Condo Townhouse,2-Storey,Etobicoke,Cedarglen
+SYN-0024323,list_aware,2023-11,2023-11-10,1011500.0,1278855.26087258,Detached,2-Storey,Toronto,Mapleview
+SYN-0059173,list_aware,2023-11,2023-11-10,656000.0,699607.5984240657,Condo Townhouse,3-Storey,Scarborough,Beechbourne
+SYN-0103702,list_aware,2023-11,2023-11-10,415800.0,424371.0564893241,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0158030,list_aware,2023-11,2023-11-10,489000.0,480555.69617886096,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0118837,list_aware,2023-11,2023-11-10,1020600.0,1046523.5943512337,Condo Apt,Apartment,North York,Lindenglen
+SYN-0049370,list_aware,2023-11,2023-11-10,487800.0,453174.2035244537,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0081559,list_aware,2023-11,2023-11-10,760400.0,701593.7809249553,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0091787,list_aware,2023-11,2023-11-10,1204600.0,1220164.521407188,Detached,Backsplit 3,Toronto,Elmbank
+SYN-0120145,list_aware,2023-11,2023-11-10,470200.0,475229.3036626569,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0022341,list_aware,2023-11,2023-11-10,926500.0,962530.5265982948,Detached,Bungalow,North York,Balsamcrest
+SYN-0074563,list_aware,2023-11,2023-11-10,601100.0,664881.8703396658,Detached,Bungalow,Toronto,Magnoliaworth
+SYN-0005103,list_aware,2023-11,2023-11-10,1350600.0,1301010.1860107633,Detached,2-Storey,Toronto,Poplarview
+SYN-0016866,list_aware,2023-11,2023-11-10,474500.0,487511.1325769723,Condo Apt,Apartment,Toronto,Sycamoreview
+SYN-0101310,list_aware,2023-11,2023-11-10,395200.0,399875.4242202026,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0072230,list_aware,2023-11,2023-11-10,838900.0,974666.4306140961,Detached,Bungalow,North York,Hickorybourne
+SYN-0156664,list_aware,2023-11,2023-11-10,626700.0,623106.9177510873,Condo Apt,Apartment,Toronto,Alderworth
+SYN-0011424,list_aware,2023-11,2023-11-10,631800.0,646379.9096740109,Condo Apt,Apartment,Toronto,Lindendale
+SYN-0133604,list_aware,2023-11,2023-11-10,517300.0,506835.0914235089,Condo Apt,Apartment,North York,Hickoryvale
+SYN-0015713,list_aware,2023-11,2023-11-10,2517600.0,2434279.8273830144,Semi-Detached,3-Storey,Toronto,Rowanhollow
+SYN-0049835,list_aware,2023-11,2023-11-10,731200.0,937797.3678579141,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0110120,list_aware,2023-11,2023-11-10,1014400.0,1259142.8231743595,Semi-Detached,2-Storey,Toronto,Juniperhaven
+SYN-0009633,list_aware,2023-11,2023-11-10,1293900.0,1459686.9912033898,Detached,Bungalow-Raised,Toronto,Mulberrygrove
+SYN-0032598,list_aware,2023-11,2023-11-10,437900.0,494016.54414262716,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0007601,list_aware,2023-11,2023-11-10,842400.0,855362.0695864614,Detached,Bungalow,Scarborough,Dogwoodhaven
+SYN-0014573,list_aware,2023-11,2023-11-10,362500.0,371153.86853947886,Condo Apt,Apartment,North York,Hazelmills
+SYN-0036509,list_aware,2023-11,2023-11-10,1030200.0,931893.158172527,Detached,1 1/2 Storey,Toronto,Rowanridge
+SYN-0143553,list_aware,2023-11,2023-11-10,505900.0,489835.9179763372,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0013655,list_aware,2023-11,2023-11-10,526900.0,506218.24695402983,Condo Apt,Apartment,North York,Willowglen
+SYN-0114296,list_aware,2023-11,2023-11-10,671100.0,689723.4979554642,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0060105,list_aware,2023-11,2023-11-10,351200.0,370552.8392154627,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0035333,list_aware,2023-11,2023-11-10,818900.0,748289.2721974921,Condo Apt,Apartment,North York,Hazelmills
+SYN-0141064,list_aware,2023-11,2023-11-10,768600.0,785061.0886763895,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0125116,list_aware,2023-11,2023-11-10,1370600.0,1328697.4870500362,Detached,Backsplit 3,Toronto,Magnoliaglen
+SYN-0014266,list_aware,2023-11,2023-11-10,1614600.0,1618246.0052063637,Detached,Bungalow,Toronto,Cedarwood
+SYN-0141120,list_aware,2023-11,2023-11-10,1414000.0,1238263.8706152232,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0138643,list_aware,2023-11,2023-11-10,681800.0,779783.5781834584,Condo Townhouse,3-Storey,York,Mulberryhaven
+SYN-0071689,list_aware,2023-11,2023-11-10,1011400.0,1033955.543635027,Condo Townhouse,2-Storey,Toronto,Ashworth
+SYN-0084103,list_aware,2023-11,2023-11-10,651000.0,649212.5886577606,Condo Apt,Loft,North York,Lindenridge
+SYN-0125373,list_aware,2023-11,2023-11-10,796300.0,845004.1848486499,Freehold Townhouse,2 1/2 Storey,Etobicoke,Cedarview
+SYN-0064867,list_aware,2023-11,2023-11-10,1972300.0,2002880.7772663871,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0102564,list_aware,2023-11,2023-11-10,2083400.0,2228753.8459872114,Detached,2-Storey,Toronto,Sumacdale
+SYN-0059156,list_aware,2023-11,2023-11-10,750200.0,714447.9926280846,Condo Apt,Apartment,North York,Willowglen
+SYN-0025850,list_aware,2023-11,2023-11-11,675100.0,654988.4893704739,Condo Apt,Apartment,North York,Hazelmills
+SYN-0023350,list_aware,2023-11,2023-11-11,513500.0,533827.9753315133,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0066187,list_aware,2023-11,2023-11-11,1067800.0,1203948.0047899126,Detached,Bungalow,Scarborough,Lindenmills
+SYN-0061504,list_aware,2023-11,2023-11-11,875300.0,883891.6223577377,Co-Op Apt,Apartment,Etobicoke,Cedarheights
+SYN-0151746,list_aware,2023-11,2023-11-11,1499000.0,1548091.5505909075,Detached,Bungalow,Etobicoke,Mulberryhollow
+SYN-0152739,list_aware,2023-11,2023-11-11,304400.0,335786.1269849307,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0128881,list_aware,2023-11,2023-11-11,1687700.0,1596028.2092683185,Detached,2-Storey,Toronto,Chestnutbourne
+SYN-0142717,list_aware,2023-11,2023-11-11,431500.0,466595.3705025059,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0054571,list_aware,2023-11,2023-11-11,1514500.0,1523797.8903667107,Detached,Bungalow,Toronto,Poplarview
+SYN-0048767,list_aware,2023-11,2023-11-11,841300.0,580938.6881447387,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0076398,list_aware,2023-11,2023-11-11,1353300.0,1302828.544958821,Semi-Detached,2-Storey,Toronto,Magnoliaglen
+SYN-0077066,list_aware,2023-11,2023-11-11,2639800.0,2762895.8400530964,Detached,3-Storey,Toronto,Aspenwood
+SYN-0127528,list_aware,2023-11,2023-11-11,520000.0,509969.035636291,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0149735,list_aware,2023-11,2023-11-11,882800.0,825448.3506751581,Detached,2-Storey,Toronto,Sycamorehaven
+SYN-0127978,list_aware,2023-11,2023-11-11,900500.0,908023.8236389781,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0067137,list_aware,2023-11,2023-11-11,1014500.0,1023964.8420878875,Detached,Bungalow,Toronto,Chestnutbourne
+SYN-0053864,list_aware,2023-11,2023-11-11,1182400.0,1210986.3985563314,Detached,Bungalow,Toronto,Sycamorewood
+SYN-0012474,list_aware,2023-11,2023-11-11,418800.0,425187.23831596295,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0082022,list_aware,2023-11,2023-11-11,1695400.0,1842285.3388490172,Detached,2-Storey,Toronto,Cedarbank
+SYN-0116260,list_aware,2023-11,2023-11-11,957900.0,1054659.2249975402,Detached,Bungalow,Toronto,Sycamorehaven
+SYN-0066411,list_aware,2023-11,2023-11-11,2614200.0,2060614.0377169405,Detached,2-Storey,Toronto,Junipergardens
+SYN-0147415,list_aware,2023-11,2023-11-11,1418300.0,1476284.5205548177,Detached,2-Storey,Scarborough,Magnoliavale
+SYN-0078157,list_aware,2023-11,2023-11-11,708800.0,745266.7582718304,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0063887,list_aware,2023-11,2023-11-11,491000.0,481936.66609479365,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0022635,list_aware,2023-11,2023-11-11,1766900.0,1926924.562079602,Detached,2-Storey,Toronto,Cedarbank
+SYN-0008908,list_aware,2023-11,2023-11-11,1303700.0,1333064.7065649368,Detached,2-Storey,Toronto,Sumacglen
+SYN-0152102,list_aware,2023-11,2023-11-11,432700.0,466701.7574210193,Condo Apt,Apartment,Toronto,Magnoliaworth
+SYN-0034680,list_aware,2023-11,2023-11-11,1262700.0,1346445.5581272666,Semi-Detached,2-Storey,Scarborough,Maplegrove
+SYN-0034677,list_aware,2023-11,2023-11-11,1432100.0,1485804.6899633887,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0001096,list_aware,2023-11,2023-11-11,623200.0,663871.8922727719,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0031276,list_aware,2023-11,2023-11-11,1331600.0,1001383.6236909269,Detached,1 1/2 Storey,North York,Cedargardens
+SYN-0041409,list_aware,2023-11,2023-11-11,846300.0,886902.9448021104,Condo Townhouse,Stacked Townhse,Toronto,Lindendale
+SYN-0001893,list_aware,2023-11,2023-11-11,562100.0,606507.5052295033,Condo Apt,Apartment,Toronto,Hickoryridge
+SYN-0145348,list_aware,2023-11,2023-11-11,3344600.0,3300169.778431337,Detached,Sidesplit 4,Toronto,Lindendale
+SYN-0063669,list_aware,2023-11,2023-11-11,820000.0,795533.4234481293,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0087871,list_aware,2023-11,2023-11-11,641700.0,644056.8286571456,Condo Apt,Apartment,North York,Hazelmills
+SYN-0091509,list_aware,2023-11,2023-11-11,648100.0,656699.6108048838,Condo Apt,2-Storey,Scarborough,Dogwoodmills
+SYN-0008913,list_aware,2023-11,2023-11-11,1370100.0,1417025.7338613118,Detached,2-Storey,Toronto,Chestnutbourne
+SYN-0006811,list_aware,2023-11,2023-11-11,712600.0,826776.471228955,Detached,Bungalow-Raised,North York,Balsamcrest
+SYN-0051830,list_aware,2023-11,2023-11-11,935400.0,743390.764893088,Detached,2-Storey,Scarborough,Juniperpark
+SYN-0010705,list_aware,2023-11,2023-11-11,923700.0,857665.9148283353,Detached,Bungalow,North York,Willowglen
+SYN-0039855,list_aware,2023-11,2023-11-11,899800.0,875272.0278142579,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0048531,list_aware,2023-11,2023-11-11,1268000.0,1489832.128019362,Detached,2-Storey,North York,Maplebrook
+SYN-0004937,list_aware,2023-11,2023-11-11,822000.0,776515.7693322113,Detached,Bungalow,Toronto,Aspenworth
+SYN-0104666,list_aware,2023-11,2023-11-11,651500.0,629511.0774268553,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0029027,list_aware,2023-11,2023-11-11,715700.0,656480.4891023076,Condo Apt,Apartment,North York,Lindenglen
+SYN-0087865,list_aware,2023-11,2023-11-11,1630100.0,1666370.3610327074,Detached,2-Storey,Toronto,Alderworth
+SYN-0135983,list_aware,2023-11,2023-11-12,1056900.0,1165438.8666734218,Detached,Bungalow,Toronto,Hemlockvale
+SYN-0005999,list_aware,2023-11,2023-11-12,617800.0,628497.5520781537,Condo Apt,Apartment,North York,Oakhaven
+SYN-0128717,list_aware,2023-11,2023-11-12,828000.0,853669.077861131,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0098737,list_aware,2023-11,2023-11-12,902400.0,995981.2645576496,Condo Townhouse,Stacked Townhse,Toronto,Larchview
+SYN-0070962,list_aware,2023-11,2023-11-12,654800.0,657068.2721330161,Condo Apt,Apartment,Scarborough,Ashhollow
+SYN-0099645,list_aware,2023-11,2023-11-12,1657000.0,1667282.8684735969,Semi-Detached,2 1/2 Storey,Scarborough,Maplegrove
+SYN-0074215,list_aware,2023-11,2023-11-12,887600.0,878850.1827124428,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0135925,list_aware,2023-11,2023-11-12,821500.0,778000.3035027143,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0026078,list_aware,2023-11,2023-11-12,441600.0,436728.17815578735,Condo Apt,Apartment,Toronto,Willowpark
+SYN-0039573,list_aware,2023-11,2023-11-12,1231900.0,1263369.4995680507,Detached,2-Storey,Toronto,Hickoryhaven
+SYN-0094075,list_aware,2023-11,2023-11-12,933500.0,1001892.7558992311,Condo Apt,Apartment,Toronto,Chestnutvale
+SYN-0012026,list_aware,2023-11,2023-11-12,851600.0,779158.7619759486,Condo Apt,Apartment,North York,Lindenridge
+SYN-0047035,list_aware,2023-11,2023-11-12,466600.0,536446.5756806487,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0137609,list_aware,2023-11,2023-11-12,625300.0,600563.2598472721,Condo Apt,Apartment,North York,Hickoryvale
+SYN-0037945,list_aware,2023-11,2023-11-12,1369400.0,1334465.8438999658,Condo Apt,2-Storey,North York,Lindenglen
+SYN-0093176,list_aware,2023-11,2023-11-12,601600.0,604318.4626879053,Condo Apt,Apartment,North York,Hickoryvale
+SYN-0141799,list_aware,2023-11,2023-11-12,678900.0,667858.3401964105,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0149646,list_aware,2023-11,2023-11-12,427100.0,402174.45120129763,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0087825,list_aware,2023-11,2023-11-12,1452300.0,1442678.555446243,Condo Townhouse,Stacked Townhse,Toronto,Magnoliacrest
+SYN-0147630,list_aware,2023-11,2023-11-12,516800.0,555720.8459695481,Condo Apt,Apartment,Toronto,Hickoryridge
+SYN-0019764,list_aware,2023-11,2023-11-12,938900.0,975415.0787782988,Condo Apt,2-Storey,Toronto,Ashworth
+SYN-0128769,list_aware,2023-11,2023-11-12,681400.0,654177.1976425782,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0027825,list_aware,2023-11,2023-11-12,949800.0,952130.9418123699,Detached,Sidesplit 4,North York,Hickoryvale
+SYN-0095753,list_aware,2023-11,2023-11-12,589700.0,646895.851145191,Condo Apt,Apartment,North York,Hazelmills
+SYN-0093065,list_aware,2023-11,2023-11-12,1437700.0,1428790.1808083924,Detached,Bungalow,Toronto,Junipergardens
+SYN-0040641,list_aware,2023-11,2023-11-12,2326200.0,2183490.2907196125,Detached,Bungalow-Raised,Etobicoke,Maplevale
+SYN-0027820,list_aware,2023-11,2023-11-12,1425200.0,1359921.1695742155,Detached,Backsplit 3,North York,Balsamcrest
+SYN-0012355,list_aware,2023-11,2023-11-12,562500.0,539933.6461830684,Condo Apt,Apartment,York,Birchheights
+SYN-0106274,list_aware,2023-11,2023-11-12,494800.0,540386.6646596002,Condo Townhouse,Stacked Townhse,Toronto,Chestnutview
+SYN-0138267,list_aware,2023-11,2023-11-12,3436000.0,2970763.0613483954,Semi-Detached,2-Storey,Scarborough,Hazelfield
+SYN-0118809,list_aware,2023-11,2023-11-12,1905600.0,1900943.9901456768,Semi-Detached,2-Storey,Toronto,Rowangrove
+SYN-0086078,list_aware,2023-11,2023-11-12,1319400.0,1394870.0259389335,Detached,Sidesplit 3,Toronto,Sumacdale
+SYN-0110919,list_aware,2023-11,2023-11-12,725900.0,780236.1890322275,Condo Townhouse,2-Storey,North York,Maplebank
+SYN-0086591,list_aware,2023-11,2023-11-12,898900.0,862001.7257739315,Condo Apt,Apartment,Toronto,Juniperheights
+SYN-0023200,list_aware,2023-11,2023-11-12,1526800.0,1485318.6058996024,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0063245,list_aware,2023-11,2023-11-12,682000.0,760549.1428806251,Detached,Backsplit 3,Toronto,Balsamwood
+SYN-0011820,list_aware,2023-11,2023-11-12,560400.0,565109.1148039319,Condo Apt,Apartment,Toronto,Willowpark
+SYN-0144686,list_aware,2023-11,2023-11-12,788200.0,809874.688763905,Condo Apt,Apartment,Toronto,Juniperbrook
+SYN-0051427,list_aware,2023-11,2023-11-12,664000.0,669160.551119648,Detached,2-Storey,North York,Mulberrydale
+SYN-0149490,list_aware,2023-11,2023-11-12,817800.0,870959.2025100967,Detached,1 1/2 Storey,Toronto,Ashbank
+SYN-0031923,list_aware,2023-11,2023-11-12,674400.0,666344.3514195916,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0155243,list_aware,2023-11,2023-11-12,567300.0,571788.8446355567,Condo Apt,Apartment,North York,Lindenridge
+SYN-0052244,list_aware,2023-11,2023-11-12,815600.0,821172.6242906363,Condo Apt,Apartment,Toronto,Alderworth
+SYN-0142012,list_aware,2023-11,2023-11-12,858100.0,1005591.6435264312,Condo Townhouse,3-Storey,Etobicoke,Cedarheights
+SYN-0056669,list_aware,2023-11,2023-11-12,529400.0,605633.4980085673,Condo Apt,Loft,North York,Lindenridge
+SYN-0133223,list_aware,2023-11,2023-11-12,985000.0,1010763.4010175011,Detached,Backsplit 4,Toronto,Sycamorehaven
+SYN-0048028,list_aware,2023-11,2023-11-12,561900.0,562801.7164720889,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0147136,list_aware,2023-11,2023-11-12,867900.0,890872.3025412566,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0033650,list_aware,2023-11,2023-11-12,550600.0,595073.7952415748,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0020432,list_aware,2023-11,2023-11-13,4910800.0,5747177.588906067,Detached,2-Storey,North York,Maplemills
+SYN-0130541,list_aware,2023-11,2023-11-13,720000.0,695210.4933998345,Condo Townhouse,Stacked Townhse,Toronto,Sequoiaview
+SYN-0081428,list_aware,2023-11,2023-11-13,426600.0,444174.1434495007,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0121839,list_aware,2023-11,2023-11-13,1097700.0,1004510.4660035892,Condo Apt,Apartment,Toronto,Elmview
+SYN-0122125,list_aware,2023-11,2023-11-13,386000.0,400389.40457982867,Condo Apt,Apartment,Toronto,Elmbank
+SYN-0010637,list_aware,2023-11,2023-11-13,660300.0,651426.3448320704,Detached,Backsplit 4,Toronto,Chestnutgrove
+SYN-0024373,list_aware,2023-11,2023-11-13,1275800.0,1239101.1683907034,Semi-Detached,2-Storey,Toronto,Balsamwood
+SYN-0094326,list_aware,2023-11,2023-11-13,806500.0,605140.6619720627,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0095253,list_aware,2023-11,2023-11-13,1429700.0,1468536.9265325968,Detached,Backsplit 3,Toronto,Mapleview
+SYN-0046757,list_aware,2023-11,2023-11-13,1054600.0,1084277.4639428332,Condo Townhouse,3-Storey,Toronto,Ashworth
+SYN-0028694,list_aware,2023-11,2023-11-13,553700.0,480982.87486171204,Condo Apt,Apartment,Toronto,Hawthorncliffe
+SYN-0113819,list_aware,2023-11,2023-11-13,569900.0,589764.2708692132,Condo Apt,Apartment,Toronto,Pineridge
+SYN-0124558,list_aware,2023-11,2023-11-13,3131900.0,2969484.1807689955,Detached,2-Storey,Toronto,Junipergardens
+SYN-0024518,list_aware,2023-11,2023-11-13,905300.0,983749.5116451808,Condo Apt,2-Storey,North York,Willowglen
+SYN-0154379,list_aware,2023-11,2023-11-13,526700.0,538266.8700241162,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0128069,list_aware,2023-11,2023-11-13,518500.0,549805.4121499691,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0133861,list_aware,2023-11,2023-11-13,1063900.0,1081713.0456631396,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0094302,list_aware,2023-11,2023-11-13,1179300.0,1268614.5772515156,Detached,2-Storey,North York,Hickoryvale
+SYN-0049292,list_aware,2023-11,2023-11-13,810000.0,734414.7586823038,Condo Apt,Apartment,North York,Lindenglen
+SYN-0076799,list_aware,2023-11,2023-11-13,980100.0,1110208.5054559314,Semi-Detached,Bungalow-Raised,North York,Willowglen
+SYN-0011788,list_aware,2023-11,2023-11-13,764000.0,867663.0508726235,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0106064,list_aware,2023-11,2023-11-13,1394800.0,1641966.129381343,Semi-Detached,2 1/2 Storey,Scarborough,Rowangardens
+SYN-0068632,list_aware,2023-11,2023-11-13,807200.0,762352.377844477,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0011258,list_aware,2023-11,2023-11-13,657800.0,649409.5780059713,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0076983,list_aware,2023-11,2023-11-13,785100.0,874967.7584856068,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0099303,list_aware,2023-11,2023-11-13,437800.0,434343.3293465064,Condo Apt,Multi-Level,Etobicoke,Cypressglen
+SYN-0065602,list_aware,2023-11,2023-11-13,841900.0,813669.592568891,Condo Apt,Apartment,North York,Oakhaven
+SYN-0151858,list_aware,2023-11,2023-11-13,1457000.0,1456946.2057046369,Detached,Bungalow,Toronto,Cedarhaven
+SYN-0083480,list_aware,2023-11,2023-11-13,911300.0,889456.1316440792,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0012347,list_aware,2023-11,2023-11-13,1426500.0,1430663.4555568227,Freehold Townhouse,3-Storey,Toronto,Hemlockvale
+SYN-0035531,list_aware,2023-11,2023-11-13,3714700.0,3717742.075881868,Semi-Detached,3-Storey,Scarborough,Hazelfield
+SYN-0021594,list_aware,2023-11,2023-11-13,1091100.0,1197470.4383253884,Condo Townhouse,Multi-Level,Toronto,Elmgardens
+SYN-0021316,list_aware,2023-11,2023-11-13,481600.0,502555.72990786907,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0077780,list_aware,2023-11,2023-11-13,569500.0,515509.6620951613,Condo Apt,Apartment,Toronto,Elmbank
+SYN-0008711,list_aware,2023-11,2023-11-13,506400.0,555228.089307886,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0021386,list_aware,2023-11,2023-11-13,484600.0,593163.2272721209,Detached,2-Storey,North York,Willowglen
+SYN-0060340,list_aware,2023-11,2023-11-13,1614100.0,1456157.5293799166,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0108574,list_aware,2023-11,2023-11-13,656100.0,664192.1849441385,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0107000,list_aware,2023-11,2023-11-13,556200.0,594032.9519545184,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0126690,list_aware,2023-11,2023-11-13,961300.0,1026709.1015021917,Detached,2-Storey,Toronto,Alderhaven
+SYN-0108431,list_aware,2023-11,2023-11-13,702500.0,692968.1281099658,Condo Apt,Apartment,Toronto,Juniperhaven
+SYN-0101229,list_aware,2023-11,2023-11-13,2873600.0,2981304.6500802315,Detached,2-Storey,North York,Maplemills
+SYN-0064783,list_aware,2023-11,2023-11-13,570800.0,574543.7366502614,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0030057,list_aware,2023-11,2023-11-13,663700.0,747377.6910251412,Semi-Detached,Backsplit 4,Etobicoke,Cedarview
+SYN-0012012,list_aware,2023-11,2023-11-13,983100.0,1053247.3786699742,Semi-Detached,2-Storey,North York,Cypressbrook
+SYN-0106805,list_aware,2023-11,2023-11-13,684800.0,674287.3367972934,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0005563,list_aware,2023-11,2023-11-13,1192000.0,1265229.127486501,Detached,1 1/2 Storey,Toronto,Elmbank
+SYN-0018715,list_aware,2023-11,2023-11-13,1573700.0,1780867.2053483594,Semi-Detached,3-Storey,Toronto,Juniperheights
+SYN-0025472,list_aware,2023-11,2023-11-13,954200.0,893585.2034446796,Detached,Backsplit 3,Toronto,Sumacdale
+SYN-0018533,list_aware,2023-11,2023-11-13,542200.0,522232.4636825846,Condo Apt,Apartment,North York,Lindenridge
+SYN-0063051,list_aware,2023-11,2023-11-13,1029200.0,1057050.6330024847,Condo Apt,Apartment,North York,Elmcrest
+SYN-0107785,list_aware,2023-11,2023-11-13,1600700.0,1520573.331163911,Detached,Sidesplit 4,Toronto,Chestnutridge
+SYN-0058719,list_aware,2023-11,2023-11-13,1136800.0,1069832.1409665379,Semi-Detached,2-Storey,Toronto,Magnoliaworth
+SYN-0059945,list_aware,2023-11,2023-11-13,872300.0,878259.165875064,Detached,2-Storey,Toronto,Sumacfield
+SYN-0148182,list_aware,2023-11,2023-11-13,1358800.0,1493557.969821126,Detached,Bungalow,Toronto,Cedarhaven
+SYN-0024461,list_aware,2023-11,2023-11-13,548800.0,561026.8647028672,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0117071,list_aware,2023-11,2023-11-13,674200.0,737360.4419905358,Condo Apt,Apartment,Toronto,Elmview
+SYN-0156355,list_aware,2023-11,2023-11-13,740200.0,646049.3416329722,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0130286,list_aware,2023-11,2023-11-13,680000.0,662592.8951017937,Condo Apt,Loft,Toronto,Beechglen
+SYN-0122551,list_aware,2023-11,2023-11-13,1234700.0,1299063.3259097843,Condo Townhouse,2-Storey,Toronto,Cypressdale
+SYN-0033622,list_aware,2023-11,2023-11-13,546300.0,599604.335747488,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0147902,list_aware,2023-11,2023-11-14,844100.0,801953.2292018026,Condo Apt,2-Storey,Toronto,Larchbank
+SYN-0095118,list_aware,2023-11,2023-11-14,831700.0,979274.9090678017,Semi-Detached,2-Storey,Etobicoke,Elmbrook
+SYN-0121901,list_aware,2023-11,2023-11-14,3206700.0,3547198.9030214357,Detached,2-Storey,North York,Maplemills
+SYN-0065550,list_aware,2023-11,2023-11-14,625500.0,649016.3742999885,Condo Apt,Apartment,Toronto,Rowanhollow
+SYN-0059133,list_aware,2023-11,2023-11-14,882900.0,856433.1097439571,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0125366,list_aware,2023-11,2023-11-14,997100.0,1164151.5134161653,Detached,2-Storey,Toronto,Rowanridge
+SYN-0046269,list_aware,2023-11,2023-11-14,440700.0,486282.2299367261,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0107154,list_aware,2023-11,2023-11-14,708500.0,725467.8984205798,Condo Apt,Apartment,Toronto,Elmview
+SYN-0015029,list_aware,2023-11,2023-11-14,1798400.0,1918461.4835078479,Semi-Detached,2-Storey,Toronto,Elmview
+SYN-0005396,list_aware,2023-11,2023-11-14,1009300.0,1132618.867234313,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0028858,list_aware,2023-11,2023-11-14,484100.0,535960.7713732314,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0128051,list_aware,2023-11,2023-11-14,539800.0,589931.8344972639,Condo Apt,Apartment,North York,Cypressbrook
+SYN-0005443,list_aware,2023-11,2023-11-14,1288000.0,1411694.9920017354,Freehold Townhouse,3-Storey,North York,Willowglen
+SYN-0112462,list_aware,2023-11,2023-11-14,552700.0,570345.0648950383,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0098725,list_aware,2023-11,2023-11-14,1065100.0,1048304.8762312854,Freehold Townhouse,3-Storey,North York,Balsamcrest
+SYN-0028812,list_aware,2023-11,2023-11-14,1555700.0,1599445.4169735361,Detached,Bungalow,Scarborough,Birchhollow
+SYN-0130630,list_aware,2023-11,2023-11-14,1018700.0,1030780.8271927213,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0085046,list_aware,2023-11,2023-11-14,2248700.0,2413712.329848494,Semi-Detached,3-Storey,North York,Maplemills
+SYN-0051245,list_aware,2023-11,2023-11-14,600600.0,611883.3491013573,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0069467,list_aware,2023-11,2023-11-14,892500.0,841753.9736406339,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0003764,list_aware,2023-11,2023-11-14,628600.0,621299.8995197222,Condo Townhouse,2-Storey,Toronto,Hazelbourne
+SYN-0144971,list_aware,2023-11,2023-11-14,1408600.0,1415498.424528329,Semi-Detached,3-Storey,Scarborough,Birchhollow
+SYN-0021476,list_aware,2023-11,2023-11-14,1033500.0,1032786.6914361549,Detached,Bungalow,North York,Elmpark
+SYN-0139226,list_aware,2023-11,2023-11-14,451200.0,466241.2377945347,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0013589,list_aware,2023-11,2023-11-14,1639100.0,1677504.5109678905,Freehold Townhouse,3-Storey,Toronto,Juniperheights
+SYN-0115155,list_aware,2023-11,2023-11-14,1620900.0,1492716.9704719004,Detached,2-Storey,Toronto,Rowanbank
+SYN-0144729,list_aware,2023-11,2023-11-14,858000.0,907421.8075668205,Detached,Bungalow,Toronto,Dogwoodglen
+SYN-0093988,list_aware,2023-11,2023-11-14,487400.0,534580.8486863684,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0048377,list_aware,2023-11,2023-11-14,817400.0,958993.2621031352,Semi-Detached,2-Storey,Etobicoke,Chestnutmills
+SYN-0007450,list_aware,2023-11,2023-11-14,609600.0,575382.8618165584,Condo Apt,Apartment,Scarborough,Chestnutbrook
+SYN-0100105,list_aware,2023-11,2023-11-14,1876800.0,1768847.6101547529,Detached,2-Storey,Toronto,Hickorymills
+SYN-0057518,list_aware,2023-11,2023-11-14,525200.0,435892.12924013427,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0131742,list_aware,2023-11,2023-11-14,1216800.0,1197995.068299059,Condo Apt,2-Storey,Toronto,Juniperheights
+SYN-0154896,list_aware,2023-11,2023-11-14,618600.0,689074.1225368556,Condo Apt,Loft,North York,Balsamcrest
+SYN-0114476,list_aware,2023-11,2023-11-14,814000.0,798939.0970201456,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0043893,list_aware,2023-11,2023-11-14,860600.0,676047.4972842648,Semi-Detached,Bungalow,Etobicoke,Dogwoodbrook
+SYN-0039915,list_aware,2023-11,2023-11-14,1044100.0,831988.5100065183,Detached,Bungalow-Raised,Toronto,Elmbank
+SYN-0061012,list_aware,2023-11,2023-11-14,6834000.0,7171478.026524594,Semi-Detached,3-Storey,Scarborough,Hazelfield
+SYN-0009005,list_aware,2023-11,2023-11-14,1123500.0,1133705.2051445686,Freehold Townhouse,3-Storey,Scarborough,Spruceview
+SYN-0052965,list_aware,2023-11,2023-11-14,1355600.0,1439033.8149407704,Freehold Townhouse,3-Storey,Toronto,Juniperheights
+SYN-0154170,list_aware,2023-11,2023-11-14,431900.0,426600.2400849368,Condo Apt,Apartment,Toronto,Elmview
+SYN-0150425,list_aware,2023-11,2023-11-14,1334800.0,1342977.5295632943,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0135005,list_aware,2023-11,2023-11-14,658300.0,719527.3319512182,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0092904,list_aware,2023-11,2023-11-14,516700.0,476635.6271956123,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0127926,list_aware,2023-11,2023-11-14,747600.0,701475.1397636625,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0024510,list_aware,2023-11,2023-11-14,430400.0,411653.46894160035,Condo Apt,Apartment,North York,Lindenridge
+SYN-0106972,list_aware,2023-11,2023-11-14,875700.0,893746.2530702756,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0130505,list_aware,2023-11,2023-11-14,993700.0,1024754.3733442171,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0060041,list_aware,2023-11,2023-11-14,1530300.0,1496202.9778181405,Detached,2-Storey,Toronto,Cedarhaven
+SYN-0117923,list_aware,2023-11,2023-11-14,948000.0,929814.9230503124,Freehold Townhouse,3-Storey,Toronto,Sycamoreview
+SYN-0081705,list_aware,2023-11,2023-11-14,1013600.0,1002176.3678770949,Detached,Sidesplit 4,Toronto,Chestnutvale
+SYN-0018084,list_aware,2023-11,2023-11-14,609200.0,596911.5128064388,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0129044,list_aware,2023-11,2023-11-14,790900.0,697752.527553128,Condo Apt,Apartment,Toronto,Cedarwood
+SYN-0040346,list_aware,2023-11,2023-11-14,659900.0,643550.3520860889,Condo Apt,Apartment,North York,Hazelmills
+SYN-0078162,list_aware,2023-11,2023-11-14,969200.0,1078241.8845894188,Detached,Bungalow,Toronto,Magnoliaglen
+SYN-0098895,list_aware,2023-11,2023-11-14,812000.0,788062.4285220389,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0042104,list_aware,2023-11,2023-11-14,726100.0,818105.5576315167,Condo Townhouse,Stacked Townhse,Toronto,Cedarwood
+SYN-0153316,list_aware,2023-11,2023-11-14,944400.0,995883.8187308898,Detached,2-Storey,Scarborough,Hickoryglen
+SYN-0150725,list_aware,2023-11,2023-11-14,2026200.0,2035829.1340900753,Detached,2-Storey,Toronto,Lindencliffe
+SYN-0017366,list_aware,2023-11,2023-11-14,651100.0,610700.7369997591,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0125895,list_aware,2023-11,2023-11-14,1749400.0,1866450.3947825616,Detached,2-Storey,Toronto,Hickorymills
+SYN-0048948,list_aware,2023-11,2023-11-14,803100.0,897886.1077536022,Semi-Detached,2-Storey,Toronto,Magnoliaworth
+SYN-0107873,list_aware,2023-11,2023-11-14,708600.0,720924.9330790695,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0122374,list_aware,2023-11,2023-11-14,606500.0,588330.4946099543,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0087592,list_aware,2023-11,2023-11-14,1030100.0,1171992.5850699765,Detached,2-Storey,Toronto,Hickoryridge
+SYN-0147857,list_aware,2023-11,2023-11-14,725400.0,868354.2230201222,Detached,Bungalow,Toronto,Alderhaven
+SYN-0005576,list_aware,2023-11,2023-11-15,1370400.0,1384121.5512464712,Detached,2-Storey,Toronto,Sycamoredale
+SYN-0031570,list_aware,2023-11,2023-11-15,639400.0,663043.364148644,Condo Apt,Apartment,Toronto,Lindendale
+SYN-0014492,list_aware,2023-11,2023-11-15,472900.0,451132.278097917,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0101046,list_aware,2023-11,2023-11-15,735700.0,708653.2997192726,Condo Townhouse,2-Storey,Etobicoke,Walnutpark
+SYN-0153715,list_aware,2023-11,2023-11-15,2047300.0,1973863.7914720452,Detached,2-Storey,Toronto,Junipergardens
+SYN-0012159,list_aware,2023-11,2023-11-15,634100.0,625599.8001710811,Condo Apt,Apartment,Toronto,Ashbank
+SYN-0089995,list_aware,2023-11,2023-11-15,1179900.0,1231545.6430018288,Condo Townhouse,3-Storey,Toronto,Cypresspark
+SYN-0125717,list_aware,2023-11,2023-11-15,707700.0,699667.6889139239,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0028210,list_aware,2023-11,2023-11-15,505900.0,576801.8238880594,Condo Townhouse,Stacked Townhse,Toronto,Sequoiahollow
+SYN-0014160,list_aware,2023-11,2023-11-15,1116900.0,846126.8583430065,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0095319,list_aware,2023-11,2023-11-15,1471000.0,1528848.2811711777,Condo Apt,Apartment,Toronto,Rowangrove
+SYN-0029928,list_aware,2023-11,2023-11-15,483800.0,521627.81452730007,Condo Apt,Apartment,North York,Oakhaven
+SYN-0081656,list_aware,2023-11,2023-11-15,1727400.0,1874632.8426131068,Detached,2-Storey,Toronto,Junipergardens
+SYN-0102284,list_aware,2023-11,2023-11-15,5757300.0,6245823.140587573,Detached,2-Storey,Toronto,Maplepark
+SYN-0156544,list_aware,2023-11,2023-11-15,831900.0,847814.7630133503,Condo Apt,Apartment,Toronto,Hickorymills
+SYN-0075091,list_aware,2023-11,2023-11-15,945800.0,946638.5500791648,Detached,Bungalow,Toronto,Pineridge
+SYN-0123013,list_aware,2023-11,2023-11-15,549300.0,543227.9508317962,Condo Apt,Apartment,Toronto,Dogwoodcliffe
+SYN-0123332,list_aware,2023-11,2023-11-15,884800.0,938468.9983078191,Semi-Detached,2-Storey,Toronto,Magnoliaworth
+SYN-0093785,list_aware,2023-11,2023-11-15,506900.0,483944.15470680426,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0154303,list_aware,2023-11,2023-11-15,504900.0,512668.71550568857,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0141861,list_aware,2023-11,2023-11-15,496100.0,540677.276724144,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0104035,list_aware,2023-11,2023-11-15,710100.0,732866.4943511998,Condo Apt,Apartment,North York,Lindenglen
+SYN-0071790,list_aware,2023-11,2023-11-15,1160300.0,1241278.9944715234,Condo Townhouse,3-Storey,North York,Hawthornbourne
+SYN-0049946,list_aware,2023-11,2023-11-15,882000.0,833864.0715445479,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0046156,list_aware,2023-11,2023-11-15,804800.0,815570.0616236426,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0130293,list_aware,2023-11,2023-11-15,2611000.0,2875792.8547918405,Detached,2-Storey,Toronto,Beechcrest
+SYN-0119905,list_aware,2023-11,2023-11-15,1165800.0,1241285.526678556,Detached,Backsplit 4,North York,Balsamcrest
+SYN-0099139,list_aware,2023-11,2023-11-15,462500.0,479969.06206689647,Condo Apt,Apartment,Toronto,Lindencliffe
+SYN-0139066,list_aware,2023-11,2023-11-15,2275400.0,2308888.4037077706,Freehold Townhouse,3-Storey,Scarborough,Hazelfield
+SYN-0026544,list_aware,2023-11,2023-11-15,1384000.0,1268242.216168543,Detached,Bungalow,Toronto,Juniperhaven
+SYN-0003365,list_aware,2023-11,2023-11-15,1475900.0,1563134.8506688133,Detached,Bungalow,Toronto,Juniperheights
+SYN-0020645,list_aware,2023-11,2023-11-15,455500.0,511362.046347855,Condo Apt,Apartment,North York,Oakhaven
+SYN-0036466,list_aware,2023-11,2023-11-15,700100.0,753518.110072252,Condo Townhouse,Stacked Townhse,Toronto,Sequoiaview
+SYN-0133009,list_aware,2023-11,2023-11-15,336200.0,342080.18627092184,Condo Apt,Apartment,North York,Willowglen
+SYN-0083680,list_aware,2023-11,2023-11-15,477300.0,478159.3238749351,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0097277,list_aware,2023-11,2023-11-15,631600.0,662029.2235126778,Condo Apt,Loft,Scarborough,Hickoryglen
+SYN-0032045,list_aware,2023-11,2023-11-15,789100.0,811654.382640888,Condo Apt,Apartment,North York,Mulberryvale
+SYN-0090483,list_aware,2023-11,2023-11-15,2105800.0,2475894.893942881,Semi-Detached,2-Storey,Scarborough,Hazelfield
+SYN-0138076,list_aware,2023-11,2023-11-15,891500.0,974296.2158758236,Condo Townhouse,2-Storey,Toronto,Walnutfield
+SYN-0088922,list_aware,2023-11,2023-11-15,538200.0,574110.2152037336,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0084167,list_aware,2023-11,2023-11-15,892100.0,904081.689459709,Condo Apt,Loft,North York,Pinevale
+SYN-0072174,list_aware,2023-11,2023-11-15,1236000.0,1224062.567603218,Semi-Detached,Bungalow,Scarborough,Spruceview
+SYN-0068794,list_aware,2023-11,2023-11-15,468300.0,453113.2823263737,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0016615,list_aware,2023-11,2023-11-15,391400.0,403037.29044239235,Condo Apt,Apartment,North York,Willowglen
+SYN-0119594,list_aware,2023-11,2023-11-15,1300300.0,1225678.3696591603,Detached,2-Storey,Scarborough,Dogwoodhaven
+SYN-0007266,list_aware,2023-11,2023-11-15,2098300.0,2144447.3100911705,Semi-Detached,2-Storey,Toronto,Elmview
+SYN-0037775,list_aware,2023-11,2023-11-15,690200.0,669553.8513422946,Condo Apt,Apartment,North York,Lindenridge
+SYN-0082678,list_aware,2023-11,2023-11-15,938600.0,786079.3717769837,Detached,2-Storey,Toronto,Sycamoreview
+SYN-0072890,list_aware,2023-11,2023-11-15,707400.0,723923.3619947281,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0142669,list_aware,2023-11,2023-11-15,1392000.0,1444137.8191674014,Detached,2-Storey,Toronto,Junipergardens
+SYN-0030212,list_aware,2023-11,2023-11-15,330700.0,368261.01130940224,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0064275,list_aware,2023-11,2023-11-15,1262300.0,1541255.4145215321,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0148858,list_aware,2023-11,2023-11-15,701100.0,699754.5798882638,Condo Apt,Apartment,Etobicoke,Elmbrook
+SYN-0057967,list_aware,2023-11,2023-11-15,2981700.0,2478471.146312704,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0121400,list_aware,2023-11,2023-11-15,559900.0,518952.47081051714,Condo Apt,Apartment,Toronto,Sycamoreview
+SYN-0109928,list_aware,2023-11,2023-11-16,810700.0,835338.4660216285,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0129081,list_aware,2023-11,2023-11-16,1164500.0,1075758.6008261312,Detached,2-Storey,North York,Elmpark
+SYN-0144064,list_aware,2023-11,2023-11-16,480500.0,491430.28309236304,Condo Apt,Apartment,Toronto,Elmbank
+SYN-0115654,list_aware,2023-11,2023-11-16,536700.0,506810.16919439734,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0142467,list_aware,2023-11,2023-11-16,981700.0,1127583.241107515,Detached,Backsplit 3,Scarborough,Beechbourne
+SYN-0022908,list_aware,2023-11,2023-11-16,986700.0,982265.7837716641,Freehold Townhouse,2-Storey,Toronto,Magnoliaworth
+SYN-0055918,list_aware,2023-11,2023-11-16,753100.0,774746.6410742352,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0020729,list_aware,2023-11,2023-11-16,507100.0,541127.5199028482,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0071218,list_aware,2023-11,2023-11-16,773700.0,788306.2429577267,Condo Apt,2-Storey,Toronto,Cypressdale
+SYN-0093448,list_aware,2023-11,2023-11-16,1970000.0,1892208.4702019247,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0072413,list_aware,2023-11,2023-11-16,859100.0,862819.5696420363,Condo Apt,Apartment,Scarborough,Spruceview
+SYN-0075843,list_aware,2023-11,2023-11-16,1230000.0,1137306.5223086036,Freehold Townhouse,3-Storey,Scarborough,Rowangardens
+SYN-0145197,list_aware,2023-11,2023-11-16,737800.0,701229.8589791864,Condo Apt,Apartment,North York,Lindenridge
+SYN-0043279,list_aware,2023-11,2023-11-16,429900.0,411564.6101015615,Condo Apt,Apartment,North York,Hickoryvale
+SYN-0075075,list_aware,2023-11,2023-11-16,690000.0,718700.9873537986,Semi-Detached,2-Storey,Toronto,Pineridge
+SYN-0009710,list_aware,2023-11,2023-11-16,655700.0,654212.1090306492,Condo Apt,Apartment,Toronto,Ashbank
+SYN-0150262,list_aware,2023-11,2023-11-16,3167200.0,3008467.555089808,Detached,2-Storey,Toronto,Maplepark
+SYN-0137831,list_aware,2023-11,2023-11-16,871300.0,896172.9951500434,Detached,2-Storey,North York,Mulberrydale
+SYN-0157623,list_aware,2023-11,2023-11-16,395300.0,374903.57739850227,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0013557,list_aware,2023-11,2023-11-16,591200.0,563755.7557411981,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0103163,list_aware,2023-11,2023-11-16,1403400.0,1393138.424510894,Freehold Townhouse,2 1/2 Storey,York,Birchheights
+SYN-0077885,list_aware,2023-11,2023-11-16,896700.0,890360.0653806753,Condo Townhouse,Stacked Townhse,Toronto,Rowanbrook
+SYN-0157001,list_aware,2023-11,2023-11-16,2020600.0,2020215.19013597,Semi-Detached,2-Storey,Toronto,Hickorymills
+SYN-0145677,list_aware,2023-11,2023-11-16,1403300.0,1563282.0139800257,Freehold Townhouse,2-Storey,Toronto,Juniperheights
+SYN-0095885,list_aware,2023-11,2023-11-16,1377500.0,1335220.8269466113,Freehold Townhouse,3-Storey,Scarborough,Maplegrove
+SYN-0129865,list_aware,2023-11,2023-11-16,578700.0,701778.5558163791,Freehold Townhouse,2-Storey,North York,Willowglen
+SYN-0054513,list_aware,2023-11,2023-11-16,585300.0,587283.2166958367,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0019403,list_aware,2023-11,2023-11-16,629400.0,633461.2107089157,Condo Apt,Apartment,North York,Lindenridge
+SYN-0074582,list_aware,2023-11,2023-11-16,1596500.0,1434036.8240202232,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0124649,list_aware,2023-11,2023-11-16,706500.0,706513.6547764537,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0142594,list_aware,2023-11,2023-11-16,835000.0,786216.3355267156,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0075766,list_aware,2023-11,2023-11-16,446400.0,435643.77400238387,Condo Apt,Apartment,Toronto,Sumacglen
+SYN-0033059,list_aware,2023-11,2023-11-16,618800.0,608022.995368191,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0067148,list_aware,2023-11,2023-11-16,602500.0,607011.9116447078,Condo Apt,Apartment,Toronto,Magnoliacrest
+SYN-0157814,list_aware,2023-11,2023-11-16,764000.0,703669.7197147373,Semi-Detached,Bungalow,Toronto,Mulberrygrove
+SYN-0037258,list_aware,2023-11,2023-11-16,2028100.0,1988864.9057679097,Detached,2-Storey,North York,Cypressheights
+SYN-0007234,list_aware,2023-11,2023-11-16,631800.0,569253.4325022179,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0071498,list_aware,2023-11,2023-11-16,591600.0,657167.8410246106,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0141380,list_aware,2023-11,2023-11-16,1419900.0,1569261.3178327668,Detached,2-Storey,Scarborough,Beechbourne
+SYN-0140019,list_aware,2023-11,2023-11-16,1003900.0,973468.2893635265,Semi-Detached,Backsplit 4,Toronto,Sumacpark
+SYN-0139169,list_aware,2023-11,2023-11-16,996900.0,878018.8735647628,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0142016,list_aware,2023-11,2023-11-16,550600.0,588260.1379416933,Condo Apt,Loft,Toronto,Chestnutbank
+SYN-0048448,list_aware,2023-11,2023-11-16,532200.0,528394.2583700789,Condo Apt,Apartment,North York,Lindenridge
+SYN-0014910,list_aware,2023-11,2023-11-16,681800.0,643061.0783992192,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0017320,list_aware,2023-11,2023-11-17,832000.0,941770.3918075116,Detached,2-Storey,North York,Willowglen
+SYN-0061254,list_aware,2023-11,2023-11-17,409000.0,380493.86384856695,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0030968,list_aware,2023-11,2023-11-17,1344600.0,1376735.0437666147,Detached,2 1/2 Storey,North York,Cypressheights
+SYN-0137656,list_aware,2023-11,2023-11-17,1444500.0,1382624.2475432635,Detached,Bungalow,Toronto,Cedarbank
+SYN-0000159,list_aware,2023-11,2023-11-17,882300.0,876334.5635566263,Semi-Detached,2-Storey,Scarborough,Birchhollow
+SYN-0061307,list_aware,2023-11,2023-11-17,690000.0,729173.0395591768,Condo Townhouse,Apartment,Etobicoke,Cedarview
+SYN-0111106,list_aware,2023-11,2023-11-17,667400.0,668902.4369913028,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0016560,list_aware,2023-11,2023-11-17,1060000.0,1087523.532581205,Detached,Bungalow,Toronto,Sequoiaview
+SYN-0132532,list_aware,2023-11,2023-11-17,656000.0,716671.2465036368,Condo Townhouse,2-Storey,Toronto,Chestnutglen
+SYN-0105109,list_aware,2023-11,2023-11-17,1102700.0,1282843.937289584,Detached,2-Storey,North York,Hazelmills
+SYN-0129653,list_aware,2023-11,2023-11-17,576400.0,648741.7567104404,Condo Apt,Apartment,Toronto,Birchbrook
+SYN-0102224,list_aware,2023-11,2023-11-17,1286400.0,1188764.9034044298,Detached,2-Storey,North York,Balsamcrest
+SYN-0029565,list_aware,2023-11,2023-11-17,878100.0,915285.8850140614,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0149446,list_aware,2023-11,2023-11-17,1962700.0,1491021.2547018842,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0155984,list_aware,2023-11,2023-11-17,473400.0,501712.7467801343,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0006116,list_aware,2023-11,2023-11-17,1040100.0,1142940.0057931927,Detached,Bungalow,North York,Maplebrook
+SYN-0025530,list_aware,2023-11,2023-11-17,1167400.0,1246822.9213982797,Detached,2-Storey,Toronto,Pineridge
+SYN-0112824,list_aware,2023-11,2023-11-17,2392600.0,2082037.9581407171,Detached,2-Storey,Scarborough,Beechbourne
+SYN-0090496,list_aware,2023-11,2023-11-17,1283400.0,1263305.7508226207,Detached,2-Storey,Toronto,Aspenwood
+SYN-0011795,list_aware,2023-11,2023-11-17,838700.0,826348.7663404455,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0107348,list_aware,2023-11,2023-11-17,1637500.0,1544810.9945854126,Detached,3-Storey,Toronto,Hemlockvale
+SYN-0027194,list_aware,2023-11,2023-11-17,637900.0,625181.9005155173,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0064552,list_aware,2023-11,2023-11-17,2263100.0,2462956.020672189,Detached,2-Storey,Toronto,Junipergardens
+SYN-0086596,list_aware,2023-11,2023-11-17,1212600.0,1359082.933873147,Detached,Bungalow-Raised,Toronto,Walnuthollow
+SYN-0020178,list_aware,2023-11,2023-11-17,1004200.0,955551.401945799,Condo Townhouse,2-Storey,North York,Hawthornbourne
+SYN-0107944,list_aware,2023-11,2023-11-17,666100.0,627526.412773854,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0024466,list_aware,2023-11,2023-11-17,899600.0,904333.8836951223,Condo Apt,Apartment,North York,Lindenridge
+SYN-0041385,list_aware,2023-11,2023-11-17,1990800.0,2236478.032653266,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0059727,list_aware,2023-11,2023-11-17,1384200.0,1255185.2848397293,Detached,2-Storey,Scarborough,Rowangardens
+SYN-0059238,list_aware,2023-11,2023-11-17,719800.0,781533.2339438582,Condo Townhouse,3-Storey,Toronto,Larchbank
+SYN-0119255,list_aware,2023-11,2023-11-17,1231200.0,1062053.2054140775,Detached,2-Storey,Etobicoke,Chestnutmills
+SYN-0070624,list_aware,2023-11,2023-11-17,5008300.0,5187169.792835224,Detached,2-Storey,Toronto,Willowpark
+SYN-0121846,list_aware,2023-11,2023-11-17,482100.0,503607.090806026,Condo Apt,Apartment,North York,Pineglen
+SYN-0053412,list_aware,2023-11,2023-11-17,783300.0,806704.0079351856,Semi-Detached,Bungalow,North York,Willowglen
+SYN-0078481,list_aware,2023-11,2023-11-17,679700.0,615245.9126316314,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0077187,list_aware,2023-11,2023-11-17,503300.0,521133.0752638716,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0108706,list_aware,2023-11,2023-11-17,1106500.0,1157884.2703977504,Detached,Bungalow-Raised,Toronto,Oakview
+SYN-0130291,list_aware,2023-11,2023-11-17,920200.0,963672.1204547046,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0125656,list_aware,2023-11,2023-11-17,794100.0,729387.4843529512,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0026694,list_aware,2023-11,2023-11-17,559800.0,588992.6853237131,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0053754,list_aware,2023-11,2023-11-17,710300.0,745777.3220941813,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0073143,list_aware,2023-11,2023-11-17,618900.0,698003.752369332,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0105286,list_aware,2023-11,2023-11-17,942200.0,1063654.070764099,Condo Townhouse,3-Storey,Toronto,Cedarbank
+SYN-0115689,list_aware,2023-11,2023-11-17,482700.0,481890.44321717386,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0006655,list_aware,2023-11,2023-11-17,419800.0,475518.415234008,Condo Apt,Apartment,North York,Maplebrook
+SYN-0005359,list_aware,2023-11,2023-11-17,498500.0,526587.3940897653,Condo Apt,Loft,Etobicoke,Cedarview
+SYN-0022548,list_aware,2023-11,2023-11-17,1620600.0,1715196.5124750955,Detached,3-Storey,Scarborough,Lindenmills
+SYN-0128950,list_aware,2023-11,2023-11-17,1060000.0,1002984.3415000951,Condo Apt,Apartment,Toronto,Lindendale
+SYN-0122037,list_aware,2023-11,2023-11-17,884100.0,820196.6088626513,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0157990,list_aware,2023-11,2023-11-17,888000.0,922777.8800050997,Detached,Backsplit 3,Toronto,Dogwoodglen
+SYN-0025937,list_aware,2023-11,2023-11-17,2335700.0,2194400.4301650445,Detached,1 1/2 Storey,Scarborough,Beechbourne
+SYN-0124276,list_aware,2023-11,2023-11-17,641700.0,624643.6252715134,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0062750,list_aware,2023-11,2023-11-17,586700.0,567408.5698887304,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0072542,list_aware,2023-11,2023-11-17,1094100.0,1034202.2918327675,Semi-Detached,2-Storey,York,Mulberryhaven
+SYN-0143154,list_aware,2023-11,2023-11-17,1011500.0,1048565.4165914971,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0037734,list_aware,2023-11,2023-11-17,3877100.0,3777369.659062452,Condo Apt,2-Storey,Toronto,Ashworth
+SYN-0062751,list_aware,2023-11,2023-11-17,726200.0,683573.7990127637,Condo Apt,Apartment,Etobicoke,Cedarheights
+SYN-0079850,list_aware,2023-11,2023-11-17,1062400.0,992822.4614990065,Semi-Detached,2-Storey,North York,Hickoryvale
+SYN-0003827,list_aware,2023-11,2023-11-18,1367400.0,1060498.0159080625,Condo Townhouse,3-Storey,Toronto,Rowanbrook
+SYN-0130934,list_aware,2023-11,2023-11-18,864300.0,907210.2176894645,Detached,Bungalow,Scarborough,Sequoiafield
+SYN-0136087,list_aware,2023-11,2023-11-18,965700.0,985176.7996058498,Detached,Bungalow,North York,Willowglen
+SYN-0150041,list_aware,2023-11,2023-11-18,1402400.0,1453398.2301367498,Detached,2-Storey,Scarborough,Lindenmills
+SYN-0149388,list_aware,2023-11,2023-11-18,757600.0,830737.6151178066,Condo Apt,Apartment,North York,Sycamoreglen
+SYN-0011300,list_aware,2023-11,2023-11-18,516100.0,557285.0750026159,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0138583,list_aware,2023-11,2023-11-18,868900.0,816997.1380623966,Semi-Detached,2-Storey,Etobicoke,Cedarview
+SYN-0058896,list_aware,2023-11,2023-11-18,580800.0,614556.9847812061,Condo Apt,Loft,Toronto,Junipergardens
+SYN-0002203,list_aware,2023-11,2023-11-18,717300.0,655995.7060264883,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0024578,list_aware,2023-11,2023-11-18,1346700.0,1296095.376830719,Detached,Bungalow,Scarborough,Beechbourne
+SYN-0146193,list_aware,2023-11,2023-11-18,918500.0,973952.7641643599,Semi-Detached,2-Storey,Toronto,Willowview
+SYN-0090476,list_aware,2023-11,2023-11-18,484100.0,479922.19489943533,Condo Apt,Apartment,Toronto,Larchview
+SYN-0015199,list_aware,2023-11,2023-11-18,694200.0,786940.0247726211,Detached,Bungalow,Scarborough,Juniperpark
+SYN-0027738,list_aware,2023-11,2023-11-18,2082700.0,1881127.5613036628,Detached,1 1/2 Storey,Toronto,Cedarbank
+SYN-0058964,list_aware,2023-11,2023-11-18,717300.0,748846.3141101617,Condo Townhouse,Stacked Townhse,Toronto,Birchbrook
+SYN-0061221,list_aware,2023-11,2023-11-18,372700.0,375280.886059011,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0018839,list_aware,2023-11,2023-11-18,711800.0,762083.5196297846,Detached,Bungalow-Raised,Etobicoke,Lindenvale
+SYN-0098785,list_aware,2023-11,2023-11-18,823700.0,873925.1906481569,Detached,Bungalow,Toronto,Alderhaven
+SYN-0060495,list_aware,2023-11,2023-11-18,558800.0,557076.1842898064,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0028467,list_aware,2023-11,2023-11-18,589000.0,589419.7736678186,Condo Apt,Apartment,Toronto,Cedarwood
+SYN-0135804,list_aware,2023-11,2023-11-18,763600.0,735769.6862622257,Condo Apt,Apartment,Toronto,Birchbrook
+SYN-0065892,list_aware,2023-11,2023-11-18,671300.0,634246.3040067637,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0014987,list_aware,2023-11,2023-11-18,830700.0,845301.1538130216,Detached,2-Storey,Toronto,Chestnutgrove
+SYN-0070320,list_aware,2023-11,2023-11-18,1791700.0,1565033.4141452324,Detached,Bungalow,Toronto,Juniperheights
+SYN-0060726,list_aware,2023-11,2023-11-18,1795500.0,1891894.3078983629,Detached,2-Storey,North York,Cypressheights
+SYN-0029894,list_aware,2023-11,2023-11-18,972800.0,1059827.590187692,Freehold Townhouse,2-Storey,Toronto,Tamarackbourne
+SYN-0069863,list_aware,2023-11,2023-11-18,638500.0,622549.3405369631,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0112900,list_aware,2023-11,2023-11-18,4943300.0,4883254.136067992,Detached,1 1/2 Storey,Scarborough,Hazelfield
+SYN-0093980,list_aware,2023-11,2023-11-18,520300.0,542460.8519606425,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0042644,list_aware,2023-11,2023-11-18,569900.0,612055.1158067368,Condo Apt,Apartment,Toronto,Lindendale
+SYN-0011393,list_aware,2023-11,2023-11-18,839600.0,847137.860487707,Condo Apt,Apartment,Etobicoke,Elmbrook
+SYN-0118071,list_aware,2023-11,2023-11-18,2833400.0,2609725.015040911,Detached,2 1/2 Storey,Etobicoke,Maplevale
+SYN-0079515,list_aware,2023-11,2023-11-18,1075600.0,1105066.8778372742,Semi-Detached,Bungalow-Raised,Toronto,Balsamwood
+SYN-0070856,list_aware,2023-11,2023-11-18,616700.0,559800.8710215017,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0060234,list_aware,2023-11,2023-11-18,3561000.0,3824274.6527207796,Detached,2-Storey,Toronto,Poplarview
+SYN-0095940,list_aware,2023-11,2023-11-18,749300.0,858646.8952778318,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0062653,list_aware,2023-11,2023-11-18,2082100.0,2066744.895778854,Detached,Sidesplit 3,Etobicoke,Maplevale
+SYN-0132961,list_aware,2023-11,2023-11-18,6399400.0,6116574.883005913,Detached,2-Storey,Scarborough,Hazelfield
+SYN-0145068,list_aware,2023-11,2023-11-18,1067000.0,1061238.9369956937,Detached,2-Storey,Scarborough,Magnoliavale
+SYN-0003704,list_aware,2023-11,2023-11-18,485500.0,491296.76643216435,Condo Apt,Apartment,North York,Balsamcrest
+SYN-0039362,list_aware,2023-11,2023-11-18,763300.0,713182.7728508326,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0109541,list_aware,2023-11,2023-11-18,742700.0,713673.3445192949,Condo Apt,Apartment,Toronto,Sycamorehaven
+SYN-0094938,list_aware,2023-11,2023-11-18,1713200.0,1709121.9745509408,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0143718,list_aware,2023-11,2023-11-18,915100.0,965084.9829968776,Semi-Detached,2-Storey,Etobicoke,Magnoliabank
+SYN-0093717,list_aware,2023-11,2023-11-18,1866900.0,1957205.3981995566,Detached,2-Storey,Etobicoke,Lindenvale
+SYN-0084309,list_aware,2023-11,2023-11-18,798600.0,850937.9866177973,Condo Apt,Apartment,Scarborough,Spruceview
+SYN-0060816,list_aware,2023-11,2023-11-18,1069500.0,1089147.0622538626,Co-Op Apt,Apartment,Toronto,Walnuthollow
+SYN-0091331,list_aware,2023-11,2023-11-18,533900.0,542460.4463824701,Condo Townhouse,Stacked Townhse,North York,Willowglen
+SYN-0037029,list_aware,2023-11,2023-11-18,684700.0,671225.8822668212,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0058166,list_aware,2023-11,2023-11-18,4256900.0,4376352.317467466,Freehold Townhouse,2 1/2 Storey,North York,Lindenglen
+SYN-0026980,list_aware,2023-11,2023-11-18,517900.0,503757.8068471389,Condo Apt,Apartment,Toronto,Ashbank
+SYN-0025845,list_aware,2023-11,2023-11-18,745400.0,859149.0302614087,Detached,2-Storey,Etobicoke,Magnoliabank
+SYN-0134702,list_aware,2023-11,2023-11-18,902600.0,785704.4248515187,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0089127,list_aware,2023-11,2023-11-18,1343400.0,1569801.250993846,Detached,2-Storey,Scarborough,Rowangardens
+SYN-0011900,list_aware,2023-11,2023-11-18,1652800.0,1446416.1831419996,Detached,1 1/2 Storey,Toronto,Hemlockvale
+SYN-0028091,list_aware,2023-11,2023-11-18,1398600.0,1506240.0202102195,Detached,1 1/2 Storey,Toronto,Alderworth
+SYN-0103738,list_aware,2023-11,2023-11-18,800400.0,726978.9485324994,Condo Apt,Apartment,Toronto,Lindencliffe
+SYN-0075681,list_aware,2023-11,2023-11-18,1062400.0,1108037.9249271303,Detached,1 1/2 Storey,North York,Elmpark
+SYN-0058882,list_aware,2023-11,2023-11-19,959400.0,993836.1324857577,Freehold Townhouse,3-Storey,Toronto,Junipergardens
+SYN-0114452,list_aware,2023-11,2023-11-19,519100.0,554815.6847020409,Condo Apt,Apartment,Scarborough,Magnoliavale
+SYN-0067597,list_aware,2023-11,2023-11-19,492000.0,535087.51843233,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0052901,list_aware,2023-11,2023-11-19,824400.0,893471.5739121045,Detached,2-Storey,North York,Cypressheights
+SYN-0009232,list_aware,2023-11,2023-11-19,691400.0,679802.7211906002,Condo Apt,Apartment,North York,Lindenridge
+SYN-0057122,list_aware,2023-11,2023-11-19,324900.0,369775.0337040654,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0047258,list_aware,2023-11,2023-11-19,999200.0,1106347.1410642767,Detached,2-Storey,Toronto,Elmbank
+SYN-0113968,list_aware,2023-11,2023-11-19,1317700.0,1378863.5840018212,Detached,2-Storey,North York,Lindenridge
+SYN-0089000,list_aware,2023-11,2023-11-19,688700.0,680430.6286169363,Detached,Bungalow,Scarborough,Juniperpark
+SYN-0097461,list_aware,2023-11,2023-11-19,618400.0,720779.395087293,Semi-Detached,3-Storey,North York,Elmpark
+SYN-0008475,list_aware,2023-11,2023-11-19,2808500.0,2603345.2383847083,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0048294,list_aware,2023-11,2023-11-19,733500.0,753150.5776542149,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0093228,list_aware,2023-11,2023-11-19,586300.0,611924.6409795757,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0015947,list_aware,2023-11,2023-11-19,1313900.0,1107682.1990499233,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0100802,list_aware,2023-11,2023-11-19,450200.0,426472.55725360615,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0155639,list_aware,2023-11,2023-11-19,1018200.0,1129725.6838795384,Detached,Bungalow-Raised,Toronto,Chestnutridge
+SYN-0078128,list_aware,2023-11,2023-11-19,505900.0,544203.2687282598,Co-Op Apt,Apartment,North York,Hazelmills
+SYN-0058047,list_aware,2023-11,2023-11-19,2050700.0,1803252.9781901366,Detached,2-Storey,Etobicoke,Mulberryhollow
+SYN-0036069,list_aware,2023-11,2023-11-19,611700.0,651057.1598687107,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0069579,list_aware,2023-11,2023-11-19,504600.0,479138.1629747312,Condo Apt,Apartment,Toronto,Elmbank
+SYN-0124907,list_aware,2023-11,2023-11-19,5185900.0,5442353.423731431,Detached,2-Storey,Toronto,Maplepark
+SYN-0133443,list_aware,2023-11,2023-11-19,637100.0,656566.0309527442,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0059915,list_aware,2023-11,2023-11-19,420000.0,449021.54723973904,Condo Apt,Apartment,North York,Willowglen
+SYN-0069381,list_aware,2023-11,2023-11-19,617600.0,509975.4844531415,Condo Apt,Apartment,Scarborough,Dogwoodhaven
+SYN-0134066,list_aware,2023-11,2023-11-19,605200.0,566969.3432152743,Condo Apt,Apartment,Toronto,Chestnutview
+SYN-0118841,list_aware,2023-11,2023-11-19,1077400.0,1111689.9765600872,Detached,Bungalow,Toronto,Chestnutvale
+SYN-0076980,list_aware,2023-11,2023-11-19,1223900.0,1183382.6606290329,Condo Townhouse,2-Storey,Etobicoke,Cedarheights
+SYN-0100509,list_aware,2023-11,2023-11-19,1420900.0,1617045.496407634,Detached,2-Storey,Toronto,Rowanbank
+SYN-0024802,list_aware,2023-11,2023-11-19,1484700.0,1527949.7334324108,Detached,2-Storey,Toronto,Alderworth
+SYN-0117863,list_aware,2023-11,2023-11-19,462100.0,494655.7203637001,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0020144,list_aware,2023-11,2023-11-19,2113100.0,2356389.361252618,Detached,Bungalow-Raised,Toronto,Magnoliaglen
+SYN-0144255,list_aware,2023-11,2023-11-19,828000.0,899369.4035521206,Semi-Detached,Bungalow-Raised,Toronto,Rowanbank
+SYN-0072212,list_aware,2023-11,2023-11-19,445700.0,496988.2868384634,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0096817,list_aware,2023-11,2023-11-19,700100.0,757859.5019313768,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0004374,list_aware,2023-11,2023-11-19,920200.0,966209.2971716702,Detached,Bungalow,Toronto,Ashbank
+SYN-0073478,list_aware,2023-11,2023-11-19,476600.0,506467.7421070972,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0003859,list_aware,2023-11,2023-11-19,1637000.0,1793005.7718304603,Detached,Bungalow-Raised,Scarborough,Sumaccrest
+SYN-0091379,list_aware,2023-11,2023-11-19,1182800.0,1213238.91872941,Condo Apt,Apartment,North York,Willowglen
+SYN-0131028,list_aware,2023-11,2023-11-19,916400.0,872425.8707209456,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0130875,list_aware,2023-11,2023-11-19,769200.0,916212.1813908968,Detached,Bungalow,Toronto,Hemlockvale
+SYN-0013071,list_aware,2023-11,2023-11-19,803600.0,739948.9395478525,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0031423,list_aware,2023-11,2023-11-19,1247700.0,1380685.967135974,Detached,2-Storey,Etobicoke,Maplebourne
+SYN-0045571,list_aware,2023-11,2023-11-19,963300.0,1166243.7206948192,Freehold Townhouse,2 1/2 Storey,Toronto,Elmhaven
+SYN-0142793,list_aware,2023-11,2023-11-19,562700.0,585897.3466292039,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0040321,list_aware,2023-11,2023-11-19,807300.0,883943.9124335378,Semi-Detached,2-Storey,Toronto,Dogwoodcliffe
+SYN-0107187,list_aware,2023-11,2023-11-19,1542800.0,1598759.5000739503,Semi-Detached,2-Storey,Toronto,Juniperheights
+SYN-0047207,list_aware,2023-11,2023-11-19,1441600.0,1475503.689269028,Semi-Detached,2-Storey,Toronto,Juniperheights
+SYN-0037396,list_aware,2023-11,2023-11-19,947100.0,996303.7886178071,Condo Apt,Apartment,North York,Elmcrest
+SYN-0142176,list_aware,2023-11,2023-11-19,881300.0,879834.6487567878,Condo Townhouse,2-Storey,Toronto,Hickoryhaven
+SYN-0040243,list_aware,2023-11,2023-11-19,550400.0,591049.9738799852,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0016484,list_aware,2023-11,2023-11-19,643300.0,666129.0492945425,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0040905,list_aware,2023-11,2023-11-20,775200.0,854015.632537339,Detached,2-Storey,Toronto,Chestnutgrove
+SYN-0034777,list_aware,2023-11,2023-11-20,637600.0,772810.0855913385,Detached,Bungalow,Scarborough,Sprucehollow
+SYN-0039023,list_aware,2023-11,2023-11-20,817500.0,642566.4855187548,Detached,Bungalow,Toronto,Dogwoodcliffe
+SYN-0074464,list_aware,2023-11,2023-11-20,566000.0,557194.703778489,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0048749,list_aware,2023-11,2023-11-20,818500.0,863368.8550475948,Condo Townhouse,3-Storey,North York,Elmcrest
+SYN-0073133,list_aware,2023-11,2023-11-20,883000.0,776420.2676290602,Detached,2-Storey,Scarborough,Juniperpark
+SYN-0111243,list_aware,2023-11,2023-11-20,1483200.0,1599222.7102818927,Detached,1 1/2 Storey,Etobicoke,Maplebourne
+SYN-0048726,list_aware,2023-11,2023-11-20,543600.0,507997.0316926663,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0068558,list_aware,2023-11,2023-11-20,888500.0,1007421.910947466,Detached,1 1/2 Storey,Scarborough,Sequoiafield
+SYN-0126150,list_aware,2023-11,2023-11-20,690900.0,670498.368117019,Condo Apt,2-Storey,Scarborough,Oakbourne
+SYN-0115795,list_aware,2023-11,2023-11-20,449500.0,466425.3144007325,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0087011,list_aware,2023-11,2023-11-20,534600.0,547287.0952174475,Condo Apt,Apartment,Toronto,Chestnutbourne
+SYN-0103236,list_aware,2023-11,2023-11-20,1011200.0,1163484.121515948,Detached,Bungalow,Toronto,Chestnutglen
+SYN-0061677,list_aware,2023-11,2023-11-20,1071700.0,1067980.408270007,Freehold Townhouse,2-Storey,Toronto,Hemlockvale
+SYN-0066120,list_aware,2023-11,2023-11-20,3187100.0,2884058.827878578,Semi-Detached,3-Storey,North York,Hawthornbourne
+SYN-0108605,list_aware,2023-11,2023-11-20,1589300.0,1620470.9040414894,Semi-Detached,3-Storey,Toronto,Elmview
+SYN-0102124,list_aware,2023-11,2023-11-20,681400.0,781823.2484058097,Detached,Bungalow,Toronto,Pineridge
+SYN-0053881,list_aware,2023-11,2023-11-20,2299500.0,2141718.846156835,Detached,Bungalow-Raised,Toronto,Elmhaven
+SYN-0144979,list_aware,2023-11,2023-11-20,561500.0,577406.3556982612,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0003658,list_aware,2023-11,2023-11-20,727500.0,816163.1550182565,Condo Townhouse,Stacked Townhse,Toronto,Cedarwood
+SYN-0155249,list_aware,2023-11,2023-11-20,1796200.0,2013162.8125546987,Semi-Detached,3-Storey,Toronto,Poplarcrest
+SYN-0026673,list_aware,2023-11,2023-11-20,1019400.0,978024.8581093028,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0002853,list_aware,2023-11,2023-11-20,356700.0,364154.28758675075,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0144140,list_aware,2023-11,2023-11-20,1153800.0,1141858.28576117,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0010065,list_aware,2023-11,2023-11-20,351300.0,374751.8055070597,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0124179,list_aware,2023-11,2023-11-20,896100.0,966683.8020592397,Semi-Detached,Bungalow-Raised,Toronto,Mulberrygrove
+SYN-0134086,list_aware,2023-11,2023-11-20,792700.0,790703.0768986488,Condo Apt,Apartment,Toronto,Magnoliaworth
+SYN-0065628,list_aware,2023-11,2023-11-20,1120000.0,1128128.6409067716,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0135661,list_aware,2023-11,2023-11-20,1650600.0,1710762.3314269383,Semi-Detached,2-Storey,Scarborough,Hazelfield
+SYN-0105982,list_aware,2023-11,2023-11-20,581900.0,566363.2404015984,Condo Apt,Apartment,Toronto,Magnoliaworth
+SYN-0052095,list_aware,2023-11,2023-11-20,1313800.0,1374600.943315451,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0007329,list_aware,2023-11,2023-11-20,1095200.0,1093019.0036874951,Detached,1 1/2 Storey,Toronto,Rowanridge
+SYN-0114900,list_aware,2023-11,2023-11-20,1057800.0,1032547.4778298168,Detached,Bungalow,Toronto,Rowanridge
+SYN-0138659,list_aware,2023-11,2023-11-20,432200.0,455203.4412555899,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0036178,list_aware,2023-11,2023-11-20,1152400.0,1149501.2272545318,Detached,Bungalow,Toronto,Cedarbank
+SYN-0100077,list_aware,2023-11,2023-11-20,1093900.0,1122129.5418696767,Detached,Sidesplit 4,North York,Maplebrook
+SYN-0054030,list_aware,2023-11,2023-11-20,1473900.0,1594931.517558651,Detached,2-Storey,Toronto,Rowanbrook
+SYN-0017790,list_aware,2023-11,2023-11-20,576100.0,601973.9158333704,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0021158,list_aware,2023-11,2023-11-20,598300.0,556894.78923557,Condo Townhouse,Stacked Townhse,North York,Willowglen
+SYN-0138473,list_aware,2023-11,2023-11-20,1105800.0,1122708.8677216046,Detached,Bungalow,Scarborough,Dogwoodhaven
+SYN-0128247,list_aware,2023-11,2023-11-20,598900.0,614141.4453266024,Condo Apt,Apartment,North York,Elmcrest
+SYN-0145425,list_aware,2023-11,2023-11-20,325000.0,322683.8994338676,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0132373,list_aware,2023-11,2023-11-20,571000.0,608029.4475865467,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0040829,list_aware,2023-11,2023-11-21,580200.0,593712.9694658048,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0142129,list_aware,2023-11,2023-11-21,1670000.0,1736648.918502397,Detached,Bungalow,North York,Cypressheights
+SYN-0105612,list_aware,2023-11,2023-11-21,999600.0,965254.473564131,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0047224,list_aware,2023-11,2023-11-21,1647700.0,1815754.2805761315,Semi-Detached,2-Storey,North York,Elmcrest
+SYN-0107204,list_aware,2023-11,2023-11-21,689300.0,735697.570203891,Condo Apt,Apartment,Toronto,Elmview
+SYN-0079421,list_aware,2023-11,2023-11-21,815400.0,897327.7843228161,Semi-Detached,2-Storey,Etobicoke,Walnutpark
+SYN-0084584,list_aware,2023-11,2023-11-21,430900.0,424455.4188245164,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0107471,list_aware,2023-11,2023-11-21,778700.0,812294.4070601799,Semi-Detached,2-Storey,Toronto,Chestnutbourne
+SYN-0022275,list_aware,2023-11,2023-11-21,553200.0,585648.5477451881,Condo Apt,Apartment,Toronto,Mulberrygrove
+SYN-0114745,list_aware,2023-11,2023-11-21,876300.0,888040.9379179798,Detached,2-Storey,North York,Willowglen
+SYN-0006006,list_aware,2023-11,2023-11-21,613400.0,613223.1555997944,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0132964,list_aware,2023-11,2023-11-21,775000.0,787495.6463241667,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0135429,list_aware,2023-11,2023-11-21,604000.0,620546.3089559952,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0026231,list_aware,2023-11,2023-11-21,680200.0,639416.8980521798,Condo Apt,Apartment,Toronto,Alderworth
+SYN-0115290,list_aware,2023-11,2023-11-21,1555700.0,1461394.5381625441,Semi-Detached,2-Storey,Toronto,Birchgrove
+SYN-0092609,list_aware,2023-11,2023-11-21,475900.0,499076.7110272306,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0146996,list_aware,2023-11,2023-11-21,757600.0,715443.6142989895,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0140264,list_aware,2023-11,2023-11-21,409200.0,429506.3574061903,Condo Apt,Apartment,Etobicoke,Cypressglen
+SYN-0047121,list_aware,2023-11,2023-11-21,749900.0,721014.2126312377,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0046673,list_aware,2023-11,2023-11-21,1038300.0,1095703.2746745753,Detached,Bungalow,Scarborough,Juniperpark
+SYN-0006063,list_aware,2023-11,2023-11-21,992200.0,891125.4098131581,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0115767,list_aware,2023-11,2023-11-21,710900.0,698476.3454371342,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0070313,list_aware,2023-11,2023-11-21,843400.0,948757.9703423918,Detached,2-Storey,Toronto,Chestnutview
+SYN-0101354,list_aware,2023-11,2023-11-21,438300.0,470173.7996556426,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0156938,list_aware,2023-11,2023-11-21,830800.0,955232.486179055,Detached,2-Storey,North York,Balsamcrest
+SYN-0086261,list_aware,2023-11,2023-11-21,531200.0,537060.7427266092,Condo Apt,Apartment,Toronto,Chestnutview
+SYN-0042283,list_aware,2023-11,2023-11-21,759000.0,755012.5927235077,Condo Townhouse,Stacked Townhse,Toronto,Cedargrove
+SYN-0015961,list_aware,2023-11,2023-11-21,729400.0,624288.7284225794,Condo Townhouse,Stacked Townhse,Etobicoke,Dogwoodbrook
+SYN-0036395,list_aware,2023-11,2023-11-21,1714900.0,1616274.112542179,Detached,2-Storey,Toronto,Chestnutglen
+SYN-0033575,list_aware,2023-11,2023-11-21,690600.0,733387.8134725826,Condo Townhouse,2-Storey,Toronto,Larchbank
+SYN-0141645,list_aware,2023-11,2023-11-21,1818600.0,1948885.8682156433,Detached,2-Storey,Toronto,Lindencliffe
+SYN-0045174,list_aware,2023-11,2023-11-21,707800.0,691385.5265026868,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0021709,list_aware,2023-11,2023-11-21,1403600.0,1530475.5966676993,Detached,Bungalow,North York,Cypressbrook
+SYN-0048063,list_aware,2023-11,2023-11-21,795900.0,778151.6870484095,Condo Apt,Apartment,North York,Hazelmills
+SYN-0142686,list_aware,2023-11,2023-11-21,684600.0,645655.0744894701,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0012713,list_aware,2023-11,2023-11-21,468500.0,567295.1855629277,Condo Apt,Apartment,North York,Lindenglen
+SYN-0112634,list_aware,2023-11,2023-11-21,661300.0,793863.2005396881,Detached,Bungalow,Scarborough,Sprucehollow
+SYN-0154761,list_aware,2023-11,2023-11-21,742300.0,807412.9318753562,Condo Townhouse,Multi-Level,Toronto,Hickoryhaven
+SYN-0006952,list_aware,2023-11,2023-11-21,1309800.0,1465640.3685266448,Semi-Detached,2-Storey,Toronto,Elmview
+SYN-0126272,list_aware,2023-11,2023-11-21,697600.0,688389.1656830257,Condo Apt,Apartment,North York,Willowglen
+SYN-0003615,list_aware,2023-11,2023-11-21,1061500.0,929603.0999145873,Semi-Detached,Backsplit 5,Etobicoke,Elmbrook
+SYN-0002864,list_aware,2023-11,2023-11-21,710600.0,723012.185958783,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0032301,list_aware,2023-11,2023-11-21,403400.0,417651.22308093257,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0005376,list_aware,2023-11,2023-11-21,577500.0,555419.5679152604,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0084796,list_aware,2023-11,2023-11-21,1000400.0,1013570.9354909243,Detached,1 1/2 Storey,Scarborough,Juniperpark
+SYN-0023365,list_aware,2023-11,2023-11-21,809900.0,734747.3417388636,Detached,2-Storey,Toronto,Dogwoodglen
+SYN-0004878,list_aware,2023-11,2023-11-21,946300.0,989208.8773972233,Detached,1 1/2 Storey,Toronto,Sequoiaview
+SYN-0034404,list_aware,2023-11,2023-11-21,937100.0,848588.3387490641,Condo Apt,Apartment,Toronto,Beechglen
+SYN-0009030,list_aware,2023-11,2023-11-22,774300.0,840518.2218066647,Condo Apt,Multi-Level,Toronto,Elmgardens
+SYN-0002047,list_aware,2023-11,2023-11-22,1676200.0,1477966.357691038,Detached,3-Storey,Toronto,Hemlockvale
+SYN-0042606,list_aware,2023-11,2023-11-22,537000.0,485937.4908025442,Condo Apt,Apartment,Etobicoke,Cypressglen
+SYN-0098450,list_aware,2023-11,2023-11-22,938700.0,1037938.8919778531,Condo Apt,Apartment,Toronto,Lindendale
+SYN-0078608,list_aware,2023-11,2023-11-22,973200.0,1044810.0203657035,Condo Townhouse,2-Storey,North York,Lindenglen
+SYN-0151034,list_aware,2023-11,2023-11-22,451100.0,485938.831983987,Condo Apt,Apartment,North York,Cypressbrook
+SYN-0052316,list_aware,2023-11,2023-11-22,610600.0,597445.5238278622,Condo Apt,Apartment,Toronto,Alderworth
+SYN-0134862,list_aware,2023-11,2023-11-22,654000.0,695193.6593389371,Condo Townhouse,2-Storey,North York,Hickorybourne
+SYN-0136183,list_aware,2023-11,2023-11-22,2373300.0,2019238.2925002777,Semi-Detached,2-Storey,Toronto,Rowangrove
+SYN-0146785,list_aware,2023-11,2023-11-22,941500.0,870193.300283261,Detached,Backsplit 4,Toronto,Sprucehaven
+SYN-0114283,list_aware,2023-11,2023-11-22,829900.0,910106.8561404507,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0051181,list_aware,2023-11,2023-11-22,878800.0,984683.5816726884,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0080204,list_aware,2023-11,2023-11-22,547300.0,622672.4724708326,Condo Townhouse,Stacked Townhse,Toronto,Hickoryhaven
+SYN-0119823,list_aware,2023-11,2023-11-22,472600.0,460604.88813151827,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0008973,list_aware,2023-11,2023-11-22,1012500.0,1099513.3669552507,Detached,Backsplit 4,Toronto,Chestnutglen
+SYN-0128968,list_aware,2023-11,2023-11-22,371000.0,423553.18072552065,Condo Apt,Apartment,North York,Maplebrook
+SYN-0144192,list_aware,2023-11,2023-11-22,1179800.0,1197197.394269303,Semi-Detached,2-Storey,Etobicoke,Walnutpark
+SYN-0116227,list_aware,2023-11,2023-11-22,564700.0,593996.0245315628,Condo Townhouse,Stacked Townhse,Toronto,Sumacpark
+SYN-0146387,list_aware,2023-11,2023-11-22,455600.0,462462.39488776715,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0020277,list_aware,2023-11,2023-11-22,557300.0,578003.2029918001,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0074202,list_aware,2023-11,2023-11-22,903400.0,894836.6284263004,Detached,2-Storey,Scarborough,Juniperpark
+SYN-0087509,list_aware,2023-11,2023-11-22,609500.0,633535.8810671354,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0048361,list_aware,2023-11,2023-11-22,611500.0,602519.1676943045,Condo Apt,Apartment,Toronto,Cedarbank
+SYN-0047407,list_aware,2023-11,2023-11-22,1023300.0,1044229.145699581,Condo Apt,Apartment,Scarborough,Spruceview
+SYN-0132995,list_aware,2023-11,2023-11-22,748700.0,801322.7199467553,Condo Apt,Apartment,North York,Oakhaven
+SYN-0107275,list_aware,2023-11,2023-11-22,1142400.0,1006503.2896091694,Detached,2-Storey,Toronto,Elmbourne
+SYN-0061178,list_aware,2023-11,2023-11-22,775400.0,796330.9151503501,Condo Apt,Apartment,Toronto,Hemlockvale
+SYN-0135016,list_aware,2023-11,2023-11-22,638100.0,636648.1861679605,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0084778,list_aware,2023-11,2023-11-22,508300.0,576066.7212436475,Detached,Bungalow,North York,Elmpark
+SYN-0026647,list_aware,2023-11,2023-11-22,1960800.0,1861014.048425872,Detached,2-Storey,Toronto,Hickoryhaven
+SYN-0008712,list_aware,2023-11,2023-11-22,673400.0,652821.1428225128,Condo Apt,Apartment,Toronto,Chestnutbourne
+SYN-0031625,list_aware,2023-11,2023-11-22,454000.0,441033.8964879473,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0071118,list_aware,2023-11,2023-11-22,1018000.0,951715.987150601,Semi-Detached,Backsplit 4,North York,Pinevale
+SYN-0065899,list_aware,2023-11,2023-11-22,944900.0,1096821.4992014512,Semi-Detached,2-Storey,Scarborough,Beechbourne
+SYN-0121433,list_aware,2023-11,2023-11-22,289700.0,297938.5473863495,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0047312,list_aware,2023-11,2023-11-22,1094500.0,1081813.0400904804,Detached,2-Storey,Toronto,Cedarwood
+SYN-0010152,list_aware,2023-11,2023-11-22,1149400.0,1223102.18443351,Detached,2-Storey,Toronto,Sumacdale
+SYN-0017976,list_aware,2023-11,2023-11-22,3413500.0,3513854.187817849,Detached,Sidesplit 4,Toronto,Beechglen
+SYN-0044705,list_aware,2023-11,2023-11-22,769100.0,806868.1458947227,Detached,1 1/2 Storey,North York,Balsamcrest
+SYN-0021373,list_aware,2023-11,2023-11-22,511600.0,552261.5030619955,Condo Apt,Apartment,North York,Hazelmills
+SYN-0038018,list_aware,2023-11,2023-11-22,901900.0,929075.7072379872,Detached,Bungalow-Raised,Toronto,Alderhaven
+SYN-0121727,list_aware,2023-11,2023-11-22,721800.0,753041.4975778089,Condo Townhouse,2-Storey,Toronto,Rowanridge
+SYN-0045818,list_aware,2023-11,2023-11-22,1218000.0,1201380.3950035952,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0128902,list_aware,2023-11,2023-11-22,945400.0,960964.761138668,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0021647,list_aware,2023-11,2023-11-22,913200.0,1001468.5382083779,Semi-Detached,Bungalow-Raised,Toronto,Sumacfield
+SYN-0053683,list_aware,2023-11,2023-11-22,1034800.0,820788.5820945924,Detached,2-Storey,Toronto,Pineridge
+SYN-0100796,list_aware,2023-11,2023-11-22,476100.0,488280.40717146965,Condo Apt,Apartment,North York,Hazelmills
+SYN-0068270,list_aware,2023-11,2023-11-22,1399700.0,1457987.2180412828,Detached,Backsplit 3,North York,Balsamcrest
+SYN-0079547,list_aware,2023-11,2023-11-22,414200.0,431414.7616329506,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0011250,list_aware,2023-11,2023-11-22,1772600.0,1704534.560644919,Semi-Detached,3-Storey,Toronto,Magnoliacrest
+SYN-0029465,list_aware,2023-11,2023-11-22,663600.0,652870.5834922863,Condo Apt,2-Storey,Toronto,Magnoliaview
+SYN-0100170,list_aware,2023-11,2023-11-22,564800.0,544588.8751256595,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0077157,list_aware,2023-11,2023-11-22,574000.0,546743.767205821,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0143040,list_aware,2023-11,2023-11-22,1585200.0,1560218.289822069,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0114550,list_aware,2023-11,2023-11-23,1672200.0,1936205.6605347393,Detached,2-Storey,Toronto,Poplarview
+SYN-0021706,list_aware,2023-11,2023-11-23,723300.0,674941.7211858743,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0037133,list_aware,2023-11,2023-11-23,1037800.0,1025844.2164921272,Detached,2-Storey,Etobicoke,Lindenvale
+SYN-0034557,list_aware,2023-11,2023-11-23,1336800.0,1451103.7514965262,Detached,2-Storey,Toronto,Oakview
+SYN-0019700,list_aware,2023-11,2023-11-23,1970800.0,2131174.0805496583,Detached,2-Storey,Toronto,Cedarbank
+SYN-0110380,list_aware,2023-11,2023-11-23,1373900.0,1432548.488757105,Detached,Bungalow,Toronto,Magnoliaglen
+SYN-0025609,list_aware,2023-11,2023-11-23,1009800.0,949757.5466416194,Condo Apt,Apartment,Toronto,Magnoliaworth
+SYN-0053004,list_aware,2023-11,2023-11-23,424700.0,395740.42408518237,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0025429,list_aware,2023-11,2023-11-23,969000.0,944252.1531590037,Condo Apt,Apartment,Toronto,Mapleview
+SYN-0157545,list_aware,2023-11,2023-11-23,734900.0,777120.3322192588,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0089792,list_aware,2023-11,2023-11-23,936900.0,1082012.731766784,Semi-Detached,2-Storey,Scarborough,Spruceview
+SYN-0080637,list_aware,2023-11,2023-11-23,673700.0,698125.0990722926,Condo Townhouse,Stacked Townhse,Toronto,Birchgrove
+SYN-0071365,list_aware,2023-11,2023-11-23,1075000.0,1079582.412326459,Condo Apt,Apartment,Toronto,Rowangrove
+SYN-0136604,list_aware,2023-11,2023-11-23,496700.0,510890.77681435033,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0063978,list_aware,2023-11,2023-11-23,862400.0,920676.5371871297,Detached,Bungalow,Toronto,Pineridge
+SYN-0130855,list_aware,2023-11,2023-11-23,981400.0,958665.0451813025,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0055175,list_aware,2023-11,2023-11-23,437900.0,447353.1804491026,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0002244,list_aware,2023-11,2023-11-23,1015400.0,1024758.7397234293,Semi-Detached,2-Storey,North York,Cypressbrook
+SYN-0039819,list_aware,2023-11,2023-11-23,988000.0,1044168.0522479408,Detached,2-Storey,North York,Balsamcrest
+SYN-0050433,list_aware,2023-11,2023-11-23,824300.0,839042.0363352716,Semi-Detached,2-Storey,Scarborough,Sprucehollow
+SYN-0090173,list_aware,2023-11,2023-11-23,775100.0,861762.5488811523,Condo Apt,2-Storey,North York,Elmcrest
+SYN-0084481,list_aware,2023-11,2023-11-23,1059000.0,1166509.418448764,Detached,2-Storey,North York,Balsamcrest
+SYN-0058103,list_aware,2023-11,2023-11-23,638100.0,623953.3055319018,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0147132,list_aware,2023-11,2023-11-23,695200.0,706650.6814082809,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0059037,list_aware,2023-11,2023-11-23,730700.0,820245.0979879682,Detached,1 1/2 Storey,Toronto,Sycamoreview
+SYN-0043876,list_aware,2023-11,2023-11-23,4093200.0,4111261.4473981597,Detached,3-Storey,North York,Maplemills
+SYN-0128004,list_aware,2023-11,2023-11-23,600400.0,586988.4801699214,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0056074,list_aware,2023-11,2023-11-23,1246300.0,1392205.6387096622,Condo Townhouse,3-Storey,Toronto,Junipergardens
+SYN-0111126,list_aware,2023-11,2023-11-23,1017200.0,986005.4595669552,Semi-Detached,Bungalow-Raised,Toronto,Balsamgrove
+SYN-0002747,list_aware,2023-11,2023-11-23,4133500.0,3637767.5858487566,Detached,2-Storey,Toronto,Cypressdale
+SYN-0037002,list_aware,2023-11,2023-11-23,703200.0,666436.481690149,Condo Townhouse,2-Storey,Toronto,Sprucehaven
+SYN-0075958,list_aware,2023-11,2023-11-23,1380800.0,1300696.767293144,Detached,2-Storey,Toronto,Chestnutridge
+SYN-0053711,list_aware,2023-11,2023-11-23,2133600.0,2273041.9592820965,Semi-Detached,3-Storey,Scarborough,Hazelfield
+SYN-0130237,list_aware,2023-11,2023-11-23,1839200.0,1839828.4066308562,Detached,2-Storey,Toronto,Rowanbank
+SYN-0104675,list_aware,2023-11,2023-11-23,641400.0,690646.8449272544,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0093705,list_aware,2023-11,2023-11-23,1176600.0,1100005.167027555,Semi-Detached,2-Storey,North York,Elmcrest
+SYN-0022036,list_aware,2023-11,2023-11-23,1133700.0,1006844.4337288529,Detached,Bungalow,Toronto,Mapleview
+SYN-0044886,list_aware,2023-11,2023-11-23,632100.0,634672.504380804,Condo Apt,Apartment,North York,Sycamoreglen
+SYN-0152533,list_aware,2023-11,2023-11-23,513300.0,466674.74659712665,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0093807,list_aware,2023-11,2023-11-23,847800.0,788621.9297721881,Condo Apt,Apartment,North York,Lindenglen
+SYN-0150340,list_aware,2023-11,2023-11-23,1042200.0,1072774.1215651447,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0109305,list_aware,2023-11,2023-11-23,693400.0,774227.5874574583,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0071758,list_aware,2023-11,2023-11-23,629000.0,653568.2552027071,Condo Apt,Apartment,Toronto,Alderworth
+SYN-0150639,list_aware,2023-11,2023-11-23,1334500.0,1418629.6601308505,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0021454,list_aware,2023-11,2023-11-23,869900.0,853375.7168895373,Freehold Townhouse,3-Storey,North York,Cypressheights
+SYN-0093012,list_aware,2023-11,2023-11-23,813300.0,894802.9718480338,Condo Apt,Apartment,Toronto,Sumacfield
+SYN-0086931,list_aware,2023-11,2023-11-23,1437700.0,1472242.2058020323,Condo Apt,Apartment,Etobicoke,Maplevale
+SYN-0133173,list_aware,2023-11,2023-11-23,793200.0,821025.0094376109,Condo Apt,Loft,North York,Sycamoreglen
+SYN-0068695,list_aware,2023-11,2023-11-23,1438800.0,1564615.3388735652,Semi-Detached,Backsplit 4,Toronto,Beechglen
+SYN-0001261,list_aware,2023-11,2023-11-23,1269100.0,1204043.9602963426,Detached,Bungalow,Toronto,Mapleview
+SYN-0074342,list_aware,2023-11,2023-11-23,1088700.0,1191027.7292506834,Detached,2-Storey,Toronto,Magnoliaview
+SYN-0095985,list_aware,2023-11,2023-11-23,498100.0,478502.28638081986,Condo Apt,Apartment,Toronto,Chestnutgrove
+SYN-0098142,list_aware,2023-11,2023-11-23,979800.0,925053.2871445607,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0045061,list_aware,2023-11,2023-11-23,924700.0,1078982.957539263,Detached,1 1/2 Storey,Toronto,Walnuthollow
+SYN-0107077,list_aware,2023-11,2023-11-23,2087100.0,2292311.4844491445,Detached,2-Storey,Toronto,Elmhaven
+SYN-0100222,list_aware,2023-11,2023-11-23,1322700.0,1397878.670818726,Freehold Townhouse,2-Storey,Toronto,Junipergardens
+SYN-0035706,list_aware,2023-11,2023-11-23,436300.0,481205.48855366115,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0107279,list_aware,2023-11,2023-11-23,3910200.0,3885263.9060173915,Detached,2-Storey,Toronto,Willowpark
+SYN-0055555,list_aware,2023-11,2023-11-23,608900.0,650621.3879231854,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0152236,list_aware,2023-11,2023-11-24,1238900.0,1132520.0314282891,Semi-Detached,2-Storey,Toronto,Rowanridge
+SYN-0150724,list_aware,2023-11,2023-11-24,1078500.0,1024035.2204242545,Condo Apt,Apartment,Toronto,Juniperbrook
+SYN-0007658,list_aware,2023-11,2023-11-24,356000.0,397649.0481333875,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0146210,list_aware,2023-11,2023-11-24,5341600.0,4563593.391678761,Detached,2-Storey,Toronto,Lindendale
+SYN-0012526,list_aware,2023-11,2023-11-24,1260100.0,1325216.1005257468,Semi-Detached,2-Storey,Toronto,Beechglen
+SYN-0036421,list_aware,2023-11,2023-11-24,1023600.0,1147821.1447897176,Detached,2-Storey,Toronto,Chestnutglen
+SYN-0135662,list_aware,2023-11,2023-11-24,466500.0,432342.6657711355,Condo Apt,Apartment,York,Birchheights
+SYN-0127063,list_aware,2023-11,2023-11-24,1325800.0,1158422.0108501243,Detached,Bungalow,Toronto,Cedarhaven
+SYN-0099637,list_aware,2023-11,2023-11-24,728800.0,787446.0667769995,Detached,Bungalow,Scarborough,Juniperpark
+SYN-0046266,list_aware,2023-11,2023-11-24,771800.0,795879.6305101549,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0090605,list_aware,2023-11,2023-11-24,1586300.0,1400152.4809130933,Freehold Townhouse,2-Storey,Etobicoke,Elmbrook
+SYN-0048404,list_aware,2023-11,2023-11-24,724300.0,743362.7504099013,Co-Op Apt,Apartment,Etobicoke,Cedarview
+SYN-0092433,list_aware,2023-11,2023-11-24,1535100.0,1704841.2805620653,Detached,3-Storey,North York,Lindenridge
+SYN-0062317,list_aware,2023-11,2023-11-24,650100.0,646399.0276774178,Condo Apt,Apartment,North York,Hazelmills
+SYN-0115818,list_aware,2023-11,2023-11-24,747800.0,841251.2123821005,Freehold Townhouse,3-Storey,Toronto,Magnoliaworth
+SYN-0134798,list_aware,2023-11,2023-11-24,359400.0,363439.915720291,Condo Apt,Apartment,North York,Willowglen
+SYN-0128600,list_aware,2023-11,2023-11-24,1284400.0,1250404.4383127654,Detached,Backsplit 4,Scarborough,Beechbourne
+SYN-0148051,list_aware,2023-11,2023-11-24,1586500.0,1532304.8670593414,Detached,1 1/2 Storey,Toronto,Hemlockvale
+SYN-0057690,list_aware,2023-11,2023-11-24,694600.0,755025.2219255841,Condo Apt,Loft,Toronto,Cedarwood
+SYN-0112802,list_aware,2023-11,2023-11-24,1889200.0,1795883.800197109,Detached,Bungalow,Toronto,Cypressdale
+SYN-0012392,list_aware,2023-11,2023-11-24,498700.0,504668.32879968034,Condo Apt,Apartment,North York,Hickoryvale
+SYN-0040223,list_aware,2023-11,2023-11-24,616500.0,650478.1035026879,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0098932,list_aware,2023-11,2023-11-24,1323700.0,1279117.3619610001,Detached,2-Storey,Scarborough,Sequoiabourne
+SYN-0030877,list_aware,2023-11,2023-11-24,922300.0,1057129.874366049,Detached,2-Storey,Toronto,Hickoryhaven
+SYN-0047693,list_aware,2023-11,2023-11-24,490600.0,508000.1034005326,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0065507,list_aware,2023-11,2023-11-24,552800.0,577993.643919596,Condo Apt,Apartment,North York,Hazelmills
+SYN-0130347,list_aware,2023-11,2023-11-24,431400.0,431450.9273688992,Condo Apt,Apartment,Toronto,Rowangrove
+SYN-0086912,list_aware,2023-11,2023-11-24,819500.0,904786.1249526782,Detached,2-Storey,Etobicoke,Chestnutmills
+SYN-0085743,list_aware,2023-11,2023-11-24,692700.0,604247.8903820892,Condo Apt,Apartment,North York,Lindenglen
+SYN-0010017,list_aware,2023-11,2023-11-24,491500.0,477986.6303763882,Condo Apt,Apartment,Etobicoke,Walnutpark
+SYN-0069340,list_aware,2023-11,2023-11-24,791300.0,927675.7007607593,Semi-Detached,3-Storey,Toronto,Sycamoreview
+SYN-0024489,list_aware,2023-11,2023-11-24,696100.0,699015.1373298529,Condo Townhouse,2-Storey,North York,Hickorybourne
+SYN-0045701,list_aware,2023-11,2023-11-24,1379400.0,1492925.946332442,Detached,2-Storey,Scarborough,Sumaccrest
+SYN-0025057,list_aware,2023-11,2023-11-24,738100.0,686743.7606735384,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0057058,list_aware,2023-11,2023-11-24,752400.0,778361.4488617167,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0117755,list_aware,2023-11,2023-11-24,487400.0,486516.2166644059,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0081651,list_aware,2023-11,2023-11-24,412500.0,378740.2890940372,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0118341,list_aware,2023-11,2023-11-24,695800.0,736126.2842493173,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0059236,list_aware,2023-11,2023-11-24,2061500.0,2227374.7569402815,Detached,2-Storey,Toronto,Junipergardens
+SYN-0091318,list_aware,2023-11,2023-11-24,636000.0,636234.7142006304,Condo Apt,Apartment,Toronto,Elmview
+SYN-0122380,list_aware,2023-11,2023-11-24,1515700.0,1477909.1686598272,Detached,2-Storey,Toronto,Chestnutbank
+SYN-0006372,list_aware,2023-11,2023-11-24,415000.0,452671.6322879338,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0012139,list_aware,2023-11,2023-11-24,958400.0,1000278.2521320943,Condo Apt,Apartment,Toronto,Elmview
+SYN-0153296,list_aware,2023-11,2023-11-24,1824300.0,2024775.8751574343,Semi-Detached,2-Storey,Toronto,Juniperheights
+SYN-0020003,list_aware,2023-11,2023-11-24,589300.0,627692.0828055673,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0086219,list_aware,2023-11,2023-11-24,261200.0,264716.33668179315,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0133462,list_aware,2023-11,2023-11-24,592700.0,598817.8361669492,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0085189,list_aware,2023-11,2023-11-24,654800.0,634153.0228792945,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0073327,list_aware,2023-11,2023-11-24,755600.0,756477.8457414674,Condo Townhouse,2-Storey,Etobicoke,Cedarglen
+SYN-0127964,list_aware,2023-11,2023-11-24,702600.0,668843.1352955782,Condo Apt,Apartment,North York,Elmcrest
+SYN-0109545,list_aware,2023-11,2023-11-24,509700.0,511992.4475152567,Condo Apt,Apartment,Toronto,Sequoiaview
+SYN-0027790,list_aware,2023-11,2023-11-24,474200.0,466647.8568136416,Condo Apt,Apartment,Toronto,Elmview
+SYN-0030109,list_aware,2023-11,2023-11-24,497700.0,506433.6684635565,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0154608,list_aware,2023-11,2023-11-24,463900.0,465016.9531319047,Condo Apt,Apartment,North York,Maplebank
+SYN-0133334,list_aware,2023-11,2023-11-24,402800.0,407165.11254725594,Condo Apt,Apartment,Toronto,Elmhaven
+SYN-0157083,list_aware,2023-11,2023-11-24,920600.0,994313.9903195327,Freehold Townhouse,2 1/2 Storey,Scarborough,Oakbourne
+SYN-0104701,list_aware,2023-11,2023-11-24,624800.0,552809.6768337508,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0098984,list_aware,2023-11,2023-11-25,1374600.0,1465959.7895745793,Detached,3-Storey,Toronto,Junipergardens
+SYN-0072387,list_aware,2023-11,2023-11-25,3297200.0,2947267.1572146267,Detached,Bungalow-Raised,Toronto,Willowpark
+SYN-0017905,list_aware,2023-11,2023-11-25,800000.0,799640.7130629194,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0131654,list_aware,2023-11,2023-11-25,3352000.0,3631090.5914134607,Detached,Bungalow,Toronto,Lindendale
+SYN-0040280,list_aware,2023-11,2023-11-25,1032900.0,1105309.136587812,Detached,Bungalow,Toronto,Junipergardens
+SYN-0139122,list_aware,2023-11,2023-11-25,1286000.0,1294960.6780238643,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0085923,list_aware,2023-11,2023-11-25,768400.0,680140.4821100916,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0001464,list_aware,2023-11,2023-11-25,550600.0,579677.8066807075,Condo Apt,Apartment,Etobicoke,Elmbrook
+SYN-0109502,list_aware,2023-11,2023-11-25,904300.0,978511.4168251862,Semi-Detached,2 1/2 Storey,North York,Cypressheights
+SYN-0081504,list_aware,2023-11,2023-11-25,1282400.0,1166998.9911097258,Semi-Detached,2-Storey,Toronto,Rowanbank
+SYN-0032564,list_aware,2023-11,2023-11-25,588100.0,588304.5246561831,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0099669,list_aware,2023-11,2023-11-25,1192400.0,1187183.07120744,Semi-Detached,Backsplit 4,York,Birchheights
+SYN-0031770,list_aware,2023-11,2023-11-25,772700.0,798802.5573722619,Condo Apt,Apartment,Toronto,Elmview
+SYN-0093436,list_aware,2023-11,2023-11-25,420300.0,426859.0324357061,Condo Apt,Apartment,Toronto,Sumacdale
+SYN-0082721,list_aware,2023-11,2023-11-25,1368300.0,1251369.7768085122,Condo Townhouse,3-Storey,Toronto,Balsamgrove
+SYN-0071542,list_aware,2023-11,2023-11-25,525800.0,574244.4981226164,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0075878,list_aware,2023-11,2023-11-25,492000.0,481380.44751167356,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0104826,list_aware,2023-11,2023-11-25,1138500.0,1258913.647213006,Detached,2-Storey,North York,Cypressheights
+SYN-0134590,list_aware,2023-11,2023-11-25,1087300.0,1098345.5568674216,Condo Townhouse,2-Storey,Toronto,Poplarcrest
+SYN-0061264,list_aware,2023-11,2023-11-25,740000.0,771853.3375917342,Detached,Bungalow,Toronto,Sumacwood
+SYN-0101648,list_aware,2023-11,2023-11-25,765700.0,805654.6237592992,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0086269,list_aware,2023-11,2023-11-25,1681600.0,1659234.5563948457,Semi-Detached,2-Storey,North York,Elmcrest
+SYN-0044053,list_aware,2023-11,2023-11-25,3370900.0,3763393.0344742187,Detached,2-Storey,North York,Maplemills
+SYN-0011694,list_aware,2023-11,2023-11-25,1070200.0,975074.6611668383,Detached,Bungalow,Toronto,Cedarwood
+SYN-0122439,list_aware,2023-11,2023-11-25,569600.0,580443.409765061,Condo Apt,Apartment,Toronto,Sequoiahollow
+SYN-0059608,list_aware,2023-11,2023-11-25,381300.0,418153.2128684311,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0103468,list_aware,2023-11,2023-11-25,1030500.0,1152304.973334943,Detached,Bungalow,North York,Cedargardens
+SYN-0003422,list_aware,2023-11,2023-11-25,779900.0,815509.1868041594,Detached,Bungalow,Toronto,Walnuthollow
+SYN-0102406,list_aware,2023-11,2023-11-25,1425700.0,1339439.6501382978,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0089370,list_aware,2023-11,2023-11-25,531400.0,543279.0176037115,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0146593,list_aware,2023-11,2023-11-25,1067900.0,1045410.6107966041,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0006186,list_aware,2023-11,2023-11-25,497100.0,541318.9083470638,Condo Townhouse,2-Storey,Etobicoke,Cedarview
+SYN-0107953,list_aware,2023-11,2023-11-25,560200.0,598530.5030657251,Condo Apt,Apartment,Toronto,Larchview
+SYN-0048658,list_aware,2023-11,2023-11-25,606500.0,612034.3168533869,Condo Apt,Apartment,Scarborough,Sequoiabourne
+SYN-0134073,list_aware,2023-11,2023-11-25,1073400.0,1032266.8220740807,Detached,Bungalow,Etobicoke,Lindenvale
+SYN-0148231,list_aware,2023-11,2023-11-25,727800.0,772646.080724821,Detached,Bungalow,Etobicoke,Dogwoodbrook
+SYN-0107184,list_aware,2023-11,2023-11-25,826000.0,851295.0289358395,Condo Townhouse,Stacked Townhse,Toronto,Cypressdale
+SYN-0055455,list_aware,2023-11,2023-11-25,2105200.0,2229770.115634666,Freehold Townhouse,3-Storey,Toronto,Magnoliacrest
+SYN-0070496,list_aware,2023-11,2023-11-25,1042800.0,1019875.8535316658,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0084227,list_aware,2023-11,2023-11-25,590600.0,557701.0627601371,Condo Apt,Apartment,Toronto,Sumacwood
+SYN-0043359,list_aware,2023-11,2023-11-25,602400.0,592912.9224159765,Condo Apt,Apartment,North York,Willowglen
+SYN-0080999,list_aware,2023-11,2023-11-25,629800.0,595292.5855523164,Condo Apt,Apartment,Toronto,Larchview
+SYN-0085511,list_aware,2023-11,2023-11-25,538300.0,521313.8742521306,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0082715,list_aware,2023-11,2023-11-25,1468500.0,1517381.807644487,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0040310,list_aware,2023-11,2023-11-25,1040300.0,990860.0655889328,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0156609,list_aware,2023-11,2023-11-25,660900.0,687665.4780639907,Condo Townhouse,2-Storey,North York,Willowglen
+SYN-0005159,list_aware,2023-11,2023-11-25,534200.0,560454.6114321653,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0029707,list_aware,2023-11,2023-11-25,1123800.0,1220224.9268324208,Detached,2-Storey,Toronto,Sequoiaview
+SYN-0054077,list_aware,2023-11,2023-11-25,950000.0,936811.1611273334,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0020909,list_aware,2023-11,2023-11-25,1113600.0,1307634.0248639558,Detached,Bungalow,Toronto,Rowanbank
+SYN-0062946,list_aware,2023-11,2023-11-25,1449500.0,1539546.7469909452,Co-Op Apt,Apartment,Scarborough,Spruceview
+SYN-0142699,list_aware,2023-11,2023-11-25,814400.0,874533.8180391472,Detached,Bungalow,Toronto,Willowview
+SYN-0039192,list_aware,2023-11,2023-11-25,815900.0,857473.4208727324,Freehold Townhouse,2-Storey,Toronto,Juniperbrook
+SYN-0036181,list_aware,2023-11,2023-11-25,1478400.0,1614476.9528169527,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0073587,list_aware,2023-11,2023-11-25,978300.0,968191.6241799749,Detached,Bungalow,North York,Mulberrydale
+SYN-0150409,list_aware,2023-11,2023-11-26,606900.0,679322.0353332146,Semi-Detached,Bungalow,Toronto,Magnoliaworth
+SYN-0152260,list_aware,2023-11,2023-11-26,1761900.0,1879825.7603698403,Detached,2-Storey,Toronto,Cedarbank
+SYN-0056123,list_aware,2023-11,2023-11-26,1781400.0,1980830.1681391413,Detached,2-Storey,Toronto,Junipergardens
+SYN-0022250,list_aware,2023-11,2023-11-26,680600.0,723341.787043877,Condo Townhouse,Stacked Townhse,Toronto,Pineridge
+SYN-0082725,list_aware,2023-11,2023-11-26,1550800.0,1507392.3428344596,Detached,Bungalow,Scarborough,Lindenmills
+SYN-0108028,list_aware,2023-11,2023-11-26,923800.0,963705.4319017183,Detached,1 1/2 Storey,Etobicoke,Ashpark
+SYN-0096380,list_aware,2023-11,2023-11-26,541900.0,548781.5282769179,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0124911,list_aware,2023-11,2023-11-26,635000.0,634585.0411941872,Condo Apt,Multi-Level,Scarborough,Rowangardens
+SYN-0118452,list_aware,2023-11,2023-11-26,689000.0,856467.6796608934,Semi-Detached,2-Storey,Toronto,Sprucehaven
+SYN-0064207,list_aware,2023-11,2023-11-26,1151000.0,1164172.440439944,Detached,Backsplit 4,Scarborough,Beechbourne
+SYN-0144978,list_aware,2023-11,2023-11-26,728300.0,779576.4131693125,Condo Apt,Apartment,North York,Sycamoreglen
+SYN-0110887,list_aware,2023-11,2023-11-26,445900.0,488376.745526873,Detached,Bungalow,North York,Willowglen
+SYN-0005528,list_aware,2023-11,2023-11-26,1280500.0,1282120.0403481945,Semi-Detached,2-Storey,Toronto,Ashworth
+SYN-0003958,list_aware,2023-11,2023-11-26,757800.0,819245.4693917057,Detached,2-Storey,Toronto,Pineridge
+SYN-0105201,list_aware,2023-11,2023-11-26,881800.0,1039799.0785981289,Condo Townhouse,2-Storey,Toronto,Elmgardens
+SYN-0100003,list_aware,2023-11,2023-11-26,1803100.0,1937376.7140822844,Condo Apt,Multi-Level,Toronto,Elmview
+SYN-0083249,list_aware,2023-11,2023-11-26,1869000.0,1706148.2129054011,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0049943,list_aware,2023-11,2023-11-26,768900.0,711166.1915947117,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0043133,list_aware,2023-11,2023-11-26,2365900.0,2826384.8652732,Detached,3-Storey,North York,Maplebrook
+SYN-0068599,list_aware,2023-11,2023-11-26,2285700.0,2363025.065395167,Detached,2-Storey,Toronto,Oakcrest
+SYN-0041744,list_aware,2023-11,2023-11-26,739000.0,716980.920643235,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0080431,list_aware,2023-11,2023-11-26,1163400.0,1282198.823202676,Detached,2-Storey,Toronto,Hickoryhaven
+SYN-0063349,list_aware,2023-11,2023-11-26,517200.0,567830.2302029441,Condo Apt,Apartment,North York,Oakhaven
+SYN-0050509,list_aware,2023-11,2023-11-26,745600.0,863776.10580847,Semi-Detached,Bungalow-Raised,Toronto,Rowanridge
+SYN-0147978,list_aware,2023-11,2023-11-26,784100.0,754635.0302711085,Condo Apt,Apartment,Scarborough,Birchhollow
+SYN-0074668,list_aware,2023-11,2023-11-26,1029400.0,1029034.3090538593,Condo Apt,Apartment,Toronto,Sumacfield
+SYN-0092596,list_aware,2023-11,2023-11-26,623500.0,632860.8281738495,Condo Apt,Apartment,Toronto,Elmmills
+SYN-0115363,list_aware,2023-11,2023-11-26,558500.0,597624.0878715527,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0067394,list_aware,2023-11,2023-11-26,906500.0,850683.5593825983,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0085158,list_aware,2023-11,2023-11-26,583300.0,608806.2133870048,Condo Apt,Apartment,Toronto,Magnoliaworth
+SYN-0005821,list_aware,2023-11,2023-11-26,1149300.0,1093982.9206826927,Semi-Detached,Backsplit 4,Scarborough,Sumacbank
+SYN-0054370,list_aware,2023-11,2023-11-26,504000.0,469322.65315386176,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0116390,list_aware,2023-11,2023-11-26,414300.0,436423.2508406038,Condo Apt,Apartment,Etobicoke,Maplebourne
+SYN-0141563,list_aware,2023-11,2023-11-26,1034100.0,1085957.397338776,Condo Apt,2-Storey,Toronto,Rowanbrook
+SYN-0052410,list_aware,2023-11,2023-11-26,779400.0,797780.626330664,Condo Apt,Apartment,Toronto,Pineridge
+SYN-0053123,list_aware,2023-11,2023-11-26,529400.0,524657.8890691933,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0125954,list_aware,2023-11,2023-11-26,1043700.0,1086381.0829506186,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0076028,list_aware,2023-11,2023-11-26,947500.0,1024433.0594288323,Semi-Detached,Bungalow,Scarborough,Maplegrove
+SYN-0104134,list_aware,2023-11,2023-11-26,567700.0,582420.8227181237,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0066129,list_aware,2023-11,2023-11-26,706400.0,665099.9642283488,Condo Apt,Apartment,North York,Maplebank
+SYN-0143105,list_aware,2023-11,2023-11-26,779400.0,843454.7710587896,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0116929,list_aware,2023-11,2023-11-26,538200.0,554183.2756949235,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0036308,list_aware,2023-11,2023-11-26,940000.0,888560.0258592548,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0041773,list_aware,2023-11,2023-11-26,1671800.0,1583833.5508592576,Detached,2-Storey,Toronto,Oakview
+SYN-0062488,list_aware,2023-11,2023-11-26,867100.0,968412.6258066271,Detached,Bungalow,Toronto,Sycamorehaven
+SYN-0065156,list_aware,2023-11,2023-11-26,575200.0,654641.5658236855,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0007521,list_aware,2023-11,2023-11-26,598000.0,640185.5783675981,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0092088,list_aware,2023-11,2023-11-26,1191200.0,1121010.3285478589,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0112477,list_aware,2023-11,2023-11-26,846300.0,857004.0614706961,Detached,Bungalow,Toronto,Chestnutglen
+SYN-0007918,list_aware,2023-11,2023-11-26,857000.0,869719.06211508,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0112342,list_aware,2023-11,2023-11-26,949100.0,1003962.3721245698,Condo Townhouse,3-Storey,Toronto,Cedargrove
+SYN-0120130,list_aware,2023-11,2023-11-26,919400.0,845191.4045666214,Detached,Bungalow,Etobicoke,Ashpark
+SYN-0057638,list_aware,2023-11,2023-11-26,875900.0,842555.6441147109,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0131833,list_aware,2023-11,2023-11-26,422000.0,417770.7254779859,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0045823,list_aware,2023-11,2023-11-26,1111600.0,1146809.1816279453,Condo Apt,Apartment,Toronto,Cypressdale
+SYN-0132066,list_aware,2023-11,2023-11-26,1621600.0,1634409.4157322366,Condo Townhouse,3-Storey,Toronto,Elmgardens
+SYN-0088772,list_aware,2023-11,2023-11-26,1659300.0,1719819.5413117583,Condo Apt,2-Storey,Toronto,Poplarcrest
+SYN-0053261,list_aware,2023-11,2023-11-27,769700.0,781422.1983546233,Condo Apt,Apartment,Toronto,Chestnutview
+SYN-0019646,list_aware,2023-11,2023-11-27,1209200.0,1280841.8341208396,Semi-Detached,2-Storey,North York,Cypressbrook
+SYN-0019042,list_aware,2023-11,2023-11-27,394900.0,388179.1897741832,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0108550,list_aware,2023-11,2023-11-27,773500.0,726999.1538808747,Condo Apt,Apartment,Toronto,Elmview
+SYN-0036257,list_aware,2023-11,2023-11-27,571100.0,543931.4980622375,Condo Apt,Apartment,North York,Hazelmills
+SYN-0091306,list_aware,2023-11,2023-11-27,1153000.0,1143207.1903668463,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0126773,list_aware,2023-11,2023-11-27,386100.0,429241.07524497836,Condo Apt,Apartment,Etobicoke,Cedarglen
+SYN-0141740,list_aware,2023-11,2023-11-27,952200.0,842446.7011995743,Detached,Bungalow,Scarborough,Magnoliavale
+SYN-0121074,list_aware,2023-11,2023-11-27,834800.0,738640.5308821294,Semi-Detached,2-Storey,Toronto,Magnoliaworth
+SYN-0142551,list_aware,2023-11,2023-11-27,576100.0,561431.7925177283,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0019756,list_aware,2023-11,2023-11-27,1343300.0,1218697.23276804,Detached,2-Storey,Etobicoke,Lindenvale
+SYN-0029933,list_aware,2023-11,2023-11-27,1475100.0,1394531.5588133899,Detached,2-Storey,York,Birchheights
+SYN-0030670,list_aware,2023-11,2023-11-27,1225300.0,1286845.8660202327,Semi-Detached,2-Storey,Toronto,Oakview
+SYN-0007891,list_aware,2023-11,2023-11-27,879700.0,909128.6613964655,Detached,2-Storey,Etobicoke,Lindenvale
+SYN-0018896,list_aware,2023-11,2023-11-27,844700.0,871180.0963437661,Condo Apt,Apartment,North York,Lindenridge
+SYN-0100083,list_aware,2023-11,2023-11-27,2105700.0,2223036.5622807923,Detached,2-Storey,Etobicoke,Mulberryhollow
+SYN-0050617,list_aware,2023-11,2023-11-27,731300.0,684853.0914925709,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0133508,list_aware,2023-11,2023-11-27,708200.0,704256.8521895019,Condo Apt,Apartment,Toronto,Elmview
+SYN-0141893,list_aware,2023-11,2023-11-27,1224800.0,1305834.826947158,Detached,2-Storey,Etobicoke,Magnoliabank
+SYN-0047499,list_aware,2023-11,2023-11-27,2092500.0,2188431.4492483465,Detached,2 1/2 Storey,Etobicoke,Lindenvale
+SYN-0137587,list_aware,2023-11,2023-11-27,2170900.0,2337555.8599823173,Freehold Townhouse,2-Storey,Scarborough,Hazelfield
+SYN-0123911,list_aware,2023-11,2023-11-27,1004400.0,941186.1619390314,Condo Apt,Apartment,Toronto,Magnoliacrest
+SYN-0032363,list_aware,2023-11,2023-11-27,1335400.0,1423364.440319806,Detached,2 1/2 Storey,Toronto,Birchgrove
+SYN-0082752,list_aware,2023-11,2023-11-27,771700.0,884666.6714305339,Detached,2 1/2 Storey,North York,Maplebank
+SYN-0127496,list_aware,2023-11,2023-11-27,524500.0,555584.3210998904,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0140595,list_aware,2023-11,2023-11-27,876000.0,789997.17355113,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0135494,list_aware,2023-11,2023-11-27,1057200.0,1125216.805506532,Semi-Detached,2-Storey,Toronto,Cedargrove
+SYN-0071690,list_aware,2023-11,2023-11-27,928200.0,965578.3129933723,Detached,Bungalow,Etobicoke,Cedarglen
+SYN-0001445,list_aware,2023-11,2023-11-27,978200.0,1062701.4465176074,Detached,Bungalow,Etobicoke,Dogwoodbrook
+SYN-0002752,list_aware,2023-11,2023-11-27,1157600.0,1247828.3806409235,Semi-Detached,2-Storey,Scarborough,Maplegrove
+SYN-0121878,list_aware,2023-11,2023-11-27,1188200.0,1213289.6493605084,Condo Apt,Apartment,Toronto,Ashworth
+SYN-0038789,list_aware,2023-11,2023-11-27,579900.0,662823.0168295354,Detached,Bungalow,Toronto,Sycamoreview
+SYN-0123094,list_aware,2023-11,2023-11-27,2619200.0,2559587.831508029,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0057272,list_aware,2023-11,2023-11-27,1008000.0,962255.6468761095,Condo Apt,Apartment,North York,Elmcrest
+SYN-0134700,list_aware,2023-11,2023-11-27,9745900.0,9784855.573462741,Detached,3-Storey,Toronto,Willowpark
+SYN-0092600,list_aware,2023-11,2023-11-27,383900.0,412501.2344608436,Condo Apt,Apartment,Etobicoke,Mulberryhollow
+SYN-0006630,list_aware,2023-11,2023-11-27,3538200.0,4023467.715573155,Detached,2-Storey,Toronto,Rowanhollow
+SYN-0131199,list_aware,2023-11,2023-11-27,1490200.0,1583862.5635798988,Detached,2-Storey,Etobicoke,Mulberryhollow
+SYN-0027079,list_aware,2023-11,2023-11-27,1260900.0,1265722.2412201737,Detached,2-Storey,Toronto,Chestnutridge
+SYN-0054671,list_aware,2023-11,2023-11-27,467600.0,458967.3883699243,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0000968,list_aware,2023-11,2023-11-27,930700.0,949830.646735058,Detached,1 1/2 Storey,Toronto,Ashbank
+SYN-0032538,list_aware,2023-11,2023-11-27,1544700.0,1539634.6732150977,Detached,Backsplit 4,Toronto,Sumacdale
+SYN-0096319,list_aware,2023-11,2023-11-27,1184900.0,1163452.034889149,Condo Townhouse,3-Storey,Toronto,Walnutfield
+SYN-0047769,list_aware,2023-11,2023-11-27,449400.0,487859.57196559396,Condo Apt,Apartment,Toronto,Cedarbank
+SYN-0127895,list_aware,2023-11,2023-11-27,669700.0,741473.8606996896,Condo Apt,Multi-Level,Toronto,Junipergardens
+SYN-0113690,list_aware,2023-11,2023-11-27,579800.0,605460.0850692542,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0005851,list_aware,2023-11,2023-11-27,467800.0,464222.8495419082,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0063637,list_aware,2023-11,2023-11-27,2025000.0,2055469.932159587,Detached,2-Storey,Toronto,Rowanbrook
+SYN-0119256,list_aware,2023-11,2023-11-27,842000.0,777053.7281308648,Condo Apt,Apartment,Toronto,Rowanbrook
+SYN-0095591,list_aware,2023-11,2023-11-27,619900.0,591678.0569391695,Condo Apt,Apartment,North York,Elmcrest
+SYN-0021407,list_aware,2023-11,2023-11-27,1370800.0,1220796.0808601268,Detached,2-Storey,North York,Elmpark
+SYN-0133224,list_aware,2023-11,2023-11-27,2306400.0,2274622.647910881,Semi-Detached,3-Storey,Toronto,Cedargrove
+SYN-0112914,list_aware,2023-11,2023-11-27,880000.0,882441.386952945,Condo Apt,Loft,North York,Maplebank
+SYN-0023398,list_aware,2023-11,2023-11-27,702600.0,754423.3186766837,Condo Townhouse,Stacked Townhse,Toronto,Rowanbrook
+SYN-0154785,list_aware,2023-11,2023-11-27,463900.0,465384.13849123195,Condo Apt,Apartment,Toronto,Rowanridge
+SYN-0088056,list_aware,2023-11,2023-11-27,777500.0,791652.0570024889,Condo Apt,Apartment,North York,Lindenglen
+SYN-0045790,list_aware,2023-11,2023-11-27,395200.0,391988.1031288542,Condo Apt,Apartment,Scarborough,Chestnutbrook
+SYN-0032722,list_aware,2023-11,2023-11-27,432300.0,431135.6207800235,Condo Apt,Apartment,North York,Maplebank
+SYN-0135561,list_aware,2023-11,2023-11-27,1020300.0,981248.4346207678,Condo Apt,Multi-Level,Toronto,Elmview
+SYN-0031679,list_aware,2023-11,2023-11-28,683100.0,668887.9994758213,Condo Apt,Apartment,Scarborough,Dogwoodmills
+SYN-0081734,list_aware,2023-11,2023-11-28,911800.0,948315.6900655151,Freehold Townhouse,2-Storey,York,Mulberryhaven
+SYN-0079800,list_aware,2023-11,2023-11-28,571400.0,678836.0256377805,Condo Townhouse,2-Storey,North York,Lindenridge
+SYN-0147293,list_aware,2023-11,2023-11-28,910600.0,962621.0661379982,Semi-Detached,2-Storey,Etobicoke,Dogwoodbrook
+SYN-0041390,list_aware,2023-11,2023-11-28,721100.0,701656.5677704676,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0010426,list_aware,2023-11,2023-11-28,987300.0,1070826.1944979501,Detached,2-Storey,Toronto,Pineridge
+SYN-0064219,list_aware,2023-11,2023-11-28,1011600.0,1029903.7885538607,Detached,Bungalow,North York,Mulberrydale
+SYN-0119685,list_aware,2023-11,2023-11-28,870900.0,840852.1507021295,Condo Apt,Apartment,Toronto,Cedargrove
+SYN-0133986,list_aware,2023-11,2023-11-28,371700.0,393604.425291261,Condo Apt,Apartment,Toronto,Aspenworth
+SYN-0138682,list_aware,2023-11,2023-11-28,460300.0,480344.7327218341,Condo Apt,Apartment,North York,Cypressbrook
+SYN-0123523,list_aware,2023-11,2023-11-28,1342900.0,1324105.0803731522,Condo Townhouse,2-Storey,Toronto,Elmview
+SYN-0128392,list_aware,2023-11,2023-11-28,2249600.0,2153773.136497105,Detached,2-Storey,Toronto,Hemlockvale
+SYN-0157684,list_aware,2023-11,2023-11-28,726800.0,719759.6657726255,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0043149,list_aware,2023-11,2023-11-28,808300.0,846348.9406913811,Detached,2-Storey,Scarborough,Magnoliavale
+SYN-0149774,list_aware,2023-11,2023-11-28,542600.0,542437.4992900761,Condo Apt,Apartment,Scarborough,Beechbourne
+SYN-0040133,list_aware,2023-11,2023-11-28,862400.0,999748.8276012817,Semi-Detached,Bungalow-Raised,North York,Willowglen
+SYN-0071226,list_aware,2023-11,2023-11-28,1358400.0,1365055.6971731316,Detached,Bungalow,Toronto,Junipergardens
+SYN-0045764,list_aware,2023-11,2023-11-28,730400.0,829681.5747646692,Condo Apt,Apartment,Toronto,Willowpark
+SYN-0138968,list_aware,2023-11,2023-11-28,651200.0,654597.0286605463,Condo Apt,Apartment,North York,Maplebank
+SYN-0006742,list_aware,2023-11,2023-11-28,6589900.0,7045633.739429494,Detached,2-Storey,Toronto,Juniperheights
+SYN-0051920,list_aware,2023-11,2023-11-28,815400.0,970257.175877399,Semi-Detached,2-Storey,Scarborough,Spruceview
+SYN-0070827,list_aware,2023-11,2023-11-28,856200.0,858418.2249389394,Condo Apt,Apartment,North York,Sycamoreglen
+SYN-0036576,list_aware,2023-11,2023-11-28,1146800.0,972933.8622563492,Semi-Detached,3-Storey,Scarborough,Dogwoodhaven
+SYN-0119045,list_aware,2023-11,2023-11-28,694900.0,742718.0917283709,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0094359,list_aware,2023-11,2023-11-28,1046400.0,1243882.0991647777,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0079052,list_aware,2023-11,2023-11-28,1165000.0,1334120.885638534,Detached,Bungalow,Scarborough,Magnoliavale
+SYN-0036314,list_aware,2023-11,2023-11-28,924900.0,935760.3506307246,Detached,2-Storey,Toronto,Chestnutglen
+SYN-0155957,list_aware,2023-11,2023-11-28,2071100.0,1885150.9931626031,Detached,2-Storey,Toronto,Hickoryridge
+SYN-0052907,list_aware,2023-11,2023-11-28,1860400.0,1827772.670681198,Detached,2-Storey,North York,Lindenridge
+SYN-0143766,list_aware,2023-11,2023-11-28,909800.0,994831.5087354102,Detached,2-Storey,Toronto,Chestnutview
+SYN-0103766,list_aware,2023-11,2023-11-28,785400.0,780630.9299953233,Condo Apt,Apartment,Etobicoke,Chestnutmills
+SYN-0108621,list_aware,2023-11,2023-11-28,407000.0,448603.3326285599,Condo Apt,Loft,Toronto,Elmmills
+SYN-0016789,list_aware,2023-11,2023-11-28,661500.0,727270.1398898751,Condo Apt,Loft,Toronto,Cypresspark
+SYN-0122881,list_aware,2023-11,2023-11-28,799800.0,882378.2659906977,Detached,Bungalow,Scarborough,Juniperpark
+SYN-0104500,list_aware,2023-11,2023-11-28,1092400.0,1101295.5563500149,Detached,Bungalow,Toronto,Hawthorncliffe
+SYN-0089474,list_aware,2023-11,2023-11-28,647900.0,624921.4036582975,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0081830,list_aware,2023-11,2023-11-28,414800.0,441091.6497760005,Condo Apt,2-Storey,North York,Maplebrook
+SYN-0033906,list_aware,2023-11,2023-11-28,829400.0,791749.8552986496,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0006180,list_aware,2023-11,2023-11-28,1660000.0,1610164.459033776,Detached,2-Storey,Toronto,Walnuthollow
+SYN-0092630,list_aware,2023-11,2023-11-28,965200.0,976108.4791133354,Condo Apt,Apartment,North York,Tamarackmills
+SYN-0109000,list_aware,2023-11,2023-11-28,831500.0,861238.5277916782,Detached,Backsplit 4,North York,Balsamcrest
+SYN-0032007,list_aware,2023-11,2023-11-28,1330100.0,1323817.0231599635,Semi-Detached,2-Storey,Toronto,Rowanbank
+SYN-0030162,list_aware,2023-11,2023-11-28,528900.0,585972.2851582442,Condo Apt,Apartment,Scarborough,Sequoiabourne
+SYN-0011368,list_aware,2023-11,2023-11-28,1053400.0,1205605.7632823412,Detached,Bungalow,Toronto,Hickoryhaven
+SYN-0078382,list_aware,2023-11,2023-11-28,1124600.0,1233223.8460750808,Detached,1 1/2 Storey,North York,Pinevale
+SYN-0130254,list_aware,2023-11,2023-11-28,928400.0,1034307.4729642015,Condo Townhouse,3-Storey,Scarborough,Rowangardens
+SYN-0025166,list_aware,2023-11,2023-11-28,554600.0,542666.6313197915,Condo Apt,Apartment,Scarborough,Magnoliavale
+SYN-0122114,list_aware,2023-11,2023-11-28,682900.0,852788.4241994497,Semi-Detached,2 1/2 Storey,North York,Hickoryvale
+SYN-0079214,list_aware,2023-11,2023-11-28,779900.0,790169.5557023718,Condo Apt,Loft,Scarborough,Spruceview
+SYN-0025907,list_aware,2023-11,2023-11-28,793000.0,805062.5817733145,Condo Apt,Apartment,Toronto,Magnoliaworth
+SYN-0037607,list_aware,2023-11,2023-11-28,825400.0,819956.371185701,Detached,Bungalow,Scarborough,Dogwoodhaven
+SYN-0128192,list_aware,2023-11,2023-11-28,1221000.0,1143218.4366975464,Detached,2-Storey,Toronto,Chestnutglen
+SYN-0045409,list_aware,2023-11,2023-11-29,1643900.0,1508469.4327237546,Detached,Bungalow,Scarborough,Beechbourne
+SYN-0006204,list_aware,2023-11,2023-11-29,623500.0,591685.0012423141,Condo Apt,Apartment,North York,Cypressheights
+SYN-0094726,list_aware,2023-11,2023-11-29,652500.0,715858.7982884428,Condo Townhouse,2-Storey,Scarborough,Spruceview
+SYN-0006566,list_aware,2023-11,2023-11-29,502600.0,504979.85060376086,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0000832,list_aware,2023-11,2023-11-29,1885900.0,1417617.5875320702,Detached,2-Storey,Toronto,Aspenworth
+SYN-0061877,list_aware,2023-11,2023-11-29,933900.0,991016.4032442861,Condo Apt,Apartment,Scarborough,Sumacbank
+SYN-0088825,list_aware,2023-11,2023-11-29,1017400.0,1012091.0623125228,Condo Apt,Apartment,North York,Hazelmills
+SYN-0018626,list_aware,2023-11,2023-11-29,628600.0,642756.9779556332,Condo Apt,Apartment,Toronto,Sprucehaven
+SYN-0058840,list_aware,2023-11,2023-11-29,1529300.0,1603169.40197943,Detached,Backsplit 3,Toronto,Cedarhaven
+SYN-0067245,list_aware,2023-11,2023-11-29,942700.0,931155.0500016689,Semi-Detached,2-Storey,Toronto,Oakview
+SYN-0065147,list_aware,2023-11,2023-11-29,1980800.0,1941280.042398648,Detached,2 1/2 Storey,Toronto,Magnoliaglen
+SYN-0150755,list_aware,2023-11,2023-11-29,1407000.0,1333221.9611940142,Detached,2-Storey,Toronto,Hickoryridge
+SYN-0036504,list_aware,2023-11,2023-11-29,1548600.0,1511305.705780171,Detached,Bungalow,North York,Elmcrest
+SYN-0026329,list_aware,2023-11,2023-11-29,2045100.0,2086188.9553055395,Detached,Sidesplit 4,Toronto,Tamarackbourne
+SYN-0039299,list_aware,2023-11,2023-11-29,801500.0,842135.9419998548,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0128298,list_aware,2023-11,2023-11-29,793800.0,832295.6687187139,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0088727,list_aware,2023-11,2023-11-29,479900.0,492205.15607751545,Condo Apt,Apartment,Toronto,Chestnutbank
+SYN-0021887,list_aware,2023-11,2023-11-29,876700.0,847473.2695323512,Semi-Detached,2-Storey,North York,Willowglen
+SYN-0030479,list_aware,2023-11,2023-11-29,725900.0,706734.8852542165,Condo Apt,Apartment,Toronto,Cypresspark
+SYN-0088784,list_aware,2023-11,2023-11-29,783900.0,779326.1157125852,Condo Apt,Apartment,Toronto,Chestnutbourne
+SYN-0051418,list_aware,2023-11,2023-11-29,776700.0,781170.2197212061,Condo Apt,Loft,Toronto,Hickoryhaven
+SYN-0085056,list_aware,2023-11,2023-11-29,1013600.0,951012.5217160763,Detached,2-Storey,Toronto,Elmbank
+SYN-0133118,list_aware,2023-11,2023-11-29,558900.0,526545.4169989537,Condo Townhouse,2-Storey,Etobicoke,Cedarview
+SYN-0063191,list_aware,2023-11,2023-11-29,1547000.0,1825343.452213674,Semi-Detached,3-Storey,Toronto,Juniperheights
+SYN-0040096,list_aware,2023-11,2023-11-29,748200.0,712669.5149168578,Detached,3-Storey,Toronto,Sycamoreview
+SYN-0059071,list_aware,2023-11,2023-11-29,1077500.0,1065702.8690497521,Semi-Detached,Bungalow,Toronto,Elmhaven
+SYN-0000582,list_aware,2023-11,2023-11-29,787500.0,840284.6509362492,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0147950,list_aware,2023-11,2023-11-29,1039500.0,991385.7979847093,Freehold Townhouse,3-Storey,Scarborough,Beechbourne
+SYN-0091236,list_aware,2023-11,2023-11-29,1006200.0,937657.4467348371,Detached,2-Storey,Toronto,Chestnutview
+SYN-0099205,list_aware,2023-11,2023-11-29,1362500.0,1258866.9883369256,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0055294,list_aware,2023-11,2023-11-29,1449200.0,1205380.942065792,Detached,Bungalow,North York,Maplebrook
+SYN-0010173,list_aware,2023-11,2023-11-29,1806700.0,1952056.4320297532,Detached,2-Storey,Toronto,Aspenworth
+SYN-0035343,list_aware,2023-11,2023-11-29,1126200.0,1331128.1875282058,Detached,Bungalow-Raised,Toronto,Rowanbank
+SYN-0044414,list_aware,2023-11,2023-11-29,1468100.0,1462829.188552237,Condo Apt,Apartment,North York,Tamarackmills
+SYN-0103562,list_aware,2023-11,2023-11-29,543400.0,553814.2075366294,Condo Apt,Apartment,Scarborough,Hickoryglen
+SYN-0067521,list_aware,2023-11,2023-11-29,776300.0,837831.2189494016,Detached,Bungalow,Toronto,Dogwoodglen
+SYN-0135254,list_aware,2023-11,2023-11-29,1345200.0,1480989.6383312843,Detached,Bungalow,Toronto,Alderworth
+SYN-0060154,list_aware,2023-11,2023-11-29,557000.0,552048.9319552693,Condo Apt,Apartment,Toronto,Balsamgrove
+SYN-0116193,list_aware,2023-11,2023-11-29,1045000.0,1204608.474008257,Semi-Detached,2-Storey,Scarborough,Spruceview
+SYN-0011409,list_aware,2023-11,2023-11-29,507000.0,527190.2813026055,Condo Apt,Apartment,Toronto,Juniperhaven
+SYN-0077587,list_aware,2023-11,2023-11-29,1168500.0,1205014.2405215395,Semi-Detached,2 1/2 Storey,Toronto,Sycamoredale
+SYN-0120083,list_aware,2023-11,2023-11-29,4089100.0,4085050.716141749,Condo Apt,2-Storey,Toronto,Elmview
+SYN-0054006,list_aware,2023-11,2023-11-29,873100.0,814490.6235788486,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0099970,list_aware,2023-11,2023-11-29,357300.0,391603.3324551446,Condo Apt,Apartment,Etobicoke,Dogwoodbrook
+SYN-0024309,list_aware,2023-11,2023-11-29,368700.0,378375.8142371402,Condo Apt,Apartment,Toronto,Hawthorncliffe
+SYN-0097334,list_aware,2023-11,2023-11-29,939700.0,1002224.710621993,Condo Townhouse,2-Storey,Toronto,Hickorymills
+SYN-0104428,list_aware,2023-11,2023-11-29,1248200.0,1221198.8965621118,Detached,Bungalow,York,Birchheights
+SYN-0102381,list_aware,2023-11,2023-11-29,816100.0,810250.5967158924,Detached,2-Storey,Toronto,Sycamorewood
+SYN-0123144,list_aware,2023-11,2023-11-29,916800.0,864552.2922703249,Condo Apt,Apartment,Toronto,Poplarcrest
+SYN-0029515,list_aware,2023-11,2023-11-29,1120200.0,1052547.3426535935,Semi-Detached,2-Storey,Scarborough,Juniperpark
+SYN-0049026,list_aware,2023-11,2023-11-29,434500.0,423663.52230037726,Condo Apt,Apartment,Etobicoke,Cedarview
+SYN-0046046,list_aware,2023-11,2023-11-29,1365100.0,1430868.1249685783,Semi-Detached,2-Storey,Toronto,Juniperhaven
+SYN-0033938,list_aware,2023-11,2023-11-29,1033300.0,1040381.6001041604,Detached,Backsplit 4,Toronto,Hemlockvale
+SYN-0126443,list_aware,2023-11,2023-11-29,1004500.0,1142021.1104279216,Semi-Detached,2-Storey,Etobicoke,Elmbrook
+SYN-0007219,list_aware,2023-11,2023-11-29,640200.0,654363.9419342553,Condo Apt,Loft,Toronto,Poplarview
+SYN-0008061,list_aware,2023-11,2023-11-29,695400.0,759599.4401324239,Condo Apt,Apartment,Toronto,Poplarview
+SYN-0022166,list_aware,2023-11,2023-11-29,475500.0,465528.4802226159,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0067949,list_aware,2023-11,2023-11-29,527300.0,550534.0188270521,Condo Apt,Apartment,Scarborough,Rowangardens
+SYN-0081747,list_aware,2023-11,2023-11-29,2172400.0,2242059.613507563,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0151986,list_aware,2023-11,2023-11-29,741900.0,721269.1539310056,Detached,2-Storey,North York,Maplebank
+SYN-0093194,list_aware,2023-11,2023-11-29,838100.0,810232.7715941329,Condo Apt,Apartment,Toronto,Hickoryhaven
+SYN-0149660,list_aware,2023-11,2023-11-29,623400.0,603017.488617418,Co-Op Apt,Apartment,North York,Hickorybourne
+SYN-0062357,list_aware,2023-11,2023-11-30,711200.0,745823.6302893609,Detached,2-Storey,Toronto,Chestnutbourne
+SYN-0070660,list_aware,2023-11,2023-11-30,689600.0,671095.5701435993,Condo Townhouse,2-Storey,Toronto,Cedargrove
+SYN-0020811,list_aware,2023-11,2023-11-30,912600.0,1117434.0418955607,Semi-Detached,2-Storey,Toronto,Balsamwood
+SYN-0122286,list_aware,2023-11,2023-11-30,1748200.0,2010418.6388212072,Detached,1 1/2 Storey,Toronto,Junipergardens
+SYN-0047354,list_aware,2023-11,2023-11-30,623400.0,603284.3079432623,Condo Apt,Apartment,Toronto,Hickorymills
+SYN-0125213,list_aware,2023-11,2023-11-30,551100.0,626785.7123778207,Condo Apt,Apartment,Toronto,Junipergardens
+SYN-0011678,list_aware,2023-11,2023-11-30,621400.0,617678.7328992616,Condo Apt,Apartment,Toronto,Sumacpark
+SYN-0151660,list_aware,2023-11,2023-11-30,1130700.0,1160228.2554275396,Condo Townhouse,3-Storey,Toronto,Cypressdale
+SYN-0007898,list_aware,2023-11,2023-11-30,5652900.0,5295757.075556816,Detached,1 1/2 Storey,Scarborough,Hazelfield
+SYN-0076599,list_aware,2023-11,2023-11-30,773300.0,840513.0394644612,Condo Apt,Apartment,North York,Lindenridge
+SYN-0129173,list_aware,2023-11,2023-11-30,1525800.0,1633994.5969862596,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0012882,list_aware,2023-11,2023-11-30,2143600.0,2024391.34333788,Detached,2-Storey,Toronto,Junipergardens
+SYN-0065178,list_aware,2023-11,2023-11-30,803800.0,754136.4534364635,Condo Apt,Apartment,Etobicoke,Elmbrook
+SYN-0076480,list_aware,2023-11,2023-11-30,611700.0,601771.7780510639,Condo Apt,Apartment,Toronto,Walnutfield
+SYN-0096262,list_aware,2023-11,2023-11-30,653100.0,606609.6793566782,Condo Apt,Apartment,Toronto,Magnoliaview
+SYN-0094566,list_aware,2023-11,2023-11-30,812600.0,884854.9434007921,Detached,Bungalow,North York,Cedargardens
+SYN-0008537,list_aware,2023-11,2023-11-30,1230800.0,1188622.8265645902,Condo Apt,Apartment,Toronto,Elmview
+SYN-0019310,list_aware,2023-11,2023-11-30,627000.0,697412.1736353714,Condo Townhouse,2-Storey,Toronto,Mapleview
+SYN-0097918,list_aware,2023-11,2023-11-30,1226600.0,1102158.1450932657,Condo Townhouse,2-Storey,Toronto,Sumacdale
+SYN-0000479,list_aware,2023-11,2023-11-30,907100.0,843618.1017954979,Semi-Detached,Bungalow,Toronto,Willowview
+SYN-0065839,list_aware,2023-11,2023-11-30,1216700.0,1376610.9819498989,Semi-Detached,2-Storey,Toronto,Rowanbank
+SYN-0099547,list_aware,2023-11,2023-11-30,2911300.0,2725349.8901283266,Detached,1 1/2 Storey,Scarborough,Maplegrove
+SYN-0055583,list_aware,2023-11,2023-11-30,1091300.0,1028401.959439524,Detached,2-Storey,Toronto,Elmbank
+SYN-0088834,list_aware,2023-11,2023-11-30,609600.0,620017.4089013695,Condo Apt,Apartment,North York,Lindenridge
+SYN-0076951,list_aware,2023-11,2023-11-30,876700.0,895571.8525743273,Condo Apt,Apartment,North York,Hickorybourne
+SYN-0061879,list_aware,2023-11,2023-11-30,744900.0,847825.0575598287,Condo Apt,Apartment,North York,Hawthornbourne
+SYN-0075181,list_aware,2023-11,2023-11-30,1993500.0,2125089.131143739,Detached,2 1/2 Storey,Scarborough,Beechbourne
+SYN-0008688,list_aware,2023-11,2023-11-30,492800.0,485096.1046125139,Condo Apt,Apartment,Toronto,Hickorymills
+SYN-0084862,list_aware,2023-11,2023-11-30,724500.0,764578.1820482862,Semi-Detached,2-Storey,Toronto,Chestnutridge
+SYN-0117805,list_aware,2023-11,2023-11-30,743800.0,778986.1104625023,Condo Apt,Apartment,North York,Lindenridge
+SYN-0145239,list_aware,2023-11,2023-11-30,1493400.0,1565085.396161283,Detached,Bungalow,Scarborough,Rowangardens
+SYN-0085875,list_aware,2023-11,2023-11-30,503900.0,534651.3554683164,Condo Apt,Apartment,Scarborough,Oakbourne
+SYN-0060169,list_aware,2023-11,2023-11-30,615400.0,615334.782851035,Condo Apt,Apartment,Toronto,Birchgrove
+SYN-0092978,list_aware,2023-11,2023-11-30,1411100.0,1708632.3951091995,Semi-Detached,2 1/2 Storey,Scarborough,Sumacworth
+SYN-0109717,list_aware,2023-11,2023-11-30,688300.0,650925.9099412493,Condo Apt,Apartment,North York,Maplebank
+SYN-0101898,list_aware,2023-11,2023-11-30,964500.0,989114.0772276585,Semi-Detached,2-Storey,North York,Cypressheights
+SYN-0081292,list_aware,2023-11,2023-11-30,1096400.0,1123035.572775256,Semi-Detached,2-Storey,Toronto,Walnuthollow
+SYN-0075508,list_aware,2023-11,2023-11-30,465900.0,483208.8241573727,Condo Apt,Apartment,Toronto,Elmview
+SYN-0007809,list_aware,2023-11,2023-11-30,1978400.0,1788331.7952433869,Detached,2-Storey,Etobicoke,Maplevale
+SYN-0063841,list_aware,2023-11,2023-11-30,956700.0,943943.3448261007,Freehold Townhouse,2-Storey,Toronto,Mulberrygrove
+SYN-0145821,list_aware,2023-11,2023-11-30,948200.0,1018693.7611292393,Semi-Detached,2-Storey,North York,Cypressbrook
+SYN-0155546,list_aware,2023-11,2023-11-30,445600.0,471940.5872362719,Condo Apt,Apartment,North York,Willowglen
+SYN-0153951,list_aware,2023-11,2023-11-30,4269600.0,3875061.646865842,Detached,Bungalow-Raised,Toronto,Juniperheights
+SYN-0118740,list_aware,2023-11,2023-11-30,594700.0,589516.3753494412,Condo Apt,Apartment,Toronto,Elmgardens
+SYN-0143887,list_aware,2023-11,2023-11-30,1471800.0,1339425.3299729642,Semi-Detached,2-Storey,North York,Elmcrest

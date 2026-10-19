@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "run_id": "model_optimization_v1",
+  "frozen_commit": "7cffe186bd9f0a2e8fc22f3897d52b3dbaaa8df8",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "development_months": ["2025-06", "2025-09", "2025-11"],
+  "screening_months": ["2025-06", "2025-11"],
+  "benchmark_months": ["2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05"],
+  "seed": 0,
+  "threads": 4,
+  "wallclock_cap_minutes": 180,
+  "fit_cap": 72,
+  "stage_fit_caps": {"pilot": 4, "screen": 18, "tune": 24, "methods": 8, "benchmark": 18},
+  "fit_timeout_seconds": {"pilot": 90, "development": 180, "benchmark": 300},
+  "targets": ["log_sold_price", "log_sold_price_mae", "log_sold_over_list"],
+  "tracks": {
+    "off_market": {
+      "feature_function": "off_market_features",
+      "frozen_mdape_percent": 10.595575340617833,
+      "frozen_mape_percent": 13.400081178158745,
+      "forbidden_features": ["ml_num", "list_price", "sold_price", "date_sold", "days_on_market", "external_avm_estimate", "external_avm_estimate_date"]
+    },
+    "list_aware": {
+      "feature_function": "list_aware_features",
+      "frozen_mdape_percent": 4.359647086138843,
+      "frozen_mape_percent": 5.565052943473581,
+      "forbidden_features": ["ml_num", "sold_price", "date_sold", "days_on_market", "external_avm_estimate", "external_avm_estimate_date"]
+    }
+  },
+  "initial_models": {
+    "frozen_hgbr": {"loss": "squared_error", "random_state": 0, "categorical_features": "from_dtype"},
+    "catboost": {"iterations": 600, "depth": 6, "learning_rate": 0.05, "l2_leaf_reg": 3, "loss_function": "RMSE", "random_seed": 0, "thread_count": 4, "has_time": true},
+    "lightgbm": {"n_estimators": 600, "num_leaves": 31, "learning_rate": 0.05, "min_child_samples": 30, "reg_lambda": 1, "objective": "regression", "random_state": 0, "n_jobs": 4, "deterministic": true, "force_col_wise": true}
+  },
+  "tuning_presets": {
+    "hgbr": [[300, 0.05, 31, 20, 0], [600, 0.05, 31, 40, 1], [600, 0.03, 63, 40, 1], [600, 0.05, 15, 40, 2], [600, 0.05, 31, 80, 5], [800, 0.03, 31, 40, 5]],
+    "catboost": [[600, 0.05, 6, 3], [1000, 0.03, 6, 3], [600, 0.05, 8, 5], [800, 0.05, 5, 5], [800, 0.03, 7, 10], [1000, 0.05, 6, 10]],
+    "lightgbm": [[600, 0.05, 31, 30, 1], [1000, 0.03, 31, 50, 1], [600, 0.05, 63, 50, 3], [800, 0.05, 15, 30, 3], [800, 0.03, 63, 100, 5], [1000, 0.05, 31, 100, 5]]
+  },
+  "promotion": {"min_relative_mdape_improvement": 0.02, "aspirational_relative_mdape_improvement": 0.05, "min_months_improved": 4, "max_month_relative_regression": 0.10, "max_mape_relative_regression": 0.01, "paired_home_bootstrap_upper_percent_points_lt": 0},
+  "input_data": {"listings": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet", "test_off_market": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/test_off_market.parquet", "test_list_aware": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/test_list_aware.parquet"}
+}

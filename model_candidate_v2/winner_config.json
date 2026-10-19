@@ -1,0 +1,57 @@
+{
+  "config_sha256": "d52607d3ef6d4c07755a895facf56f90116c30392e97529bc1b0d98554c14d70",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "locked": {
+    "list_aware": {
+      "alternative_target": "log_sold_over_list",
+      "alternative_target_mdape_percent": 4.399461385152225,
+      "blend_weight": 0.75,
+      "development_mape_percent": 5.4707525207367595,
+      "development_mdape_percent": 4.388958594730238,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 100,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "preset_index": 5,
+      "raw_target_mdape_percent": 4.405501255691528,
+      "target": "log_sold_over_list",
+      "tuning_mape_percent": 5.6555978928285695,
+      "tuning_mdape_percent": 4.4465874746259075
+    },
+    "off_market": {
+      "alternative_target": "log_sold_price_mae",
+      "alternative_target_mdape_percent": 9.532116440488723,
+      "blend_weight": 1.0,
+      "development_mape_percent": 12.475973771778817,
+      "development_mdape_percent": 9.510653284028878,
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "preset_index": 6,
+      "raw_target_mdape_percent": 9.510640239137562,
+      "target": "log_sold_price",
+      "tuning_mape_percent": 12.468571215427874,
+      "tuning_mdape_percent": 9.479459883526882
+    }
+  },
+  "source_candidate_commit": "7cffe186bd9f0a2e8fc22f3897d52b3dbaaa8df8"
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_prediction_path": "outputs\\model_optimization_v1\\predictions\\d568173d5adc7cff.csv",
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "model_config": {
+    "deterministic": true,
+    "force_col_wise": true,
+    "learning_rate": 0.03,
+    "min_child_samples": 50,
+    "n_estimators": 1000,
+    "n_jobs": 4,
+    "num_leaves": 31,
+    "objective": "regression",
+    "random_state": 0,
+    "reg_lambda": 1
+  },
+  "model_family": "lightgbm",
+  "month": "2025-11",
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\0f7e4d6f06022cca.csv",
+  "result_path": "outputs\\model_optimization_v1\\trials\\0f7e4d6f06022cca.json",
+  "target": "log_sold_price",
+  "track": "off_market",
+  "trial_id": "0f7e4d6f06022cca"
+}

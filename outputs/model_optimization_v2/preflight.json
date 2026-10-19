@@ -1,0 +1,62 @@
+{
+  "baseline_targets": {
+    "list_aware": "log_sold_over_list",
+    "off_market": "log_sold_price"
+  },
+  "c0_configs": {
+    "list_aware": {
+      "deterministic": true,
+      "force_col_wise": true,
+      "learning_rate": 0.03,
+      "min_child_samples": 100,
+      "n_estimators": 800,
+      "n_jobs": 4,
+      "num_leaves": 63,
+      "objective": "regression",
+      "random_state": 0,
+      "reg_lambda": 5
+    },
+    "off_market": {
+      "deterministic": true,
+      "force_col_wise": true,
+      "learning_rate": 0.05,
+      "min_child_samples": 100,
+      "n_estimators": 1000,
+      "n_jobs": 4,
+      "num_leaves": 31,
+      "objective": "regression",
+      "random_state": 0,
+      "reg_lambda": 5
+    }
+  },
+  "checked_at_utc": "2026-10-19T02:48:57.035085+00:00",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "development_and_seed_month_counts": {
+    "2025-02": 1509,
+    "2025-04": 2077,
+    "2025-06": 2283,
+    "2025-07": 2068,
+    "2025-10": 2250,
+    "2025-11": 1867
+  },
+  "errors": [],
+  "expected_data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "fit_attempts_at_preflight": 128,
+  "hidden_target_files_read": false,
+  "registry_cards": 20,
+  "rows": 150000,
+  "runtime_versions": {
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0",
+    "python": "3.13.1",
+    "scikit-learn": "1.7.2",
+    "xgboost": null
+  },
+  "source_data": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\data\\.hf_cache\\hub\\datasets--Baliyang--SSU_data_dash\\snapshots\\96a258439e2a85f650699be8339e52d8ac5614b7\\listings.parquet",
+  "status": "passed",
+  "v1_v2_frozen_feature_sha256_match": true,
+  "xgboost_available": false
+}

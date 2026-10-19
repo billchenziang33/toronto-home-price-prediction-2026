@@ -1,0 +1,21 @@
+{
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "method_id": "M13+M04",
+  "model_config": {
+    "deterministic": true,
+    "force_col_wise": true,
+    "learning_rate": 0.03,
+    "min_child_samples": 100,
+    "n_estimators": 800,
+    "n_jobs": 4,
+    "num_leaves": 63,
+    "objective": "mape",
+    "random_state": 0,
+    "reg_lambda": 5
+  },
+  "model_family": "lightgbm",
+  "month": "2025-10",
+  "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\components\\M13+M04__list_aware__2025-10.csv",
+  "target_override": null,
+  "track": "list_aware"
+}

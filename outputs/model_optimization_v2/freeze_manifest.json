@@ -1,0 +1,125 @@
+{
+  "benchmark_completed_at_utc": "2026-10-19T03:07:05.906400+00:00",
+  "benchmark_is_retrospective": true,
+  "benchmark_months": [
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "code_sha256": {
+    "calibration.py": "463059d174bc4788f2a44d8aa754ff85817a1575ca419b5df92f04700c46b987",
+    "features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+    "learners.py": "4c32d40b972e4ee77be3d8fe5e5728f392d0e8c0bca32680ec46263467f58a0a",
+    "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+    "model_candidate_v2/winner_config.json": "26a4dea164fad3023c641ab62aa5a28f5804e6c77ff0fbb743a2317fd6378a18",
+    "pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+    "runner.py": "906293198ae637442f38159521a69aa2195bde59364c08aa8583210f52c346bd",
+    "worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa"
+  },
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "execution_code_sha256": {
+    "calibration.py": "463059d174bc4788f2a44d8aa754ff85817a1575ca419b5df92f04700c46b987",
+    "features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+    "learners.py": "4c32d40b972e4ee77be3d8fe5e5728f392d0e8c0bca32680ec46263467f58a0a",
+    "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+    "model_candidate_v2/winner_config.json": "26a4dea164fad3023c641ab62aa5a28f5804e6c77ff0fbb743a2317fd6378a18",
+    "pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+    "runner.py": "f05e36a442555100e4326a5ecbf4d2d1e1bdca1a64a3f712ab6041bda0b3a2a8",
+    "worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa"
+  },
+  "final_by_track": {
+    "list_aware": "M13",
+    "off_market": "C0"
+  },
+  "final_decision": "retain_model_candidate_v2",
+  "freeze_id": "v2_research_final",
+  "frozen_at_utc": "2026-10-19T02:45:58.952806+00:00",
+  "frozen_pipeline_configs": {
+    "list_aware": {
+      "blend_weight": 0.75,
+      "candidate_id": "M13",
+      "feature_cards": [
+        "M13"
+      ],
+      "frozen_hgbr_config": {
+        "categorical_features": "from_dtype",
+        "early_stopping": "auto",
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 0,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.03,
+        "min_child_samples": 100,
+        "n_estimators": 800,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": "mape",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "postprocessing": "round frozen HGBR first; blend in price space; round final",
+      "target": "dollar_price"
+    },
+    "off_market": {
+      "blend_weight": 1.0,
+      "candidate_id": "C0",
+      "feature_cards": [],
+      "model_config": {
+        "deterministic": true,
+        "force_col_wise": true,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "n_estimators": 1000,
+        "n_jobs": 4,
+        "num_leaves": 31,
+        "objective": "regression",
+        "random_state": 0,
+        "reg_lambda": 5
+      },
+      "model_family": "lightgbm",
+      "postprocessing": "round final",
+      "target": "log_sold_price"
+    }
+  },
+  "notes": [
+    "Final pipeline selection uses only predeclared development folds.",
+    "Do not change selection after examining final benchmark results."
+  ],
+  "pipeline_fingerprints": {
+    "list_aware": "be5aa2b96c664e33f1e82b53b5b91a2295cd95b32c76f2cb08baffa84970e943",
+    "off_market": "9f03e84a49619e2629735909d2d979f19d40012772638f1389370309c9c13c70"
+  },
+  "runtime_versions": {
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0",
+    "python": "3.13.1",
+    "scikit-learn": "1.7.2",
+    "xgboost": null
+  }
+}

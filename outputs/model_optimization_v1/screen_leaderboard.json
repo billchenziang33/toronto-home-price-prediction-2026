@@ -1,0 +1,257 @@
+{
+  "fit_attempts": 14,
+  "months": [
+    "2025-06",
+    "2025-09",
+    "2025-11"
+  ],
+  "results": [
+    {
+      "baseline_mdape_percent": 10.878697852593595,
+      "delta_vs_hgbr_percentage_points": 0.0,
+      "fit_seconds": 7.850632500019856,
+      "mape_percent": 13.889129094636857,
+      "mdape_percent": 10.878697852593595,
+      "model_family": "hgbr",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 14.055307183381695,
+          "mdape_percent": 11.022801744951906,
+          "median_signed_percent": 4.082195693865225,
+          "n": 2283
+        },
+        "2025-09": {
+          "mape_percent": 13.883325845960549,
+          "mdape_percent": 10.856545333781622,
+          "median_signed_percent": 1.7377293889302747,
+          "n": 2035
+        },
+        "2025-11": {
+          "mape_percent": 13.692249091665147,
+          "mdape_percent": 10.584086980417416,
+          "median_signed_percent": 3.3514432029183587,
+          "n": 1867
+        }
+      },
+      "months": [
+        "2025-06",
+        "2025-09",
+        "2025-11"
+      ],
+      "relative_mdape_improvement": 0.0,
+      "result_paths": [
+        "outputs\\model_optimization_v1\\trials\\b1aed12a8bdcb77e.json",
+        "outputs\\model_optimization_v1\\trials\\2b7e9157491d7b51.json",
+        "outputs\\model_optimization_v1\\trials\\d568173d5adc7cff.json"
+      ],
+      "track": "off_market",
+      "worst_month_mdape_percent": 11.022801744951906
+    },
+    {
+      "baseline_mdape_percent": 10.878697852593595,
+      "delta_vs_hgbr_percentage_points": 0.25687466682744997,
+      "fit_seconds": 95.54012190003414,
+      "mape_percent": 14.193509634138012,
+      "mdape_percent": 11.135572519421045,
+      "model_family": "catboost",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 14.096817413342507,
+          "mdape_percent": 11.170999347249456,
+          "median_signed_percent": 3.2777600488004373,
+          "n": 2283
+        },
+        "2025-09": {
+          "mape_percent": 14.109157875419665,
+          "mdape_percent": 10.826852984143308,
+          "median_signed_percent": 1.8209898817746086,
+          "n": 2035
+        },
+        "2025-11": {
+          "mape_percent": 14.403688621319581,
+          "mdape_percent": 11.374755500058825,
+          "median_signed_percent": 3.391568203829636,
+          "n": 1867
+        }
+      },
+      "months": [
+        "2025-06",
+        "2025-09",
+        "2025-11"
+      ],
+      "relative_mdape_improvement": -0.02361262995885196,
+      "result_paths": [
+        "outputs\\model_optimization_v1\\trials\\1307f1ca3f300924.json",
+        "outputs\\model_optimization_v1\\trials\\606cb487440afeb1.json",
+        "outputs\\model_optimization_v1\\trials\\ba3b02b0abb2fe3e.json"
+      ],
+      "track": "off_market",
+      "worst_month_mdape_percent": 11.374755500058825
+    },
+    {
+      "baseline_mdape_percent": 10.878697852593595,
+      "delta_vs_hgbr_percentage_points": -0.8419438630772031,
+      "fit_seconds": 12.541764099965803,
+      "mape_percent": 12.878570506164477,
+      "mdape_percent": 10.036753989516392,
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 12.986921922603873,
+          "mdape_percent": 10.1708448354701,
+          "median_signed_percent": 3.01498502887707,
+          "n": 2283
+        },
+        "2025-09": {
+          "mape_percent": 12.885470900643167,
+          "mdape_percent": 10.045466828752852,
+          "median_signed_percent": 1.1398710487965824,
+          "n": 2035
+        },
+        "2025-11": {
+          "mape_percent": 12.73855519470477,
+          "mdape_percent": 9.925623473504018,
+          "median_signed_percent": 3.0050673561236487,
+          "n": 1867
+        }
+      },
+      "months": [
+        "2025-06",
+        "2025-09",
+        "2025-11"
+      ],
+      "relative_mdape_improvement": 0.0773938089361012,
+      "result_paths": [
+        "outputs\\model_optimization_v1\\trials\\c14fb73035dd59dd.json",
+        "outputs\\model_optimization_v1\\trials\\19c47c8f2ab8200a.json",
+        "outputs\\model_optimization_v1\\trials\\7ff927bb019c2785.json"
+      ],
+      "track": "off_market",
+      "worst_month_mdape_percent": 10.1708448354701
+    },
+    {
+      "baseline_mdape_percent": 4.535829334503602,
+      "delta_vs_hgbr_percentage_points": 0.0,
+      "fit_seconds": 7.611132100049872,
+      "mape_percent": 5.7211866807544025,
+      "mdape_percent": 4.535829334503602,
+      "model_family": "hgbr",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.973013190029127,
+          "mdape_percent": 4.697325675869444,
+          "median_signed_percent": 1.9957461424527532,
+          "n": 2283
+        },
+        "2025-09": {
+          "mape_percent": 5.586188264981994,
+          "mdape_percent": 4.449423881532533,
+          "median_signed_percent": 1.6721428656461996,
+          "n": 2035
+        },
+        "2025-11": {
+          "mape_percent": 5.560394958966857,
+          "mdape_percent": 4.443546699780855,
+          "median_signed_percent": 1.769281672498692,
+          "n": 1867
+        }
+      },
+      "months": [
+        "2025-06",
+        "2025-09",
+        "2025-11"
+      ],
+      "relative_mdape_improvement": 0.0,
+      "result_paths": [
+        "outputs\\model_optimization_v1\\trials\\e658df0d7908343b.json",
+        "outputs\\model_optimization_v1\\trials\\6e8f7000e35e62c7.json",
+        "outputs\\model_optimization_v1\\trials\\d07398887d0fd13d.json"
+      ],
+      "track": "list_aware",
+      "worst_month_mdape_percent": 4.697325675869444
+    },
+    {
+      "baseline_mdape_percent": 4.535829334503602,
+      "delta_vs_hgbr_percentage_points": -0.010860397625535256,
+      "fit_seconds": 101.87502680002945,
+      "mape_percent": 5.704157808000512,
+      "mdape_percent": 4.524968936878067,
+      "model_family": "catboost",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.95606351434567,
+          "mdape_percent": 4.814960004468907,
+          "median_signed_percent": 1.8160107009228803,
+          "n": 2283
+        },
+        "2025-09": {
+          "mape_percent": 5.564797221481932,
+          "mdape_percent": 4.378201241528961,
+          "median_signed_percent": 1.6023321040902523,
+          "n": 2035
+        },
+        "2025-11": {
+          "mape_percent": 5.548023938680379,
+          "mdape_percent": 4.359899674659618,
+          "median_signed_percent": 1.6153137473681347,
+          "n": 1867
+        }
+      },
+      "months": [
+        "2025-06",
+        "2025-09",
+        "2025-11"
+      ],
+      "relative_mdape_improvement": 0.0023943576410429056,
+      "result_paths": [
+        "outputs\\model_optimization_v1\\trials\\ab9343657e8a3502.json",
+        "outputs\\model_optimization_v1\\trials\\9c3597b548e6a680.json",
+        "outputs\\model_optimization_v1\\trials\\fcb2e65f669fccb1.json"
+      ],
+      "track": "list_aware",
+      "worst_month_mdape_percent": 4.814960004468907
+    },
+    {
+      "baseline_mdape_percent": 4.535829334503602,
+      "delta_vs_hgbr_percentage_points": -0.08789959000970171,
+      "fit_seconds": 12.657238599960692,
+      "mape_percent": 5.5865881508694955,
+      "mdape_percent": 4.4479297444939006,
+      "model_family": "lightgbm",
+      "monthly": {
+        "2025-06": {
+          "mape_percent": 5.855132376799588,
+          "mdape_percent": 4.653107997939726,
+          "median_signed_percent": 1.7609570599046445,
+          "n": 2283
+        },
+        "2025-09": {
+          "mape_percent": 5.449196243822302,
+          "mdape_percent": 4.326491637721996,
+          "median_signed_percent": 1.4344450644717093,
+          "n": 2035
+        },
+        "2025-11": {
+          "mape_percent": 5.407962582065342,
+          "mdape_percent": 4.361197557439296,
+          "median_signed_percent": 1.4070081817619282,
+          "n": 1867
+        }
+      },
+      "months": [
+        "2025-06",
+        "2025-09",
+        "2025-11"
+      ],
+      "relative_mdape_improvement": 0.019378945618843787,
+      "result_paths": [
+        "outputs\\model_optimization_v1\\trials\\18352616138a5bc4.json",
+        "outputs\\model_optimization_v1\\trials\\94d246848397d77f.json",
+        "outputs\\model_optimization_v1\\trials\\2e20227b0928b075.json"
+      ],
+      "track": "list_aware",
+      "worst_month_mdape_percent": 4.653107997939726
+    }
+  ],
+  "total_fit_attempts": 18
+}

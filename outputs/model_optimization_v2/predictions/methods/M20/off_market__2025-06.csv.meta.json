@@ -1,0 +1,15 @@
+{
+  "fingerprint": "7fb7f8013805e65a38fa73678fb9333503971243e4dadd70587773c7fc8e21ce",
+  "pipeline_config": {
+    "challenger_family": "sklearn_ridge",
+    "challenger_method_id": "M16",
+    "fixed_challenger_weight": 0.5,
+    "method_id": "M20",
+    "month": "2025-06",
+    "parent": "C0",
+    "residual_correlation": 0.7990636795613202,
+    "round_rule": "round C0 then fixed price-space average and final round",
+    "track": "off_market"
+  },
+  "prediction_sha256": "3aabd63ae4d8b8466c506f091f49986e30edd8ece004e49720cacf710c533ddf"
+}

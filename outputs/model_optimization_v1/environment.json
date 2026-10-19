@@ -1,0 +1,23 @@
+{
+  "executable": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\.venv-opt\\Scripts\\python.exe",
+  "install_method": "binary wheels from official PyPI into .venv-opt; base dependencies read from .venv via .pth",
+  "install_outcome": {
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "status": "installed successfully"
+  },
+  "logical_cpus": 10,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "requirements_lock_path": "outputs/model_optimization_v1/environment-lock.txt",
+  "threads": 4,
+  "versions": {
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "22.0.0",
+    "scikit-learn": "1.7.2",
+    "xgboost": null
+  }
+}

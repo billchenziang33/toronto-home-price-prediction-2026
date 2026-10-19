@@ -1,5 +1,7 @@
 # Toronto Fourcast — SSU Data Dash 2026
 
+> **Current team status (October 19, 2026):** `model_candidate_v2/` remains the retained candidate. The latest fresh-fold and 20-method research did not meet the pre-registered promotion gates, so no v3 model or replacement submission CSVs were produced. Read [`TEAM_PROGRESS.md`](TEAM_PROGRESS.md) for the results and experiment map. `release_candidate/` is an archived v1 snapshot; its PDF, slides, and CSVs are not aligned to the retained v2 candidate.
+
 Reproducible submission for the SSU Data Dash synthetic Toronto home-price challenge. The project predicts sale prices for two separate tracks: homes without a list price (`off-market`) and homes with a list price (`list-aware`).
 
 ## Data and rules

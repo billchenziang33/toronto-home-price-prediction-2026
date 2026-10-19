@@ -1,0 +1,827 @@
+{
+  "attempts": [
+    {
+      "month": "2025-12",
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "bfcb3f94a6ff3f8b"
+    },
+    {
+      "month": "2026-01",
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "58010b609f87a4db"
+    },
+    {
+      "month": "2026-02",
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "1c0a4b9f61abd28f"
+    },
+    {
+      "month": "2026-03",
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "89c4302be1de1de6"
+    },
+    {
+      "month": "2026-04",
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "6aaf7b250493b676"
+    },
+    {
+      "month": "2026-05",
+      "status": "cached",
+      "track": "list_aware",
+      "trial_id": "2d0e5b7383aeaff1"
+    },
+    {
+      "month": "2025-12",
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "4e82168f7ed8b33d"
+    },
+    {
+      "month": "2026-01",
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "2c3a8f2e481e460c"
+    },
+    {
+      "month": "2026-02",
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "31441f155efd4438"
+    },
+    {
+      "month": "2026-03",
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "6ab8cf6a2aa74173"
+    },
+    {
+      "month": "2026-04",
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "cec35b17178e524d"
+    },
+    {
+      "month": "2026-05",
+      "status": "cached",
+      "track": "off_market",
+      "trial_id": "a23412701d8ab40f"
+    }
+  ],
+  "completed_at_utc": "2026-10-18T21:27:57.470659+00:00",
+  "diagnostics": {
+    "list_aware": {
+      "baseline": {
+        "mape_percent": 5.565052943473582,
+        "mdape_percent": 4.359647086138843,
+        "median_signed_percent": 0.6548997134670487,
+        "n": 10069
+      },
+      "baseline_monthly": {
+        "2025-12": {
+          "mape_percent": 5.3166137302564715,
+          "mdape_percent": 4.090761704025088,
+          "median_signed_percent": 1.4761395395986523,
+          "n": 1238
+        },
+        "2026-01": {
+          "mape_percent": 5.263627884267726,
+          "mdape_percent": 4.163543660495346,
+          "median_signed_percent": 1.195693058749618,
+          "n": 1058
+        },
+        "2026-02": {
+          "mape_percent": 5.49380954476183,
+          "mdape_percent": 4.4158449738959,
+          "median_signed_percent": 0.04776571752205486,
+          "n": 1442
+        },
+        "2026-03": {
+          "mape_percent": 5.5893884008505355,
+          "mdape_percent": 4.2386065156993125,
+          "median_signed_percent": -0.38710606906193,
+          "n": 1816
+        },
+        "2026-04": {
+          "mape_percent": 5.563294720433069,
+          "mdape_percent": 4.321260758420342,
+          "median_signed_percent": 0.8937156863456641,
+          "n": 2224
+        },
+        "2026-05": {
+          "mape_percent": 5.865762475114994,
+          "mdape_percent": 4.716185674547983,
+          "median_signed_percent": 0.9459992415623815,
+          "n": 2291
+        }
+      },
+      "candidate": {
+        "mape_percent": 5.35754037464399,
+        "mdape_percent": 4.235682201010668,
+        "median_signed_percent": 0.5795550549141087,
+        "n": 10069
+      },
+      "candidate_monthly": {
+        "2025-12": {
+          "mape_percent": 5.039376462161285,
+          "mdape_percent": 3.9842613934620843,
+          "median_signed_percent": 1.0755616730462487,
+          "n": 1238
+        },
+        "2026-01": {
+          "mape_percent": 5.002330947361045,
+          "mdape_percent": 4.040579883251453,
+          "median_signed_percent": 0.9526006868072125,
+          "n": 1058
+        },
+        "2026-02": {
+          "mape_percent": 5.353863151797894,
+          "mdape_percent": 4.35157412955401,
+          "median_signed_percent": -0.32572290374159585,
+          "n": 1442
+        },
+        "2026-03": {
+          "mape_percent": 5.354690124685878,
+          "mdape_percent": 4.104104565148484,
+          "median_signed_percent": -0.3558006609537344,
+          "n": 1816
+        },
+        "2026-04": {
+          "mape_percent": 5.34887919614486,
+          "mdape_percent": 4.204874936124968,
+          "median_signed_percent": 0.8948782568834966,
+          "n": 2224
+        },
+        "2026-05": {
+          "mape_percent": 5.70648824368328,
+          "mdape_percent": 4.603686393950533,
+          "median_signed_percent": 0.8626580116159891,
+          "n": 2291
+        }
+      },
+      "month_cluster_bootstrap_sensitivity": {
+        "ci95_percentage_points": [
+          -0.15318004069529856,
+          -0.0914286974157772
+        ],
+        "clusters": 6,
+        "delta_percentage_points": -0.12396488512817516,
+        "months": [
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05"
+        ],
+        "repeats": 10000,
+        "seed": 0
+      },
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.1937485151703979,
+          -0.060114190262983105
+        ],
+        "delta_percentage_points": -0.12396488512817516,
+        "n": 10069,
+        "repeats": 10000,
+        "seed": 0
+      },
+      "post_evaluation_groups": {
+        "actual_sold_price_decile": {
+          "1": {
+            "baseline": {
+              "mape_percent": 5.2039727556751965,
+              "mdape_percent": 4.167477592829705,
+              "median_signed_percent": 2.971590909090909,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 4.579965487850706,
+              "mdape_percent": 3.7090410958904108,
+              "median_signed_percent": 2.3660042964554244,
+              "n": 1007
+            }
+          },
+          "10": {
+            "baseline": {
+              "mape_percent": 7.791463445387209,
+              "mdape_percent": 5.790018365740606,
+              "median_signed_percent": -0.5221177192933494,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 6.983221447784636,
+              "mdape_percent": 5.576068302728677,
+              "median_signed_percent": -0.3557635094931573,
+              "n": 1007
+            }
+          },
+          "2": {
+            "baseline": {
+              "mape_percent": 4.360769758526387,
+              "mdape_percent": 3.669361801308021,
+              "median_signed_percent": 1.617177854165222,
+              "n": 1008
+            },
+            "candidate": {
+              "mape_percent": 4.215691875953466,
+              "mdape_percent": 3.6302692171448814,
+              "median_signed_percent": 1.202514473460936,
+              "n": 1008
+            }
+          },
+          "3": {
+            "baseline": {
+              "mape_percent": 4.463887130607667,
+              "mdape_percent": 3.669580674655669,
+              "median_signed_percent": 0.6889817810922704,
+              "n": 1006
+            },
+            "candidate": {
+              "mape_percent": 4.3233204383745045,
+              "mdape_percent": 3.6808745033026424,
+              "median_signed_percent": 0.43353515107341634,
+              "n": 1006
+            }
+          },
+          "4": {
+            "baseline": {
+              "mape_percent": 4.68112899209908,
+              "mdape_percent": 3.9367316341829084,
+              "median_signed_percent": 0.758891523414345,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 4.560137051672414,
+              "mdape_percent": 3.7594476744186047,
+              "median_signed_percent": 0.764881445863041,
+              "n": 1007
+            }
+          },
+          "5": {
+            "baseline": {
+              "mape_percent": 4.921771764839029,
+              "mdape_percent": 4.0227554820024825,
+              "median_signed_percent": 0.8304010349288486,
+              "n": 1009
+            },
+            "candidate": {
+              "mape_percent": 4.817526017953163,
+              "mdape_percent": 3.8090377024635904,
+              "median_signed_percent": 0.57280750137893,
+              "n": 1009
+            }
+          },
+          "6": {
+            "baseline": {
+              "mape_percent": 5.575342133058749,
+              "mdape_percent": 4.595815991592724,
+              "median_signed_percent": 0.3736288818017469,
+              "n": 1004
+            },
+            "candidate": {
+              "mape_percent": 5.506742548406925,
+              "mdape_percent": 4.476091370533929,
+              "median_signed_percent": 0.48272795830275794,
+              "n": 1004
+            }
+          },
+          "7": {
+            "baseline": {
+              "mape_percent": 5.8573286472422135,
+              "mdape_percent": 4.642810057444204,
+              "median_signed_percent": 0.0675689024992591,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 5.828536119362893,
+              "mdape_percent": 4.711875228018971,
+              "median_signed_percent": 0.05432026526233665,
+              "n": 1007
+            }
+          },
+          "8": {
+            "baseline": {
+              "mape_percent": 5.981889926513497,
+              "mdape_percent": 4.676972191884399,
+              "median_signed_percent": -0.8234778450749123,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 6.031164294704283,
+              "mdape_percent": 4.6628645918201075,
+              "median_signed_percent": -0.24587431238539756,
+              "n": 1007
+            }
+          },
+          "9": {
+            "baseline": {
+              "mape_percent": 6.814385553376764,
+              "mdape_percent": 5.524832214765101,
+              "median_signed_percent": -1.3660074022669442,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 6.730722360898354,
+              "mdape_percent": 5.504751528357848,
+              "median_signed_percent": -0.9844914802981896,
+              "n": 1007
+            }
+          }
+        },
+        "house_type_name": {
+          "Co-Op Apt": {
+            "baseline": {
+              "mape_percent": 5.7514655650865665,
+              "mdape_percent": 4.745060802192897,
+              "median_signed_percent": 3.6936541687148665,
+              "n": 48
+            },
+            "candidate": {
+              "mape_percent": 5.030221221965679,
+              "mdape_percent": 4.535128022094133,
+              "median_signed_percent": 1.8882721738678003,
+              "n": 48
+            }
+          },
+          "Condo Apt": {
+            "baseline": {
+              "mape_percent": 4.3096345664127815,
+              "mdape_percent": 3.5930620413609073,
+              "median_signed_percent": 0.6490638502160345,
+              "n": 4843
+            },
+            "candidate": {
+              "mape_percent": 4.118326670721348,
+              "mdape_percent": 3.496877545479229,
+              "median_signed_percent": 0.5598510374179819,
+              "n": 4843
+            }
+          },
+          "Condo Townhouse": {
+            "baseline": {
+              "mape_percent": 5.503785478249621,
+              "mdape_percent": 4.503736525521781,
+              "median_signed_percent": 1.7699528098694417,
+              "n": 616
+            },
+            "candidate": {
+              "mape_percent": 5.238277301338817,
+              "mdape_percent": 4.091909056041088,
+              "median_signed_percent": 1.118581796253087,
+              "n": 616
+            }
+          },
+          "Detached": {
+            "baseline": {
+              "mape_percent": 6.877322924628609,
+              "mdape_percent": 5.459501213860075,
+              "median_signed_percent": 0.8949217677738128,
+              "n": 3123
+            },
+            "candidate": {
+              "mape_percent": 6.621500935754874,
+              "mdape_percent": 5.350129374914885,
+              "median_signed_percent": 0.8398499102724455,
+              "n": 3123
+            }
+          },
+          "Freehold Townhouse": {
+            "baseline": {
+              "mape_percent": 6.854527268500261,
+              "mdape_percent": 5.5056831097976815,
+              "median_signed_percent": 0.39899789029535865,
+              "n": 405
+            },
+            "candidate": {
+              "mape_percent": 6.773813739203474,
+              "mdape_percent": 5.497061965811966,
+              "median_signed_percent": 0.2804308526664658,
+              "n": 405
+            }
+          },
+          "Semi-Detached": {
+            "baseline": {
+              "mape_percent": 7.004441628254075,
+              "mdape_percent": 6.019230811585537,
+              "median_signed_percent": -0.9141395485900965,
+              "n": 1034
+            },
+            "candidate": {
+              "mape_percent": 6.875673639233947,
+              "mdape_percent": 5.689994052343691,
+              "median_signed_percent": -0.7998215606247718,
+              "n": 1034
+            }
+          }
+        }
+      },
+      "promotion": {
+        "mape_relative_change": -0.037288516558131264,
+        "monthly_relative_improvement": {
+          "2025-12": 0.026034347211721678,
+          "2026-01": 0.029533442488090624,
+          "2026-02": 0.014554597075265298,
+          "2026-03": 0.031732587125662334,
+          "2026-04": 0.02693330229345373,
+          "2026-05": 0.023853870131657233
+        },
+        "months_improved": 6,
+        "paired_home_bootstrap_upper_pp": -0.060114190262983105,
+        "passes": true,
+        "relative_mdape_improvement": 0.028434614701339428,
+        "worst_month_relative_regression": -0.014554597075265298
+      }
+    },
+    "off_market": {
+      "baseline": {
+        "mape_percent": 13.400081178158745,
+        "mdape_percent": 10.595575340617833,
+        "median_signed_percent": -0.1293874741913283,
+        "n": 10069
+      },
+      "baseline_monthly": {
+        "2025-12": {
+          "mape_percent": 13.83365031070925,
+          "mdape_percent": 10.900711088231077,
+          "median_signed_percent": 3.768682597343063,
+          "n": 1238
+        },
+        "2026-01": {
+          "mape_percent": 13.39883694743491,
+          "mdape_percent": 10.43424893378316,
+          "median_signed_percent": 1.3293643022208297,
+          "n": 1058
+        },
+        "2026-02": {
+          "mape_percent": 12.930246179439276,
+          "mdape_percent": 10.374618742620914,
+          "median_signed_percent": -1.9288441890606118,
+          "n": 1442
+        },
+        "2026-03": {
+          "mape_percent": 13.277292851715728,
+          "mdape_percent": 10.397261441835852,
+          "median_signed_percent": -2.1879920821297114,
+          "n": 1816
+        },
+        "2026-04": {
+          "mape_percent": 13.304349895163096,
+          "mdape_percent": 10.480610279790206,
+          "median_signed_percent": 0.17672426490628068,
+          "n": 2224
+        },
+        "2026-05": {
+          "mape_percent": 13.652350864917635,
+          "mdape_percent": 10.973313630041725,
+          "median_signed_percent": 0.15882267230074312,
+          "n": 2291
+        }
+      },
+      "candidate": {
+        "mape_percent": 11.980344048336713,
+        "mdape_percent": 9.173340266944011,
+        "median_signed_percent": 0.043875685557586835,
+        "n": 10069
+      },
+      "candidate_monthly": {
+        "2025-12": {
+          "mape_percent": 11.98368282302441,
+          "mdape_percent": 9.152327941184964,
+          "median_signed_percent": 2.381435666275012,
+          "n": 1238
+        },
+        "2026-01": {
+          "mape_percent": 11.74871264098919,
+          "mdape_percent": 9.189046174272573,
+          "median_signed_percent": -0.24891020692942586,
+          "n": 1058
+        },
+        "2026-02": {
+          "mape_percent": 11.64458802136226,
+          "mdape_percent": 8.99374627835219,
+          "median_signed_percent": -2.4312485615504986,
+          "n": 1442
+        },
+        "2026-03": {
+          "mape_percent": 11.891000582299487,
+          "mdape_percent": 8.939366814595083,
+          "median_signed_percent": -0.9631789085817897,
+          "n": 1816
+        },
+        "2026-04": {
+          "mape_percent": 11.961085082174401,
+          "mdape_percent": 9.250526738926396,
+          "median_signed_percent": 0.606395149194646,
+          "n": 2224
+        },
+        "2026-05": {
+          "mape_percent": 12.386355611792004,
+          "mdape_percent": 9.377817763782677,
+          "median_signed_percent": 0.8096954196698443,
+          "n": 2291
+        }
+      },
+      "month_cluster_bootstrap_sensitivity": {
+        "ci95_percentage_points": [
+          -1.5942370824473109,
+          -1.2797781884490895
+        ],
+        "clusters": 6,
+        "delta_percentage_points": -1.4222350736738214,
+        "months": [
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05"
+        ],
+        "repeats": 10000,
+        "seed": 0
+      },
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -1.6102358537531818,
+          -1.2452973137432626
+        ],
+        "delta_percentage_points": -1.4222350736738214,
+        "n": 10069,
+        "repeats": 10000,
+        "seed": 0
+      },
+      "post_evaluation_groups": {
+        "actual_sold_price_decile": {
+          "1": {
+            "baseline": {
+              "mape_percent": 16.719054823350024,
+              "mdape_percent": 13.104057754543192,
+              "median_signed_percent": 12.911314285714285,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 12.554824304947898,
+              "mdape_percent": 9.54772648385977,
+              "median_signed_percent": 9.113030226060452,
+              "n": 1007
+            }
+          },
+          "10": {
+            "baseline": {
+              "mape_percent": 18.987648239315863,
+              "mdape_percent": 16.54998510574918,
+              "median_signed_percent": -11.774021997502116,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 18.09901660209703,
+              "mdape_percent": 15.07790385805653,
+              "median_signed_percent": -10.251609407174596,
+              "n": 1007
+            }
+          },
+          "2": {
+            "baseline": {
+              "mape_percent": 10.302031814491041,
+              "mdape_percent": 7.95197820527129,
+              "median_signed_percent": 5.216441683566225,
+              "n": 1008
+            },
+            "candidate": {
+              "mape_percent": 8.422133738360692,
+              "mdape_percent": 6.241143749196576,
+              "median_signed_percent": 3.3701626546496497,
+              "n": 1008
+            }
+          },
+          "3": {
+            "baseline": {
+              "mape_percent": 10.92325104963444,
+              "mdape_percent": 7.974644544283617,
+              "median_signed_percent": 1.4841335808936564,
+              "n": 1006
+            },
+            "candidate": {
+              "mape_percent": 9.38071500972696,
+              "mdape_percent": 6.5515857648739875,
+              "median_signed_percent": 0.5687219935393856,
+              "n": 1006
+            }
+          },
+          "4": {
+            "baseline": {
+              "mape_percent": 11.639681737918506,
+              "mdape_percent": 9.35192793931732,
+              "median_signed_percent": 0.8854720744680851,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 10.092336179796888,
+              "mdape_percent": 7.962285529297508,
+              "median_signed_percent": 0.42523906114169807,
+              "n": 1007
+            }
+          },
+          "5": {
+            "baseline": {
+              "mape_percent": 12.305867569939265,
+              "mdape_percent": 9.983349387642768,
+              "median_signed_percent": 0.37379148157825975,
+              "n": 1009
+            },
+            "candidate": {
+              "mape_percent": 11.120141872378511,
+              "mdape_percent": 8.801788574479446,
+              "median_signed_percent": 0.29547738693467335,
+              "n": 1009
+            }
+          },
+          "6": {
+            "baseline": {
+              "mape_percent": 12.417303062586258,
+              "mdape_percent": 9.938283867245996,
+              "median_signed_percent": -0.10822634548477846,
+              "n": 1004
+            },
+            "candidate": {
+              "mape_percent": 11.6768159845364,
+              "mdape_percent": 9.389138653611631,
+              "median_signed_percent": 0.17865208602542587,
+              "n": 1004
+            }
+          },
+          "7": {
+            "baseline": {
+              "mape_percent": 11.645522370071266,
+              "mdape_percent": 9.666049782548349,
+              "median_signed_percent": -2.9607054455445545,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 11.061500990179692,
+              "mdape_percent": 8.926234825317394,
+              "median_signed_percent": -1.4503614237350169,
+              "n": 1007
+            }
+          },
+          "8": {
+            "baseline": {
+              "mape_percent": 13.657837092537244,
+              "mdape_percent": 11.523944326492098,
+              "median_signed_percent": -5.788356104777652,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 12.85427853748473,
+              "mdape_percent": 10.716088053597842,
+              "median_signed_percent": -4.899983644095519,
+              "n": 1007
+            }
+          },
+          "9": {
+            "baseline": {
+              "mape_percent": 15.402476297915216,
+              "mdape_percent": 13.76509111617312,
+              "median_signed_percent": -7.903417198648142,
+              "n": 1007
+            },
+            "candidate": {
+              "mape_percent": 14.543433372529517,
+              "mdape_percent": 12.697067426685667,
+              "median_signed_percent": -6.1438324727481355,
+              "n": 1007
+            }
+          }
+        },
+        "house_type_name": {
+          "Co-Op Apt": {
+            "baseline": {
+              "mape_percent": 21.455595285567295,
+              "mdape_percent": 14.329839347842716,
+              "median_signed_percent": 2.94260063274098,
+              "n": 48
+            },
+            "candidate": {
+              "mape_percent": 19.825796877772415,
+              "mdape_percent": 10.65411674675795,
+              "median_signed_percent": 2.2224006252471713,
+              "n": 48
+            }
+          },
+          "Condo Apt": {
+            "baseline": {
+              "mape_percent": 12.80541737639976,
+              "mdape_percent": 9.9729629170284,
+              "median_signed_percent": 1.7319664492078286,
+              "n": 4843
+            },
+            "candidate": {
+              "mape_percent": 10.49885759340634,
+              "mdape_percent": 8.045741324921135,
+              "median_signed_percent": 1.0170405146930968,
+              "n": 4843
+            }
+          },
+          "Condo Townhouse": {
+            "baseline": {
+              "mape_percent": 10.94009466848698,
+              "mdape_percent": 8.448243215001225,
+              "median_signed_percent": 3.0236122652484627,
+              "n": 616
+            },
+            "candidate": {
+              "mape_percent": 9.824131835174926,
+              "mdape_percent": 7.2850648964986835,
+              "median_signed_percent": 1.2845862496656046,
+              "n": 616
+            }
+          },
+          "Detached": {
+            "baseline": {
+              "mape_percent": 14.80651831782184,
+              "mdape_percent": 12.123938471398814,
+              "median_signed_percent": -1.97645513481448,
+              "n": 3123
+            },
+            "candidate": {
+              "mape_percent": 14.25051463694343,
+              "mdape_percent": 11.472543830631823,
+              "median_signed_percent": -1.3088398261017815,
+              "n": 3123
+            }
+          },
+          "Freehold Townhouse": {
+            "baseline": {
+              "mape_percent": 12.53918126979677,
+              "mdape_percent": 10.54176511466296,
+              "median_signed_percent": -3.794225337378387,
+              "n": 405
+            },
+            "candidate": {
+              "mape_percent": 12.48193480661725,
+              "mdape_percent": 9.670917503667757,
+              "median_signed_percent": -2.872888888888889,
+              "n": 405
+            }
+          },
+          "Semi-Detached": {
+            "baseline": {
+              "mape_percent": 13.366236961949575,
+              "mdape_percent": 11.371582036805572,
+              "median_signed_percent": -4.4856018560640525,
+              "n": 1034
+            },
+            "candidate": {
+              "mape_percent": 12.786530589342664,
+              "mdape_percent": 10.49480482416265,
+              "median_signed_percent": -2.5540302965395214,
+              "n": 1034
+            }
+          }
+        }
+      },
+      "promotion": {
+        "mape_relative_change": -0.10594989022425554,
+        "monthly_relative_improvement": {
+          "2025-12": 0.16039166003892624,
+          "2026-01": 0.11933803452579811,
+          "2026-02": 0.13310103229103112,
+          "2026-03": 0.1402190985959614,
+          "2026-04": 0.11736754902868426,
+          "2026-05": 0.14539781874921054
+        },
+        "months_improved": 6,
+        "paired_home_bootstrap_upper_pp": -1.2452973137432626,
+        "passes": true,
+        "relative_mdape_improvement": 0.1342291501832585,
+        "worst_month_relative_regression": -0.11736754902868426
+      }
+    }
+  },
+  "dual_track_upgrade_eligible": true,
+  "fit_attempts": 17,
+  "locked_config_sha256": "d52607d3ef6d4c07755a895facf56f90116c30392e97529bc1b0d98554c14d70",
+  "results": {
+    "list_aware": {
+      "baseline_mape_percent": 5.565052943473582,
+      "baseline_mdape_percent": 4.359647086138843,
+      "mape_percent": 5.35754037464399,
+      "mdape_percent": 4.235682201010668,
+      "n": 10069
+    },
+    "off_market": {
+      "baseline_mape_percent": 13.400081178158745,
+      "baseline_mdape_percent": 10.595575340617833,
+      "mape_percent": 11.980344048336713,
+      "mdape_percent": 9.173340266944011,
+      "n": 10069
+    }
+  },
+  "total_fit_attempts": 66
+}

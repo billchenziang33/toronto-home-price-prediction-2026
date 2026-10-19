@@ -1,0 +1,183 @@
+{
+  "benchmark_is_retrospective": true,
+  "benchmark_months": [
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "decision": {
+    "decision": "retain_model_candidate_v2",
+    "dual_track_final_gate_passed": false,
+    "reason": "the final two-track gate was not met; preserve the frozen v2 submission candidate",
+    "selected_development_pipelines": {
+      "list_aware": "M13",
+      "off_market": "C0"
+    },
+    "submission_files_read": false,
+    "v3_exported": false
+  },
+  "elapsed_minutes": 159.38,
+  "fit_attempts": 140,
+  "freeze_id": "v2_research_final",
+  "generated_at_utc": "2026-10-19T03:07:05.906400+00:00",
+  "notes": [
+    "These six months were examined in earlier project work and are reported as a retrospective benchmark.",
+    "No candidate was selected or replaced after these results were read."
+  ],
+  "reports": {
+    "list_aware": {
+      "candidate": {
+        "mape_percent": 5.444119248048816,
+        "mdape_percent": 4.249565354828513,
+        "n": 10069
+      },
+      "final_gate": {
+        "aspirational_3_percent_reached": false,
+        "criteria": {
+          "at_least_four_of_six_months_improve": false,
+          "mape_regression_at_most_1_percent": false,
+          "paired_home_bootstrap_upper_below_zero": false,
+          "relative_mdape_at_least_2_percent": false,
+          "worst_month_regression_at_most_10_percent": true
+        },
+        "mape_relative_change": 0.01616019056330103,
+        "months_improved": 3,
+        "paired_home_bootstrap_ci95_percentage_points": [
+          -0.05888224915063163,
+          0.0863372506926404
+        ],
+        "passed": false,
+        "relative_mdape_improvement": -0.003277666538469746,
+        "worst_month_relative_regression": 0.037561498624651864
+      },
+      "frozen_candidate": "M13",
+      "mape_relative_change": 0.01616019056330103,
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          -0.0848408485446912,
+          0.08253597851653449
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 20261026
+      },
+      "monthly_relative_improvement": {
+        "2025-12": 0.00035097040325954705,
+        "2026-01": -0.003600424476329041,
+        "2026-02": 0.008622520117912579,
+        "2026-03": -0.037561498624651864,
+        "2026-04": -0.011135074527137185,
+        "2026-05": 0.031186124633856914
+      },
+      "months_improved": 3,
+      "n": 10069,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          -0.05888224915063163,
+          0.0863372506926404
+        ],
+        "repeats": 10000,
+        "seed": 20261025
+      },
+      "parent": {
+        "mape_percent": 5.35754037464399,
+        "mdape_percent": 4.235682201010668,
+        "n": 10069
+      },
+      "passes_metrics": false,
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\final_benchmark\\list_aware.csv",
+      "prediction_sha256": "f6bebe38a4ddb841e9efa9686ce9fcd68a80268fa43edb0c7d25b9843d0613f2",
+      "relative_mdape_improvement": -0.003277666538469746,
+      "relative_to_v1": {
+        "candidate_mape_percent": 5.444119248048816,
+        "candidate_mdape_percent": 4.249565354828513,
+        "v1_mape_percent": 5.565052943473581,
+        "v1_mdape_percent": 4.359647086138843
+      },
+      "track": "list_aware",
+      "worst_month_relative_regression": 0.037561498624651864
+    },
+    "off_market": {
+      "candidate": {
+        "mape_percent": 11.980344048336713,
+        "mdape_percent": 9.173340266944011,
+        "n": 10069
+      },
+      "final_gate": {
+        "aspirational_3_percent_reached": false,
+        "criteria": {
+          "at_least_four_of_six_months_improve": false,
+          "mape_regression_at_most_1_percent": true,
+          "paired_home_bootstrap_upper_below_zero": false,
+          "relative_mdape_at_least_2_percent": false,
+          "worst_month_regression_at_most_10_percent": true
+        },
+        "mape_relative_change": 0.0,
+        "months_improved": 0,
+        "paired_home_bootstrap_ci95_percentage_points": [
+          0.0,
+          0.0
+        ],
+        "passed": false,
+        "relative_mdape_improvement": 0.0,
+        "worst_month_relative_regression": 0.0
+      },
+      "frozen_candidate": "C0",
+      "mape_relative_change": 0.0,
+      "month_cluster_sensitivity": {
+        "ci95_percentage_points": [
+          0.0,
+          0.0
+        ],
+        "clusters": 6,
+        "repeats": 10000,
+        "seed": 20261025
+      },
+      "monthly_relative_improvement": {
+        "2025-12": 0.0,
+        "2026-01": 0.0,
+        "2026-02": 0.0,
+        "2026-03": 0.0,
+        "2026-04": 0.0,
+        "2026-05": 0.0
+      },
+      "months_improved": 0,
+      "n": 10069,
+      "paired_home_bootstrap": {
+        "ci95_percentage_points": [
+          0.0,
+          0.0
+        ],
+        "repeats": 10000,
+        "seed": 20261024
+      },
+      "parent": {
+        "mape_percent": 11.980344048336713,
+        "mdape_percent": 9.173340266944011,
+        "n": 10069
+      },
+      "passes_metrics": false,
+      "prediction_path": "C:\\Users\\admin\\Documents\\New project\\TorontoHomePriceChallenge\\outputs\\model_optimization_v2\\predictions\\final_benchmark\\off_market.csv",
+      "prediction_sha256": "e4ab352b879232bfdaada3e9e58014762da057586cbe4604c1dd40452040f23b",
+      "relative_mdape_improvement": 0.0,
+      "relative_to_v1": {
+        "candidate_mape_percent": 11.980344048336713,
+        "candidate_mdape_percent": 9.173340266944011,
+        "v1_mape_percent": 13.400081178158745,
+        "v1_mdape_percent": 10.595575340617833
+      },
+      "track": "off_market",
+      "worst_month_relative_regression": 0.0
+    }
+  },
+  "stage_fits": {
+    "A0": 18,
+    "A1": 74,
+    "A2": 12,
+    "A3": 24,
+    "A4": 12
+  }
+}

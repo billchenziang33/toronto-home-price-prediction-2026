@@ -1,0 +1,1239 @@
+ml_num,track,month,model_id,model_family,target,house_type_name,sold_price,predicted_price,baseline_price
+SYN-0154350,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,797100.0,1058544.54176277,1099306.0
+SYN-0150378,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1821500.0,1871693.6270078176,1854855.0
+SYN-0148591,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,711300.0,745137.7154552061,754558.0
+SYN-0155236,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,257500.0,313383.57749681216,361183.0
+SYN-0040814,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,516500.0,558394.6005271411,613316.0
+SYN-0034497,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1875100.0,1939120.3825776621,1927699.0
+SYN-0073015,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1162400.0,1155344.7100298558,1156826.0
+SYN-0093071,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,348700.0,339812.1718420683,353833.0
+SYN-0122093,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1574800.0,1436475.921293446,1416353.0
+SYN-0138169,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,459700.0,444570.2913848598,444143.0
+SYN-0129158,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1285800.0,1057263.8817652992,1065619.0
+SYN-0156700,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,409400.0,455061.7498645269,440627.0
+SYN-0028926,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,347700.0,361223.3085820692,374687.0
+SYN-0112975,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,317200.0,368839.0239039596,387835.0
+SYN-0128140,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,363900.0,484207.5451136176,507191.0
+SYN-0104463,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1534700.0,1155241.2040376612,1203404.0
+SYN-0151777,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,791300.0,849411.0235756454,870309.0
+SYN-0035044,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1624000.0,1780545.190804902,1830004.0
+SYN-0073944,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,764900.0,782293.8195096074,753404.0
+SYN-0157585,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,799300.0,801367.1495050896,763933.0
+SYN-0131787,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1779300.0,1507797.6176717668,1424504.0
+SYN-0017680,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,409400.0,441579.9695248268,440610.0
+SYN-0057648,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,863300.0,971670.9360221692,1036115.0
+SYN-0125434,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,445700.0,404809.7772532853,403643.0
+SYN-0103218,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,889200.0,944165.9586863503,1001773.0
+SYN-0142185,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1043700.0,1124151.9623477028,1165083.0
+SYN-0150535,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,425000.0,462613.7461761138,482424.0
+SYN-0061625,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,833000.0,831854.522628501,822133.0
+SYN-0125159,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3675600.0,4152009.558524653,4225529.0
+SYN-0138141,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,984500.0,891070.1985410672,860737.0
+SYN-0085828,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,963500.0,1051298.7496017632,1030695.0
+SYN-0018675,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1306500.0,946019.2276834014,997664.0
+SYN-0141574,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,552300.0,559599.8995938386,557181.0
+SYN-0024646,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,718600.0,841132.121318807,832322.0
+SYN-0108059,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,823100.0,734639.230804651,718103.0
+SYN-0147022,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1343400.0,2153709.665642594,2133883.0
+SYN-0103934,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,890000.0,714915.3143900862,685289.0
+SYN-0044229,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,368200.0,348513.51526706014,362018.0
+SYN-0073777,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,394800.0,455764.1597385336,501183.0
+SYN-0001124,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,771700.0,755845.4716492398,767748.0
+SYN-0044351,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,289400.0,335427.2148357556,420966.0
+SYN-0000731,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,599700.0,644663.4924015376,622354.0
+SYN-0039571,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,975400.0,834574.3331396345,834674.0
+SYN-0117301,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,447900.0,553766.5042362643,550866.0
+SYN-0090785,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1037300.0,939734.2125123038,963829.0
+SYN-0118728,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,416800.0,524014.00551446556,526147.0
+SYN-0021810,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,1724800.0,1475777.0591481247,1463819.0
+SYN-0029194,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1364500.0,890753.3784686502,863498.0
+SYN-0030463,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,627800.0,664909.6945928687,696133.0
+SYN-0066113,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2453000.0,2667870.400320215,2778159.0
+SYN-0044621,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,611700.0,626385.4173931684,654834.0
+SYN-0054136,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,422900.0,487901.253836151,489804.0
+SYN-0109551,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1469000.0,1791001.675381439,1864468.0
+SYN-0009279,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,566500.0,550201.2734029033,593350.0
+SYN-0039194,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1854200.0,1923712.5870698849,1821721.0
+SYN-0095410,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1690900.0,1433342.8716253098,1387199.0
+SYN-0009641,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,850000.0,1030680.3001488062,1046211.0
+SYN-0001311,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,692800.0,692766.5792283646,704419.0
+SYN-0007053,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,495500.0,495996.53449761134,497994.0
+SYN-0068143,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1729200.0,1904422.0370296824,1758026.0
+SYN-0039971,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,478900.0,518537.9625299727,457316.0
+SYN-0126891,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,301200.0,348961.18398683885,407730.0
+SYN-0103911,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,667000.0,664335.0635287532,656866.0
+SYN-0085821,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,928400.0,1038690.9163999709,1061643.0
+SYN-0091797,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,978800.0,1036674.5397939903,1147526.0
+SYN-0073167,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,601000.0,557323.1077426634,548636.0
+SYN-0006249,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,500800.0,638929.2845189562,654802.0
+SYN-0056769,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,624000.0,717228.070577622,714003.0
+SYN-0018601,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2944000.0,4555100.042210698,4692130.0
+SYN-0025558,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1113100.0,1285773.5248107016,1329837.0
+SYN-0151917,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,805000.0,644290.9403942939,632880.0
+SYN-0134833,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2167100.0,1886673.775284437,1905759.0
+SYN-0084028,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1311600.0,879682.3627845161,859644.0
+SYN-0104607,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,380500.0,401629.9570006447,387743.0
+SYN-0138254,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,826700.0,828492.1838535956,783516.0
+SYN-0039657,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,737300.0,841860.502685065,824426.0
+SYN-0084513,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1508600.0,1637701.810398302,1765395.0
+SYN-0085279,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,632700.0,847010.1291924422,891546.0
+SYN-0119680,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1073900.0,917159.5298748134,904754.0
+SYN-0046507,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,797300.0,828559.8328040235,883042.0
+SYN-0122964,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,584000.0,515341.2764588063,487732.0
+SYN-0098505,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,777300.0,843594.6267860092,850547.0
+SYN-0110721,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,503400.0,492808.4698285985,533561.0
+SYN-0051056,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,575300.0,555806.5360990338,538464.0
+SYN-0135263,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,550600.0,451179.3189231538,416763.0
+SYN-0020438,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1457300.0,1510898.9256529973,1567446.0
+SYN-0155172,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3318900.0,3203112.239710494,3194160.0
+SYN-0146955,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,420400.0,455205.67813665495,507670.0
+SYN-0047471,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,528900.0,523441.1493939388,550823.0
+SYN-0029855,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,430000.0,458669.7867899606,466238.0
+SYN-0013711,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,655500.0,657329.8082487492,646577.0
+SYN-0018461,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,461900.0,513311.394464716,528091.0
+SYN-0112609,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,549400.0,557429.2021625397,530838.0
+SYN-0109592,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1201000.0,1237018.0810648727,1225414.0
+SYN-0097740,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2056800.0,1676958.560289964,1861509.0
+SYN-0112913,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1322200.0,1055339.9480190466,1068474.0
+SYN-0147044,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1129300.0,1265650.8792612148,1291233.0
+SYN-0036041,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,938400.0,978100.5127454923,952022.0
+SYN-0145254,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1195100.0,951715.1668861144,968433.0
+SYN-0105902,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1227000.0,1408749.6565402409,1473353.0
+SYN-0136915,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3339800.0,2950358.4436203213,3002332.0
+SYN-0121027,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1105300.0,943183.9707084317,945383.0
+SYN-0027769,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,687300.0,660694.8753732631,651156.0
+SYN-0119650,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,667700.0,674288.6417540874,686473.0
+SYN-0120595,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1344000.0,1263337.203549602,1305294.0
+SYN-0058788,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,543600.0,624210.1443564305,629083.0
+SYN-0084163,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,1024400.0,985256.4665154313,1039716.0
+SYN-0045786,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,693100.0,686941.4614431564,615504.0
+SYN-0018251,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,821800.0,790582.1029240877,863669.0
+SYN-0119879,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1231300.0,1110018.455703113,1220582.0
+SYN-0055356,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,435900.0,500841.2431723394,513424.0
+SYN-0015640,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,520300.0,477990.18123766244,506406.0
+SYN-0150374,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,531800.0,736541.5017614282,736707.0
+SYN-0035390,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,550100.0,530723.6081157336,541664.0
+SYN-0001055,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,613700.0,579255.9178745715,545415.0
+SYN-0156269,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,365900.0,382636.3161262926,418727.0
+SYN-0121988,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,781100.0,983582.8790496133,956310.0
+SYN-0020129,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,583300.0,486700.24309198465,516983.0
+SYN-0018448,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,871700.0,1053202.9089973716,1104355.0
+SYN-0068565,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,384400.0,447717.8181311524,467795.0
+SYN-0017019,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,755500.0,659807.8903404442,678765.0
+SYN-0117322,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,745800.0,1055515.5608244243,1031139.0
+SYN-0136762,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,392600.0,485543.134378703,530952.0
+SYN-0122477,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,2663600.0,2647654.940668958,2525005.0
+SYN-0054578,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1009100.0,841648.3101223356,811431.0
+SYN-0070384,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,352100.0,395108.62175811466,428914.0
+SYN-0019594,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,652700.0,648520.9560212309,774072.0
+SYN-0016531,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,630800.0,611251.696925799,587378.0
+SYN-0026666,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,624800.0,677042.9384707481,668540.0
+SYN-0051543,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1765000.0,1142235.9797920422,1145688.0
+SYN-0023574,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,443700.0,478128.22505808185,484317.0
+SYN-0069589,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,429600.0,433525.07481569686,460306.0
+SYN-0052170,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,697900.0,745786.5007490716,857474.0
+SYN-0054169,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1363200.0,2061651.72632798,2183863.0
+SYN-0146591,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,906600.0,772422.1813228313,829544.0
+SYN-0041418,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2413200.0,2031441.1915268644,1936444.0
+SYN-0059940,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,636500.0,614858.5439622845,629955.0
+SYN-0002799,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,797400.0,981785.6589967031,927005.0
+SYN-0036566,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1094300.0,1012368.2633639518,1060581.0
+SYN-0008786,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,761000.0,948018.0418942068,991119.0
+SYN-0027897,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,575400.0,665976.918233668,666710.0
+SYN-0152414,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,506500.0,481055.1510145238,458630.0
+SYN-0077365,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2215200.0,2012965.6374813493,2056615.0
+SYN-0063106,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,584700.0,633498.2213468641,631443.0
+SYN-0084489,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,461000.0,461915.628184865,458575.0
+SYN-0123124,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,621500.0,654937.987835756,639286.0
+SYN-0030484,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,831900.0,796769.095779017,778888.0
+SYN-0017765,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1966200.0,2432490.2804114465,2368937.0
+SYN-0027293,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,704900.0,894998.6571000953,873552.0
+SYN-0000072,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2730200.0,3022019.529387319,2670958.0
+SYN-0155368,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1092200.0,1252299.8722709632,1203509.0
+SYN-0129454,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,592000.0,588111.5694253818,589010.0
+SYN-0155283,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,538100.0,651345.6533142459,690172.0
+SYN-0007225,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,322900.0,384913.44891673396,386689.0
+SYN-0067083,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1116100.0,1319536.8116501009,1264260.0
+SYN-0003295,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1507100.0,1536397.2663658913,1489678.0
+SYN-0095533,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,700900.0,700341.2948284051,741844.0
+SYN-0120527,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,376200.0,405798.76397554594,427979.0
+SYN-0005494,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,594200.0,578523.4227674723,612980.0
+SYN-0075647,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1458700.0,1687137.4204707907,1746067.0
+SYN-0016732,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,623400.0,636743.8629958832,609456.0
+SYN-0104318,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1126100.0,897426.3248544523,848883.0
+SYN-0113705,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1341200.0,1139841.5831338025,1179837.0
+SYN-0035324,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,437400.0,404701.76728531596,424570.0
+SYN-0090665,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1078200.0,1013923.1100508294,993348.0
+SYN-0059328,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,531000.0,450377.2765478115,455318.0
+SYN-0065312,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,739600.0,675136.5586583415,692267.0
+SYN-0025588,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1414100.0,1263689.6767230267,1202988.0
+SYN-0043979,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,428000.0,459376.8176472893,505872.0
+SYN-0020325,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,844900.0,737901.7480829208,709375.0
+SYN-0148436,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,927000.0,849103.4274462275,818309.0
+SYN-0041561,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,844900.0,1244878.3521493883,1282490.0
+SYN-0137404,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,949000.0,876294.4940329117,905474.0
+SYN-0093565,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,583200.0,614435.1271063825,643341.0
+SYN-0090372,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,744300.0,827758.7277257178,881320.0
+SYN-0153765,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,569000.0,707527.7459920347,697204.0
+SYN-0099682,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2079100.0,2102317.486672047,2194639.0
+SYN-0065272,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,479700.0,508613.75574698765,528962.0
+SYN-0149464,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,662500.0,604574.0554204128,531700.0
+SYN-0001749,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,485000.0,506024.4625002783,464957.0
+SYN-0102559,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1163300.0,996965.8299315969,972580.0
+SYN-0012502,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,739300.0,839033.9124072102,813307.0
+SYN-0156979,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,354000.0,419717.4146649147,426548.0
+SYN-0109123,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,727300.0,612379.3603940156,579736.0
+SYN-0034579,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,784000.0,716481.6671616946,740898.0
+SYN-0084835,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,732200.0,869572.1408602336,878669.0
+SYN-0056446,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,504600.0,532409.3480933349,523572.0
+SYN-0069232,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,570600.0,546975.9202784603,565112.0
+SYN-0026489,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,683400.0,763734.7465141637,760925.0
+SYN-0113440,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,506800.0,495228.73373444966,504509.0
+SYN-0099045,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,535400.0,471551.3514946121,446371.0
+SYN-0070802,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,901800.0,1195216.6629473642,1290114.0
+SYN-0125977,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,350100.0,418576.68027162104,458035.0
+SYN-0112788,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,465900.0,554353.3205359603,535464.0
+SYN-0088830,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,486100.0,515071.8805752051,481560.0
+SYN-0026495,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,759200.0,715938.690240454,750958.0
+SYN-0021072,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,889000.0,824056.3727450015,791404.0
+SYN-0072245,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,625900.0,541031.0110556622,554061.0
+SYN-0106370,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1514800.0,1178207.3976319316,1260424.0
+SYN-0074907,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,500000.0,515691.29371935833,550999.0
+SYN-0073877,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,404800.0,375288.36663664185,391530.0
+SYN-0079699,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,564800.0,731857.5563947151,719334.0
+SYN-0024068,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,3772100.0,1378126.5986740005,1460604.0
+SYN-0093960,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1946100.0,2692752.1800612733,3257638.0
+SYN-0102289,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2485200.0,2556954.9595552604,2515119.0
+SYN-0131313,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,453100.0,516620.731010588,556950.0
+SYN-0021443,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,445700.0,446911.60045010905,480345.0
+SYN-0066095,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,927400.0,911855.8484013749,879859.0
+SYN-0069429,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1148100.0,1318973.866888837,1200566.0
+SYN-0092455,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,310500.0,316561.7943828046,345055.0
+SYN-0099277,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,514500.0,497220.735122693,523336.0
+SYN-0032717,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,678500.0,651352.3726288836,643712.0
+SYN-0035329,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,512100.0,483290.78192669904,489855.0
+SYN-0120382,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3495400.0,2819046.5556496345,2718205.0
+SYN-0022962,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,457100.0,448108.50986023794,445298.0
+SYN-0107990,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,784900.0,919798.1572122311,905237.0
+SYN-0108079,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1609500.0,1603287.5676504367,1562569.0
+SYN-0145382,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1081700.0,1075374.1589865126,1008408.0
+SYN-0005649,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2065600.0,2064741.9848335036,2088405.0
+SYN-0007021,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,561100.0,639951.4962592954,685486.0
+SYN-0082301,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,993000.0,1195067.9070645962,1176640.0
+SYN-0147265,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,534700.0,493428.033315458,500182.0
+SYN-0117550,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,790500.0,695540.0765753706,704908.0
+SYN-0129631,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,718500.0,869836.6438260152,892189.0
+SYN-0132910,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,582100.0,658439.8375752639,651322.0
+SYN-0084126,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,517600.0,634738.6204205374,626671.0
+SYN-0122753,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1137600.0,1113407.595445091,1219919.0
+SYN-0113821,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,497000.0,571594.7900598632,586845.0
+SYN-0045876,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,691500.0,776138.5771482687,789723.0
+SYN-0063566,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,552400.0,602221.0182502905,669395.0
+SYN-0150299,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,635300.0,689249.5750874038,710720.0
+SYN-0141024,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,844400.0,786438.0998973487,755189.0
+SYN-0090385,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1046800.0,1145409.2165791248,1128022.0
+SYN-0153110,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2831900.0,3100554.035580042,3334544.0
+SYN-0008337,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1495900.0,1469035.970267623,1441490.0
+SYN-0097060,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,574700.0,538329.5494451256,568571.0
+SYN-0101870,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1249600.0,1026872.2400010804,1063190.0
+SYN-0083822,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,991100.0,1004502.5412318293,905768.0
+SYN-0022576,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1370900.0,1654222.470845387,1829499.0
+SYN-0013042,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,631500.0,728202.6745970829,695924.0
+SYN-0037529,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1143600.0,1092448.0396141799,1153619.0
+SYN-0125679,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,622300.0,556705.2441666815,520623.0
+SYN-0119043,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1126800.0,1042572.6891432133,1022215.0
+SYN-0096455,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,504700.0,552595.0018289317,538842.0
+SYN-0068048,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,571200.0,584487.8136837423,648944.0
+SYN-0097268,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,553900.0,508363.01367406355,552835.0
+SYN-0094768,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,585500.0,639610.6954786059,664793.0
+SYN-0062667,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1085600.0,1079473.8516802948,1107803.0
+SYN-0046464,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,609400.0,722947.7483491175,720222.0
+SYN-0093978,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,511400.0,426343.6763072799,433111.0
+SYN-0125384,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3299400.0,2956066.044783127,2835109.0
+SYN-0014795,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,976900.0,1326237.258017396,1327369.0
+SYN-0060206,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,926400.0,890257.5955688442,919094.0
+SYN-0060083,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,679700.0,556478.6438212197,542456.0
+SYN-0150059,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,762900.0,749679.5870695497,786352.0
+SYN-0037287,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,612000.0,805265.1983992647,814529.0
+SYN-0138854,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,568000.0,745095.2800433037,769896.0
+SYN-0120613,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,615600.0,734907.6739052722,761323.0
+SYN-0075114,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,649300.0,799198.868022315,804096.0
+SYN-0016059,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,768700.0,750706.0720019432,737795.0
+SYN-0070371,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4547800.0,3088121.2026498816,3038913.0
+SYN-0072001,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,782300.0,782252.6926091216,807592.0
+SYN-0028522,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,5867800.0,7360582.652125392,7298017.0
+SYN-0033969,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,686300.0,767444.1454396622,791040.0
+SYN-0039494,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,410600.0,454746.35227728577,461505.0
+SYN-0014479,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,656200.0,559745.8963125239,508662.0
+SYN-0069505,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,610300.0,674200.8957199156,669371.0
+SYN-0071083,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Co-Op Apt,309900.0,339492.3594181328,354396.0
+SYN-0114414,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,947700.0,1029671.0196534415,997562.0
+SYN-0012802,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1547600.0,1580675.9256511764,1614253.0
+SYN-0088635,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,288400.0,351980.82555561705,370942.0
+SYN-0155134,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1489700.0,1170230.1317568414,1123267.0
+SYN-0112192,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1172700.0,1009573.1332486437,1079441.0
+SYN-0046669,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1377900.0,934699.0975709929,862385.0
+SYN-0051398,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,366400.0,379225.0591871018,394042.0
+SYN-0037967,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,556200.0,674440.628299153,664795.0
+SYN-0103260,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,728900.0,827803.2380461264,893002.0
+SYN-0068507,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,578000.0,597248.864922576,631124.0
+SYN-0135512,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,923400.0,886796.0775706996,892364.0
+SYN-0075630,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,805300.0,721078.5235814055,773618.0
+SYN-0025418,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,564800.0,509349.530076256,500607.0
+SYN-0015998,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,732300.0,929618.1445126394,1010033.0
+SYN-0138955,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,826500.0,941488.0753938607,937443.0
+SYN-0137379,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,562100.0,566833.8713881923,608837.0
+SYN-0128565,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,458800.0,492991.37947762624,489743.0
+SYN-0131862,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,524500.0,528564.0988329613,518125.0
+SYN-0085170,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,313800.0,332223.15813018207,343487.0
+SYN-0139510,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1450300.0,1809757.3900790198,1832855.0
+SYN-0149591,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,445600.0,483873.39443446934,492865.0
+SYN-0070595,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,844600.0,1036431.8932412476,1038873.0
+SYN-0057448,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,682800.0,648915.4958693389,653635.0
+SYN-0017098,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,623300.0,658165.4142190062,676252.0
+SYN-0155830,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,670600.0,661310.2194426593,668207.0
+SYN-0118842,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1608000.0,1840754.9110034043,1750778.0
+SYN-0021114,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,503100.0,483531.0377022679,490679.0
+SYN-0092759,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,957600.0,954923.2583931246,977091.0
+SYN-0110294,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,670000.0,658319.7840282148,667406.0
+SYN-0146770,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1162300.0,1119643.622584947,1172198.0
+SYN-0006275,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,971000.0,963056.6877636812,1012715.0
+SYN-0008317,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,492400.0,489223.39423457574,521837.0
+SYN-0040714,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,574700.0,522609.69825396605,528983.0
+SYN-0055575,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,525300.0,513481.5039545218,524722.0
+SYN-0020197,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,479400.0,461200.00262531155,456222.0
+SYN-0032009,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,717000.0,819100.6046377104,879762.0
+SYN-0128220,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,724700.0,648185.0463110819,614146.0
+SYN-0019077,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1624000.0,1358746.201196312,1348003.0
+SYN-0026120,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1192300.0,1297904.3652165716,1323743.0
+SYN-0141722,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,966400.0,1030532.0730747854,1083153.0
+SYN-0016948,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,772000.0,766146.0722393633,767183.0
+SYN-0036351,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1506000.0,1525739.7357818994,1598485.0
+SYN-0042392,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1101000.0,937168.4060846337,882164.0
+SYN-0053002,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,556100.0,512179.1343147783,547005.0
+SYN-0111785,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1910400.0,1392086.4084668525,1257054.0
+SYN-0050782,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,551100.0,564118.2181920622,612083.0
+SYN-0041195,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,492600.0,553080.3247549827,567577.0
+SYN-0067798,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,439500.0,470472.0015573594,489613.0
+SYN-0144220,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1145900.0,1210235.2097213608,1258761.0
+SYN-0028330,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,548800.0,683807.1387804318,659267.0
+SYN-0024975,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,453800.0,492275.4587677618,517413.0
+SYN-0048505,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,322700.0,407298.58963198646,427531.0
+SYN-0104410,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1482000.0,1571779.9447569808,1486056.0
+SYN-0001158,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,421700.0,404541.0499784153,404421.0
+SYN-0054969,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1116900.0,1138888.689268639,1174942.0
+SYN-0117997,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1077600.0,1529692.2097038906,1464410.0
+SYN-0057179,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,645700.0,712772.915028085,720589.0
+SYN-0030409,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1462500.0,1420484.1056042726,1297294.0
+SYN-0101403,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1129900.0,1042822.4757854679,1041426.0
+SYN-0022155,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4538700.0,4130310.0492621125,3893232.0
+SYN-0091946,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1295000.0,1696133.2060150641,1815639.0
+SYN-0150571,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1712300.0,1490445.5180235286,1532046.0
+SYN-0065525,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,763100.0,819377.7961307653,808248.0
+SYN-0126538,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1206700.0,1430566.9224592778,1482879.0
+SYN-0145323,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1011600.0,1118646.2326445794,1163211.0
+SYN-0004647,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1701200.0,1942321.1598150455,1991414.0
+SYN-0136826,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,553100.0,585911.8584621074,594129.0
+SYN-0046291,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,930100.0,1107017.6987960525,1121661.0
+SYN-0031515,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1786900.0,2446729.3915005364,2492294.0
+SYN-0083615,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,883300.0,1018135.950139077,1046640.0
+SYN-0125409,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1182000.0,1096604.1619332135,1082212.0
+SYN-0154426,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1542500.0,1708662.044527834,1708160.0
+SYN-0055469,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1221200.0,2217680.084288173,2448557.0
+SYN-0072900,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1366100.0,926171.2986508035,958173.0
+SYN-0056968,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,855800.0,874289.6736279307,921419.0
+SYN-0039636,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,399700.0,399488.78690649633,432188.0
+SYN-0125822,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,392700.0,420690.6495387647,441061.0
+SYN-0031827,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,485500.0,487146.3483595642,459810.0
+SYN-0133520,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1155000.0,1358740.5670205273,1332550.0
+SYN-0023176,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2050600.0,2345038.4884349005,2327154.0
+SYN-0077761,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3759300.0,4264503.43614754,4490546.0
+SYN-0048139,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,727600.0,898974.0090088671,933892.0
+SYN-0090979,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,570400.0,605299.1271615813,575323.0
+SYN-0026246,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,380700.0,420240.3234052002,422014.0
+SYN-0122268,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,574200.0,646650.2095397202,664198.0
+SYN-0008001,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,716400.0,625491.2657851783,536696.0
+SYN-0146069,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,828600.0,1001057.5237170481,1002866.0
+SYN-0053156,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1287600.0,1251617.1195857853,1286545.0
+SYN-0045084,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,531300.0,660541.681928951,637510.0
+SYN-0059201,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,874600.0,921036.7256470617,971493.0
+SYN-0046672,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,402000.0,438661.024138942,423943.0
+SYN-0040429,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,552400.0,578851.307954555,562659.0
+SYN-0115835,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,440200.0,402938.7529488227,392675.0
+SYN-0064609,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1061200.0,1346971.136229983,1360774.0
+SYN-0084946,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,618000.0,541361.2911988545,533015.0
+SYN-0046105,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,558400.0,494478.62447849684,464827.0
+SYN-0011152,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,743500.0,797808.1593736664,813221.0
+SYN-0043267,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,521800.0,836653.856775912,831342.0
+SYN-0107075,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,877000.0,1007570.6864260675,1063672.0
+SYN-0051796,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,880100.0,1118123.429684934,1094297.0
+SYN-0129117,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,659600.0,685579.1334133139,630619.0
+SYN-0129445,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,716200.0,747472.2764075468,759276.0
+SYN-0117457,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1141500.0,1174103.8016978765,1162794.0
+SYN-0044226,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,421200.0,363440.158410601,356716.0
+SYN-0118972,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,501800.0,579861.9393403517,636415.0
+SYN-0067004,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,658700.0,651451.8787268379,689887.0
+SYN-0087167,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1104300.0,1073548.585322409,1088307.0
+SYN-0098420,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,516600.0,532123.0984068946,515719.0
+SYN-0050521,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,718200.0,663440.0702825593,638451.0
+SYN-0087446,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,2437200.0,2078856.1209059786,1715454.0
+SYN-0143155,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,935300.0,863281.2973678765,852093.0
+SYN-0101835,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1238200.0,1148696.715408207,1133814.0
+SYN-0062630,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,645000.0,606088.5937388841,601712.0
+SYN-0083434,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,408400.0,424088.2240081464,466753.0
+SYN-0013543,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,636200.0,683642.5658819792,658529.0
+SYN-0022855,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,664600.0,620625.8623724454,636486.0
+SYN-0045293,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2189900.0,2184886.023479873,2056700.0
+SYN-0014967,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1082800.0,1068040.7861328474,1087858.0
+SYN-0150916,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,443600.0,604237.2972794424,619726.0
+SYN-0017341,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,912900.0,862802.8380109341,904601.0
+SYN-0026345,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1176100.0,1186169.154608049,1197966.0
+SYN-0139445,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,718900.0,781724.1992471452,759200.0
+SYN-0031807,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1155500.0,905113.3570804413,920038.0
+SYN-0009881,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1124100.0,1066761.9595507607,1077941.0
+SYN-0140510,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,509500.0,593438.0783216553,595614.0
+SYN-0001536,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,967600.0,657876.5929083868,632927.0
+SYN-0113559,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,944300.0,885916.6260238724,899520.0
+SYN-0153149,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,693700.0,598576.5256966815,634961.0
+SYN-0001632,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,886900.0,993294.1258653614,1111840.0
+SYN-0067402,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1091000.0,888229.81618626,884361.0
+SYN-0006177,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,476400.0,480728.26221594005,485335.0
+SYN-0050256,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1136800.0,1119377.2834133822,1037885.0
+SYN-0100349,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,445500.0,467435.2488526169,445070.0
+SYN-0006967,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,454700.0,517938.2170013794,527028.0
+SYN-0098899,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,515700.0,572616.3069610166,613794.0
+SYN-0038649,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,457300.0,498392.74387806794,487931.0
+SYN-0098521,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,610400.0,585962.720683725,600719.0
+SYN-0146508,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1625800.0,1535085.7292817493,1624338.0
+SYN-0149790,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,465600.0,520281.2173972939,564072.0
+SYN-0088126,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1551200.0,1536838.534125808,1466083.0
+SYN-0035630,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,683100.0,625812.4713018052,631696.0
+SYN-0128151,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1562800.0,1670974.8546503708,1588342.0
+SYN-0016551,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1958000.0,1806146.5561234949,1758162.0
+SYN-0050485,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,702000.0,696345.626714721,682206.0
+SYN-0113324,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,405500.0,451418.49350650236,492415.0
+SYN-0047415,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,471400.0,504437.5143675572,524028.0
+SYN-0070653,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,813200.0,1169912.3122153482,1184626.0
+SYN-0102742,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,632900.0,719656.4150999712,724094.0
+SYN-0031336,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,836400.0,807461.2751164781,820978.0
+SYN-0018248,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,446300.0,453423.1645762434,475494.0
+SYN-0114436,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,473200.0,442339.1375197515,433496.0
+SYN-0062818,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,768700.0,666717.4004446142,586578.0
+SYN-0110992,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,529600.0,554035.2817967499,537304.0
+SYN-0020274,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,740300.0,823231.6849673609,827615.0
+SYN-0130075,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1016000.0,844741.5034425776,870427.0
+SYN-0058131,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,556700.0,668108.8547243025,725948.0
+SYN-0065032,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,5168500.0,3823448.529808516,4331678.0
+SYN-0058319,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1349800.0,1250663.58039901,1322171.0
+SYN-0059297,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,486200.0,486504.728632064,488995.0
+SYN-0004339,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,437700.0,556230.8610004941,548124.0
+SYN-0051881,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1610700.0,1763025.8313316647,1790436.0
+SYN-0071091,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1659200.0,1843142.7603660815,1739439.0
+SYN-0083827,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,6874800.0,5946335.838534806,5617793.0
+SYN-0127469,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1303300.0,1652674.623188255,1594465.0
+SYN-0063010,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,364600.0,381206.2897014219,414263.0
+SYN-0033092,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,310600.0,394448.86639383784,423830.0
+SYN-0096866,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,430900.0,440556.94886432355,454963.0
+SYN-0015015,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1398600.0,1778573.414622902,1832852.0
+SYN-0150754,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,468200.0,463576.98393931275,470802.0
+SYN-0133700,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,840800.0,766979.1623704783,753726.0
+SYN-0107223,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1519500.0,1318610.740247702,1511948.0
+SYN-0071313,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1106900.0,1152130.155459197,1173714.0
+SYN-0029251,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1799100.0,1266610.2675222938,1190674.0
+SYN-0132880,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,452200.0,530879.6352308309,569687.0
+SYN-0067698,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,739300.0,636381.6335360577,699869.0
+SYN-0155445,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,517400.0,558654.664195779,570275.0
+SYN-0125139,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,488100.0,524632.1088192087,552335.0
+SYN-0042987,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,619800.0,633668.4410475148,653526.0
+SYN-0063474,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1356100.0,1678961.8860357455,1821628.0
+SYN-0108509,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,524100.0,586155.2298809917,600725.0
+SYN-0039044,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,400600.0,397746.08422899013,421736.0
+SYN-0038888,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,600000.0,629438.6723825029,625812.0
+SYN-0055988,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,478900.0,611958.059017851,603744.0
+SYN-0102757,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,734700.0,874117.3071892344,918179.0
+SYN-0040700,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,528400.0,602652.2944107804,652878.0
+SYN-0137188,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,429000.0,418922.17265831825,427889.0
+SYN-0059380,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,369600.0,407349.08212023,438553.0
+SYN-0090333,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,889700.0,980945.2083170405,960776.0
+SYN-0010882,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1539000.0,1807517.749177337,1831653.0
+SYN-0051005,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,871600.0,856602.2788969753,768929.0
+SYN-0010038,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,373800.0,452818.5463948428,478159.0
+SYN-0060753,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,935000.0,945400.2657772958,944289.0
+SYN-0115297,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,550800.0,604977.6890055547,615244.0
+SYN-0102683,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1169800.0,1131621.0286769897,1182623.0
+SYN-0006021,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,926600.0,600874.769809389,602345.0
+SYN-0151076,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,547800.0,510870.2304244318,527547.0
+SYN-0139634,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,489800.0,515942.2884084713,504464.0
+SYN-0046259,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1155300.0,1219131.9702112984,1245645.0
+SYN-0078397,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,740300.0,917364.468859868,913357.0
+SYN-0101178,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1151000.0,1152129.15612983,1183549.0
+SYN-0131212,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4019800.0,3996036.168935396,4331184.0
+SYN-0068388,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3456800.0,3493833.880163083,3387257.0
+SYN-0014650,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,553400.0,588559.3292450915,555799.0
+SYN-0091624,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,934900.0,1003028.819437524,979393.0
+SYN-0134193,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,554300.0,487541.32697710145,526410.0
+SYN-0069414,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,590700.0,713179.3789363211,739655.0
+SYN-0095873,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,666800.0,682391.071596281,669230.0
+SYN-0072217,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1245800.0,1434881.7372675121,1370982.0
+SYN-0051846,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,393700.0,428919.673780325,473265.0
+SYN-0130692,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1373400.0,1300367.7492159845,1346742.0
+SYN-0069395,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,511400.0,600393.457949851,663265.0
+SYN-0088896,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3423400.0,4090714.8121771943,4440011.0
+SYN-0145128,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,395200.0,449592.93729018635,558389.0
+SYN-0147814,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,481500.0,484871.5730422009,485275.0
+SYN-0112714,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,664700.0,772076.3358393536,769261.0
+SYN-0119752,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,2292100.0,2544491.080382352,2283875.0
+SYN-0041943,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,442700.0,462378.5469302556,509780.0
+SYN-0060294,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,890900.0,933888.1794874353,936339.0
+SYN-0132686,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2300800.0,2276633.0774480365,2566688.0
+SYN-0121851,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,376000.0,432785.47650850116,449628.0
+SYN-0085156,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,903700.0,742019.9159639559,777620.0
+SYN-0009254,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,453500.0,416544.20382707054,426625.0
+SYN-0156886,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,625200.0,790639.6863237162,838984.0
+SYN-0087473,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1305200.0,918278.2855075671,837251.0
+SYN-0110137,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,425900.0,423912.93400600454,425971.0
+SYN-0018498,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,700800.0,615047.1686779186,627407.0
+SYN-0029937,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1438500.0,1198317.6848031543,1244033.0
+SYN-0057476,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,569700.0,658961.4117262611,716247.0
+SYN-0096919,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,595300.0,601566.3249909461,629291.0
+SYN-0032401,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,614000.0,660612.0492838048,679798.0
+SYN-0104155,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,528500.0,546395.1840691881,554546.0
+SYN-0126217,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,405500.0,444253.68999184127,408293.0
+SYN-0151970,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,328400.0,340869.66855148796,367744.0
+SYN-0003743,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1229300.0,1240000.6113188975,1294824.0
+SYN-0121676,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,564100.0,589421.3695169683,629117.0
+SYN-0115469,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,780200.0,778067.5507669966,828088.0
+SYN-0121232,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,842800.0,930684.7560786237,937022.0
+SYN-0145013,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,791500.0,646993.8154198423,634322.0
+SYN-0027421,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,491300.0,567496.656206976,600241.0
+SYN-0097395,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1583100.0,1312572.2380497556,1339090.0
+SYN-0007017,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,659400.0,637799.8304695439,594236.0
+SYN-0038657,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,573500.0,458975.58967299614,435029.0
+SYN-0061501,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,549800.0,595873.8063840758,599598.0
+SYN-0023726,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1100900.0,1339486.5999132856,1338702.0
+SYN-0125866,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,491700.0,541940.6854891641,509037.0
+SYN-0102297,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,723700.0,792763.2431441844,786176.0
+SYN-0007147,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,942000.0,1111553.5870765306,1139617.0
+SYN-0101306,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1520500.0,1342389.0494407532,1457242.0
+SYN-0005106,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,531300.0,556541.5630529636,530974.0
+SYN-0007720,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,367300.0,384542.7401860459,386468.0
+SYN-0135596,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,607700.0,576008.2115079202,584097.0
+SYN-0134567,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,964100.0,789318.0496616662,830259.0
+SYN-0110508,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1024700.0,1167533.4968390742,1152368.0
+SYN-0137751,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,506600.0,534672.8478445013,530141.0
+SYN-0065368,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,856700.0,805283.3496768497,816489.0
+SYN-0060716,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,565300.0,555313.1867201374,600391.0
+SYN-0024402,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,377300.0,380593.0208263634,391045.0
+SYN-0093601,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,647200.0,568089.6267204881,568689.0
+SYN-0146501,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,899400.0,819251.4430269697,823839.0
+SYN-0077783,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,351300.0,410162.0307280703,474872.0
+SYN-0008600,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,663800.0,666897.1141665002,632566.0
+SYN-0014980,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1127100.0,1028285.2154595006,1005059.0
+SYN-0143202,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1457500.0,1277380.759472861,1270468.0
+SYN-0119340,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,317600.0,334810.6338552145,358571.0
+SYN-0130613,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,842900.0,848479.4308362374,875746.0
+SYN-0041486,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,752700.0,674179.6573349589,646469.0
+SYN-0039910,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,521500.0,513965.71834688383,571142.0
+SYN-0090126,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,696400.0,815708.196651906,837935.0
+SYN-0117239,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1561900.0,1616247.6036146085,1676885.0
+SYN-0015414,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,355600.0,384670.8966483318,406720.0
+SYN-0111214,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,418700.0,434868.8272289011,485952.0
+SYN-0112021,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,940800.0,896729.2798901077,831586.0
+SYN-0016346,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1397500.0,1199297.3548411613,1223967.0
+SYN-0079552,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,924500.0,1119319.8821686285,1044539.0
+SYN-0125180,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1097500.0,982499.2871027022,998511.0
+SYN-0135209,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1111800.0,1222158.0177543305,1327586.0
+SYN-0035668,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,807200.0,901246.5929787664,864427.0
+SYN-0140568,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,431300.0,414826.45283394156,435029.0
+SYN-0069018,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2836300.0,2723145.717760696,2684091.0
+SYN-0048245,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,847500.0,739135.6733706794,736380.0
+SYN-0061076,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,550400.0,554628.8906194038,538436.0
+SYN-0112566,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1764600.0,1310522.1789665911,1295530.0
+SYN-0017933,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,1049600.0,1055618.4033594786,1013274.0
+SYN-0088364,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1254600.0,806572.9104940491,787869.0
+SYN-0091966,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,499000.0,544744.2507691028,538021.0
+SYN-0092188,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1149600.0,1331649.7724623533,1405877.0
+SYN-0038826,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,349300.0,372741.66985626123,392357.0
+SYN-0063863,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,916800.0,1080955.2799084485,1081833.0
+SYN-0031114,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,372900.0,443149.67725156376,448439.0
+SYN-0143224,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,763800.0,693196.0299044516,724910.0
+SYN-0122296,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,445600.0,485706.05970207043,493104.0
+SYN-0046097,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,849500.0,956283.0603214295,973614.0
+SYN-0087644,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1627000.0,1723077.3102908381,1721981.0
+SYN-0021671,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,520800.0,558545.2732433894,551233.0
+SYN-0059059,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1007200.0,859160.7632064013,873876.0
+SYN-0080946,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1029400.0,1348965.6600262716,1502841.0
+SYN-0004550,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,544200.0,572609.4088686794,622327.0
+SYN-0040872,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1670200.0,1697505.7441715833,1718439.0
+SYN-0139040,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1206600.0,1472342.171827452,1527193.0
+SYN-0012206,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,773000.0,795547.2643420529,843396.0
+SYN-0119107,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,803100.0,1060280.2576042165,1059469.0
+SYN-0005364,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1201400.0,1245752.3837671787,1254570.0
+SYN-0063533,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,727400.0,938887.5627381636,1027619.0
+SYN-0073814,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,424700.0,434587.56537971174,423943.0
+SYN-0096175,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1596700.0,1210035.639551973,1184987.0
+SYN-0016087,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,425500.0,426871.41184295045,444680.0
+SYN-0034026,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,448100.0,528917.7059750027,557075.0
+SYN-0040174,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1131300.0,1219382.32323125,1222738.0
+SYN-0152945,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,569800.0,584034.487663731,591450.0
+SYN-0107993,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1116400.0,1223676.6417089722,1254835.0
+SYN-0129947,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,318300.0,474370.98608103365,499456.0
+SYN-0076223,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,576300.0,765181.5853710405,806733.0
+SYN-0051794,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,796000.0,820208.5321508658,776327.0
+SYN-0094633,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,695500.0,895451.8140200571,924518.0
+SYN-0092194,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,754200.0,791220.0943374576,796775.0
+SYN-0028781,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,506300.0,531277.5774670964,589522.0
+SYN-0091759,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1012800.0,903013.6168462082,872349.0
+SYN-0015267,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,644000.0,661276.2331763001,581047.0
+SYN-0064975,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,646000.0,715270.4651015775,717709.0
+SYN-0135544,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,895500.0,921327.9625554386,875211.0
+SYN-0120927,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,802600.0,872615.3798258159,904841.0
+SYN-0146281,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,769200.0,715323.2714210233,758787.0
+SYN-0156010,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1123700.0,763923.9898811489,773323.0
+SYN-0083259,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1088900.0,813516.2974849566,755398.0
+SYN-0022436,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1041500.0,1029810.3893947935,1056305.0
+SYN-0020855,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,404500.0,358347.36849508545,374102.0
+SYN-0145693,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,778500.0,902159.2379292152,944839.0
+SYN-0045873,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,805300.0,717958.2037562374,702308.0
+SYN-0136207,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2336200.0,3241551.9161709026,3167095.0
+SYN-0005440,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,849800.0,707760.4866030012,720750.0
+SYN-0007838,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,995900.0,1132365.942434241,1129886.0
+SYN-0077977,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,983600.0,832237.5581441391,880194.0
+SYN-0075852,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1418800.0,1249163.4339806351,1347417.0
+SYN-0140493,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,2025500.0,1454104.2498366046,1450024.0
+SYN-0097269,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,650600.0,684797.8825879165,682183.0
+SYN-0116454,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,853300.0,733650.3611637036,716048.0
+SYN-0122390,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,865100.0,839727.5408523622,845801.0
+SYN-0100719,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,382700.0,409601.66862848355,419682.0
+SYN-0029563,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,488400.0,545933.77756268,543940.0
+SYN-0050111,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1042700.0,982887.7137102465,956567.0
+SYN-0080592,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1094200.0,1184839.4856694222,1188599.0
+SYN-0137047,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4383900.0,5499223.1668588845,5204394.0
+SYN-0063201,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,601400.0,799902.5174509559,822562.0
+SYN-0111571,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1020600.0,1089355.3652191295,983328.0
+SYN-0108776,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,873600.0,848414.0027703164,954040.0
+SYN-0150798,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1311700.0,1221817.940188239,1254855.0
+SYN-0021698,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1370400.0,1673085.3778375136,1636923.0
+SYN-0150864,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,941500.0,1170507.822943908,1225849.0
+SYN-0074673,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,428300.0,537249.666245528,576175.0
+SYN-0111127,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,816800.0,1323679.0715893586,1269807.0
+SYN-0017930,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1004600.0,1048701.9198168775,1066886.0
+SYN-0097587,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1350900.0,1366904.4940237189,1352946.0
+SYN-0012832,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Co-Op Apt,874500.0,646845.6719205909,647424.0
+SYN-0067989,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,971700.0,1029179.7631908866,980147.0
+SYN-0022492,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,477600.0,494181.5691589226,482666.0
+SYN-0026152,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,897400.0,1094270.8940885556,1116327.0
+SYN-0095908,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,437300.0,419388.6249614612,399797.0
+SYN-0118142,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,632200.0,688853.9825796812,724335.0
+SYN-0025366,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,976500.0,981783.1052788516,947303.0
+SYN-0018225,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2084500.0,2001013.296503097,2046633.0
+SYN-0110485,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,910700.0,736668.4488890223,801906.0
+SYN-0023898,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,616300.0,604532.1475981184,543945.0
+SYN-0104347,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,361800.0,417852.0489309848,439318.0
+SYN-0032214,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,322100.0,360444.149136504,364758.0
+SYN-0083971,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,701500.0,773499.4503046593,758230.0
+SYN-0110835,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1555500.0,1670367.5973842817,1637727.0
+SYN-0011130,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,414000.0,416827.00980040134,467829.0
+SYN-0020446,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,699800.0,648917.4608675123,660653.0
+SYN-0090038,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,374100.0,328502.3765032893,344655.0
+SYN-0074371,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1219100.0,1443521.602445387,1442585.0
+SYN-0111721,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1474400.0,1147324.2073630814,1076278.0
+SYN-0040477,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,499000.0,548349.8195527744,513902.0
+SYN-0035058,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2038400.0,2012687.3791187147,2018592.0
+SYN-0047076,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,880100.0,768500.3953396289,770059.0
+SYN-0146402,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,759700.0,843138.9961449517,837833.0
+SYN-0000449,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1381100.0,1225059.099477789,1302353.0
+SYN-0086934,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,789300.0,670700.7852125328,637893.0
+SYN-0086277,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,500300.0,490340.21105366485,457336.0
+SYN-0125478,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,628600.0,615269.5034611315,621328.0
+SYN-0127577,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1122200.0,1066891.7212493308,1055097.0
+SYN-0101141,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,945500.0,1128251.6974454692,1157284.0
+SYN-0039142,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1058600.0,927198.2406287435,929232.0
+SYN-0017995,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,500800.0,595230.9033724852,570012.0
+SYN-0011752,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,371600.0,410582.1958496722,437657.0
+SYN-0056644,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,412800.0,530937.6729151445,567725.0
+SYN-0043093,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1965200.0,1725837.1236416998,1710446.0
+SYN-0138340,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1376500.0,1210025.7052610777,1220766.0
+SYN-0001364,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2677300.0,2486420.694998782,2625152.0
+SYN-0028097,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,849900.0,922964.3680252979,869460.0
+SYN-0012333,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1021800.0,1110052.7038834004,1121749.0
+SYN-0024283,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,686600.0,629186.78820466,724126.0
+SYN-0091022,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,993300.0,1022535.9516018578,969427.0
+SYN-0044442,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,624200.0,758578.1273113298,717839.0
+SYN-0128124,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,995000.0,1106087.78859069,1034323.0
+SYN-0074735,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,420400.0,439201.8054153121,430806.0
+SYN-0010917,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,815800.0,754342.2408647309,686948.0
+SYN-0007554,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,563000.0,557903.2129021169,601477.0
+SYN-0112161,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1496300.0,1210497.894208251,1190256.0
+SYN-0127860,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,528600.0,524003.7462507139,497241.0
+SYN-0047954,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,879600.0,816701.8263135896,805110.0
+SYN-0009265,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,854800.0,851663.7941724599,881231.0
+SYN-0073741,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,549100.0,567096.3791423524,592442.0
+SYN-0016499,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1071200.0,1088551.4756389682,1084461.0
+SYN-0028442,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,563700.0,493808.9746612207,439843.0
+SYN-0073846,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,423400.0,554589.7439003678,575986.0
+SYN-0087095,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1368700.0,1265227.7012338836,1369562.0
+SYN-0111446,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,564200.0,545553.3229190159,542304.0
+SYN-0000912,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,559700.0,451913.32420335914,458652.0
+SYN-0049321,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,673400.0,820059.4228196393,856654.0
+SYN-0142231,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,405700.0,366795.0211224401,363733.0
+SYN-0104282,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,701900.0,618211.1650614719,612083.0
+SYN-0142822,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1520300.0,1793414.4797498912,2048936.0
+SYN-0071541,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1315800.0,1502246.7675299984,1585015.0
+SYN-0153069,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,650300.0,745530.0525052736,746497.0
+SYN-0032170,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,249100.0,363318.4859530826,400886.0
+SYN-0152255,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,885900.0,709999.158973342,713880.0
+SYN-0049853,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,863100.0,813006.8455751615,857188.0
+SYN-0148330,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,614400.0,707264.3224048282,704883.0
+SYN-0047130,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3107300.0,2627068.333530683,2662228.0
+SYN-0010239,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,412900.0,436885.1789789818,443926.0
+SYN-0115483,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2018600.0,1689153.752873663,1838312.0
+SYN-0047526,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,652600.0,611944.0797100574,596122.0
+SYN-0099403,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,390400.0,486047.32766768837,555853.0
+SYN-0016407,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,630800.0,662149.8755337471,636324.0
+SYN-0113004,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,552100.0,531677.640352075,558609.0
+SYN-0128064,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,902700.0,1304613.5648589805,1309740.0
+SYN-0002303,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,346400.0,395358.6447409828,429369.0
+SYN-0021534,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,677700.0,667797.0334459128,644476.0
+SYN-0114322,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,669700.0,701785.9623115283,711267.0
+SYN-0125340,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,611000.0,663822.7843375377,660781.0
+SYN-0053624,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,472100.0,482080.3601789755,459032.0
+SYN-0126577,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,627800.0,777352.6096668047,797115.0
+SYN-0152344,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,644000.0,890522.0836301121,931295.0
+SYN-0137434,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,484100.0,491365.4612649,456078.0
+SYN-0157702,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,490800.0,502804.1805931374,503218.0
+SYN-0081802,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1348300.0,1101286.3701590034,1112541.0
+SYN-0013665,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1391200.0,1075711.513404508,1136161.0
+SYN-0022151,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,450700.0,518024.202349245,566316.0
+SYN-0128699,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,475800.0,626113.5457282192,625248.0
+SYN-0126041,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,393400.0,469369.81632418715,504122.0
+SYN-0155222,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,722300.0,645142.3357470769,655979.0
+SYN-0125321,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,835900.0,950959.7019987951,938800.0
+SYN-0088151,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1735300.0,1680323.1239752122,1750856.0
+SYN-0011170,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,776400.0,820757.4145821398,850106.0
+SYN-0077946,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,674000.0,508180.1821473212,480749.0
+SYN-0141445,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,436300.0,447558.40366402,486239.0
+SYN-0088919,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1844100.0,1892886.5010617692,1908236.0
+SYN-0142889,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1145500.0,894310.6548012175,931027.0
+SYN-0076035,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1609900.0,1721152.770222215,1732921.0
+SYN-0145982,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,994200.0,1091649.664198461,1032267.0
+SYN-0108965,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2535500.0,1770156.1699065312,1871139.0
+SYN-0008549,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,471100.0,491636.7598154309,498277.0
+SYN-0030007,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1183700.0,1167457.229549814,1247482.0
+SYN-0083090,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,482500.0,469307.58034554124,481797.0
+SYN-0144636,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,878200.0,773154.5994431218,762297.0
+SYN-0049654,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,498700.0,738041.799906825,734589.0
+SYN-0029008,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,573100.0,541890.1565195557,527682.0
+SYN-0011154,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,757600.0,914350.3179538012,899549.0
+SYN-0141741,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,589900.0,613248.507743892,630075.0
+SYN-0120035,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,762300.0,715287.9034666606,689878.0
+SYN-0080933,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,605400.0,557536.614140824,556939.0
+SYN-0067626,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,398900.0,450975.6472417704,437389.0
+SYN-0073113,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,454900.0,483150.5066177987,504561.0
+SYN-0019838,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,533300.0,490407.62142956315,466595.0
+SYN-0050520,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1245900.0,1003513.2243640847,949675.0
+SYN-0010497,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,966600.0,1258505.250446589,1213864.0
+SYN-0087613,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,782200.0,751458.3476472696,743671.0
+SYN-0055488,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,336400.0,382117.4646343227,382777.0
+SYN-0111769,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2610500.0,1795488.9238750942,1863030.0
+SYN-0064822,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,406300.0,412935.3414742315,413653.0
+SYN-0121969,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,933900.0,808190.7814473424,769763.0
+SYN-0078002,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1218900.0,1074563.2912051042,1028006.0
+SYN-0111932,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,2263000.0,2090596.815305427,2009117.0
+SYN-0012289,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,877300.0,874927.7286922905,870129.0
+SYN-0116575,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1011100.0,929659.8554347362,888874.0
+SYN-0090097,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,477200.0,508806.75654774177,540950.0
+SYN-0126324,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,750200.0,700070.2310396932,670119.0
+SYN-0000519,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,816800.0,1011135.1778377977,1093825.0
+SYN-0116330,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,494400.0,457217.7341953304,491191.0
+SYN-0070478,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,413700.0,422964.44688853127,447579.0
+SYN-0051531,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1277800.0,1194252.4853109415,1269260.0
+SYN-0053608,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,454900.0,464335.6474970256,439734.0
+SYN-0041989,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,901400.0,883457.4223973027,820412.0
+SYN-0154948,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,587900.0,551409.9583315678,576003.0
+SYN-0020793,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,816000.0,867865.3812287973,883866.0
+SYN-0044616,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,587800.0,584454.8620898722,564879.0
+SYN-0151553,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2065800.0,2306528.4639946623,2439669.0
+SYN-0068582,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2457800.0,1801076.0101777397,1743328.0
+SYN-0070508,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,315000.0,349834.82885426003,356858.0
+SYN-0049755,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1002800.0,1085690.8920552821,1022559.0
+SYN-0004262,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,643900.0,570227.7478730291,546161.0
+SYN-0065460,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,366700.0,359089.15015845664,372291.0
+SYN-0036742,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1753700.0,1516188.047838827,1504259.0
+SYN-0018047,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,720100.0,601525.9952501368,585676.0
+SYN-0129806,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,681000.0,635483.5803451488,631884.0
+SYN-0107416,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1372600.0,1480536.699668817,1502430.0
+SYN-0143857,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,810600.0,715327.0411927706,698535.0
+SYN-0053846,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,703800.0,733088.5146962315,777586.0
+SYN-0110743,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1070200.0,903498.0730522828,893399.0
+SYN-0103553,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,447900.0,399464.09680188826,404421.0
+SYN-0112081,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,602900.0,616238.7313469808,614206.0
+SYN-0081749,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,727300.0,813088.4476020007,809191.0
+SYN-0078898,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2217500.0,1901657.4423939367,2002277.0
+SYN-0108995,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,527100.0,444931.02723793,432814.0
+SYN-0103775,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1020300.0,1602301.166885488,1547500.0
+SYN-0022510,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1968000.0,2031136.452546077,2047907.0
+SYN-0013412,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,563800.0,572988.3696063397,538026.0
+SYN-0113517,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,494700.0,470574.0329751797,454189.0
+SYN-0077949,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,990400.0,963710.6759778882,970931.0
+SYN-0045435,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,978100.0,1099118.0934435693,1065431.0
+SYN-0146259,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1537900.0,1523259.026949772,1687237.0
+SYN-0133911,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,599000.0,620809.9256159792,682824.0
+SYN-0154078,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,505900.0,536386.3781234057,553402.0
+SYN-0138352,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,380000.0,443253.0821070635,431527.0
+SYN-0089904,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,780700.0,785892.9615554946,738263.0
+SYN-0110208,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,760800.0,832686.3801465866,757483.0
+SYN-0143259,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1703100.0,1318833.7697793357,1313095.0
+SYN-0076270,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,841000.0,782233.5965030838,755748.0
+SYN-0076461,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,933600.0,1121231.1313696068,1072364.0
+SYN-0113365,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1241700.0,1537019.3406294892,1579878.0
+SYN-0023591,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,552800.0,554279.1216605494,530354.0
+SYN-0147729,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1026700.0,1076631.6753552738,1046993.0
+SYN-0036987,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,590900.0,557582.651330012,560816.0
+SYN-0110364,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1089400.0,1057568.7172188621,1055555.0
+SYN-0020279,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,851900.0,967703.9398873617,1028975.0
+SYN-0111307,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2208500.0,1724579.6093155034,1760911.0
+SYN-0110568,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,448100.0,462115.43161097204,469059.0
+SYN-0028559,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,567600.0,455975.5092454059,453429.0
+SYN-0138984,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,505400.0,601339.9178870798,590084.0
+SYN-0105382,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1060700.0,1169735.7561217463,1136622.0
+SYN-0117984,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,440800.0,462560.0402440789,487170.0
+SYN-0113226,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,496600.0,514482.1187619459,500179.0
+SYN-0003738,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,683300.0,748416.7038457601,782280.0
+SYN-0061876,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1284100.0,1325554.6154437095,1293841.0
+SYN-0016495,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,867500.0,788231.679525945,804035.0
+SYN-0090301,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,368200.0,395566.2817603062,413249.0
+SYN-0057865,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1460700.0,1273245.680434491,1262368.0
+SYN-0108821,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,447300.0,425471.0867649005,494011.0
+SYN-0019067,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,563700.0,576946.1557271002,595141.0
+SYN-0157721,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,712800.0,652808.2488824102,638596.0
+SYN-0098276,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,994300.0,1105853.818531877,1037775.0
+SYN-0065376,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1735500.0,1529091.0148759705,1537138.0
+SYN-0134982,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,462500.0,517851.6936253752,531384.0
+SYN-0110853,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,843800.0,989739.6561815169,1015710.0
+SYN-0119474,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1464100.0,1184206.746202857,1228626.0
+SYN-0097420,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,544600.0,586513.6624155022,595928.0
+SYN-0093697,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,661600.0,554054.3881629776,511409.0
+SYN-0108473,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,454100.0,460073.0694310239,512016.0
+SYN-0108934,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1636600.0,1844968.858430154,1965375.0
+SYN-0022607,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,774500.0,798222.0998324612,757044.0
+SYN-0086410,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,482200.0,484559.31942489144,436636.0
+SYN-0084413,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,817100.0,898215.8595938924,914831.0
+SYN-0095386,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,413000.0,416812.14152451267,456827.0
+SYN-0041811,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,691300.0,662220.2738258645,598540.0
+SYN-0061420,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1446700.0,1539823.9836671983,1722997.0
+SYN-0027767,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,641600.0,675852.7237595653,694382.0
+SYN-0028785,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,572500.0,615590.9238800703,632245.0
+SYN-0088196,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,710200.0,622525.7230120302,625336.0
+SYN-0009000,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1666900.0,1660579.3117173708,1569746.0
+SYN-0089112,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1252900.0,1313501.2817609555,1243968.0
+SYN-0026612,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,644800.0,631587.2002045517,614316.0
+SYN-0109324,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,861200.0,1005146.0240811461,1006968.0
+SYN-0087840,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,463000.0,477769.73535422067,456641.0
+SYN-0112499,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,468400.0,464553.00127229834,484355.0
+SYN-0082411,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1189100.0,1186173.3200239358,1162682.0
+SYN-0032147,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1316300.0,1572987.9378369646,1550146.0
+SYN-0086688,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,450500.0,488006.0318362493,505132.0
+SYN-0094764,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,498000.0,633090.270820172,642050.0
+SYN-0099347,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,371100.0,408192.1972362065,373320.0
+SYN-0036653,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1704400.0,1438177.9284929223,1407505.0
+SYN-0018899,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,447900.0,469958.2860476092,494685.0
+SYN-0008468,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,386000.0,385044.5925221416,419931.0
+SYN-0098245,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,538000.0,648030.1877022069,665667.0
+SYN-0081536,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1483100.0,1721889.9682030475,1714950.0
+SYN-0091255,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,892700.0,836237.6831845606,883812.0
+SYN-0086941,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1461600.0,1273134.259170132,1327513.0
+SYN-0099111,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,487700.0,482279.8595604472,503618.0
+SYN-0037926,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1647500.0,1353984.0751434804,1351710.0
+SYN-0087251,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,776800.0,752731.6532601484,789286.0
+SYN-0028159,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,996300.0,1167875.6205328603,1236316.0
+SYN-0056010,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,511400.0,553500.6855457424,591545.0
+SYN-0018931,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,609500.0,614397.9534593126,599666.0
+SYN-0054554,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,524700.0,517971.6005293819,486147.0
+SYN-0146882,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1025900.0,1204379.7059370754,1229948.0
+SYN-0094749,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,802200.0,816604.5880099479,825741.0
+SYN-0140367,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,888700.0,876934.0508285158,879590.0
+SYN-0101608,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,7404900.0,2864093.0542138517,2936674.0
+SYN-0126720,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,533800.0,552830.7684106546,557366.0
+SYN-0052961,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1199500.0,1010400.9906227416,884697.0
+SYN-0003166,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1224200.0,1091467.1029819362,1024207.0
+SYN-0131267,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,905800.0,807009.0107818103,698629.0
+SYN-0084774,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,727300.0,822998.1891863518,834008.0
+SYN-0080032,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1347800.0,1152459.2631256606,1160408.0
+SYN-0070609,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,479000.0,524497.3778900485,551651.0
+SYN-0103460,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,542600.0,532553.1893840085,515775.0
+SYN-0026983,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,842000.0,843602.0490623127,862991.0
+SYN-0112148,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1435700.0,1536214.6375602682,1607044.0
+SYN-0024635,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,999800.0,879249.9015551414,923744.0
+SYN-0024968,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1454500.0,1704150.5689851008,1679924.0
+SYN-0065033,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,586000.0,587979.4989147236,548922.0
+SYN-0134863,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,731700.0,936099.9513084652,943630.0
+SYN-0089956,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,690500.0,789695.391526918,818166.0
+SYN-0095861,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1391500.0,1331236.0753053967,1355790.0
+SYN-0087961,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,869200.0,929995.0287219102,902644.0
+SYN-0039132,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,669900.0,717191.1858735495,723705.0
+SYN-0084313,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1007700.0,1151011.5549567775,1217922.0
+SYN-0093634,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,817600.0,711211.188081386,715783.0
+SYN-0012608,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,837800.0,747665.9217334837,780167.0
+SYN-0018053,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,632300.0,631746.1048640816,677182.0
+SYN-0067614,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,596900.0,555565.2462218901,495335.0
+SYN-0115130,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,837800.0,845379.8170493859,756602.0
+SYN-0131968,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,545000.0,547478.6786919145,572765.0
+SYN-0110407,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,501400.0,462004.0160776272,483819.0
+SYN-0036315,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,518200.0,621953.843328706,619701.0
+SYN-0123200,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,436200.0,448827.3137747451,457881.0
+SYN-0145133,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,559000.0,555714.5855250281,540677.0
+SYN-0061855,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,773700.0,729494.6722542081,757900.0
+SYN-0060766,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1730200.0,1961237.1778133926,1836792.0
+SYN-0051853,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,596800.0,720618.1589759623,702156.0
+SYN-0084944,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,920000.0,869275.9831808325,871337.0
+SYN-0076352,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4751900.0,4653304.049081129,4798177.0
+SYN-0092749,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1113200.0,1180544.6127617343,1195806.0
+SYN-0045037,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,748700.0,856522.4195810149,924784.0
+SYN-0096292,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,428500.0,460127.75443861866,479027.0
+SYN-0017351,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,840600.0,868900.8106599321,911665.0
+SYN-0092171,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,755900.0,674213.7264252629,684645.0
+SYN-0131870,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,979500.0,712852.4984674508,797910.0
+SYN-0077237,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,773900.0,912796.8610525033,924287.0
+SYN-0065666,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,473800.0,635617.7419341443,651847.0
+SYN-0138627,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,650900.0,620668.1684994758,640237.0
+SYN-0082950,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1024100.0,1024542.3872259383,1030699.0
+SYN-0119401,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,390800.0,400772.00228286366,437014.0
+SYN-0050815,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,501600.0,530605.5758948243,544086.0
+SYN-0084610,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,599200.0,672903.705747817,685250.0
+SYN-0114952,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,867600.0,945377.3342939455,878265.0
+SYN-0084935,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,580500.0,471540.64268846565,475791.0
+SYN-0069289,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1064700.0,855767.0355758264,803379.0
+SYN-0140809,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1041000.0,993007.0472225022,1011990.0
+SYN-0099091,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,559300.0,568331.8485606705,576191.0
+SYN-0001244,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1012700.0,1016159.0623964936,1106551.0
+SYN-0144614,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,586800.0,551464.6365472489,559539.0
+SYN-0119956,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,884700.0,915015.1315816948,931769.0
+SYN-0013840,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3564800.0,2826417.5997718093,2892180.0
+SYN-0112833,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,527400.0,503380.67798067944,469415.0
+SYN-0076548,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,973700.0,1120348.583811571,1259895.0
+SYN-0045615,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,461500.0,526358.1935142427,593287.0
+SYN-0016037,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,638300.0,619933.2308145926,604278.0
+SYN-0121530,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,830800.0,831662.5384577913,879206.0
+SYN-0071886,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,2187500.0,2181091.475618827,2044231.0
+SYN-0104881,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1096200.0,972512.3745249603,1060105.0
+SYN-0121544,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,528400.0,509573.393571492,543383.0
+SYN-0154715,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2322200.0,2426252.6768411067,2472795.0
+SYN-0069014,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,686900.0,935041.7073930524,949814.0
+SYN-0003315,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,747100.0,1103333.3338394572,1153715.0
+SYN-0082294,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1717200.0,1380702.7363715044,1290019.0
+SYN-0107648,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,368700.0,417989.8758386877,430885.0
+SYN-0116368,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,338500.0,374310.76989360753,372902.0
+SYN-0027100,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,740100.0,745302.1915853742,777331.0
+SYN-0118109,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,534800.0,552759.3814577186,546633.0
+SYN-0113669,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2370300.0,1937777.707294213,1969790.0
+SYN-0128348,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,679900.0,827163.8839780531,898614.0
+SYN-0109069,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,859500.0,1071326.5850850367,1111505.0
+SYN-0038476,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1149500.0,1207349.7510921832,1224964.0
+SYN-0014027,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,784300.0,1171660.3877423683,1218228.0
+SYN-0029914,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,597300.0,603528.8598751829,610290.0
+SYN-0029645,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,698200.0,794750.4446470704,832378.0
+SYN-0128898,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1367000.0,1434997.6450666026,1549646.0
+SYN-0126717,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1086700.0,1180442.3578316665,1318887.0
+SYN-0019189,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,887500.0,878448.4160814713,967509.0
+SYN-0139300,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,744000.0,792430.7505042721,764659.0
+SYN-0144719,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,528000.0,525223.2680017427,501339.0
+SYN-0103302,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1550200.0,1620300.2988028906,1652945.0
+SYN-0058854,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,859800.0,1014689.8670730671,1038398.0
+SYN-0051064,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,989300.0,1250118.2213215576,1221772.0
+SYN-0135556,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,896900.0,1135728.7253987824,1144027.0
+SYN-0077927,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1639600.0,1770480.2202780014,1745839.0
+SYN-0078814,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,633400.0,657009.5640228424,621572.0
+SYN-0088713,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1453800.0,1493211.5393105347,1450911.0
+SYN-0042520,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,617900.0,585532.5359173408,615541.0
+SYN-0140645,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,720300.0,705893.4005161602,706690.0
+SYN-0124710,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,297300.0,351350.87939176365,379634.0
+SYN-0043278,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,504800.0,507359.849259767,537523.0
+SYN-0099331,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4442300.0,4677581.971562337,4783715.0
+SYN-0139364,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1271800.0,1168052.4566289664,1174799.0
+SYN-0113359,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1157600.0,914841.8341018277,854472.0
+SYN-0105587,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1089400.0,1326236.6369384313,1418462.0
+SYN-0117464,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4186600.0,2198872.2829163237,2214073.0
+SYN-0054774,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,840500.0,736395.5684381955,758534.0
+SYN-0120493,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1245600.0,1191052.4271471885,1210851.0
+SYN-0048240,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,563900.0,570002.5441620045,586686.0
+SYN-0137158,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,314100.0,377162.2017604838,358571.0
+SYN-0132737,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,916800.0,905353.2577998232,918346.0
+SYN-0060805,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1269800.0,1054442.3019434859,1066536.0
+SYN-0093461,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,864200.0,830481.9765165834,869987.0
+SYN-0152581,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,978200.0,986110.0806981248,1034543.0
+SYN-0069382,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,868800.0,970321.7797337243,1001306.0
+SYN-0146625,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1680700.0,1677706.2272274254,1715736.0
+SYN-0042538,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,793100.0,815322.3770138954,851208.0
+SYN-0102983,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1157100.0,1112713.4440209412,1161840.0
+SYN-0144597,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1016100.0,935121.6030319128,943829.0
+SYN-0136927,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,890000.0,861441.5360709487,876127.0
+SYN-0005885,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,992100.0,1079442.3681943947,1036884.0
+SYN-0154227,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,734500.0,700494.7130479908,663508.0
+SYN-0016911,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,345500.0,396571.8565070539,424610.0
+SYN-0050329,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,355100.0,365485.8031316436,372683.0
+SYN-0113054,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2108000.0,1869389.538568306,1703406.0
+SYN-0083539,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3341000.0,4220548.870239536,4481605.0
+SYN-0018486,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,358200.0,448202.4000631659,456946.0
+SYN-0033443,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,609400.0,620101.5214681859,634643.0
+SYN-0056479,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,526000.0,514025.13627015235,537598.0
+SYN-0113888,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,871300.0,790997.2713771951,815883.0
+SYN-0005536,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,532400.0,584367.4803730441,595187.0
+SYN-0057073,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,495400.0,581163.8891418343,641172.0
+SYN-0141697,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,697500.0,743478.003345187,710541.0
+SYN-0019262,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,551500.0,495940.9452240872,503715.0
+SYN-0106785,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,621600.0,616442.5621747735,616537.0
+SYN-0025527,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1564500.0,1402708.8311107862,1426837.0
+SYN-0096853,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,945300.0,732748.2680894911,738997.0
+SYN-0039166,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,456100.0,494596.9197258195,499649.0
+SYN-0083656,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,503400.0,500122.23903524544,552482.0
+SYN-0057707,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,594300.0,789211.3588996151,823708.0
+SYN-0097784,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1331600.0,1354562.946433511,1325105.0
+SYN-0042271,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1090900.0,937193.9529837666,905122.0
+SYN-0013205,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1650400.0,2073016.3689211723,2039532.0
+SYN-0119679,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1380200.0,1831789.6081201928,1948744.0
+SYN-0138611,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1079200.0,1284422.8709616677,1224256.0
+SYN-0080791,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,826300.0,917856.5211113597,974906.0
+SYN-0145690,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2678500.0,2036172.2131146397,1942354.0
+SYN-0045514,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1266100.0,1298515.3329330324,1211821.0
+SYN-0111190,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,688900.0,670740.1664431896,679926.0
+SYN-0059516,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,369400.0,426431.1419904518,468148.0
+SYN-0020284,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,540100.0,497506.43380783056,504347.0
+SYN-0034673,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1921500.0,1192639.9190856013,1169360.0
+SYN-0081851,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,510700.0,594880.5096265716,617456.0
+SYN-0014213,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,400600.0,402991.6086863268,403540.0
+SYN-0003542,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,788100.0,883669.9116141472,965618.0
+SYN-0011682,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,507600.0,526017.6842868491,556595.0
+SYN-0132042,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1080700.0,1163133.0702010887,1185161.0
+SYN-0111027,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1139900.0,1282258.850867791,1374014.0
+SYN-0071229,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1216400.0,961628.8691052129,925810.0
+SYN-0041983,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1906600.0,1353036.0081354673,1392051.0
+SYN-0067232,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,582200.0,584220.6377489499,587314.0
+SYN-0098603,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1643600.0,1703462.6805298754,1785729.0
+SYN-0024082,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,844800.0,869139.8735387243,878411.0
+SYN-0143711,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,644100.0,730508.9218767951,741050.0
+SYN-0090495,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,717800.0,1015846.8860737019,879933.0
+SYN-0005003,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1619100.0,1322719.5529247054,1357138.0
+SYN-0076625,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1297600.0,1271085.5988725042,1323122.0
+SYN-0141774,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,536800.0,560272.1555773686,536351.0
+SYN-0145417,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,428300.0,395895.048235951,362086.0
+SYN-0120970,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,983600.0,869823.8140911615,927641.0
+SYN-0085772,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1296000.0,995839.0902397244,1009842.0
+SYN-0154210,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,872500.0,750814.5322006006,684656.0
+SYN-0046596,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,558200.0,509885.3503686549,477536.0
+SYN-0082349,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2873100.0,2260722.5542917005,2197078.0
+SYN-0147952,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1385400.0,1453229.0200129303,1465561.0
+SYN-0030586,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,493500.0,562845.7098567163,575599.0
+SYN-0026577,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1340400.0,1134261.9578434569,1108672.0
+SYN-0017798,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,964300.0,1254044.722712435,1284436.0
+SYN-0087775,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1087400.0,1118842.4571180677,1059081.0
+SYN-0085195,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,678500.0,678934.9120480769,602667.0
+SYN-0099089,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,636500.0,664927.2448352947,696827.0
+SYN-0044547,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,864600.0,672834.2208036566,699066.0
+SYN-0048771,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,580600.0,554136.9722790212,570074.0
+SYN-0073573,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,672800.0,808657.9885697853,813799.0
+SYN-0103647,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,534600.0,544942.5356200171,583001.0
+SYN-0021287,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,388000.0,579516.4096926556,589076.0
+SYN-0118094,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,646200.0,750794.0631846327,741760.0
+SYN-0042555,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1222300.0,1126427.9743329827,1123108.0
+SYN-0118926,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,518500.0,552448.1018183023,574293.0
+SYN-0118545,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,447700.0,458168.0974319357,484251.0
+SYN-0145585,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,487200.0,548924.3683282502,534011.0
+SYN-0121201,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,977400.0,834897.493176739,752964.0
+SYN-0107501,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1156500.0,1437048.0274284666,1573911.0
+SYN-0137980,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,578600.0,704521.9624795723,698354.0
+SYN-0077179,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,393600.0,480555.64468389325,508950.0
+SYN-0073022,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,985400.0,643446.0043103844,602454.0
+SYN-0022161,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2058600.0,2343652.671224131,2528245.0
+SYN-0087294,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1461000.0,1293619.5552529048,1341995.0
+SYN-0096707,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,543400.0,621216.971316786,649724.0
+SYN-0025832,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,784000.0,736674.7273014627,793165.0
+SYN-0012586,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1708400.0,1569659.4407565338,1496880.0
+SYN-0148141,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1175800.0,1176251.1910939321,1158590.0
+SYN-0022389,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,495000.0,516568.37424284,540164.0
+SYN-0068213,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1352400.0,1109105.0200328983,1111401.0
+SYN-0066161,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,773900.0,788159.349214749,837056.0
+SYN-0005081,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,772100.0,941799.0104139299,861961.0
+SYN-0147583,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1089700.0,1073931.0377186039,1037407.0
+SYN-0062297,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1312500.0,970303.8989231058,954576.0
+SYN-0133903,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3232200.0,2833409.874243123,2767109.0
+SYN-0016182,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,617200.0,585197.3660121806,585319.0
+SYN-0094366,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,784100.0,763935.0109921104,672439.0
+SYN-0115222,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1083500.0,1038322.8057321771,1044054.0
+SYN-0135380,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1795900.0,1547154.5642652265,1326329.0
+SYN-0142029,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,569300.0,599642.5641839202,613457.0
+SYN-0046172,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1422600.0,1262893.1968429321,1308015.0
+SYN-0053040,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,660600.0,509580.77992723533,513970.0
+SYN-0020883,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,589300.0,901600.1495370234,933831.0
+SYN-0043663,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,807400.0,820349.7129255853,831345.0
+SYN-0022775,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,801100.0,675594.9803198362,717718.0
+SYN-0137523,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,889100.0,890792.6537747681,908775.0
+SYN-0102422,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,506100.0,552210.912557399,604399.0
+SYN-0115671,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,355900.0,600127.6845994769,595081.0
+SYN-0020494,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,677700.0,597325.646380509,537619.0
+SYN-0138256,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2134900.0,2205732.2036768096,2257794.0
+SYN-0043181,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,451400.0,513825.6798406719,503316.0
+SYN-0113961,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,609900.0,631089.8895046331,667347.0
+SYN-0002351,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1474900.0,1515810.7586579476,1417079.0
+SYN-0001731,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,611200.0,752703.7127381777,790071.0
+SYN-0137392,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,988300.0,891464.529999792,838445.0
+SYN-0094766,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,360600.0,403867.56716450443,448914.0
+SYN-0103804,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,748600.0,696947.8176938378,673782.0
+SYN-0074616,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,477700.0,483467.3978745586,506823.0
+SYN-0130981,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,402500.0,437642.71591347904,456069.0
+SYN-0139854,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1858300.0,1679697.1777370088,1846920.0
+SYN-0053731,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1428100.0,1211698.3643473599,1235014.0
+SYN-0070330,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,454000.0,514959.3928530687,503992.0
+SYN-0134425,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,812900.0,733115.3551222186,660442.0
+SYN-0109479,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,544800.0,609799.772292948,628209.0
+SYN-0122900,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,503000.0,670946.480131963,708020.0
+SYN-0075500,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,789200.0,762647.1185130586,754918.0
+SYN-0010549,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1166700.0,1099404.375948693,1236100.0
+SYN-0067334,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,653200.0,574433.8695293334,510710.0
+SYN-0075256,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,709500.0,769233.6694989711,787337.0
+SYN-0011106,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,681100.0,795369.5819159776,766439.0
+SYN-0073150,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,647400.0,650172.4970532142,658380.0
+SYN-0078283,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,608100.0,586866.0372046769,590398.0
+SYN-0073801,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,542400.0,588546.6030689572,589808.0
+SYN-0073821,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1157700.0,1321739.7139488852,1323014.0
+SYN-0089345,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1236400.0,906535.1344047833,963403.0
+SYN-0126906,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,570200.0,557284.994597064,561004.0
+SYN-0132026,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,834100.0,921387.7369020241,958838.0
+SYN-0102756,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,4472000.0,3671623.7970581073,4089086.0
+SYN-0085887,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1366400.0,1438133.2990386842,1380770.0
+SYN-0122572,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,431800.0,423883.02452933113,389800.0
+SYN-0035571,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1167900.0,1054981.8771935396,1029858.0
+SYN-0062396,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,941800.0,839522.5347598983,856293.0
+SYN-0039803,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,506700.0,516575.40254745784,545333.0
+SYN-0009148,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1509600.0,1761368.8689905542,1809270.0
+SYN-0097619,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,892000.0,923745.2629732703,954912.0
+SYN-0036286,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1891100.0,2369761.046939081,2418195.0
+SYN-0057441,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,307700.0,410283.86935188493,454593.0
+SYN-0023602,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,490100.0,561267.1594415853,541543.0
+SYN-0085384,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,511200.0,509282.6868656243,496900.0
+SYN-0101233,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,1171300.0,1081169.3816141945,1010833.0
+SYN-0139804,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,470300.0,508282.8262032976,512139.0
+SYN-0037329,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1353900.0,1366988.807137145,1404201.0
+SYN-0117047,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,559100.0,721225.4982402351,743041.0
+SYN-0094622,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,504900.0,497883.40400686907,493551.0
+SYN-0007188,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1112900.0,1188307.3946794274,1236801.0
+SYN-0110221,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,952700.0,845515.3135022493,824363.0
+SYN-0003000,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,451400.0,486834.47103932593,538631.0
+SYN-0042294,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,354700.0,805481.7605222088,809938.0
+SYN-0059426,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,988200.0,989010.6418959447,989129.0
+SYN-0012338,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,766400.0,656637.4775954781,605762.0
+SYN-0001771,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,956400.0,711101.4090252628,692497.0
+SYN-0071793,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,604100.0,552973.6379588115,533442.0
+SYN-0061103,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1357500.0,1189607.4740868835,1109065.0
+SYN-0087785,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,670600.0,849585.9104334238,863824.0
+SYN-0106957,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1145100.0,1012553.0417030687,1074880.0
+SYN-0063571,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,765800.0,727198.8385356192,734556.0
+SYN-0103698,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,268600.0,293364.2882797385,387844.0
+SYN-0123392,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,821200.0,876572.6960692058,835932.0
+SYN-0008900,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,423200.0,504179.78950787656,511256.0
+SYN-0014336,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,464300.0,560162.4539186779,527993.0
+SYN-0072841,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,430400.0,500480.48413490545,512305.0
+SYN-0099679,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,866200.0,751849.121147322,767716.0
+SYN-0109923,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,795700.0,988418.6225705312,1064946.0
+SYN-0068139,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,699500.0,635312.4199932895,667069.0
+SYN-0009598,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,540600.0,576553.4024148406,570518.0
+SYN-0093694,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1161100.0,1375165.6151160232,1462956.0
+SYN-0055315,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,605000.0,556100.5866502493,565351.0
+SYN-0109145,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1196200.0,1209618.909047841,1195444.0
+SYN-0118756,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,933200.0,1130359.4823541855,1146703.0
+SYN-0030681,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,798600.0,767504.5310193468,797603.0
+SYN-0145500,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,306400.0,388234.84382856416,395533.0
+SYN-0130255,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1132800.0,1052113.0271797434,1048321.0
+SYN-0021320,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,356900.0,386911.0471791616,404907.0
+SYN-0084659,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,827600.0,903475.5310019803,858617.0
+SYN-0037950,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1048400.0,1003887.2664086894,1075895.0
+SYN-0043514,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,601200.0,850211.6862127483,887272.0
+SYN-0140091,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2659200.0,2773707.2953199544,2843526.0
+SYN-0068018,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,532200.0,554176.1100953334,555552.0
+SYN-0026721,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,514200.0,529102.5767352461,555450.0
+SYN-0082024,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,689400.0,584678.8279827415,614478.0
+SYN-0145786,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1539900.0,1316133.968176782,1377286.0
+SYN-0032760,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,942600.0,994092.5253946814,1001471.0
+SYN-0021760,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,1588400.0,2055563.595903116,2237700.0
+SYN-0041178,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,427600.0,432605.32683197135,432016.0
+SYN-0008144,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,495800.0,510114.9714398115,491519.0
+SYN-0072773,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,612700.0,601187.7638999262,554720.0
+SYN-0001878,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1320500.0,1297012.3982270157,1393609.0
+SYN-0084469,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1277700.0,1203076.1114077533,1250161.0
+SYN-0008675,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,859400.0,1146469.0898250805,1234753.0
+SYN-0097108,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1261400.0,1219069.7357372348,1253965.0
+SYN-0058323,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2877400.0,2749513.322330958,2626904.0
+SYN-0051925,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1629700.0,1572693.7612154281,1544614.0
+SYN-0022615,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,424100.0,436033.899239802,465855.0
+SYN-0145340,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1545500.0,1849519.1198885934,1921143.0
+SYN-0006654,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,614100.0,679153.9272940907,726581.0
+SYN-0016296,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,984200.0,886019.1638784143,878498.0
+SYN-0028494,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1256100.0,1174569.014878697,1179182.0
+SYN-0009067,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,754400.0,830583.0477430379,800237.0
+SYN-0052687,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,992300.0,943870.7817490181,1057516.0
+SYN-0054467,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2403000.0,4502422.336554282,4724874.0
+SYN-0100997,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,564700.0,534140.8202780936,512323.0
+SYN-0134958,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,531700.0,517910.41766860854,547621.0
+SYN-0133262,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,914400.0,981901.1987297403,1006380.0
+SYN-0015845,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,582300.0,683003.5431203039,705099.0
+SYN-0064957,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1082400.0,849208.0752075828,857751.0
+SYN-0006125,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,446400.0,492377.69428490364,494552.0
+SYN-0071665,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,525800.0,484177.5326457451,513790.0
+SYN-0126213,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1120900.0,1336399.8178749965,1340554.0
+SYN-0154637,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,646600.0,765163.7817404477,752336.0
+SYN-0012501,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,765000.0,794386.0277598376,755752.0
+SYN-0014815,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,573700.0,625734.0305513225,650055.0
+SYN-0147843,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,437900.0,551803.5040957707,559718.0
+SYN-0122653,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,507200.0,548007.8520916108,568059.0
+SYN-0102575,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Townhouse,1003100.0,1237172.0625438632,1277382.0
+SYN-0130278,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Freehold Townhouse,805100.0,903911.428730119,899726.0
+SYN-0072493,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,727900.0,657862.1201260937,640211.0
+SYN-0137324,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1068200.0,975743.4268765,1028724.0
+SYN-0053203,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,981100.0,871494.5238665842,888837.0
+SYN-0045904,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1213500.0,1115762.0683722072,1158156.0
+SYN-0028177,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,442100.0,528089.8617756402,516893.0
+SYN-0045124,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,463700.0,437886.8895544823,426464.0
+SYN-0070702,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,3990300.0,2510073.101398373,2539456.0
+SYN-0152295,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,731700.0,807278.6620106174,885811.0
+SYN-0089155,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1207600.0,981442.0148480335,975823.0
+SYN-0082145,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,874100.0,821016.5889061617,857671.0
+SYN-0033390,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,439100.0,557552.0710070479,568599.0
+SYN-0139370,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,715600.0,671577.5446518891,663534.0
+SYN-0153752,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1123800.0,1054767.6984677343,1068768.0
+SYN-0036493,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,819700.0,837033.4016696466,893600.0
+SYN-0125718,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,913500.0,833900.0900531454,886287.0
+SYN-0127862,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,961200.0,880669.2720758186,957019.0
+SYN-0096874,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,683600.0,624483.8957648395,591287.0
+SYN-0013332,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,698300.0,715223.4900367302,753846.0
+SYN-0076017,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,401700.0,447512.07758771884,454339.0
+SYN-0125521,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,726700.0,766373.6549914249,799249.0
+SYN-0060115,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,1232300.0,899243.1785665813,899535.0
+SYN-0097273,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,534700.0,488198.8004487373,524028.0
+SYN-0158033,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,818200.0,1019880.5876092054,1031838.0
+SYN-0089724,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1000500.0,1094875.6022298469,1105247.0
+SYN-0027517,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,984300.0,829920.2023628121,752045.0
+SYN-0123799,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,2556600.0,2280394.0325904856,2220436.0
+SYN-0013371,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,826300.0,948843.4537296657,1006961.0
+SYN-0022760,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,349200.0,345144.8896199823,359454.0
+SYN-0041475,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,2466700.0,3380804.9476472316,3285235.0
+SYN-0011532,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,848200.0,735074.2249851186,740239.0
+SYN-0122430,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,657800.0,856940.2343773943,859819.0
+SYN-0096363,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,490900.0,476862.82830645633,484787.0
+SYN-0061022,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,634600.0,646320.7392571184,639957.0
+SYN-0072411,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1254300.0,1437477.763170621,1519155.0
+SYN-0052837,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,859700.0,921938.2592163516,978134.0
+SYN-0136837,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,405600.0,563508.2714013793,576374.0
+SYN-0112167,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1261400.0,1567829.6435615318,1590983.0
+SYN-0141794,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,941300.0,1206921.442765872,1180477.0
+SYN-0115719,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,394300.0,626664.6893705064,623307.0
+SYN-0113053,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,601100.0,698552.5321012792,729119.0
+SYN-0023023,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,499600.0,556495.5304772859,573836.0
+SYN-0123899,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,1219700.0,1110721.0339774569,1066062.0
+SYN-0127443,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,1129200.0,1112202.3436423568,1133270.0
+SYN-0145514,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,949100.0,1001737.0948846283,998804.0
+SYN-0148301,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,325700.0,357126.7179384734,370635.0
+SYN-0074419,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Semi-Detached,928800.0,1168586.0098566634,1135256.0
+SYN-0039954,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,813600.0,1027396.3752421249,1020327.0
+SYN-0079772,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,473100.0,494422.9840376382,499128.0
+SYN-0078912,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Condo Apt,768600.0,610663.2074838361,606631.0
+SYN-0094802,off_market,2025-12,4e82168f7ed8b33d,lightgbm,log_sold_price,Detached,967700.0,1110503.2158635783,1241750.0

@@ -1,0 +1,82 @@
+{
+  "categorical_columns": [
+    "house_style",
+    "municipality",
+    "community"
+  ],
+  "cutoff_exclusive": "2025-09-01T00:00:00",
+  "evaluation_ids_sha256": "5e14a8ddcbcfab742154123610a5676c7661a5239754f28158b42f41aeb7c609",
+  "evaluation_rows": 2035,
+  "feature_columns": [
+    "square_feet",
+    "bedrooms",
+    "washrooms",
+    "parking",
+    "latitude",
+    "longitude",
+    "house_style",
+    "municipality",
+    "community",
+    "months",
+    "is_Condo Apt",
+    "is_Detached",
+    "is_Semi-Detached",
+    "is_Condo Townhouse",
+    "is_Freehold Townhouse",
+    "is_Co-Op Apt",
+    "list_price"
+  ],
+  "fit_parameters": {
+    "allow_writing_files": false,
+    "cat_features": [
+      "house_style",
+      "municipality",
+      "community"
+    ],
+    "depth": 6,
+    "has_time": true,
+    "iterations": 600,
+    "l2_leaf_reg": 3,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "random_seed": 0,
+    "thread_count": 4,
+    "verbose": false
+  },
+  "fit_seconds": 32.20707790000597,
+  "metrics": {
+    "mape_percent": 5.564797221481932,
+    "mdape_percent": 4.378201241528961,
+    "median_signed_percent": 1.6023321040902523,
+    "n": 2035
+  },
+  "model_config": {
+    "depth": 6,
+    "has_time": true,
+    "iterations": 600,
+    "l2_leaf_reg": 3,
+    "learning_rate": 0.05,
+    "loss_function": "RMSE",
+    "random_seed": 0,
+    "thread_count": 4
+  },
+  "model_family": "catboost",
+  "month": "2025-09",
+  "prediction_and_write_seconds": 32.35783780005295,
+  "prediction_path": "outputs\\model_optimization_v1\\predictions\\9c3597b548e6a680.csv",
+  "target": "log_sold_price",
+  "track": "list_aware",
+  "train_ids_sha256": "9582f4fca29fe476765344fe36869a16e0237ca961436ed13a7f790a8fb00fb5",
+  "train_rows": 133779,
+  "trial_id": "9c3597b548e6a680",
+  "unknown_category_counts": {
+    "community": 0,
+    "house_style": 0,
+    "municipality": 0
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  }
+}

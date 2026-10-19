@@ -1,0 +1,85 @@
+{
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "parquet_metadata_rows": 150000,
+  "parquet_schema": "ml_num: large_string\nsold_price: double\nlist_price: double\ndate_listed: timestamp[us]\ndate_sold: timestamp[us]\ndays_on_market: int64\nhouse_type_name: large_string\nhouse_style: large_string\nbedrooms: int64\nwashrooms: int64\nparking_total: int64\ngarage: double\nhouse_area: large_string\nlot_front: double\nlot_depth: double\nmunicipality: large_string\ncommunity: large_string\nlatitude: double\nlongitude: double\nexternal_avm_estimate: double\nexternal_avm_estimate_date: timestamp[us]\nremarks: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2772",
+  "previous_months_from_ledgers": [
+    "2025-06",
+    "2025-09",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "previous_months_from_prediction_artifacts": [
+    "2025-02",
+    "2025-04",
+    "2025-06",
+    "2025-07",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "previously_evaluated_months_union": [
+    "2025-02",
+    "2025-04",
+    "2025-06",
+    "2025-07",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "prediction_artifact_files_scanned_count": 315,
+  "development_months": [
+    "2024-10",
+    "2024-12",
+    "2025-01",
+    "2025-03"
+  ],
+  "final_months": [
+    "2025-05",
+    "2025-08"
+  ],
+  "final_stage": false,
+  "allowed_data_cutoff_exclusive": "2025-04-01",
+  "fold_counts": {
+    "2024-10": {
+      "train_rows": 112637,
+      "evaluation_rows": 2451
+    },
+    "2024-12": {
+      "train_rows": 117295,
+      "evaluation_rows": 1345
+    },
+    "2025-01": {
+      "train_rows": 118640,
+      "evaluation_rows": 1339
+    },
+    "2025-03": {
+      "train_rows": 121488,
+      "evaluation_rows": 1931
+    }
+  },
+  "quality": {
+    "allowed_rows": 123419,
+    "unique_ml_num": true,
+    "missing_sale_date": 0,
+    "missing_sale_price": 0,
+    "nonpositive_sale_price": 0
+  }
+}

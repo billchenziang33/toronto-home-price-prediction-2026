@@ -1,0 +1,13 @@
+{
+  "fingerprint": "07f20323a23df5a9cda817ff0f296ce7c72ea8ed1afe5323c8cdbac706e30d46",
+  "pipeline_config": {
+    "frozen_hgbr_component_sha256": "fe3fa6f3e036c21603b316a68120e82ff2e9cf63369059117edb3d6a392094c9",
+    "lightgbm_component_sha256": "371eacaebb9303bf5788a6d3220755bb4e8955bdfa75ed0e82b3a5458597c5d5",
+    "list_blend_weight": 0.75,
+    "month": "2025-10",
+    "parent": "C0",
+    "postprocessing": "round HGBR first, price-space blend, round final",
+    "track": "list_aware"
+  },
+  "prediction_sha256": "bb98ff461a2544dffedafc62505a8c66867505a3cf2144af200e26e297044137"
+}
