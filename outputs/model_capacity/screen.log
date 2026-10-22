@@ -1,0 +1,40 @@
+2025-06 off_market P0 8.350 5.1s
+2025-06 off_market P1 8.359 12.9s
+2025-06 off_market P2 8.099 25.9s
+2025-06 off_market P3 8.098 13.5s
+2025-06 off_market P4 8.063 58.7s
+2025-06 list_aware P0 4.506 6.3s
+2025-06 list_aware P1 4.602 12.0s
+2025-06 list_aware P2 4.574 24.6s
+2025-06 list_aware P3 4.665 12.8s
+2025-06 list_aware P4 4.596 53.2s
+2025-09 off_market P0 8.482 5.3s
+2025-09 off_market P1 8.171 13.1s
+2025-09 off_market P2 8.231 27.0s
+2025-09 off_market P3 8.229 13.9s
+2025-09 off_market P4 8.111 59.2s
+2025-09 list_aware P0 4.095 6.3s
+2025-09 list_aware P1 4.219 12.2s
+2025-09 list_aware P2 4.138 25.8s
+2025-09 list_aware P3 4.096 13.2s
+2025-09 list_aware P4 4.315 54.0s
+2025-11 off_market P0 7.986 5.7s
+2025-11 off_market P1 7.832 14.0s
+2025-11 off_market P2 7.875 28.4s
+2025-11 off_market P3 7.923 14.8s
+2025-11 off_market P4 7.933 62.7s
+2025-11 list_aware P0 4.136 6.6s
+2025-11 list_aware P1 4.166 12.8s
+2025-11 list_aware P2 4.166 25.8s
+2025-11 list_aware P3 4.171 13.8s
+2025-11 list_aware P4 4.296 55.7s
+== off_market
+  P1: 8.257 -> 8.156 (+1.23%), MAPE -0.62%, months 2/3, qualifies=True
+  P2: 8.257 -> 8.082 (+2.12%), MAPE -1.81%, months 3/3, qualifies=True
+  P3: 8.257 -> 8.098 (+1.93%), MAPE -2.18%, months 3/3, qualifies=True
+  P4: 8.257 -> 8.067 (+2.31%), MAPE -1.14%, months 3/3, qualifies=True
+== list_aware
+  P1: 4.264 -> 4.351 (-2.04%), MAPE +0.61%, months 0/3, qualifies=False
+  P2: 4.264 -> 4.286 (-0.52%), MAPE +0.72%, months 0/3, qualifies=False
+  P3: 4.264 -> 4.312 (-1.12%), MAPE +0.08%, months 0/3, qualifies=False
+  P4: 4.264 -> 4.410 (-3.43%), MAPE +3.67%, months 0/3, qualifies=False
