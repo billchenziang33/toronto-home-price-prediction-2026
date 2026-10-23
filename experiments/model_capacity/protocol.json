@@ -1,0 +1,21 @@
+{
+  "written": "2026-10-22, before any fit in this experiment",
+  "question": "Does a larger or more regularised LightGBM beat the current preset once the new features are in?",
+  "parents": {
+    "off_market": "v2 features + building history + lot/garage, target log sold price",
+    "list_aware": "v2 features + building history, target log(sold/list)"
+  },
+  "configs": {
+    "P0": "current preset (off-market: lr 0.05, 1000 trees, 31 leaves; list-aware: lr 0.03, 800 trees, 63 leaves; both min_child_samples 100, reg_lambda 5)",
+    "P1": {"learning_rate": 0.03, "n_estimators": 2000, "num_leaves": 63, "min_child_samples": 50, "reg_lambda": 5},
+    "P2": {"learning_rate": 0.02, "n_estimators": 3000, "num_leaves": 127, "min_child_samples": 50, "reg_lambda": 10, "colsample_bytree": 0.8},
+    "P3": {"learning_rate": 0.03, "n_estimators": 2000, "num_leaves": 63, "min_child_samples": 100, "reg_lambda": 5, "colsample_bytree": 0.7, "subsample": 0.8, "subsample_freq": 1},
+    "P4": {"learning_rate": 0.02, "n_estimators": 4000, "num_leaves": 255, "min_child_samples": 30, "reg_lambda": 10, "colsample_bytree": 0.7, "subsample": 0.8, "subsample_freq": 1}
+  },
+  "screening_months": ["2025-06", "2025-09", "2025-11"],
+  "selection_rule": "Per track, among P1-P4 keep those with pooled screening MdAPE gain >= 1% vs P0 and at least 2 of 3 months improved; pick the lowest pooled MdAPE. If none qualifies, keep P0 and stop for that track.",
+  "confirmation_months": ["2023-03", "2023-07", "2023-11", "2024-03", "2024-06", "2024-09"],
+  "confirmation_note": "Third selection use of these months. Only the single selected config per track is run.",
+  "confirmation_gates": "pooled MdAPE gain >= 1%, >= 5/6 months improved, worst month regression <= 5%, MAPE regression <= 1%, paired home-bootstrap 95% CI upper bound < 0",
+  "untouched": "Reserved 2025-05 and 2025-08 folds, the 2025-12..2026-05 retrospective window, and hidden test files are not read."
+}

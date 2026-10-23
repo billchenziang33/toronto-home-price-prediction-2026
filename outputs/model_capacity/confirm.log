@@ -1,0 +1,65 @@
+2023-03 off_market parent 7.800 4.0s
+2023-03 off_market cand 8.040 49.9s
+2023-03 list_aware parent 4.746 4.6s
+2023-03 list_aware cand 4.746 4.2s
+2023-07 off_market parent 8.000 4.3s
+2023-07 off_market cand 8.167 50.0s
+2023-07 list_aware parent 5.462 5.0s
+2023-07 list_aware cand 5.462 5.0s
+2023-11 off_market parent 8.061 4.0s
+2023-11 off_market cand 8.151 50.2s
+2023-11 list_aware parent 4.814 5.0s
+2023-11 list_aware cand 4.814 4.9s
+2024-03 off_market parent 7.599 4.2s
+2024-03 off_market cand 7.761 54.1s
+2024-03 list_aware parent 4.598 5.4s
+2024-03 list_aware cand 4.598 5.6s
+2024-06 off_market parent 7.904 4.5s
+2024-06 off_market cand 7.889 55.8s
+2024-06 list_aware parent 4.948 6.1s
+2024-06 list_aware cand 4.948 6.2s
+2024-09 off_market parent 8.480 5.0s
+2024-09 off_market cand 8.132 58.4s
+2024-09 list_aware parent 4.782 6.9s
+2024-09 list_aware cand 4.782 6.2s
+== off_market P4: {
+ "base_mdape": 7.922439205137209,
+ "cand_mdape": 8.007688045358679,
+ "gain_pct": -1.0760428450645732,
+ "base_mape": 10.828579784601489,
+ "cand_mape": 10.853459736087837,
+ "mape_change_pct": 0.22976190766703652,
+ "months_improved": 2,
+ "n_months": 6,
+ "worst_month_regression_pct": 3.086134188218881,
+ "monthly": {
+  "2023-03": [
+   7.8,
+   8.04
+  ],
+  "2023-07": [
+   8.0,
+   8.167
+  ],
+  "2023-11": [
+   8.061,
+   8.151
+  ],
+  "2024-03": [
+   7.599,
+   7.761
+  ],
+  "2024-06": [
+   7.904,
+   7.889
+  ],
+  "2024-09": [
+   8.48,
+   8.132
+  ]
+ },
+ "ci_pp": [
+  -0.06116196984288775,
+  0.22736270040250545
+ ]
+}
