@@ -31,7 +31,7 @@ The challenge asks for sale-price predictions from the supplied synthetic listin
 
 The model work described here uses the competition dataset, including its property fields, listing remarks where present in the parent model, location fields, and historical sale outcomes available before each evaluation month. The winning R151/R97 pipelines do not use outside housing datasets or current real-market prices. A Bank of Canada mortgage-rate feature was tried later in R179 but was not promoted.
 
-The campaign data fingerprint is SHA-256 `18cf87fa122b544018fccbc15040403b0fed37080c44a75a03d87a1e5d2d4b2f`. The safe eight-month development window is:
+The campaign data fingerprint is SHA-256 `18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`. The safe eight-month development window is:
 
 `2023-03, 2023-07, 2023-11, 2024-03, 2024-06, 2024-09, 2025-01, 2025-03`.
 
@@ -193,4 +193,4 @@ The following source and evidence files define the runs:
 - `docs/model_evidence/2026-10-28/list_aware_r97_development_results.json` — full R97 score and monthly breakdown.
 - Local full fit ledger: `outputs/bill_target74/bill_target74_unbounded_20261024/fits.jsonl`.
 
-The data fingerprint is SHA-256 `18cf87fa122b544018fccbc15040403b0fed37080c44a75a03d87a1e5d2d4b2f`; the dataset is obtained from [Baliyang/SSU_data_dash](https://huggingface.co/datasets/Baliyang/SSU_data_dash). The result JSONs preserve the complete metrics and fold details, but a clean clone still needs the dataset and hash-matched parent OOF artifacts to replay these runs; this handoff does not regenerate the predictions or contest CSVs. No hidden test labels are included in this note.
+The data fingerprint is SHA-256 `18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`; the dataset is obtained from [Baliyang/SSU_data_dash](https://huggingface.co/datasets/Baliyang/SSU_data_dash). The result JSONs preserve the complete metrics and fold details, but a clean clone still needs the dataset and hash-matched parent OOF artifacts to replay these runs; this handoff does not regenerate the predictions or contest CSVs. No hidden test labels are included in this note.

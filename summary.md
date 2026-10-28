@@ -1,5 +1,6 @@
 # 最新状态更新（2026-10-28，Toronto）
 
+- 交接报告的数据 SHA-256 已修正为 `18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`，与 R151、R97 的运行清单及 campaign 协议一致；之前报告中的两个哈希字符串误写，不影响已保存的模型指标。修正范围仅为报告和此记录。
 - 目标：持续优化 Off-market 与 List-aware，使八个月开发窗口 pooled MdAPE 分别严格低于 7% 与 4%。Campaign `bill_target74_unbounded_20261024` 按用户已确认的无上限预算运行，并继续保留逐 fit 账本、失败记录、逐月指标、代码/数据哈希及标签隔离。
 - 当前最佳八个月开发观察值为 Off-market R151 `6.9988809893%`、List-aware R97 `4.5440739072%`。R151 的 paired-home bootstrap 95% CI 完全低于 0 并通过八个月开发门槛；R97 的 CI 跨 0、MAPE 略升且 MdAPE 未低于 4%，仍是 best observed point estimate 而非确认升级。逐月表、数学定义、演示口径和限制已写入 `docs/BILL_CURRENT_TWO_TRACK_MODELS_2026-10-28.md`；对应完整 JSON 证据位于 `docs/model_evidence/2026-10-28/`。
 - Campaign 截至本次记录包含 170 个编号 R 实验卡（最高 R179），149 个卡有 fit_start；账本记录 1,005 fit starts、991 个 `fit_complete/status=complete`、3 个 `fit_complete/status=failed`，另有 2 次 interrupted、1 次 abandoned 和 6 条 reconciliation 事件。Fit 事件不等于独立模型数，包含校准、模型拟合与重试。R179 利率特征两月筛选未晋级；R180 尚未登记。
