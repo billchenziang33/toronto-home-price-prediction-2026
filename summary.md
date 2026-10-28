@@ -1,6 +1,9 @@
 # 最新状态更新（2026-10-28，Toronto）
 
 - 交接报告的数据 SHA-256 已修正为 `18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`，与 R151、R97 的运行清单及 campaign 协议一致；之前报告中的两个哈希字符串误写，不影响已保存的模型指标。修正范围仅为报告和此记录。
+- R179 审计等待期间完成只读指纹预检：`r179a_20261028T045521Z/run_manifest.json` 所列 17 个代码及外部数据文件、`screen_results.json` 和 `paired_predictions.csv` 的 SHA-256 均与清单一致。此检查不代替独立重建审计，也不代表模型拟合已经开始。
+- 使用已保存的八个月开发预测完成 R97 list-aware 修正幅度的只读描述性分组：4,476 行没有修正；绝对对数修正 (0, 0.01] 的 6,393 行组内 MdAPE 3.9709%→3.9602%，(0.01, 0.03] 的 4,767 行为 5.1667%→5.2080%。这是事后分析，不能据此直接挑选阈值或声称未来收益；详情、来源哈希和完整组别见 `docs/R97_CORRECTION_DIAGNOSTIC_2026-10-28.md`。无新增 fit。
+- 2026-10-28 17:08 UTC 已再次轮询运行中的 session 12387；R179 审计仍在 `before_module_import` 等待内存，最新记录可用 1.292 GiB，门槛 4.5 GiB，累计等待约 26 分钟，尚无该次审计 fit start。释放内存后现有进程可继续；R180 尚未排队，应在审计结束且结果通过核查后启动。
 - 目标：持续优化 Off-market 与 List-aware，使八个月开发窗口 pooled MdAPE 分别严格低于 7% 与 4%。Campaign `bill_target74_unbounded_20261024` 按用户已确认的无上限预算运行，并继续保留逐 fit 账本、失败记录、逐月指标、代码/数据哈希及标签隔离。
 - 当前最佳八个月开发观察值为 Off-market R151 `6.9988809893%`、List-aware R97 `4.5440739072%`。R151 的 paired-home bootstrap 95% CI 完全低于 0 并通过八个月开发门槛；R97 的 CI 跨 0、MAPE 略升且 MdAPE 未低于 4%，仍是 best observed point estimate 而非确认升级。逐月表、数学定义、演示口径和限制已写入 `docs/BILL_CURRENT_TWO_TRACK_MODELS_2026-10-28.md`；对应完整 JSON 证据位于 `docs/model_evidence/2026-10-28/`。
 - Campaign 截至本次记录包含 170 个编号 R 实验卡（最高 R179），149 个卡有 fit_start；账本记录 1,005 fit starts、991 个 `fit_complete/status=complete`、3 个 `fit_complete/status=failed`，另有 2 次 interrupted、1 次 abandoned 和 6 条 reconciliation 事件。Fit 事件不等于独立模型数，包含校准、模型拟合与重试。R179 利率特征两月筛选未晋级；R180 尚未登记。
