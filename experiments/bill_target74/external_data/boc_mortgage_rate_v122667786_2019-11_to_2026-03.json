@@ -1,0 +1,19 @@
+{
+  "source": "Bank of Canada Valet API",
+  "source_page": "https://www.bankofcanada.ca/rates/banking-and-financial-statistics/interest-rates-for-new-and-existing-lending-by-chartered-banks/",
+  "api_url": "https://www.bankofcanada.ca/valet/observations/group/A4_RATES_MORTGAGES/json?start_date=2013-01-01",
+  "series_id": "V122667786",
+  "series_label": "Residential mortgages, uninsured, Total, funds advanced, fixed rate, 5 years and over",
+  "unit": "percent",
+  "frequency": "monthly; month-end rate",
+  "release_timing_note": "The Bank of Canada states this monthly series is typically published within the third week of the month.",
+  "feature_policy": "For a listing in month t, use the published rate for month t-2 so the observation is available before any listing date in t.",
+  "coverage_start": "2019-11-01",
+  "coverage_end": "2026-03-01",
+  "observation_count": 77,
+  "csv_file": "boc_mortgage_rate_v122667786_2019-11_to_2026-03.csv",
+  "csv_sha256": "b4e94e5a927a28f6d6c3bb9652c85dd54ddceb9bf3c3ca61346e511ee45f12d6",
+  "retrieved_date": "2026-10-28",
+  "historical_vintage_note": "Snapshot contains values available from the current Valet API; it is not a point-in-time archived vintage.",
+  "terms": "https://www.bankofcanada.ca/terms/"
+}

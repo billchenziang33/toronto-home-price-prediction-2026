@@ -1,3 +1,23 @@
+# 最新状态更新（2026-10-28，Toronto）
+
+- 交接报告的数据 SHA-256 已修正为 `18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`，与 R151、R97 的运行清单及 campaign 协议一致；之前报告中的两个哈希字符串误写，不影响已保存的模型指标。修正范围仅为报告和此记录。
+- R179 审计等待期间完成只读指纹预检：`r179a_20261028T045521Z/run_manifest.json` 所列 17 个代码及外部数据文件、`screen_results.json` 和 `paired_predictions.csv` 的 SHA-256 均与清单一致。此检查不代替独立重建审计，也不代表模型拟合已经开始。
+- 使用已保存的八个月开发预测完成 R97 list-aware 修正幅度的只读描述性分组：4,476 行没有修正；绝对对数修正 (0, 0.01] 的 6,393 行组内 MdAPE 3.9709%→3.9602%，(0.01, 0.03] 的 4,767 行为 5.1667%→5.2080%。这是事后分析，不能据此直接挑选阈值或声称未来收益；详情、来源哈希和完整组别见 `docs/R97_CORRECTION_DIAGNOSTIC_2026-10-28.md`。无新增 fit。
+- 2026-10-28 17:25 UTC 再次轮询确认 session 12387 仍活动；R179 审计仍在 `before_module_import` 等待内存，最新记录可用 0.749 GiB，门槛 4.5 GiB，累计等待约 43 分钟，尚无该次审计 fit start。源代码与结果文件指纹预检已通过。R180 尚未排队，应在审计结束且结果通过核查后启动。
+- 目标：持续优化 Off-market 与 List-aware，使八个月开发窗口 pooled MdAPE 分别严格低于 7% 与 4%。Campaign `bill_target74_unbounded_20261024` 按用户已确认的无上限预算运行，并继续保留逐 fit 账本、失败记录、逐月指标、代码/数据哈希及标签隔离。
+- 当前最佳八个月开发观察值为 Off-market R151 `6.9988809893%`、List-aware R97 `4.5440739072%`。R151 的 paired-home bootstrap 95% CI 完全低于 0 并通过八个月开发门槛；R97 的 CI 跨 0、MAPE 略升且 MdAPE 未低于 4%，仍是 best observed point estimate 而非确认升级。逐月表、数学定义、演示口径和限制已写入 `docs/BILL_CURRENT_TWO_TRACK_MODELS_2026-10-28.md`；对应完整 JSON 证据位于 `docs/model_evidence/2026-10-28/`。
+- Campaign 截至本次记录包含 170 个编号 R 实验卡（最高 R179），149 个卡有 fit_start；账本记录 1,005 fit starts、991 个 `fit_complete/status=complete`、3 个 `fit_complete/status=failed`，另有 2 次 interrupted、1 次 abandoned 和 6 条 reconciliation 事件。Fit 事件不等于独立模型数，包含校准、模型拟合与重试。R179 利率特征两月筛选未晋级；R180 尚未登记。
+- 约 16:35 UTC 的任务管理器截图显示整机内存使用 83–84%，Codex 应用组约 2.75–2.97 GB；CPU 读数在截图间显著波动。由于命令环境的 `Get-Process` 只看到沙箱 shell、CIM 查询被拒绝，无法归因其余约 180 个进程的占用。训练运行器本身没有启动任务管理器的代码；Computer Use 只用于辅助查看，随后被用户按 Escape 停止。
+- R179 v2 日志最后记录为 16:18:28 UTC `resource_sample`（0.593 GiB 可用、CPU 10.14 秒）；R180 最后记录为 16:18:32 UTC `waiting_for_campaign_lock`（CPU 6.36 秒）。截至本次复核两份日志均没有终态事件且超过 17 分钟未更新；受限环境不能确认相关 PID 仍运行或已退出。不要仅凭锁文件存在判断锁仍被占用，也不要删除锁文件或结束未知进程。
+- 16:41 UTC 用相同的 Windows 字节区间锁机制探测，campaign 锁为空闲。16:42 UTC 已用 `.venv-opt/Scripts/python.exe` 启动新的 R179 v2 审计进程 PID 19376；日志 `outputs/bill_target74/bill_target74_unbounded_20261024/desktop_friendly/runtime_20261028T164217Z_19376.jsonl` 首条记录为 2.957 GiB 可用，低于 4.5 GiB 模块导入门槛，正在门槛前等待，尚未导入实验模块或开始 fit。统一执行 session 12387 已轮询确认仍活动；新等待逻辑不持有 campaign 锁。
+- 16:44:17 UTC 的最新运行器事件为 3.086 GiB 可用；随后内存快照为 2.760 GiB / 82%，到 16:45:21 UTC session 12387 仍活动，累计 CPU 0.3125 秒，尚无 fit start。
+- 16:46:17 UTC 的等待事件为 2.896 GiB 可用；独立快照为 3.071 GiB / 80%。Campaign `fits.jsonl` 中 `independent_audit_postrun_v2` 仍是 0 fit starts / 0 completes；16:46:52 UTC session 12387 仍活动。
+- 16:54:19 UTC 的等待事件为 3.569 GiB 可用（总内存 15.829 GiB、77% 使用），仍低于 4.5 GiB 模块导入门槛；session 12387 仍活动，累计 CPU 约 0.36 秒，R179 审计尚无 fit start。该等待进程没有改变 R151/R97 的已完成模型结果。
+- 已确认旧运行器先拿全局锁、再等待 4.5 GiB 导入内存，因此 R179 等待时会阻塞 R180。已调整 `experiments/bill_target74/desktop_friendly_runtime.py`：先应用低优先级/线程策略，再等内存后拿锁；拿锁后复查，内存不足就释放并继续等；锁等待日志降为每分钟一次。内存阈值、拟合逻辑、模型参数和预算都不变。AST 语法检查通过；当前只有低优先级等待进程，尚未开始模型 fit。
+- 资源恢复后先完成 R179 独立审计；若旧进程已结束，用新的 run id 保留历史日志，再按序运行 R180 的两月 list-aware garage-count 筛选。只有筛选门槛通过才进入八个月开发比较。reserve validation 仍不具备资格，禁止读取预留或隐藏标签。
+- 详细诊断见 `DESKTOP_FRIENDLY_RUNTIME_DIAGNOSTIC_2026-10-28.md`；更早的桌面运行方案及完整历史见 `DESKTOP_FRIENDLY_TRAINING_2026-10-27.md`、`BILL_CONTINUOUS_GOAL_LT7_LT4_REFRESH_AFTER_R12_2026-10-24.md` 和活动 campaign 输出目录。
+
+---
 # Project summary
 
 ## 拟定下一阶段：二十种方法、三次累计升级（2026-10-18；计划，未执行）

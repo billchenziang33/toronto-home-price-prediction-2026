@@ -1,0 +1,64 @@
+{
+  "analysis": "descriptive post-hoc correction-magnitude grouping; no fits",
+  "run_id": "r97m_20261025T210147Z",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "paired_predictions_sha256": "cea1400e859f1da376b51d9e9ccc9a73c297d188b71993050d106a63d2971704",
+  "track": "list_aware",
+  "months": [
+    "2023-03",
+    "2023-07",
+    "2023-11",
+    "2024-03",
+    "2024-06",
+    "2024-09",
+    "2025-01",
+    "2025-03"
+  ],
+  "rows": 15642,
+  "groups": {
+    "zero": {
+      "n": 4476,
+      "parent_mdape_percent": 4.9119971095039014,
+      "candidate_mdape_percent": 4.9119971095039014,
+      "parent_mape_percent": 6.12435485388925,
+      "candidate_mape_percent": 6.12435485388925,
+      "row_improved": 0,
+      "row_worsened": 0,
+      "row_unchanged": 4476
+    },
+    "0_to_1pct_log": {
+      "n": 6393,
+      "parent_mdape_percent": 3.97093703023217,
+      "candidate_mdape_percent": 3.960204169910892,
+      "parent_mape_percent": 5.077164688497209,
+      "candidate_mape_percent": 5.030676968173533,
+      "row_improved": 3292,
+      "row_worsened": 3101,
+      "row_unchanged": 0
+    },
+    "1_to_3pct_log": {
+      "n": 4767,
+      "parent_mdape_percent": 5.166682632436057,
+      "candidate_mdape_percent": 5.208035621828725,
+      "parent_mape_percent": 6.413401693960045,
+      "candidate_mape_percent": 6.499398312973048,
+      "row_improved": 2224,
+      "row_worsened": 2543,
+      "row_unchanged": 0
+    },
+    "3_to_5pct_log": {
+      "n": 6,
+      "parent_mdape_percent": 10.716937222988912,
+      "candidate_mdape_percent": 11.151180449183737,
+      "parent_mape_percent": 12.423348219297472,
+      "candidate_mape_percent": 12.924545780971885,
+      "row_improved": 3,
+      "row_worsened": 3,
+      "row_unchanged": 0
+    }
+  },
+  "reserve_months_labels_opened": false,
+  "hidden_labels_opened": false,
+  "promotion_or_tuning_decision": false,
+  "caveat": "Development months have been reused in search. These candidate-defined groups do not establish a causal or future benefit and must not be used to tune a correction threshold."
+}

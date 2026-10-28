@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "campaign_id": "bill_target74_20261024T035422Z",
+  "parent_commit": "0802cc8d41b46dfac5affddc91192b9b41e9439a",
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "parent_by_track": {"off_market": "G19_detached_shrink_075", "list_aware": "G01"},
+  "initial_development_metrics": {
+    "off_market": {"mdape_percent": 7.7429376, "mape_percent": 10.6109485, "target_mdape_strictly_below": 7.0},
+    "list_aware": {"mdape_percent": 4.7322720, "mape_percent": 5.9121191, "target_mdape_strictly_below": 4.0}
+  },
+  "screen_months": ["2023-03", "2024-06"],
+  "development_months": ["2023-03", "2023-07", "2023-11", "2024-03", "2024-06", "2024-09", "2025-01", "2025-03"],
+  "fixed_origins": ["2024-06-01", "2025-12-01"],
+  "reserved_months": ["2025-05", "2025-08"],
+  "retrospective_months": ["2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05"],
+  "limits": {
+    "campaign_fit_starts": 256,
+    "campaign_minutes": 720,
+    "exploration_fit_starts": 160,
+    "exploration_minutes": 480,
+    "final_reserve_fit_starts": 96,
+    "final_reserve_minutes": 240,
+    "batch_fit_starts": 32,
+    "batch_minutes": 90,
+    "single_fit_seconds": 180,
+    "learner_threads": 4
+  },
+  "gates": {
+    "screen_relative_mdape_improvement_percent": 0.25,
+    "screen_both_months_improve": true,
+    "screen_mape_regression_max_percent": 1.0,
+    "development_relative_mdape_improvement_percent": 0.5,
+    "development_months_improved_min": 6,
+    "development_worst_month_regression_max_percent": 5.0,
+    "development_mape_regression_max_percent": 1.0,
+    "development_bootstrap_upper_bound_below_zero": true,
+    "fixed_origin_pooled_mdape_regression_max_percent": 0.0,
+    "fixed_origin_horizon_regression_max_percent": 5.0,
+    "fixed_origin_mape_regression_max_percent": 1.0
+  },
+  "cards": {
+    "R01_XGBoost": {
+      "status": "dependency_blocked_pending_second_local_diagnostic",
+      "version": "3.1.3",
+      "params": {"objective": "reg:squarederror", "tree_method": "hist", "device": "cpu", "max_depth": 6, "min_child_weight": 20, "max_bin": 256, "subsample": 0.8, "colsample_bytree": 0.8, "reg_lambda": 10.0, "reg_alpha": 0.0, "random_state": 0, "n_jobs": 4, "enable_categorical": true},
+      "route": "off_market replaces the G19 Detached expert at 0.75 expert + 0.25 G06; list-aware replaces only the G01 LightGBM core and retains 0.25 frozen HGBR"
+    },
+    "R02_structure_matched_past_oof": {
+      "status": "registered",
+      "window_months": 24,
+      "half_life_months": 12,
+      "max_neighbors": 30,
+      "min_neighbors": 10,
+      "weight": "1/(structure_distance+0.25) * 0.5^(age_months/12)",
+      "correction": "parent * exp(0.25 * n_eff/(n_eff+30) * clip(weighted_log_residual,-0.10,0.10))",
+      "oof_source": "strictly earlier walk-forward parent predictions; use only rows dated before each outer cutoff"
+    },
+    "R03_full_feature_CatBoost": {"status": "pending", "iterations": 1000, "depth": 6, "learning_rate": 0.05, "l2_leaf_reg": 10, "loss_function": "RMSE", "thread_count": 4},
+    "R04_feature_group_ablation": {"status": "pending"},
+    "R05_bounded_deduplicated_lightgbm_search": {"status": "pending"},
+    "R06_temporal_oof_blending": {"status": "pending"}
+  },
+  "provenance_policy": "N03 seed OOF is reusable only when its saved per-file hashes match that closed run manifest. Historical development parent CSVs are frozen walk-forward comparators; the known sidecar code-hash mismatch must be disclosed and never described as a fresh reproduction."
+}

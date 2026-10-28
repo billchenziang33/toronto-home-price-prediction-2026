@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "priority": "BelowNormal",
+  "max_logical_processors": 2,
+  "max_concurrent_campaign_processes": 1,
+  "minimum_available_memory_gib": 4.0,
+  "memory_poll_seconds": 10,
+  "resource_sample_seconds": 15,
+  "environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "fit_count_limit": null,
+  "training_time_limit": null,
+  "model_configuration_changed": false,
+  "minimum_available_memory_before_module_gib": 4.5
+}

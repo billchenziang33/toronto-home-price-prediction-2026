@@ -1,0 +1,607 @@
+"""R129: past-only spatial + structural residual correction on R93 OOF."""
+from __future__ import annotations
+
+import hashlib
+import json
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from scipy.spatial import cKDTree
+
+from experiments.bill_target74 import r22_remarks_tfidf as r22
+from experiments.bill_target74 import r93_spatial_oof_calibration as r93
+from experiments.bill_target74 import runner as campaign
+
+
+CARD = "R129_spatiostructural_r93_residual_correction"
+TRACK = "off_market"
+MONTHS = tuple(campaign.PROTOCOL["development_months"])
+SCREEN_MONTHS = tuple(campaign.PROTOCOL["screen_months"])
+EARTH_RADIUS_KM = 6371.0088
+LATITUDE_CENTER = 43.7
+MAX_DISTANCE_KM = 1.5
+MAX_NEIGHBORS = 50
+MIN_NEIGHBORS = 15
+MIN_TYPE_HISTORY = 100
+SPATIAL_BANDWIDTH_KM = 0.75
+LOG_AREA_SCALE = 0.25
+BEDROOM_SCALE = 1.0
+WASHROOM_SCALE = 0.5
+RECENCY_HALF_LIFE_MONTHS = 12.0
+SHRINKAGE_PSEUDOCOUNT = 25.0
+MAX_ABS_LOG_DELTA = 0.03
+BOOTSTRAP_REPLICATES = 2000
+BOOTSTRAP_SEED = 20261062
+R93_CARD = "R93_strict_past_spatial_residual_difference"
+R22_CARD = "R22_train_fold_tfidf_remarks"
+
+
+def _sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def _relative(path: Path) -> str:
+    return str(path.relative_to(campaign.ROOT)).replace("\\", "/")
+
+
+def _code_hashes() -> dict[str, str]:
+    paths = [Path(__file__), Path(r93.__file__), Path(r22.__file__), Path(campaign.__file__)]
+    return {_relative(path): _sha256(path) for path in paths}
+
+
+def _verified_input(name: str, progress_key: str, expected_card: str) -> dict:
+    progress = json.loads(campaign.STATE.read_text(encoding="utf-8"))
+    result_path = campaign.ROOT / progress[progress_key]
+    predictions_path = result_path.parent / "paired_predictions.csv"
+    manifest_path = result_path.parent / "run_manifest.json"
+    if not all(path.is_file() for path in (result_path, predictions_path, manifest_path)):
+        raise FileNotFoundError(f"incomplete saved {name} artifacts")
+    result = json.loads(result_path.read_text(encoding="utf-8"))
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if result.get("reserved_months_labels_opened") is not False:
+        raise RuntimeError(f"{name} source run did not attest safe reserve access")
+    if result.get("hidden_labels_opened") is not False:
+        raise RuntimeError(f"{name} source run did not attest hidden-label isolation")
+    if result.get("data_sha256") != campaign.PROTOCOL["data_sha256"]:
+        raise RuntimeError(f"{name} source data hash differs from the campaign")
+    if manifest.get("paired_predictions_sha256") != _sha256(predictions_path):
+        raise RuntimeError(f"{name} prediction hash differs from its manifest")
+    if manifest.get("result_sha256") != _sha256(result_path):
+        raise RuntimeError(f"{name} result hash differs from its manifest")
+    if result.get("card") not in (expected_card, R93_CARD if name == "r93" else R22_CARD):
+        raise RuntimeError(f"unexpected {name} card identity")
+    return {
+        "card": expected_card, "run_id": result["run_id"],
+        "result_path": result_path, "result_sha256": _sha256(result_path),
+        "predictions_path": predictions_path, "predictions_sha256": _sha256(predictions_path),
+        "manifest_path": manifest_path, "manifest_sha256": _sha256(manifest_path),
+    }
+
+
+def _inputs() -> dict:
+    return {
+        "r93": _verified_input("r93", "r93_result", R93_CARD),
+        "r22": _verified_input("r22", "r22_development_result", R22_CARD),
+    }
+
+
+def _input_hashes(inputs: dict) -> dict:
+    return {
+        name: {
+            "card": entry["card"], "run_id": entry["run_id"],
+            "result_sha256": entry["result_sha256"],
+            "paired_predictions_sha256": entry["predictions_sha256"],
+            "manifest_sha256": entry["manifest_sha256"],
+        }
+        for name, entry in inputs.items()
+    }
+
+
+def _read_safe_frame(inputs: dict, stage: str) -> pd.DataFrame:
+    target_months = SCREEN_MONTHS if stage == "screen" else MONTHS
+    last_month = max(target_months)
+    read_months = tuple(month for month in MONTHS if month <= last_month)
+    listings_path = campaign.DATA
+    if _sha256(listings_path) != campaign.PROTOCOL["data_sha256"]:
+        raise RuntimeError("current listings parquet hash differs from the registered campaign")
+    filters = []
+    for month in read_months:
+        start = pd.Timestamp(month + "-01")
+        filters.append([
+            ("date_sold", ">=", start),
+            ("date_sold", "<", start + pd.offsets.MonthBegin(1)),
+        ])
+    columns = [
+        "ml_num", "date_sold", "sold_price", "house_type_name", "latitude", "longitude",
+        "house_area", "bedrooms", "washrooms",
+    ]
+    metadata = pd.read_parquet(listings_path, columns=columns, filters=filters)
+    metadata["date_sold"] = pd.to_datetime(metadata.date_sold, errors="raise")
+    metadata["month"] = metadata.date_sold.dt.to_period("M").astype(str)
+    if set(metadata.month.unique()) != set(read_months):
+        raise RuntimeError("filtered source rows do not match the requested safe month set")
+    if set(metadata.month.unique()).intersection(campaign.PROTOCOL["reserved_months"]):
+        raise RuntimeError("reserved-month rows appeared in R129's exact safe-date filter")
+    if metadata.ml_num.astype(str).duplicated().any():
+        raise RuntimeError("safe development metadata contains duplicate listing IDs")
+    metadata["ml_num"] = metadata.ml_num.astype(str)
+    metadata["house_type_name"] = (
+        metadata.house_type_name.astype("string").fillna("__MISSING__").astype(str)
+    )
+    for column in ("sold_price", "latitude", "longitude", "house_area", "bedrooms", "washrooms"):
+        metadata[column] = pd.to_numeric(metadata[column], errors="coerce")
+
+    pieces = []
+    for name, prediction_column in (("r93", "prediction_r93"), ("r22", "prediction_r22")):
+        frame = pd.read_csv(inputs[name]["predictions_path"], dtype={"ml_num": str})
+        required = {"month", "track", "ml_num", "sold_price", "candidate_prediction"}
+        if missing := required - set(frame.columns):
+            raise RuntimeError(f"{name} OOF predictions lack columns: {sorted(missing)}")
+        frame = frame.loc[frame.track.eq(TRACK) & frame.month.astype(str).isin(read_months),
+                          ["month", "ml_num", "sold_price", "candidate_prediction"]].copy()
+        frame["month"] = frame.month.astype(str)
+        frame["ml_num"] = frame.ml_num.astype(str)
+        if frame.duplicated(["month", "ml_num"]).any():
+            raise RuntimeError(f"{name} OOF predictions contain duplicate keys")
+        frame.rename(columns={
+            "sold_price": f"sold_price_{name}", "candidate_prediction": prediction_column,
+        }, inplace=True)
+        pieces.append(frame)
+    paired = pieces[0].merge(pieces[1], on=["month", "ml_num"], validate="one_to_one")
+    paired = paired.merge(metadata, on=["month", "ml_num"], validate="one_to_one")
+    if len(paired) != int(metadata.shape[0]):
+        raise RuntimeError("R93/R22 OOF rows do not align one-to-one with safe metadata")
+    for label_column in ("sold_price_r93", "sold_price_r22"):
+        if not np.array_equal(paired.sold_price.to_numpy(float), paired[label_column].to_numpy(float)):
+            raise RuntimeError(f"safe labels do not match saved {label_column} values")
+    if not np.isfinite(paired[["prediction_r93", "prediction_r22"]].to_numpy(float)).all():
+        raise RuntimeError("R129 parent predictions contain non-finite values")
+    if (paired[["prediction_r93", "prediction_r22"]].to_numpy(float) <= 0).any():
+        raise RuntimeError("R129 parent predictions contain non-positive values")
+    paired["log_residual_r93"] = np.log(paired.sold_price.to_numpy(float)
+                                           / paired.prediction_r93.to_numpy(float))
+    return paired.loc[paired.month.isin(read_months)].sort_values(
+        ["month", "ml_num"], kind="mergesort").reset_index(drop=True)
+
+
+def _fit_correction(history: pd.DataFrame, queries: pd.DataFrame,
+                    cutoff: pd.Timestamp) -> tuple[np.ndarray, pd.DataFrame]:
+    queries = queries.reset_index(drop=True)
+    if not history.empty and (pd.to_datetime(history.date_sold, errors="raise") >= cutoff).any():
+        raise RuntimeError("R129 history contains a target-month or future sale")
+    correction = np.zeros(len(queries), dtype=float)
+    records = [None] * len(queries)
+    for property_type, query_index in queries.groupby("house_type_name", sort=False).groups.items():
+        q_positions = np.asarray(list(query_index), dtype=int)
+        type_history = history.loc[history.house_type_name.eq(property_type)].copy()
+        if len(type_history) < MIN_TYPE_HISTORY:
+            for pos in q_positions:
+                records[pos] = {"row_index": int(pos), "house_type_history_rows": int(len(type_history)),
+                                "neighbor_count": 0, "effective_neighbor_count": 0.0,
+                                "correction_log": 0.0, "fallback_reason": "insufficient_type_history"}
+            continue
+        type_weights = r93._recency_weights(type_history.date_sold, cutoff)
+        type_residual = type_history.log_residual_r93.to_numpy(float)
+        type_center = r93._weighted_median(type_residual, type_weights)
+        h_valid = (
+            np.isfinite(type_history.latitude.to_numpy(float))
+            & np.isfinite(type_history.longitude.to_numpy(float))
+            & type_history.latitude.between(40.0, 50.0).to_numpy()
+            & type_history.longitude.between(-90.0, -60.0).to_numpy()
+            & np.isfinite(type_history.house_area.to_numpy(float))
+            & (type_history.house_area.to_numpy(float) > 0.0)
+            & np.isfinite(type_history.bedrooms.to_numpy(float))
+            & np.isfinite(type_history.washrooms.to_numpy(float))
+        )
+        local_history = type_history.loc[h_valid].copy().reset_index(drop=True)
+        if len(local_history) < MIN_NEIGHBORS:
+            for pos in q_positions:
+                records[pos] = {"row_index": int(pos), "house_type_history_rows": int(len(type_history)),
+                                "neighbor_count": 0, "effective_neighbor_count": 0.0,
+                                "type_center_log_residual": float(type_center),
+                                "correction_log": 0.0, "fallback_reason": "insufficient_localizable_history"}
+            continue
+        h_coordinates = r93._project_coordinates(
+            local_history.latitude.to_numpy(float), local_history.longitude.to_numpy(float)
+        )
+        tree = cKDTree(h_coordinates)
+        h_log_area = np.log(local_history.house_area.to_numpy(float))
+        h_bedrooms = local_history.bedrooms.to_numpy(float)
+        h_washrooms = local_history.washrooms.to_numpy(float)
+        h_residual = local_history.log_residual_r93.to_numpy(float)
+        local_weights_by_type = r93._recency_weights(local_history.date_sold, cutoff)
+
+        q_rows = queries.iloc[q_positions]
+        q_valid = (
+            np.isfinite(q_rows.latitude.to_numpy(float))
+            & np.isfinite(q_rows.longitude.to_numpy(float))
+            & q_rows.latitude.between(40.0, 50.0).to_numpy()
+            & q_rows.longitude.between(-90.0, -60.0).to_numpy()
+            & np.isfinite(q_rows.house_area.to_numpy(float))
+            & (q_rows.house_area.to_numpy(float) > 0.0)
+            & np.isfinite(q_rows.bedrooms.to_numpy(float))
+            & np.isfinite(q_rows.washrooms.to_numpy(float))
+        )
+        query_positions_local = np.flatnonzero(q_valid)
+        query_coords = r93._project_coordinates(
+            q_rows.loc[q_valid, "latitude"].to_numpy(float),
+            q_rows.loc[q_valid, "longitude"].to_numpy(float),
+        )
+        neighborhoods = tree.query_ball_point(query_coords, r=MAX_DISTANCE_KM, workers=1)
+        for local_pos, original_pos in enumerate(q_positions):
+            if not q_valid[local_pos]:
+                records[original_pos] = {
+                    "row_index": int(original_pos), "house_type_history_rows": int(len(type_history)),
+                    "neighbor_count": 0, "effective_neighbor_count": 0.0,
+                    "type_center_log_residual": float(type_center), "correction_log": 0.0,
+                    "fallback_reason": "missing_or_invalid_query_structure_or_coordinates",
+                }
+                continue
+            lookup = int(np.searchsorted(query_positions_local, local_pos))
+            indices = np.asarray(neighborhoods[lookup], dtype=int)
+            q_row = q_rows.iloc[local_pos]
+            if len(indices) == 0:
+                records[original_pos] = {
+                    "row_index": int(original_pos), "house_type_history_rows": int(len(type_history)),
+                    "neighbor_count": 0, "effective_neighbor_count": 0.0,
+                    "type_center_log_residual": float(type_center), "correction_log": 0.0,
+                    "fallback_reason": "no_local_spatial_neighbors",
+                }
+                continue
+            q_coord = query_coords[lookup]
+            spatial_km = np.linalg.norm(h_coordinates[indices] - q_coord, axis=1)
+            structural_d2 = (
+                np.square((np.log(float(q_row.house_area)) - h_log_area[indices]) / LOG_AREA_SCALE)
+                + np.square((float(q_row.bedrooms) - h_bedrooms[indices]) / BEDROOM_SCALE)
+                + np.square((float(q_row.washrooms) - h_washrooms[indices]) / WASHROOM_SCALE)
+            )
+            combined_d2 = np.square(spatial_km / SPATIAL_BANDWIDTH_KM) + structural_d2
+            order = np.argsort(combined_d2, kind="mergesort")[:MAX_NEIGHBORS]
+            indices = indices[order]
+            combined_d2 = combined_d2[order]
+            neighbor_count = int(len(indices))
+            local_center = type_center
+            effective_count = 0.0
+            delta = 0.0
+            fallback = None
+            if neighbor_count < MIN_NEIGHBORS:
+                fallback = "insufficient_spatiostructural_neighbors"
+            else:
+                relative_distance_weight = np.exp(-0.5 * (combined_d2 - float(combined_d2.min())))
+                weights = relative_distance_weight * local_weights_by_type[indices]
+                if not np.isfinite(weights).all() or weights.sum() <= 0.0:
+                    fallback = "invalid_neighbor_weights"
+                else:
+                    effective_count = float(weights.sum() ** 2 / np.square(weights).sum())
+                    local_center = r93._weighted_median(h_residual[indices], weights)
+                    delta = (local_center - type_center) * (
+                        effective_count / (effective_count + SHRINKAGE_PSEUDOCOUNT)
+                    )
+                    delta = float(np.clip(delta, -MAX_ABS_LOG_DELTA, MAX_ABS_LOG_DELTA))
+                    correction[original_pos] = delta
+            records[original_pos] = {
+                "row_index": int(original_pos), "house_type_history_rows": int(len(type_history)),
+                "neighbor_count": neighbor_count, "effective_neighbor_count": effective_count,
+                "type_center_log_residual": float(type_center),
+                "local_center_log_residual": float(local_center),
+                "combined_distance_min": float(np.sqrt(combined_d2.min())),
+                "correction_log": float(correction[original_pos]), "fallback_reason": fallback,
+            }
+    diagnostics = pd.DataFrame(records)
+    if len(diagnostics) != len(queries) or any(record is None for record in records) or not np.isfinite(correction).all():
+        raise RuntimeError("R129 failed to create complete finite calibration diagnostics")
+    return correction, diagnostics
+
+
+def register_card() -> dict:
+    existing = campaign.PROTOCOL["cards"].get(CARD)
+    code_hashes = _code_hashes()
+    if existing:
+        if existing.get("status") != "registered":
+            raise RuntimeError(f"{CARD} is already {existing.get('status')}; inspect its run")
+        if existing.get("code_sha256") != code_hashes:
+            raise RuntimeError("R129 code changed after preregistration")
+        if existing.get("input_artifacts") != _input_hashes(_inputs()):
+            raise RuntimeError("R129 input artifacts changed after preregistration")
+        return existing
+    inputs = _inputs()
+    card = {
+        "status": "registered", "stage": "fixed_screen_then_eight_month_development",
+        "tracks": [TRACK], "screen_months": list(SCREEN_MONTHS),
+        "development_months": list(MONTHS),
+        "expected_calibration_fit_starts": len(SCREEN_MONTHS) + len(MONTHS),
+        "learner_training_fit_starts": 0, "comparison_parent": "R22 validated off-market OOF",
+        "base_candidate": {"card": R93_CARD, "run_id": inputs["r93"]["run_id"]},
+        "method": (
+            "Use each month’s R93 candidate prediction as the base. For an outer month, derive "
+            "past residual log(sold_price/R93_prediction) only from earlier safe R93 OOF rows. "
+            "Within the same house type, find up to 50 earlier homes within 1.5 km and rank them "
+            "by squared joint distance (spatial km/0.75, log area difference/0.25, bedroom "
+            "difference/1.0, washroom difference/0.5). Weight the nearest residuals by a Gaussian "
+            "of this joint distance and a 12-month recency half-life. Subtract the recency-weighted "
+            "whole-type residual median, shrink by effective neighbor count/(effective neighbor "
+            "count+25), clip to +/-0.03 log points, apply multiplicatively to R93, and round to "
+            "the nearest dollar. Require 100 past rows of the type and 15 valid joint neighbors; "
+            "missing query coordinates/structure or insufficient support leaves the R93 prediction "
+            "unchanged. No current-month label is passed into calibration and no learner is retrained."
+        ),
+        "difference_from_prior_work": (
+            "R02 uses structural distance without a geographic kernel; R93 uses geographic distance "
+            "without area/bedroom/washroom distance. R129 uses both in one neighborhood metric and "
+            "calibrates residuals of the prequential R93 candidate rather than its R52 base."
+        ),
+        "parameters": {
+            "max_distance_km": MAX_DISTANCE_KM, "max_neighbors": MAX_NEIGHBORS,
+            "min_neighbors": MIN_NEIGHBORS, "min_type_history_rows": MIN_TYPE_HISTORY,
+            "spatial_bandwidth_km": SPATIAL_BANDWIDTH_KM, "log_area_scale": LOG_AREA_SCALE,
+            "bedroom_scale": BEDROOM_SCALE, "washroom_scale": WASHROOM_SCALE,
+            "recency_half_life_months": RECENCY_HALF_LIFE_MONTHS,
+            "shrinkage_pseudocount": SHRINKAGE_PSEUDOCOUNT,
+            "max_abs_log_delta": MAX_ABS_LOG_DELTA,
+        },
+        "source_data_filter_policy": "Read only exact safe development-month date_sold filters; screen stage reads only months through 2024-06; development stage reads only the fixed eight safe development months. Never read 2025-05/08 or hidden labels.",
+        "screen_gates": {
+            "relative_mdape_gain_min_percent": campaign.PROTOCOL["gates"]["screen_relative_mdape_improvement_percent"],
+            "both_screen_months_improve": True,
+            "mape_regression_max_percent": campaign.PROTOCOL["gates"]["screen_mape_regression_max_percent"],
+            "bootstrap_upper95_below_zero": True,
+        },
+        "development_gates": dict(campaign.PROTOCOL["gates"]),
+        "input_artifacts": _input_hashes(inputs), "code_sha256": code_hashes,
+        "data_sha256": campaign.PROTOCOL["data_sha256"],
+        "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+    }
+    campaign.PROTOCOL["cards"][CARD] = card
+    campaign.PROTOCOL_PATH.write_text(
+        json.dumps(campaign.PROTOCOL, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    campaign._append({
+        "event": "card_registered", "card": CARD,
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+        "expected_calibration_fit_starts": card["expected_calibration_fit_starts"],
+        "learner_training_fit_starts": 0, "source_sha256": code_hashes[_relative(Path(__file__))],
+        "input_artifacts": card["input_artifacts"],
+        "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+    })
+    campaign._write_progress(
+        "r129_registered", next_action="run R129 fixed two-month spatiostructural residual screen",
+        r129_card=CARD,
+    )
+    return card
+
+
+def _run(stage: str) -> dict:
+    card = campaign.PROTOCOL["cards"].get(CARD)
+    if not card or card.get("status") not in ("registered", "screen_passed"):
+        raise RuntimeError("R129 must be registered; development requires a passed fixed screen")
+    if card.get("code_sha256") != _code_hashes():
+        raise RuntimeError("R129 code/dependency hashes changed after registration")
+    if stage == "screen" and card["status"] != "registered":
+        raise RuntimeError("R129 screen already ran; do not rerun its fixed folds")
+    if stage == "development" and card["status"] != "screen_passed":
+        raise RuntimeError("R129 development requires a passed screen")
+    inputs = _inputs()
+    if _input_hashes(inputs) != card["input_artifacts"]:
+        raise RuntimeError("R129 input artifacts changed after preregistration")
+    frame = _read_safe_frame(inputs, stage)
+    target_months = SCREEN_MONTHS if stage == "screen" else MONTHS
+    run_id = ("r129s_" if stage == "screen" else "r129d_") + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    output = campaign.CAMPAIGN_ROOT / "batches" / run_id
+    output.mkdir(parents=True, exist_ok=False)
+    (output / "provenance").mkdir()
+    provenance_copies = []
+    for name, item in inputs.items():
+        for kind in ("result_path", "manifest_path"):
+            source_path = item[kind]
+            destination = output / "provenance" / f"{name}_{source_path.name}"
+            destination.write_bytes(source_path.read_bytes())
+            provenance_copies.append(_relative(destination))
+
+    fit_details = []
+    outputs = []
+    try:
+        for month in target_months:
+            cutoff = pd.Timestamp(month + "-01")
+            history = frame.loc[frame.month.lt(month)].copy()
+            query = frame.loc[frame.month.eq(month)].copy()
+            if query.empty:
+                raise RuntimeError(f"R129 has no exact safe query rows for {month}")
+            if not history.empty and (pd.to_datetime(history.date_sold, errors="raise") >= cutoff).any():
+                raise RuntimeError(f"R129 history is not strictly before {month}")
+            fit_id = f"{campaign.PROTOCOL['campaign_id']}:{CARD}:{stage}:{TRACK}:{month}:{run_id}"
+            campaign._append({
+                "event": "fit_start", "card": CARD, "stage": stage, "run_id": run_id,
+                "fit_id": fit_id, "track": TRACK, "month": month,
+                "calibration_only": True, "learner_training_fit": False,
+                "history_months": sorted(history.month.unique().tolist()),
+                "history_rows": len(history), "cutoff_exclusive": cutoff.isoformat(),
+                "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+            })
+            started = time.perf_counter()
+            # Calibration sees only features and labels strictly before the target month.
+            query_for_calibration = query.drop(columns=["sold_price", "sold_price_r93", "sold_price_r22"])
+            corrections, diagnostics = _fit_correction(history, query_for_calibration, cutoff)
+            candidate = np.rint(query.prediction_r93.to_numpy(float) * np.exp(corrections))
+            if not np.isfinite(candidate).all() or (candidate <= 0).any():
+                raise RuntimeError(f"R129 generated invalid predictions for {month}")
+            paired = pd.DataFrame({
+                "month": query.month, "track": TRACK, "ml_num": query.ml_num,
+                "sold_price": query.sold_price,
+                "parent_prediction": query.prediction_r22,
+                "r93_prediction": query.prediction_r93,
+                "candidate_prediction": candidate,
+                "correction_log": corrections,
+                "neighbor_count": diagnostics.neighbor_count.to_numpy(int),
+                "effective_neighbor_count": diagnostics.effective_neighbor_count.to_numpy(float),
+                "type_center_log_residual": diagnostics.get(
+                    "type_center_log_residual", pd.Series(np.zeros(len(query)))
+                ).fillna(0.0).to_numpy(float),
+            })
+            paired["parent_ape_percent"] = 100.0 * np.abs(paired.sold_price - paired.parent_prediction) / paired.sold_price
+            paired["candidate_ape_percent"] = 100.0 * np.abs(paired.sold_price - paired.candidate_prediction) / paired.sold_price
+            outputs.append(paired)
+            detail = {
+                "fit_id": fit_id, "track": TRACK, "month": month,
+                "status": "complete", "seconds": time.perf_counter() - started,
+                "calibration_only": True, "learner_training_fit": False,
+                "history_months": sorted(history.month.unique().tolist()),
+                "history_rows": int(len(history)),
+                "history_cutoff_exclusive": cutoff.isoformat(),
+                "corrected_rows": int(np.count_nonzero(corrections)),
+                "coverage_percent": float(100.0 * np.mean(np.asarray(corrections) != 0.0)),
+                "mean_neighbor_count": float(diagnostics.neighbor_count.mean()),
+                "median_effective_neighbor_count": float(diagnostics.effective_neighbor_count.median()),
+            }
+            fit_details.append(detail)
+            campaign._append({
+                "event": "fit_complete", "card": CARD, "stage": stage,
+                "run_id": run_id, **detail,
+                "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+            })
+
+        paired = pd.concat(outputs, ignore_index=True)
+        if paired.duplicated(["month", "ml_num"]).any():
+            raise RuntimeError("R129 produced duplicate month/listing predictions")
+        if stage == "screen":
+            score = r22.score_development_confirmation(
+                paired[["month", "ml_num", "sold_price", "parent_prediction", "candidate_prediction"]],
+                months=SCREEN_MONTHS, target_mdape_strictly_below=7.0,
+                bootstrap_replicates=BOOTSTRAP_REPLICATES, bootstrap_seed=BOOTSTRAP_SEED,
+                minimum_relative_gain_percent=campaign.PROTOCOL["gates"]["screen_relative_mdape_improvement_percent"],
+                minimum_months_improved=2, maximum_worst_month_regression_percent=0.0,
+                maximum_mape_regression_percent=campaign.PROTOCOL["gates"]["screen_mape_regression_max_percent"],
+            )
+            checks = {
+                "relative_mdape_gain": score["relative_mdape_improvement_percent"] >= campaign.PROTOCOL["gates"]["screen_relative_mdape_improvement_percent"],
+                "both_months_improved": score["months_improved"] == 2,
+                "mape_guard": score["mape_relative_change_percent"] <= campaign.PROTOCOL["gates"]["screen_mape_regression_max_percent"],
+                "bootstrap_upper_below_zero": score["bootstrap_mdape_difference_percent"]["upper95"] < 0.0,
+            }
+            qualifies = all(checks.values())
+        else:
+            score = r22.score_development_confirmation(
+                paired[["month", "ml_num", "sold_price", "parent_prediction", "candidate_prediction"]],
+                months=MONTHS, target_mdape_strictly_below=7.0,
+                bootstrap_replicates=BOOTSTRAP_REPLICATES, bootstrap_seed=BOOTSTRAP_SEED,
+            )
+            checks = {"development_gates": score["qualifies_development"],
+                      "strict_mdape_target": score["target_met"]}
+            qualifies = all(checks.values())
+
+        result = {
+            "campaign_id": campaign.PROTOCOL["campaign_id"], "run_id": run_id,
+            "card": CARD, "stage": stage, "track": TRACK,
+            "months": list(target_months), "scores": score,
+            "gate_checks": checks, "qualifies": bool(qualifies),
+            "calibration_fit_starts": len(fit_details), "learner_training_fit_starts": 0,
+            "fit_details": fit_details, "input_artifacts": card["input_artifacts"],
+            "filtered_source_months": sorted(frame.month.unique().tolist()),
+            "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+            "reserve_validation_eligible": False,
+        }
+        pair_path = output / "paired_predictions.csv"
+        result_path = output / ("screen_results.json" if stage == "screen" else "development_results.json")
+        paired.to_csv(pair_path, index=False)
+        result_path.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        manifest = {
+            "campaign_id": campaign.PROTOCOL["campaign_id"], "run_id": run_id,
+            "card": CARD, "stage": stage, "data_sha256": card["data_sha256"],
+            "code_sha256": card["code_sha256"], "input_artifacts": card["input_artifacts"],
+            "provenance_copies": provenance_copies,
+            "filtered_source_months": sorted(frame.month.unique().tolist()),
+            "paired_predictions_sha256": _sha256(pair_path), "result_sha256": _sha256(result_path),
+            "calibration_fit_starts": len(fit_details), "learner_training_fit_starts": 0,
+            "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+        }
+        manifest_path = output / "run_manifest.json"
+        manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        if stage == "screen":
+            card.update({
+                "status": "screen_passed" if qualifies else "screen_failed",
+                "screen_run_id": run_id, "screen_result_path": _relative(result_path),
+                "screen_result_sha256": _sha256(result_path),
+                "screen_paired_predictions_path": _relative(pair_path),
+                "screen_paired_predictions_sha256": _sha256(pair_path),
+                "screen_manifest_path": _relative(manifest_path),
+                "screen_manifest_sha256": _sha256(manifest_path),
+                "screen_metrics": score, "screen_gate_checks": checks,
+                "qualifies_screen": bool(qualifies),
+            })
+        else:
+            card.update({
+                "status": "development_complete", "development_run_id": run_id,
+                "development_result_path": _relative(result_path),
+                "development_result_sha256": _sha256(result_path),
+                "development_paired_predictions_path": _relative(pair_path),
+                "development_paired_predictions_sha256": _sha256(pair_path),
+                "development_manifest_path": _relative(manifest_path),
+                "development_manifest_sha256": _sha256(manifest_path),
+                "development_metrics": score, "development_gate_checks": checks,
+                "qualifies_development": bool(qualifies),
+            })
+        campaign.PROTOCOL_PATH.write_text(
+            json.dumps(campaign.PROTOCOL, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
+        campaign._append({
+            "event": "card_complete", "card": CARD, "stage": stage, "run_id": run_id,
+            "fit_starts": len(fit_details), "learner_training_fit_starts": 0,
+            "qualifies": bool(qualifies), "result_path": _relative(result_path),
+            "result_sha256": _sha256(result_path),
+            "paired_predictions_sha256": _sha256(pair_path),
+            "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+        })
+        next_action = (
+            "run R129 eight-month development confirmation; fixed screen passed"
+            if stage == "screen" and qualifies else
+            "retain R22 and register a different spatial/structural mechanism; R129 screen failed"
+            if stage == "screen" else
+            "proceed to eligible fixed-origin confirmation only if R129 meets strict development target and gates"
+            if qualifies else
+            "retain R22; R129 did not reach strict off-market target and development gates"
+        )
+        campaign._write_progress(
+            f"r129_{stage}_{'passed' if qualifies else 'failed'}",
+            next_action=next_action, r129_run_id=run_id, r129_result=_relative(result_path),
+            r129_learner_training_fit_starts=0,
+        )
+        return result
+    except Exception as exc:
+        campaign._append({
+            "event": "card_failed", "card": CARD, "stage": stage, "run_id": run_id,
+            "fit_starts": len(fit_details), "error": f"{type(exc).__name__}: {exc}",
+            "reserved_months_labels_opened": False, "hidden_labels_opened": False,
+        })
+        campaign._write_progress(
+            f"r129_{stage}_failed_runtime", next_action="audit R129 failure checkpoint before any retry",
+            r129_run_id=run_id,
+        )
+        raise
+
+
+def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Register or run R129 spatial + structural correction")
+    parser.add_argument("--register-only", action="store_true")
+    parser.add_argument("--screen", action="store_true")
+    parser.add_argument("--development", action="store_true")
+    args = parser.parse_args()
+    if sum((args.register_only, args.screen, args.development)) != 1:
+        parser.error("choose exactly one of --register-only, --screen, or --development")
+    if args.register_only:
+        print(json.dumps(register_card(), indent=2, ensure_ascii=False))
+    else:
+        if CARD not in campaign.PROTOCOL["cards"]:
+            raise RuntimeError("register R129 before running it")
+        _run("screen" if args.screen else "development")
+
+
+if __name__ == "__main__":
+    main()
