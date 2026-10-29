@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "run_id": "bill_greedy_2026-10-22",
+  "parent_commit": "0802cc8d41b46dfac5affddc91192b9b41e9439a",
+  "data_path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+  "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "development_months": ["2023-03", "2023-07", "2023-11", "2024-03", "2024-06", "2024-09", "2025-01", "2025-03"],
+  "screen_months": ["2023-03", "2024-06"],
+  "fixed_origins": ["2024-06-01", "2025-12-01"],
+  "fixed_origin_horizons": 4,
+  "reserved_months": ["2025-05", "2025-08"],
+  "retrospective_months": ["2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05"],
+  "limits": {"minutes": 360, "development_minutes": 300, "final_reserve_minutes": 60, "fits": 240, "final_reserve_fits": 36, "batch_minutes": 90, "batch_fits": 60, "threads": 4},
+  "candidate_search": {
+    "rounds": [
+      {"round": 1, "candidate": "G01", "description": "Corrected strict-as-of coordinate and unit sale-history features"},
+      {"round": 2, "parent": "G01", "neighbors": {
+        "off_market": ["G02_shrink30", "G03_decay12", "G05_residual_std", "G06_lot_garage"],
+        "list_aware": ["G02_shrink30", "G03_decay12", "G05_residual_std", "G07_area_range"]
+      }},
+      {"round": 3, "parent_by_track": {"off_market": "G06_lot_garage", "list_aware": "G01"},
+       "neighbors": {
+         "off_market": ["G08_num_leaves:63", "G09_min_child_samples:50", "G10_reg_lambda:10", "G11_learning_rate:0.02"],
+         "list_aware": ["G08_num_leaves:31", "G09_min_child_samples:50", "G10_reg_lambda:10", "G11_learning_rate:0.02"]
+       }},
+      {"round": 4, "parent_policy": "the best accepted parent from round 3, else round 2, else G01, independently by track",
+       "neighbors": {
+         "off_market": ["G12_mape_objective", "G13_residual_std_on_G06"],
+         "list_aware": ["G12_mape_objective"]
+       }},
+      {"round": 5, "parent_policy": "current accepted parent independently by track",
+       "candidate": "G14_lagged_type_market_index",
+       "definition": "median log sold-price-per-square-foot for the same property type in exactly the previous calendar month; missing if unavailable; no forward fill"},
+      {"round": 6, "parent_policy": "current accepted parent independently by track",
+       "candidate": "G15_catboost",
+       "definition": "switch the learner family to CatBoost while retaining the current parent's frozen input features; ordered native categories, 600 iterations, depth 6, learning_rate 0.05, L2 leaf regularization 3, RMSE target loss, time-aware ordered statistics on stable sale-date/listing-id order; four threads; list-aware prediction retains the frozen 25% HGBR blend",
+       "prior_evidence": "M19 CatBoost was tested as a screen-only C0 challenger and did not pass its confirmation threshold; this round asks whether the same family gains from the accepted history-feature parent, so it is a parent-conditioned follow-up rather than an unchanged rerun"},
+      {"round": 7, "parent_policy": "current accepted parent independently by track",
+       "candidate": "G16_l1_log_objective",
+       "definition": "keep the current feature set and transformed target unchanged; replace LightGBM squared error with absolute error on log sold price for off-market and log sold/list ratio for list-aware; list-aware output retains the frozen 25% HGBR blend",
+       "motivation": "MdAPE is the median absolute percentage error; absolute error on the log price or log ratio is a robust relative-error surrogate, distinct from the rejected direct-dollar MAPE objective"},
+      {"round": 8, "parent_policy": "current accepted parent independently by track",
+       "candidate": "G17_nearest_comparables",
+       "definition": "add only same-property-type comparable-sale residual features from the nearest 10 and up to 30 sales, using a 24-month strict pre-cutoff window; residual is log sold price per square foot minus the median for that property type in the previous complete calendar month; include mean distance, age, inverse-distance-weighted residual and medians; training rows use their own sale-month start and evaluation uses the fold/origin cutoff",
+       "prior_evidence": "Jessica branch neighbor-comparable screen failed on 2025-06/09/11 (+0.17% list-aware, -0.39% off-market) and was not confirmed; it used a building-history parent whose evaluation age cutoff was training max date + 1 day. This candidate is a separately implemented strict-cutoff follow-up on the corrected current parent, not an assertion that the old result was positive"},
+      {"round": 9, "parent_policy": "current accepted parent independently by track",
+       "candidate": "G18_detached_specialist",
+       "definition": "fit the locked LightGBM model on Detached training rows only, using the current accepted parent's feature set; replace only Detached predictions with specialist predictions, and retain the parent's predictions for every other house type. For list-aware, retain the frozen 25% HGBR blend on the Detached subset.",
+       "motivation": "Retrospective error diagnostics found off-market Detached MdAPE around 11.1% with near-zero median signed log error, suggesting a high-variance subgroup rather than a single global calibration offset. Test whether a dedicated model reduces subgroup error without perturbing other types; measure full-track results because Detached-only gains may be diluted."},
+      {"round": 10, "parent_policy": "current accepted parent independently by track",
+       "candidate": "G19_detached_parent_shrinkage",
+       "neighbors": {
+         "G19_detached_shrink_025": 0.25,
+         "G19_detached_shrink_050": 0.50,
+         "G19_detached_shrink_075": 0.75
+       },
+       "definition": "for Detached rows only, blend the current parent prediction with the already fitted G18 specialist prediction at the fixed specialist weights above; every other row remains exactly the parent prediction. Select at most one qualifying weight per track on the two frozen screen months, then evaluate that weight on all eight development months. No learner is refit for this post-processing comparison.",
+       "motivation": "G18 improved the Detached subgroup in seven of eight off-market development months but failed the full-track 0.5% gate, with a reversal in 2025-03. A fixed shrinkage sweep tests whether partial routing reduces month sensitivity. Weights and selection gate are frozen before this sweep."},
+      {"round": 11, "parent_policy": "current accepted parent; list-aware only",
+       "candidate": "G20_list_anchor_shrinkage",
+       "neighbors": {
+         "G20_list_anchor_050": 0.50,
+         "G20_list_anchor_075": 0.75,
+         "G20_list_anchor_090": 0.90
+       },
+       "definition": "for list-aware predictions only, shrink the parent model's predicted sold/list ratio toward 1.0 on the log scale: new_price = round(list_price * exp(alpha * log(parent_prediction/list_price))). Off-market is ineligible because list_price is prohibited. Fit no learner; select at most one alpha on the frozen screen months, then confirm it on the eight development months and fixed origins.",
+       "motivation": "The list-aware parent already predicts a sold/list ratio but blends a ratio learner and a sold-price learner in dollar space. A small, predeclared pull toward the observed list price tests whether the remaining ratio prediction is over-dispersed. Apply only where list_price is finite and positive; otherwise stop and audit the fold rather than silently changing rows."},
+      {"round": 12, "parent_policy": "current accepted parent; list-aware only",
+       "candidate": "G21_list_aware_semi_detached_specialist",
+       "definition": "fit the locked list-aware LightGBM model only on Semi-Detached training listings using the current parent's feature set; on evaluation, replace Semi-Detached predictions with the specialist's predictions after the frozen 25% HGBR blend, and preserve G01 predictions for all other property types.",
+       "motivation": "The prior property-type residual audit showed Semi-Detached list-aware MdAPE around 6.26%, above the 4.86% track screen. Round 9's Detached-only specialist did not help list-aware, so test a distinct high-error type with independent routing; the full-track screen accounts for dilution and the standard gate controls promotion."},
+      {"round": 13, "parent_policy": "current accepted parent; off-market only",
+       "candidate": "G22_off_market_semi_detached_specialist",
+       "definition": "fit a LightGBM specialist only on Semi-Detached off-market training rows, retaining the G06 lot/garage feature set carried by the accepted G19 specialist blend; replace only Semi-Detached predictions and leave every other home's current parent G19 prediction unchanged.",
+       "motivation": "Off-market Semi-Detached MdAPE was about 10.12% in the prior property-type audit, materially above the 7.74% current full-track parent. Round 12's list-aware Semi-Detached specialist did not pass screen; this is a separate track-specific hypothesis. Preserve the underlying G06 feature lineage when stacking a second type specialist."},
+      {"round": 14, "parent_policy": "current accepted parent; list-aware only",
+       "candidate": "G23_list_aware_l1_mix_010",
+       "definition": "blend 90% of current G01 list-aware predictions with 10% of the same-fold G16 LightGBM regression_l1 log(sold/list) predictions in dollar space, then round once; keep off-market unchanged. The source L1 model retains the frozen 25% HGBR blend.",
+       "motivation": "An exploratory scan of cached 2023-03/2024-06 screen predictions found a 10% G16 contribution lowers MdAPE in both months while diluting the L1 model's MAPE increase; the chosen weight was informed by these same screen folds, so screening evidence is optimistic and cannot justify promotion. Require the full eight development months and fixed-origin guards before changing the parent."},
+      {"round": 15, "parent_policy": "current accepted off-market parent G19; generate the specialist overlay from G06 so unchanged house types remain row-for-row identical",
+       "candidate": "G24_off_market_detached_leaves63",
+       "definition": "fit a Detached-only off-market LightGBM specialist with num_leaves=63 and other G06 configuration fixed, blend its rounded predictions at 75% with G06 predictions only for Detached homes, and compare the resulting full-track predictions against current G19.",
+       "motivation": "Round 3's full-track 63-leaf off-market neighbor moved screen MdAPE 7.8264% to 7.7850% but failed because the month gate did not hold. The current accepted G19 gain comes from a 75% Detached specialist blend. Test the parameter interaction inside that specialist while preserving the known winning router weight and use the current G19 as the comparison parent."},
+      {"round": 16, "parent_policy": "current accepted parent; list-aware only",
+       "candidate": "G25_list_aware_huber_objective",
+       "definition": "keep G01 features, log(sold/list) target, LightGBM configuration, and the frozen 25% HGBR blend; change only the LightGBM objective to Huber with alpha=0.9.",
+       "motivation": "The list-aware L1 objective gave a small screen MdAPE gain but failed full development, while direct MAPE worsened. Huber is a distinct robust-loss compromise; test a single fixed objective neighbor without expanding the grid."},
+      {"round": 17, "parent_policy": "current accepted off-market parent G19; generate the specialist overlay from G06 so unchanged house types remain row-for-row identical",
+       "candidate": "G26_off_market_detached_l1_specialist",
+       "definition": "fit only the Detached off-market subset using the G06 feature set and the existing LightGBM regression_l1 objective, blend at the already accepted 75% specialist weight with G06 predictions, and score against current G19.",
+       "motivation": "The full-track off-market L1 objective failed screen, but the current G19 gain is concentrated in a Detached-only specialist. Test whether median-oriented log-price loss helps inside that subgroup while holding feature set, route, and weight fixed; do not assume the full-track negative result transfers either way."},
+      {"round": 18, "parent_policy": "current accepted off-market parent G19; generate the specialist overlay from G06 so unchanged house types remain row-for-row identical",
+       "candidate": "G27_off_market_detached_minchild200",
+       "definition": "fit only the Detached off-market subset with the G06 feature set, keep LightGBM squared-error objective and 31 leaves, increase min_child_samples from 100 to 200, blend at 75% with G06 only for Detached homes, and score against current G19.",
+       "motivation": "The 63-leaf specialist in Round 15 worsened both screening folds, suggesting added specialist capacity is not helpful. Test the opposite regularization direction with a single larger leaf-size threshold; keep the existing expert route, feature set, and blend weight fixed."},
+      {"round": 19, "parent_policy": "off-market only; current accepted parent must be G19_detached_shrink_075; retain its G06 base and 75% Detached specialist route",
+       "candidate": "G28_off_market_hierarchical_market_index",
+       "definition": "add prior-12-complete-month median log sold-price-per-square-foot features by community × property type, municipality × property type, and property type fallback. Shrink the local estimate toward the municipality fallback with n/(n+20), or use the municipality/type fallback when local history is unavailable. Use the feature only inside a Detached specialist fitted on Detached training rows; blend its rounded predictions at 75% with G06 only for Detached homes, leaving every other row on G06. Training rows use their own sale-month-start cutoff; evaluation rows use the fold/origin cutoff; exclude same-month/future sales and never use query labels.",
+       "motivation": "The post-Round-18 development audit showed off-market MdAPE of 11.783% for homes above 1,600 sq ft and 10.911% for Detached, while the global signed log error was near zero. This tests whether a stable, geographically local market level adds signal within the currently accepted Detached expert; the result is exploratory until it passes the frozen screen, full-development, and fixed-origin gates."},
+      {"round": 20, "parent_by_track": {"off_market": "G19_detached_shrink_075", "list_aware": "G01"},
+       "candidates": {
+         "off_market": {"id": "G29_off_market_large_detached_expert", "definition": "On Detached homes with more than 1,600 sq ft, replace the current 75% G18 + 25% G06 G19 blend with the already fitted G18 Detached expert at 100%; leave every other home's G19 prediction unchanged. Use G18 outputs only when their Round 9 data/code hashes and IDs/labels match."},
+         "list_aware": {"id": "G30_list_aware_hierarchical_ratio", "definition": "Apply a fixed 0.5 correction in log-price space using the difference between a shrunk community × property type median log(sold/list) ratio and the broad property-type median. Estimate both levels from the previous 12 complete months only, shrink municipality and community medians with n/(n+20), and fall back municipality → type → zero. The prediction is the rounded G01 price times exp(0.5 × local_delta); no evaluation labels or future sales are used."}},
+       "selection": "Evaluate the two candidates independently on the frozen 2023-03 and 2024-06 screening folds. Only a candidate passing the existing minimum 0.25% pooled MdAPE gain, both-month improvement, and 1% MAPE regression cap may proceed to all eight development folds. Only a development-gate passer proceeds to the two fixed four-month origins; never open the reserved 2025-05/08 folds during this round. Record all transformations and any fixed-origin fit starts in the ledger."},
+      {"round": 21, "parent_by_track": {"off_market": "G19_detached_shrink_075", "list_aware": "G01"},
+       "candidates": {
+         "off_market": {"id": "G31_off_market_large_detached_specialist", "training_group": "house_type_name == Detached and square_feet(house_area) > 1600, computed from training rows only", "features": "G06_lot_garage feature lineage", "model": "frozen off-market LightGBM configuration and log sold-price target", "route_blend": {"expert": 0.25, "parent": 0.75}},
+         "list_aware": {"id": "G32_list_aware_top_quartile_specialist", "training_group": "positive list_price at or above the training fold's 75th percentile", "routing": "query list_price at or above the same training-only percentile", "features": "G01 list-aware features", "model": "frozen list-aware LightGBM configuration and log sold/list target", "route_blend": {"expert": 0.25, "parent": 0.75}}},
+       "selection": "Evaluate both candidates independently against the specified parent on the frozen 2023-03 and 2024-06 screening folds. Only a candidate passing the minimum 0.25% pooled MdAPE improvement, improvement on both months, and maximum 1% MAPE regression may proceed to all eight development folds. Only a development-gate passer proceeds to both fixed four-month origins. Keep subgroup definitions, 75th-percentile calculation, and 25% expert blend frozen throughout confirmation; never use evaluation labels or future rows to form groups or features. Never open the reserved 2025-05/08 folds or hidden labels."},
+      {"round": 22, "parent_by_track": {"off_market": "G19_detached_shrink_075", "list_aware": "G01"},
+       "candidates": {
+         "off_market": {"id": "G34_off_market_large_detached_catboost", "training_group": "house_type_name == Detached and square_feet(house_area) > 1600, computed from training rows only", "base_features": "G06_lot_garage", "features": "G06_lot_garage feature lineage", "model": "CatBoost RMSE, 600 iterations, depth 6, learning_rate 0.05, l2_leaf_reg 3, time-ordered training rows, four threads", "route_blend": {"expert": 0.25, "parent": 0.75}},
+         "list_aware": {"id": "G33_list_aware_q90_specialist", "training_quantile": 0.9, "training_group": "positive list_price at or above the training fold's 90th percentile", "routing": "query list_price at or above the same training-only percentile", "features": "G01 list-aware features", "model": "frozen list-aware LightGBM configuration and log sold/list target", "route_blend": {"expert": 0.25, "parent": 0.75}}},
+       "selection": "Evaluate both candidates independently against the specified parent on the frozen 2023-03 and 2024-06 screening folds. Only a candidate passing the minimum 0.25% pooled MdAPE improvement, improvement on both months, and maximum 1% MAPE regression may proceed to all eight development folds. Only a development-gate passer proceeds to both fixed four-month origins. Keep subgroup definitions, the training-only 90th-percentile cutoff, CatBoost configuration, and 25% expert blend frozen throughout confirmation; never use evaluation labels or future rows to form groups or features. Never open the reserved 2025-05/08 folds or hidden labels."},
+      {
+        "round": 23,
+        "parent_by_track": {
+          "off_market": "G19_detached_shrink_075",
+          "list_aware": "G01"
+        },
+        "candidates": {
+          "off_market": {
+            "id": "G35_off_market_cold_start_specialist",
+            "training_group": "coordinate rounded to 6 decimals has no sale strictly before that row's sale-month start; rows without coordinates are excluded",
+            "routing": "query coordinate has no sale strictly before the outer fold cutoff; missing coordinates remain on parent",
+            "base_features": "G06_lot_garage",
+            "model": "frozen off-market LightGBM configuration and log sold-price target",
+            "route_blend": {
+              "expert": 0.25,
+              "parent": 0.75
+            }
+          },
+          "list_aware": {
+            "id": "G36_list_aware_q90_specialist_050",
+            "training_quantile": 0.9,
+            "training_group": "positive list_price at or above the outer training fold's q90",
+            "routing": "query list_price at or above the same training-only q90",
+            "features": "G01 list-aware features",
+            "model": "frozen list-aware LightGBM configuration and log sold/list target",
+            "route_blend": {
+              "expert": 0.5,
+              "parent": 0.5
+            }
+          }
+        },
+        "selection": "Evaluate both candidates against the frozen G19/G01 parents on 2023-03 and 2024-06. These and the other eight development months are adaptive-development evidence, not independent validation. A screen passer receives all eight development months; only full-development gate passers receive both fixed origins. Freeze candidate and blend before a single reserved 2025-05/08 validation pass; do not tune on those labels. Keep hidden test labels sealed."
+      },
+      {
+        "round": 24,
+        "parent_by_track": {
+          "off_market": "G19_detached_shrink_075",
+          "list_aware": "G01"
+        },
+        "candidates": {
+          "off_market": {
+            "id": "G37_off_market_cold_start_catboost",
+            "training_group": "same strict first-seen coordinate mask as G35, rounded to 6 decimals and excluding missing coordinates",
+            "routing": "same strict-as-of cold-start route as G35",
+            "base_features": "G06_lot_garage",
+            "model": "CatBoost 600 iterations, depth 6, log sold-price target; changes only the learner family relative to G35",
+            "route_blend": {
+              "expert": 0.25,
+              "parent": 0.75
+            }
+          },
+          "list_aware": {
+            "id": "G38_list_aware_q90_catboost_050",
+            "training_quantile": 0.9,
+            "training_group": "positive list_price at or above the outer training fold's q90",
+            "routing": "query list_price at or above the same training-only q90",
+            "features": "G01 list-aware features",
+            "model": "CatBoost 600 iterations, depth 6, log sold/list target; changes only the learner family relative to G36",
+            "route_blend": {
+              "expert": 0.5,
+              "parent": 0.5
+            }
+          }
+        },
+        "selection": "Change only model family versus G35/G36; preserve routes, features, and blend weights. Screen on 2023-03 and 2024-06; then require the registered 8-month development and both fixed-origin gates. After a unique candidate is frozen, rebuild same-fold past-only C0, current parents, and candidates on reserved 2025-05/08 exactly once. Require at least 1% pooled MdAPE improvement over C0, both reserved months improved, MAPE regression no more than 1%, P90 APE regression no more than 5%, and APE-over-20% increase no more than 1 percentage point. Do not tune from reserve results; keep hidden labels sealed."
+      },
+      {
+        "round": 25,
+        "parent_by_track": {
+          "list_aware": "G01"
+        },
+        "candidates": {
+          "list_aware": {
+            "id": "G39_list_aware_q90_extratrees_050",
+            "training_quantile": 0.9,
+            "training_group": "positive list_price at or above the outer training fold's q90",
+            "routing": "query list_price at or above the same training-only q90",
+            "features": "G01 list-aware features and strict as-of building history",
+            "model": "M17 ExtraTreesRegressor pipeline, 200 trees, min_samples_leaf=20, max_features=0.8, random_state=0, four threads, log sold/list target",
+            "route_blend": {
+              "expert": 0.5,
+              "parent": 0.5
+            }
+          }
+        },
+        "selection": "This is the second and final predeclared model-family switch after two consecutive rounds without promotion. Change only the learner family from G38 CatBoost to the existing M17 ExtraTrees implementation; preserve the q90 route, feature lineage, target, parent, and 50/50 blend. Screen on 2023-03 and 2024-06; then require the registered 8-month development and both fixed-origin gates. Freeze before the one-time 2025-05/08 reserve check; rebuild same-fold past-only C0 and G01 parent components and require the R24 reserved gates. This run is funded solely from the unused remainder of the already authorized R24 envelope: combined R24/R25 maximum 42 fits and 90 active run minutes. Count failures and retries. Do not read hidden labels or tune from reserved results."
+      }
+    ],
+    "screen_gate": {"minimum_relative_mdape_improvement": 0.0025, "both_screen_months_improve": true, "max_mape_regression": 0.01},
+    "accepted_parent_gate": {"minimum_relative_mdape_improvement": 0.005, "minimum_months_improved": 6, "max_month_regression": 0.05, "max_mape_regression": 0.01, "fixed_origin_overall_mdape_must_not_worsen": true}
+  },
+  "development_gate": {"minimum_relative_mdape_improvement": 0.005, "minimum_months_improved": 6, "months": 8, "max_month_regression": 0.05, "max_mape_regression": 0.01},
+  "information_policy": {"off_market_forbidden": ["list_price", "sold_price", "date_sold", "days_on_market", "external_avm_estimate", "external_avm_estimate_date"], "history_cutoff": "strictly earlier than query cutoff; training rows use their sale-month start, evaluations use the fold start", "hidden_labels": "never load"}
+}

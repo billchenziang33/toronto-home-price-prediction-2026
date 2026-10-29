@@ -32,6 +32,7 @@ REPRODUCIBILITY_FILES = (
     ".gitattributes", "models.py", "submission_models.py", "run.py", "data.py", "requirements.txt",
     "model_candidate_v2/features.py", "model_candidate_v2/winner_config.json",
     "model_candidate_v2/models/frozen_list_aware.json",
+    "experiments/bill_greedy/protocol.json",
     "experiments/bill_greedy/runner.py", "experiments/bill_greedy/history.py",
     "experiments/bill_greedy/comparables.py",
     "experiments/model_optimization_v2/worker.py",
