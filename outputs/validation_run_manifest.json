@@ -1,0 +1,115 @@
+{
+  "format_version": 1,
+  "run_type": "validation",
+  "run_id": "validation_20261029T164023Z_cff43dc1",
+  "created_at_utc": "2026-10-29T17:42:31.897294+00:00",
+  "validation_scope": "retrospective standard validation; not an independent holdout",
+  "validation_months": [
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "exclusive_training_cutoffs": {
+    "2025-12": "2025-12-01T00:00:00",
+    "2026-01": "2026-01-01T00:00:00",
+    "2026-02": "2026-02-01T00:00:00",
+    "2026-03": "2026-03-01T00:00:00",
+    "2026-04": "2026-04-01T00:00:00",
+    "2026-05": "2026-05-01T00:00:00"
+  },
+  "training_data": {
+    "path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+    "sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf"
+  },
+  "model": {
+    "training_data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+    "oof_manifest_sha256": "a59adc14fe666a1adfb43b50025196003e3c3529d4f7f4823ec698b1f3207b6b",
+    "assets": {
+      "list_aware_r97_safe_oof.csv": "e5c1806016a12fd9c200be1f01d8b4072b9b582627ad5478fc3c300d3ad2b7b7",
+      "off_market_r151_candidate_oof.csv": "2be753f57ed6e9ec1ea544a5e78856c4881f315277f645d57bc399a7ba3ff477",
+      "off_market_r151_safe_oof.csv": "27642814703d89381d770417995d52bd4677ac6701f1f0542ea834d0abb8536b",
+      "off_market_r47_weight_history.csv": "9e883c800982535a06cdb1c586b2115a5479b9a9f17af40c2af74cce0c3e1277",
+      "off_market_r48_r50_weight_history.csv": "9e48f872487fa208fd6a85e3c8fa26015b8bc4486f986ec1f11abf0fce162770"
+    },
+    "source_files_sha256": {
+      "models.py": "2d90b7bc882102e04756eba8cfda1f3870d83210a977e0521c7da178650add5e",
+      "submission_models.py": "d4be0e317a0b85b6abe9d7059d7590b1d18906768e0e0ca5b351e4d0faeeb434",
+      "run.py": "ca198bf854baae46595a9ad2189da05281b3f90682a75a0dfedcab71fd38bede",
+      "data.py": "24c44bc8ae93e2bfe3c4948fd7442283f00f1a3c2179246e16ed0d1eb3b305ee",
+      "requirements.txt": "698738d0b8fb32a3dde291b9dc7633196a291eaf72152c8d897c3b6208f49042",
+      "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+      "model_candidate_v2/winner_config.json": "26a4dea164fad3023c641ab62aa5a28f5804e6c77ff0fbb743a2317fd6378a18",
+      "model_candidate_v2/models/frozen_list_aware.json": "55da2495e9d5087cda2cdd07ada6729028bed6660bb11165c8111b2ffc98cf2a",
+      "experiments/bill_greedy/runner.py": "b4f0dc11785218cc09e56e80c649586e8722540553d005442e1a550e7274f2bb",
+      "experiments/bill_greedy/history.py": "88b72e4d1222d129b8f7a96c43e39600679d6887210dc8683b51f8756aa09d25",
+      "experiments/bill_greedy/comparables.py": "c712934fe9453a63f9605f93e8de0dc8b723a452f4497b98ea462ccc50573520",
+      "experiments/model_optimization_v2/worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa",
+      "experiments/model_optimization_v2/features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+      "experiments/model_optimization_v2/pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+      "experiments/model_optimization_v2/learners.py": "28082588d46a1c20988090860698b501b71bdc0884d2ba0a4d45e0046d18b88b",
+      "experiments/bill_target74/campaign_protocol.json": "e6dfea6ebce166df162ad8e9463199c8a7c738cba89fda9f0040b4f184079869",
+      "experiments/bill_target74/runner.py": "3544cc3bc3395046cb4f4f09ac9dd6b7adb68986c1d6fb7cfa373bb79e5e0131",
+      "experiments/bill_target74/submission_pipeline.py": "9a2b078fc1a4729940cb681acc0f0f4e033d5f863ec39cd80be27390b77c0127",
+      "experiments/bill_target74/desktop_friendly_runtime.py": "948e54730e0501c17337a6b033222e0eba4798869b73810f2168b37da6ce4c0b",
+      "experiments/bill_target74/desktop_friendly_policy.json": "451e19912085ef84d07ceb35a63739440c061f40572970de07043f6a14d5ebed",
+      "experiments/bill_target74/r04_ablation.py": "3faf7e10b841b988ddaf81ae7dce1dc449b4688c71fe87b2c530dee975f326c4",
+      "experiments/bill_target74/r19_expert_weight.py": "20f2a4962861c2738ed35996940723956f143a442191d6f6c6098ca8a92bf34d",
+      "experiments/bill_target74/r22_remarks_tfidf.py": "84aae3e3865ee985c84ee2a8e75b86ee61888168b1e64ad675683fd35c381dcd",
+      "experiments/bill_target74/r32_comparable_r22.py": "238f319dd1d4ed2fc591391289eb9cb6a3c49aaf66efb4c390441b7396136d5f",
+      "experiments/bill_target74/r35_fixed_origin.py": "7048ec8227af98e59857d02e8ba5ac6b84fbc7c8a103dfa615047acefc68f893",
+      "experiments/bill_target74/r40_past_oof_r26_blend.py": "2acb43e9a5b8b34babce2f68985d6690a297c0b7c5881cc238151bcc92eede34",
+      "experiments/bill_target74/r48_groupwise_past_oof_r22_r32_blend.py": "9dc9cfbffcba8e2bd60e9ba10c33ef453426a9f8fbde75a9269062b48c200ba3",
+      "experiments/bill_target74/r49_parent_price_tercile_past_oof_blend.py": "289b84503f4c23acb7e0b539b7db9da7e748d3e1c1db89696ba04bbc6c7f39b0",
+      "experiments/bill_target74/r50_type_price_interaction_past_oof_blend.py": "7d4d5bed51a573940925065be19e862a8647478b1b89275953138671d8908225",
+      "experiments/bill_target74/r52_r48_r50_adaptive_meta_blend.py": "00b096d9280669c3111b5a1f8be2237bcc8f09a6087061d895a4b88336c34827",
+      "experiments/bill_target74/r02_structure_matched_current_parent.py": "4c3d51552184223b54311749fa2f7bda544015f04348d2695a4c4cfaee73f1ba",
+      "experiments/bill_target74/r93_spatial_oof_calibration.py": "e2316b28f742371c72f23d8033c52829b1bc48d080ae2b46791ffcee04e97050",
+      "experiments/bill_target74/r97_past_oof_catboost_residual_meta.py": "b60b2fc2b07d24920b9afa49a922d7b33350be9c955b4291f455d04a5c514cd3",
+      "experiments/bill_target74/r151_offmarket_r93_radius15km_clip035_vs_r22.py": "1acbca454287700e15f2a08b1e438c72c6fa3aa65647abf284a69ddd299c80cf"
+    },
+    "fit_ledger": {
+      "path": "outputs/submission/fit_ledger.jsonl",
+      "sha256": "a29b0a51b1f432b4e5c795dde35cebe3cab63fe72d09cbf129594497ad8ab76a",
+      "events": 120
+    },
+    "routes": {
+      "off_market": {
+        "selected": "R151",
+        "comparators": [
+          "R22",
+          "R52"
+        ],
+        "candidate_parent": "R52",
+        "registered_comparator": "R22"
+      },
+      "list_aware": {
+        "selected": "R97",
+        "comparator": "R35",
+        "minimum_meta_history_rows": 4000
+      }
+    },
+    "python": "3.13.1",
+    "dependencies": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.7.2",
+      "lightgbm": "4.7.0",
+      "catboost": "1.2.10",
+      "scipy": "1.18.1"
+    },
+    "reserved_month_labels_read": false,
+    "hidden_test_labels_read": false
+  },
+  "prediction_artifacts": {
+    "validation_predictions.csv": {
+      "path": "outputs/validation_predictions.csv",
+      "rows": 50345,
+      "sha256": "ee0973048a12ac3337a9db3ef861ff815e608f061ed77014218055815524599b"
+    }
+  },
+  "reserved_month_labels_read": false,
+  "hidden_test_labels_read": false
+}

@@ -28,6 +28,14 @@ class MemoryStatus(ctypes.Structure):
                     "total_virtual", "available_virtual", "available_extended")]]
 
 
+class ProcessMemoryCounters(ctypes.Structure):
+    _fields_ = [("cb", wintypes.DWORD), ("PageFaultCount", wintypes.DWORD),
+                *[(name, ctypes.c_size_t) for name in (
+                    "PeakWorkingSetSize", "WorkingSetSize", "QuotaPeakPagedPoolUsage",
+                    "QuotaPagedPoolUsage", "QuotaPeakNonPagedPoolUsage",
+                    "QuotaNonPagedPoolUsage", "PagefileUsage", "PeakPagefileUsage")]]
+
+
 def _kernel():
     if os.name != "nt":
         raise RuntimeError("desktop-friendly scheduling requires Windows")
@@ -49,9 +57,23 @@ def memory_snapshot() -> dict:
     memory.length = ctypes.sizeof(memory)
     if not _kernel().GlobalMemoryStatusEx(ctypes.byref(memory)):
         raise ctypes.WinError(ctypes.get_last_error())
+    process = _kernel().GetCurrentProcess()
+    counters = ProcessMemoryCounters()
+    counters.cb = ctypes.sizeof(counters)
+    psapi = ctypes.WinDLL("psapi", use_last_error=True)
+    psapi.GetProcessMemoryInfo.argtypes = [wintypes.HANDLE,
+                                           ctypes.POINTER(ProcessMemoryCounters),
+                                           wintypes.DWORD]
+    psapi.GetProcessMemoryInfo.restype = wintypes.BOOL
+    if not psapi.GetProcessMemoryInfo(process, ctypes.byref(counters), counters.cb):
+        raise ctypes.WinError(ctypes.get_last_error())
     return {"available_memory_gib": memory.available_phys / 2**30,
             "total_memory_gib": memory.total_phys / 2**30,
-            "memory_load_percent": int(memory.load)}
+            "memory_load_percent": int(memory.load),
+            "system_commit_used_gib": (memory.total_page - memory.available_page) / 2**30,
+            "system_commit_limit_gib": memory.total_page / 2**30,
+            "process_working_set_gib": counters.WorkingSetSize / 2**30,
+            "process_private_commit_gib": counters.PagefileUsage / 2**30}
 
 
 def native_settings() -> dict:
@@ -83,6 +105,10 @@ def wait_before_fit(context: str) -> dict:
         POLICY.get("minimum_available_memory_before_module_gib", POLICY["minimum_available_memory_gib"])
         if context == "before_module_import" else POLICY["minimum_available_memory_gib"]
     )
+    if required_memory is None:
+        snapshot = memory_snapshot()
+        emit("memory_gate_disabled", context=context, **snapshot)
+        return snapshot
     start = time.monotonic()
     last_report = -60.0
     while True:
@@ -105,10 +131,8 @@ def _acquire_campaign_lock(lock, msvcrt, *, wait_for_memory: bool) -> None:
         lock.write(b"0")
         lock.flush()
 
-    required_memory = POLICY.get(
-        "minimum_available_memory_before_module_gib",
-        POLICY["minimum_available_memory_gib"],
-    )
+    required_memory = POLICY.get("minimum_available_memory_before_module_gib",
+                                 POLICY.get("minimum_available_memory_gib"))
     while True:
         if wait_for_memory:
             wait_before_fit("before_module_import")
@@ -129,7 +153,7 @@ def _acquire_campaign_lock(lock, msvcrt, *, wait_for_memory: bool) -> None:
                     emit("waiting_for_campaign_lock", waited_seconds=waited)
                     last_lock_report = waited
                 time.sleep(10)
-                if wait_for_memory:
+                if wait_for_memory and required_memory is not None:
                     snapshot = memory_snapshot()
                     if snapshot["available_memory_gib"] < required_memory:
                         emit("yielding_campaign_lock_wait_for_memory",
@@ -140,7 +164,10 @@ def _acquire_campaign_lock(lock, msvcrt, *, wait_for_memory: bool) -> None:
 
         if not acquired:
             continue
-        if not wait_for_memory:
+        if not wait_for_memory or required_memory is None:
+            if wait_for_memory:
+                emit("memory_gate_disabled", context="before_module_import_after_campaign_lock",
+                     **memory_snapshot())
             return
 
         snapshot = memory_snapshot()

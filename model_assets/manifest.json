@@ -1,0 +1,600 @@
+{
+  "format_version": 1,
+  "campaign_id": "bill_target74_unbounded_20261024",
+  "training_data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+  "development_months": [
+    "2023-03",
+    "2023-07",
+    "2023-11",
+    "2024-03",
+    "2024-06",
+    "2024-09",
+    "2025-01",
+    "2025-03"
+  ],
+  "reserved_months": [
+    "2025-05",
+    "2025-08"
+  ],
+  "access_scope": {
+    "training_rows_read": "registered eight-month development OOF rows only",
+    "reserved_month_labels_opened": false,
+    "hidden_test_labels_opened": false,
+    "reserve_validation_eligible": false,
+    "note": "The campaign's reserve validation remains ineligible; these exports contain no reserve-month rows."
+  },
+  "routes": {
+    "off_market": {
+      "candidate": "R151",
+      "parents": {
+        "r52": {
+          "card": "R52_r48_r50_strict_past_meta_blend",
+          "run_id": "bill_target74_r52_r48_r50_adaptive_20261025T074051Z",
+          "result_sha256": "19354eb111fcff3863d38f6e3c0590ca336c95354bbb784c8b3b55f30c73d15e",
+          "paired_predictions_sha256": "86d1d02fa74b81ed139a8913c58b30651279d1335e9f1d1fde0994a49a796a45",
+          "manifest_sha256": "d34e33c11570aad7c1405a90d07dd9fe4f2d7daf01486cf65ab16f8b73af0fac"
+        },
+        "r22": {
+          "card": "R22_train_fold_tfidf_remarks",
+          "run_id": "bill_target74_r22_development_20261024T193459Z",
+          "result_sha256": "e39a296f9ff543e2fc440c97358c80f050993c817c7d737d3da33bf4056ad1d0",
+          "paired_predictions_sha256": "5098246052515c975846309f98b4891e7160ac194e45b7419563311488193f56",
+          "manifest_sha256": "3667d6d5838e7c7e0a88b00135534d7d3478ad3c52aab55d0bd415777bfc0b3e"
+        }
+      },
+      "asset": {
+        "path": "off_market_r151_safe_oof.csv",
+        "sha256": "27642814703d89381d770417995d52bd4677ac6701f1f0542ea834d0abb8536b",
+        "rows": 15642,
+        "months": [
+          "2023-03",
+          "2023-07",
+          "2023-11",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2025-01",
+          "2025-03"
+        ],
+        "columns": [
+          "month",
+          "ml_num",
+          "sold_price_r52",
+          "prediction_r52",
+          "sold_price_r22",
+          "prediction_r22",
+          "date_sold",
+          "sold_price",
+          "house_type_name",
+          "latitude",
+          "longitude",
+          "house_area",
+          "bedrooms",
+          "washrooms"
+        ]
+      },
+      "meta_assets": {
+        "off_market_r47_weight_history.csv": {
+          "path": "off_market_r47_weight_history.csv",
+          "sha256": "9e883c800982535a06cdb1c586b2115a5479b9a9f17af40c2af74cce0c3e1277",
+          "rows": 19604,
+          "months": [
+            "2022-06",
+            "2022-11",
+            "2023-03",
+            "2023-07",
+            "2023-11",
+            "2024-03",
+            "2024-06",
+            "2024-09",
+            "2025-01",
+            "2025-03"
+          ],
+          "columns": [
+            "month",
+            "ml_num",
+            "date_sold",
+            "house_type_name",
+            "sold_price",
+            "parent_prediction",
+            "variant_prediction"
+          ]
+        },
+        "off_market_r48_r50_weight_history.csv": {
+          "path": "off_market_r48_r50_weight_history.csv",
+          "sha256": "9e48f872487fa208fd6a85e3c8fa26015b8bc4486f986ec1f11abf0fce162770",
+          "rows": 15642,
+          "months": [
+            "2023-03",
+            "2023-07",
+            "2023-11",
+            "2024-03",
+            "2024-06",
+            "2024-09",
+            "2025-01",
+            "2025-03"
+          ],
+          "columns": [
+            "month",
+            "ml_num",
+            "sold_price",
+            "r22_prediction",
+            "r48_prediction",
+            "r50_prediction"
+          ]
+        }
+      },
+      "meta_provenance": {
+        "r47_source": {
+          "card": "R47_past_oof_r22_r32_adaptive_blend",
+          "status": "development_failed",
+          "run_id": "bill_target74_r47_20261025T070352Z",
+          "result_sha256": "68ce6fba6b8a106793a4dd1a95867e511cb90c43c7c58d1e45a0948f20904412",
+          "oof_sha256": "2076814d4d3ea0bd0b94726a5f1bd4cf7354917d354cf136e10a6c1e81282531",
+          "paired_predictions_sha256": "9986e5cab821d184c19d9fe1ef07101a631085605b75c07852f3a42a39820667",
+          "manifest_sha256": "607e3b3d5afb44cc31ee99e915ba118b9b679e48d4916eff7bacc73fb793d95e",
+          "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+          "verified_historical_source_snapshots": 8
+        },
+        "r48": {
+          "run_id": "bill_target74_r48_20261025T071216Z",
+          "result_sha256": "75ce1e7c865fc0c75ecbff012d422f8d08ac49a4ae4ce4de83d70ecc2d303477",
+          "paired_predictions_sha256": "c6330d6ae57a1f9720191d8a7029e85fe612395e0bcf8e2dc3db027196a92ceb",
+          "manifest_sha256": "badcf2ff6865b4f3a7916bda7cd540bfd20917c6e8ac05f9e17d2d81d7bf7d81"
+        },
+        "r50": {
+          "run_id": "bill_target74_r50_20261025T072426Z",
+          "result_sha256": "e1c14e4e0c740da86c66c0cfd48f70c8d08bfb4c8664bb1d2545257b77f1d4e4",
+          "paired_predictions_sha256": "96ed7b9f6be99ae3434957e87bd3d2eefaaa685ff1ad032109793288161804c7",
+          "manifest_sha256": "aacc281a1295f64086b19b3c9bf7ac96836e202a514130c3a231cd8956a57b88"
+        },
+        "reserved_months_labels_opened": false,
+        "hidden_labels_opened": false
+      },
+      "route_oof_assets": {
+        "r151_candidate": {
+          "path": "off_market_r151_candidate_oof.csv",
+          "sha256": "2be753f57ed6e9ec1ea544a5e78856c4881f315277f645d57bc399a7ba3ff477",
+          "rows": 15642,
+          "months": [
+            "2023-03",
+            "2023-07",
+            "2023-11",
+            "2024-03",
+            "2024-06",
+            "2024-09",
+            "2025-01",
+            "2025-03"
+          ],
+          "columns": [
+            "month",
+            "ml_num",
+            "sold_price",
+            "prediction_r22",
+            "prediction_r52",
+            "candidate_prediction",
+            "correction_log"
+          ]
+        }
+      },
+      "route_oof_provenance": {
+        "r151_candidate": {
+          "run_id": "r151d_20261026T102852Z",
+          "card": "R151_offmarket_r93_radius15km_shrink20_clip035_vs_r22",
+          "result_sha256": "0c8bb874be29584062cd381149138060161527c6ee7dcd73a21668681d265d0a",
+          "paired_predictions_sha256": "02eb10b78c4739c2de9de4c1baaaaf7e065eb37484ffc7c07ff4510cb38124c7",
+          "run_manifest_sha256": "a23a8b3056b60ee766341da2620ce7b5d192467f5f4aeecb22e657d60e5df112",
+          "data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+          "development_status": "development_complete",
+          "scores": {
+            "n": 15642,
+            "months": [
+              "2023-03",
+              "2023-07",
+              "2023-11",
+              "2024-03",
+              "2024-06",
+              "2024-09",
+              "2025-01",
+              "2025-03"
+            ],
+            "parent": {
+              "n": 15642,
+              "mdape_percent": 7.15586982157444,
+              "mape_percent": 9.66785448182418
+            },
+            "candidate": {
+              "n": 15642,
+              "mdape_percent": 6.998880989346583,
+              "mape_percent": 9.518017546083474
+            },
+            "relative_mdape_improvement_percent": 2.1938469556076376,
+            "mape_relative_change_percent": -1.549846825088277,
+            "monthly": {
+              "2023-03": {
+                "n": 2466,
+                "parent": {
+                  "n": 2466,
+                  "mdape_percent": 7.437200563652457,
+                  "mape_percent": 9.81635886912703
+                },
+                "candidate": {
+                  "n": 2466,
+                  "mdape_percent": 7.257016296748191,
+                  "mape_percent": 9.665698549779759
+                },
+                "relative_mdape_improvement_percent": 2.4227431459207107
+              },
+              "2023-07": {
+                "n": 2010,
+                "parent": {
+                  "n": 2010,
+                  "mdape_percent": 7.222739328940863,
+                  "mape_percent": 9.612299218870778
+                },
+                "candidate": {
+                  "n": 2010,
+                  "mdape_percent": 7.229903851092241,
+                  "mape_percent": 9.522689375602392
+                },
+                "relative_mdape_improvement_percent": -0.09919397371397491
+              },
+              "2023-11": {
+                "n": 1625,
+                "parent": {
+                  "n": 1625,
+                  "mdape_percent": 7.311623385640884,
+                  "mape_percent": 10.35360881327
+                },
+                "candidate": {
+                  "n": 1625,
+                  "mdape_percent": 7.0623611111111115,
+                  "mape_percent": 10.124073964198265
+                },
+                "relative_mdape_improvement_percent": 3.4091235472999353
+              },
+              "2024-03": {
+                "n": 2250,
+                "parent": {
+                  "n": 2250,
+                  "mdape_percent": 7.015859609261282,
+                  "mape_percent": 9.27471935916691
+                },
+                "candidate": {
+                  "n": 2250,
+                  "mdape_percent": 6.935592364439169,
+                  "mape_percent": 9.111144985410288
+                },
+                "relative_mdape_improvement_percent": 1.1440828250918271
+              },
+              "2024-06": {
+                "n": 2196,
+                "parent": {
+                  "n": 2196,
+                  "mdape_percent": 7.125268879268879,
+                  "mape_percent": 9.811328391138947
+                },
+                "candidate": {
+                  "n": 2196,
+                  "mdape_percent": 7.010667872375908,
+                  "mape_percent": 9.595520967115034
+                },
+                "relative_mdape_improvement_percent": 1.6083744885249889
+              },
+              "2024-09": {
+                "n": 1825,
+                "parent": {
+                  "n": 1825,
+                  "mdape_percent": 7.4820340571785655,
+                  "mape_percent": 10.186939021583617
+                },
+                "candidate": {
+                  "n": 1825,
+                  "mdape_percent": 7.381361871899935,
+                  "mape_percent": 10.089254986954833
+                },
+                "relative_mdape_improvement_percent": 1.345518939225372
+              },
+              "2025-01": {
+                "n": 1339,
+                "parent": {
+                  "n": 1339,
+                  "mdape_percent": 6.7904568984920095,
+                  "mape_percent": 9.154068321653972
+                },
+                "candidate": {
+                  "n": 1339,
+                  "mdape_percent": 6.597731527364828,
+                  "mape_percent": 9.004453212604908
+                },
+                "relative_mdape_improvement_percent": 2.838179727935261
+              },
+              "2025-03": {
+                "n": 1931,
+                "parent": {
+                  "n": 1931,
+                  "mdape_percent": 6.810417745554981,
+                  "mape_percent": 9.119547477877342
+                },
+                "candidate": {
+                  "n": 1931,
+                  "mdape_percent": 6.721095242426999,
+                  "mape_percent": 9.01672632390965
+                },
+                "relative_mdape_improvement_percent": 1.3115568892419285
+              }
+            },
+            "months_improved": 7,
+            "worst_month_regression_percent": 0.09919397371397491,
+            "bootstrap_mdape_difference_percent": {
+              "lower95": -0.23131162875382685,
+              "upper95": -0.057635559531317423
+            },
+            "bootstrap_replicates": 2000,
+            "qualifies_development": true,
+            "target_mdape_strictly_below": 7.0,
+            "target_met": true
+          },
+          "reserved_months_labels_opened": false,
+          "hidden_labels_opened": false
+        }
+      }
+    },
+    "list_aware": {
+      "candidate": "R97",
+      "provenance": {
+        "run_id": "r97m_20261025T210147Z",
+        "card": "R97_past_oof_catboost_residual_meta",
+        "result_path": "outputs/bill_target74/bill_target74_unbounded_20261024/batches/r97m_20261025T210147Z/development_results.json",
+        "result_sha256": "15c4fa45f37c0623159cdf83755ccf2a79ddaf777f0530c3803065ba78293b1b",
+        "paired_predictions_path": "outputs/bill_target74/bill_target74_unbounded_20261024/batches/r97m_20261025T210147Z/paired_predictions.csv",
+        "paired_predictions_sha256": "cea1400e859f1da376b51d9e9ccc9a73c297d188b71993050d106a63d2971704",
+        "run_manifest_path": "outputs/bill_target74/bill_target74_unbounded_20261024/batches/r97m_20261025T210147Z/run_manifest.json",
+        "run_manifest_sha256": "3fd79c7dce9512e3cbf6285be5d3eb96979c6459d6d3de5c0d202d4a99b3f6cc",
+        "development_metrics": {
+          "base": {
+            "n": 15642,
+            "mdape_percent": 4.578516484531811,
+            "mape_percent": 5.7868656274130075,
+            "p90_ape_percent": 12.360180834629421,
+            "ape_over_20_percent": 1.4831862933128757
+          },
+          "candidate": {
+            "n": 15642,
+            "mdape_percent": 4.544073907239342,
+            "mape_percent": 5.794266028395986,
+            "p90_ape_percent": 12.470814438905302,
+            "ape_over_20_percent": 1.5662958700933385
+          },
+          "relative_mdape_improvement_percent": 0.7522650056809915,
+          "mape_relative_change_percent": 0.1278827168186245,
+          "months_improved": 4,
+          "worst_month_regression_percent": 5.076398079040339,
+          "paired_bootstrap_mdape_difference_pp": {
+            "lower95": -0.07130800858618051,
+            "upper95": 0.025799648351081058,
+            "replicates": 2000,
+            "seed": 20261031
+          },
+          "monthly": {
+            "2023-03": {
+              "n": 2466,
+              "base": {
+                "n": 2466,
+                "mdape_percent": 4.596668643456825,
+                "mape_percent": 5.8975770196047375,
+                "p90_ape_percent": 12.938679139824025,
+                "ape_over_20_percent": 2.149229521492295
+              },
+              "candidate": {
+                "n": 2466,
+                "mdape_percent": 4.596668643456825,
+                "mape_percent": 5.8975770196047375,
+                "p90_ape_percent": 12.938679139824025,
+                "ape_over_20_percent": 2.149229521492295
+              },
+              "relative_mdape_improvement_percent": 0.0
+            },
+            "2023-07": {
+              "n": 2010,
+              "base": {
+                "n": 2010,
+                "mdape_percent": 5.386189279741159,
+                "mape_percent": 6.40258079386219,
+                "p90_ape_percent": 13.202923376559047,
+                "ape_over_20_percent": 1.2437810945273633
+              },
+              "candidate": {
+                "n": 2010,
+                "mdape_percent": 5.386189279741159,
+                "mape_percent": 6.40258079386219,
+                "p90_ape_percent": 13.202923376559047,
+                "ape_over_20_percent": 1.2437810945273633
+              },
+              "relative_mdape_improvement_percent": 0.0
+            },
+            "2023-11": {
+              "n": 1625,
+              "base": {
+                "n": 1625,
+                "mdape_percent": 4.716291686612414,
+                "mape_percent": 5.8466429749384,
+                "p90_ape_percent": 12.173856791821787,
+                "ape_over_20_percent": 1.6
+              },
+              "candidate": {
+                "n": 1625,
+                "mdape_percent": 4.540234644582471,
+                "mape_percent": 5.5779638930324715,
+                "p90_ape_percent": 11.513109575154555,
+                "ape_over_20_percent": 1.353846153846154
+              },
+              "relative_mdape_improvement_percent": 3.732954908825842
+            },
+            "2024-03": {
+              "n": 2250,
+              "base": {
+                "n": 2250,
+                "mdape_percent": 4.457269601639038,
+                "mape_percent": 5.846764931826081,
+                "p90_ape_percent": 12.794433903401911,
+                "ape_over_20_percent": 2.0
+              },
+              "candidate": {
+                "n": 2250,
+                "mdape_percent": 4.643910967451212,
+                "mape_percent": 6.080465413341804,
+                "p90_ape_percent": 13.594244958687572,
+                "ape_over_20_percent": 2.311111111111111
+              },
+              "relative_mdape_improvement_percent": -4.187347468134776
+            },
+            "2024-06": {
+              "n": 2196,
+              "base": {
+                "n": 2196,
+                "mdape_percent": 4.867323668399994,
+                "mape_percent": 6.007018701205063,
+                "p90_ape_percent": 12.641282311652681,
+                "ape_over_20_percent": 1.366120218579235
+              },
+              "candidate": {
+                "n": 2196,
+                "mdape_percent": 5.114408393603327,
+                "mape_percent": 6.3287763400372326,
+                "p90_ape_percent": 13.192628804057662,
+                "ape_over_20_percent": 1.6848816029143898
+              },
+              "relative_mdape_improvement_percent": -5.076398079040339
+            },
+            "2024-09": {
+              "n": 1825,
+              "base": {
+                "n": 1825,
+                "mdape_percent": 4.669417976573405,
+                "mape_percent": 5.738276182837988,
+                "p90_ape_percent": 12.270644197538216,
+                "ape_over_20_percent": 0.9315068493150684
+              },
+              "candidate": {
+                "n": 1825,
+                "mdape_percent": 4.32758019525802,
+                "mape_percent": 5.515608397732658,
+                "p90_ape_percent": 11.972174018431017,
+                "ape_over_20_percent": 0.821917808219178
+              },
+              "relative_mdape_improvement_percent": 7.320779228383386
+            },
+            "2025-01": {
+              "n": 1339,
+              "base": {
+                "n": 1339,
+                "mdape_percent": 3.929692832764505,
+                "mape_percent": 5.193087772240622,
+                "p90_ape_percent": 10.87146427032683,
+                "ape_over_20_percent": 1.194921583271098
+              },
+              "candidate": {
+                "n": 1339,
+                "mdape_percent": 3.771011734855693,
+                "mape_percent": 5.042244609058402,
+                "p90_ape_percent": 10.675802461021565,
+                "ape_over_20_percent": 1.194921583271098
+              },
+              "relative_mdape_improvement_percent": 4.038002578363904
+            },
+            "2025-03": {
+              "n": 1931,
+              "base": {
+                "n": 1931,
+                "mdape_percent": 3.890930787589499,
+                "mape_percent": 5.091772272680763,
+                "p90_ape_percent": 11.001898433792121,
+                "ape_over_20_percent": 1.035732780942517
+              },
+              "candidate": {
+                "n": 1931,
+                "mdape_percent": 3.878727634194831,
+                "mape_percent": 5.05464250846808,
+                "p90_ape_percent": 11.026828462935446,
+                "ape_over_20_percent": 1.294665976178146
+              },
+              "relative_mdape_improvement_percent": 0.31363069817615835
+            }
+          },
+          "gate_checks": {
+            "relative_mdape_improvement": true,
+            "months_improved": false,
+            "worst_month_regression": false,
+            "mape_regression": true,
+            "bootstrap_upper_below_zero": false,
+            "strict_target": false
+          },
+          "qualifies_development": false,
+          "target_mdape_strictly_below": 4.0
+        },
+        "reserved_months_labels_opened": false,
+        "hidden_labels_opened": false
+      },
+      "asset": {
+        "path": "list_aware_r97_safe_oof.csv",
+        "sha256": "e5c1806016a12fd9c200be1f01d8b4072b9b582627ad5478fc3c300d3ad2b7b7",
+        "rows": 15642,
+        "months": [
+          "2023-03",
+          "2023-07",
+          "2023-11",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2025-01",
+          "2025-03"
+        ],
+        "columns": [
+          "month",
+          "track",
+          "ml_num",
+          "sold_price",
+          "base_prediction",
+          "candidate_prediction",
+          "correction_log",
+          "history_oof_rows",
+          "date_sold",
+          "date_listed",
+          "list_price",
+          "municipality",
+          "community",
+          "house_type_name",
+          "house_style",
+          "garage",
+          "house_area",
+          "bedrooms",
+          "washrooms",
+          "parking_total",
+          "latitude",
+          "longitude",
+          "source_sold_price"
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "tools/build_submission_assets.py": "0aa63335664fb3d46ef87ef2d7fcc406cdf2e1e2ec6ec884f7772a776d2ba622",
+    "experiments/bill_target74/r151_offmarket_r93_radius15km_clip035_vs_r22.py": "1acbca454287700e15f2a08b1e438c72c6fa3aa65647abf284a69ddd299c80cf",
+    "experiments/bill_target74/r93_spatial_oof_calibration.py": "e2316b28f742371c72f23d8033c52829b1bc48d080ae2b46791ffcee04e97050",
+    "experiments/bill_target74/r22_remarks_tfidf.py": "84aae3e3865ee985c84ee2a8e75b86ee61888168b1e64ad675683fd35c381dcd",
+    "experiments/bill_target74/runner.py": "3544cc3bc3395046cb4f4f09ac9dd6b7adb68986c1d6fb7cfa373bb79e5e0131",
+    "experiments/bill_target74/r97_past_oof_catboost_residual_meta.py": "b60b2fc2b07d24920b9afa49a922d7b33350be9c955b4291f455d04a5c514cd3",
+    "experiments/bill_target74/r02_structure_matched_current_parent.py": "4c3d51552184223b54311749fa2f7bda544015f04348d2695a4c4cfaee73f1ba",
+    "experiments/bill_target74/r48_groupwise_past_oof_r22_r32_blend.py": "9dc9cfbffcba8e2bd60e9ba10c33ef453426a9f8fbde75a9269062b48c200ba3",
+    "experiments/bill_target74/r50_type_price_interaction_past_oof_blend.py": "7d4d5bed51a573940925065be19e862a8647478b1b89275953138671d8908225",
+    "experiments/bill_target74/r52_r48_r50_adaptive_meta_blend.py": "00b096d9280669c3111b5a1f8be2237bcc8f09a6087061d895a4b88336c34827",
+    "experiments/bill_target74/r40_past_oof_r26_blend.py": "2acb43e9a5b8b34babce2f68985d6690a297c0b7c5881cc238151bcc92eede34",
+    "experiments/bill_target74/r49_parent_price_tercile_past_oof_blend.py": "289b84503f4c23acb7e0b539b7db9da7e748d3e1c1db89696ba04bbc6c7f39b0",
+    "experiments/bill_greedy/runner.py": "b4f0dc11785218cc09e56e80c649586e8722540553d005442e1a550e7274f2bb"
+  },
+  "builder_sha256_by_stage": {
+    "initial_oof_package": "0aa63335664fb3d46ef87ef2d7fcc406cdf2e1e2ec6ec884f7772a776d2ba622",
+    "r52_history_extension": "8d4208ab86a90ff5fec40d26e00f05e87dea86ca6d799e3f13505b6b2fe4411c"
+  }
+}

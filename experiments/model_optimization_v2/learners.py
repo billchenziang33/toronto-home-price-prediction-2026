@@ -34,6 +34,14 @@ def training_target(train: pd.DataFrame, track: str, method_id: str, target_over
             if not np.isfinite(listed).all() or (listed <= 0).any():
                 raise ValueError("list-aware target requires finite positive list prices")
             return np.log(price / listed), target_override
+        if target_override == "sold_over_list_ratio":
+            listed = pd.to_numeric(train.list_price, errors="coerce").to_numpy(dtype=float)
+            if not np.isfinite(listed).all() or (listed <= 0).any():
+                raise ValueError("sale-to-list ratio requires finite positive list prices")
+            ratio = price / listed
+            if not np.isfinite(ratio).all() or (ratio <= 0).any():
+                raise ValueError("sale-to-list ratio target must be finite and positive")
+            return ratio, target_override
         raise ValueError(f"unsupported target override: {target_override}")
     target_methods = methods.intersection({"M12", "M13"})
     if len(target_methods) > 1:
@@ -69,6 +77,13 @@ def inverse_price(prediction, homes: pd.DataFrame, track: str, method_id: str,
             if not np.isfinite(listed).all() or (listed <= 0).any():
                 raise ValueError("list-aware inverse target requires finite positive list price")
             price = listed * np.exp(pred)
+        elif target_override == "sold_over_list_ratio":
+            listed = pd.to_numeric(homes.list_price, errors="coerce").to_numpy(dtype=float)
+            if not np.isfinite(listed).all() or (listed <= 0).any():
+                raise ValueError("sale-to-list inverse requires finite positive list prices")
+            if (pred <= 0).any():
+                raise ValueError("predicted sale-to-list ratios must be positive")
+            price = listed * pred
         else:
             raise ValueError(f"unsupported target override: {target_override}")
         if not np.isfinite(price).all() or (price <= 0).any():

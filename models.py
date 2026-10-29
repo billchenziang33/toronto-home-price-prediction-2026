@@ -16,9 +16,13 @@ import features
 
 def make_model(track):
     """Return a fresh, untrained model for "off_market" or "list_aware"."""
+    if track not in {"off_market", "list_aware"}:
+        raise ValueError(f"unknown track: {track!r}")
+    from submission_models import ListAwareR97Model, OffMarketR151Model
+
     if track == "list_aware":
-        return FeatureModel(features.list_aware_features)
-    return FeatureModel(features.off_market_features)
+        return ListAwareR97Model()
+    return OffMarketR151Model(selected_route="R52")
 
 
 class ListPriceBaseline:

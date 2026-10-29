@@ -1,0 +1,156 @@
+{
+  "format_version": 1,
+  "run_id": "submission_20261029T212456Z_056c5580",
+  "created_at_utc": "2026-10-29T21:37:20.933188+00:00",
+  "exclusive_training_cutoff": "2026-06-01T00:00:00",
+  "training_data": {
+    "path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/listings.parquet",
+    "sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+    "rows": 150000
+  },
+  "test_inputs": {
+    "off_market": {
+      "path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/test_off_market.parquet",
+      "sha256": "d078d1bd652550a8bf33bbaa42af21e9a7ea6c42dfd53c57c083e5597165b1ad",
+      "rows": 3974,
+      "columns": [
+        "ml_num",
+        "date_listed",
+        "house_type_name",
+        "house_style",
+        "bedrooms",
+        "washrooms",
+        "parking_total",
+        "garage",
+        "house_area",
+        "lot_front",
+        "lot_depth",
+        "municipality",
+        "community",
+        "latitude",
+        "longitude",
+        "remarks"
+      ]
+    },
+    "list_aware": {
+      "path": "data/.hf_cache/hub/datasets--Baliyang--SSU_data_dash/snapshots/96a258439e2a85f650699be8339e52d8ac5614b7/test_list_aware.parquet",
+      "sha256": "ef1b82d16d547199b93a4e1a27d1ff3946a327854c320956a32f437b81469b35",
+      "rows": 4064,
+      "columns": [
+        "ml_num",
+        "list_price",
+        "date_listed",
+        "house_type_name",
+        "house_style",
+        "bedrooms",
+        "washrooms",
+        "parking_total",
+        "garage",
+        "house_area",
+        "lot_front",
+        "lot_depth",
+        "municipality",
+        "community",
+        "latitude",
+        "longitude",
+        "remarks"
+      ]
+    }
+  },
+  "model": {
+    "training_data_sha256": "18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf",
+    "oof_manifest_sha256": "98236f00d6ac3cd073ab535b689c33742644f4640ac80e4080ea6874208d290f",
+    "assets": {
+      "list_aware_r97_safe_oof.csv": "e5c1806016a12fd9c200be1f01d8b4072b9b582627ad5478fc3c300d3ad2b7b7",
+      "off_market_r151_candidate_oof.csv": "2be753f57ed6e9ec1ea544a5e78856c4881f315277f645d57bc399a7ba3ff477",
+      "off_market_r151_safe_oof.csv": "27642814703d89381d770417995d52bd4677ac6701f1f0542ea834d0abb8536b",
+      "off_market_r47_weight_history.csv": "9e883c800982535a06cdb1c586b2115a5479b9a9f17af40c2af74cce0c3e1277",
+      "off_market_r48_r50_weight_history.csv": "9e48f872487fa208fd6a85e3c8fa26015b8bc4486f986ec1f11abf0fce162770"
+    },
+    "source_files_sha256": {
+      ".gitattributes": "9203724cf83859a22729cf61537394367a9308b56da0f29f46ed26875e43da00",
+      "models.py": "cd4410235aabbc28859698ba8d3338ad967293c3ccb781f30436dd5a873dd5a5",
+      "submission_models.py": "3ea389ccd6529616b7529648d54f437ca1e0cae6872eea5c63e14ca293274546",
+      "run.py": "6f7871fb502803b2d016505cc98212acddb9422a09619d169c95024e163a2f38",
+      "data.py": "ccb691af73e97e97f34e5a2dabcf935dd89d96206d8e73d0b82294a2b3445fa2",
+      "requirements.txt": "843ebe24a23f7312fdcefdd4200d145c15edb5c37eba8a488fd6a26d773e7f29",
+      "model_candidate_v2/features.py": "ac56334db3dbf486bea93de24334a6be7c933410b4afa6590d1ce6a52a944ef9",
+      "model_candidate_v2/winner_config.json": "5285d3a22b5cac8a596785562bf7092fc099b24aa5f7ca4b530fca78d50b553a",
+      "model_candidate_v2/models/frozen_list_aware.json": "38ab5892094c91fe32abca11c02132d885c425ba60bd09a3cf5f94c6d5aed2cb",
+      "experiments/bill_greedy/runner.py": "b4f0dc11785218cc09e56e80c649586e8722540553d005442e1a550e7274f2bb",
+      "experiments/bill_greedy/history.py": "88b72e4d1222d129b8f7a96c43e39600679d6887210dc8683b51f8756aa09d25",
+      "experiments/bill_greedy/comparables.py": "c712934fe9453a63f9605f93e8de0dc8b723a452f4497b98ea462ccc50573520",
+      "experiments/model_optimization_v2/worker.py": "c29e4cfb530cb584e71bc5c311f37a8ff527a828ab5f8cdc3f40d3fce71bbefa",
+      "experiments/model_optimization_v2/features.py": "b486452f3f47300dd05cfcdb9555d61aa77f1de318033ad4b5c25b50ec6fed93",
+      "experiments/model_optimization_v2/pipeline.py": "10349f570078090daae89fa50c046678455ed714b6cd640e5f3c53c9083ecc7d",
+      "experiments/model_optimization_v2/learners.py": "28082588d46a1c20988090860698b501b71bdc0884d2ba0a4d45e0046d18b88b",
+      "experiments/bill_target74/campaign_protocol.json": "b462d4fae36facbdf01f5dab843672f59e6fba5c0c64db31029096229e388b7e",
+      "experiments/bill_target74/runner.py": "3544cc3bc3395046cb4f4f09ac9dd6b7adb68986c1d6fb7cfa373bb79e5e0131",
+      "experiments/bill_target74/submission_pipeline.py": "2c880d0d81a549d3ede9145f0b0b32eccd13ff8fe1b0fab4b303cc6435f9b48e",
+      "experiments/bill_target74/desktop_friendly_runtime.py": "948e54730e0501c17337a6b033222e0eba4798869b73810f2168b37da6ce4c0b",
+      "experiments/bill_target74/desktop_friendly_policy.json": "7d6f47f794750123ab1a8fa58566008965bb5e466f7bae20f3dbedb9467de2ec",
+      "experiments/bill_target74/r04_ablation.py": "3faf7e10b841b988ddaf81ae7dce1dc449b4688c71fe87b2c530dee975f326c4",
+      "experiments/bill_target74/r19_expert_weight.py": "20f2a4962861c2738ed35996940723956f143a442191d6f6c6098ca8a92bf34d",
+      "experiments/bill_target74/r22_remarks_tfidf.py": "84aae3e3865ee985c84ee2a8e75b86ee61888168b1e64ad675683fd35c381dcd",
+      "experiments/bill_target74/r32_comparable_r22.py": "a17f6b8f833ad766052d894e6d48d2a0766d2ab275b489e25098c35a74b8775e",
+      "experiments/bill_target74/r35_fixed_origin.py": "7048ec8227af98e59857d02e8ba5ac6b84fbc7c8a103dfa615047acefc68f893",
+      "experiments/bill_target74/r40_past_oof_r26_blend.py": "2acb43e9a5b8b34babce2f68985d6690a297c0b7c5881cc238151bcc92eede34",
+      "experiments/bill_target74/r48_groupwise_past_oof_r22_r32_blend.py": "9dc9cfbffcba8e2bd60e9ba10c33ef453426a9f8fbde75a9269062b48c200ba3",
+      "experiments/bill_target74/r49_parent_price_tercile_past_oof_blend.py": "289b84503f4c23acb7e0b539b7db9da7e748d3e1c1db89696ba04bbc6c7f39b0",
+      "experiments/bill_target74/r50_type_price_interaction_past_oof_blend.py": "7d4d5bed51a573940925065be19e862a8647478b1b89275953138671d8908225",
+      "experiments/bill_target74/r52_r48_r50_adaptive_meta_blend.py": "00b096d9280669c3111b5a1f8be2237bcc8f09a6087061d895a4b88336c34827",
+      "experiments/bill_target74/r02_structure_matched_current_parent.py": "4c3d51552184223b54311749fa2f7bda544015f04348d2695a4c4cfaee73f1ba",
+      "experiments/bill_target74/r93_spatial_oof_calibration.py": "e2316b28f742371c72f23d8033c52829b1bc48d080ae2b46791ffcee04e97050",
+      "experiments/bill_target74/r97_past_oof_catboost_residual_meta.py": "b60b2fc2b07d24920b9afa49a922d7b33350be9c955b4291f455d04a5c514cd3",
+      "experiments/bill_target74/r151_offmarket_r93_radius15km_clip035_vs_r22.py": "1acbca454287700e15f2a08b1e438c72c6fa3aa65647abf284a69ddd299c80cf"
+    },
+    "fit_ledger": {
+      "path": "outputs/submission/fit_ledger.jsonl",
+      "sha256": "bdbf0738f25cf2b43cc06b16478d70a3add072bd07b8717f5d563dedae7cc298",
+      "events": 159
+    },
+    "routes": {
+      "off_market": {
+        "selected": "R52",
+        "comparators": [
+          "R22",
+          "R151"
+        ],
+        "selection_basis": "lowest MdAPE in retrospective standard validation",
+        "registered_comparator": "R22"
+      },
+      "list_aware": {
+        "selected": "R97",
+        "comparator": "R35",
+        "minimum_meta_history_rows": 4000
+      }
+    },
+    "python": "3.13.1",
+    "dependencies": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.7.2",
+      "lightgbm": "4.7.0",
+      "catboost": "1.2.10",
+      "scipy": "1.18.1"
+    },
+    "reserved_month_labels_read": false,
+    "hidden_test_labels_read": false
+  },
+  "submissions": {
+    "submission_off_market.csv": {
+      "path": "submissions/submission_off_market.csv",
+      "rows": 3974,
+      "sha256": "bcb7ff2ac262161a7f3726621259c1ea1abfa6eaaad09191137cd1cb1f072c3f",
+      "model_route": "R52"
+    },
+    "submission_list_aware.csv": {
+      "path": "submissions/submission_list_aware.csv",
+      "rows": 4064,
+      "sha256": "c10e5b1229106f2aa3a368b18a9da0f3dde09cf4531cd37f4f59ebf840a390fd",
+      "model_route": "R97"
+    }
+  },
+  "reserved_month_labels_read": false,
+  "hidden_test_labels_read": false
+}
