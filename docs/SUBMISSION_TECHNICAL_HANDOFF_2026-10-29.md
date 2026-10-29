@@ -56,6 +56,7 @@ R52 相对官方比较路线 R22 的 MdAPE 点估计低 0.1250 个百分点，�
 - 预测 run 的 8/8 learner fits 均有完成记录；manifest 中的源文件 hash 与当前代码一致。训练及测试标签访问标记均为 `false`。运行清单里的机器本地路径已改为仓库相对路径。
 - `.gitattributes` 将 CSV/JSONL 固定为 LF；文本文件 SHA 按 CRLF→LF 规范化，因此 GitHub、Windows 与 Linux checkout 对同一内容得到相同 hash。预测后只清理了 `run.py` 报告输出行的行尾空格，并同步刷新 manifest 的文件指纹；没有改动模型或预测逻辑。
 - 六个月验证 manifest 的 run-time 模型记录早于 Off-market 路由从 R151 切换为 R52；`validate` 当时仍为五条路线都写出逐房预测，故所列 R52 分数未受默认选择字段影响。提交 manifest 则记录了最后选择的 R52/R97。
+- 跨环境复跑通过：在 Git commit `9e50e8d` 的新隔离 checkout 中，使用另一套现有 `.venv`（Python 3.13.1，NumPy 2.2.6、pandas 2.3.3、scikit-learn 1.7.2、LightGBM 4.7.0、CatBoost 1.2.10、SciPy 1.18.1）运行 `predict`。复跑 `submission_20261029T214846Z_2c8f99b4` 的 8/8 fits 完成；两个 CSV 与原提交版本逐字节相同，SHA-256 分别为 `bcb7ff2ac262161a7f3726621259c1ea1abfa6eaaad09191137cd1cb1f072c3f` 和 `c10e5b1229106f2aa3a368b18a9da0f3dde09cf4531cd37f4f59ebf840a390fd`。隔离 checkout 的 `run.py check` 两项均通过；36 个源文件 hash 无差异。两个本机环境均通过 `pip check`；这是新 checkout 与第二套既有环境的复跑，不是从空目录重新安装依赖。
 - 官方检查通过：`submission_off_market.csv: OK`，`submission_list_aware.csv: OK`。额外检查确认列为 `ml_num,predicted_price`、ID 无重复、价格均为正、CSV hash 与 manifest 一致。
 - 路由切换后的聚焦集成测试通过：6 项通过。
 

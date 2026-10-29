@@ -5,6 +5,7 @@
 - 2026-10-29 2025-12单月预检完成：五条路线各1,238行，共6,190行，价格有限且为正，ID按路线唯一；manifest确认训练数据SHA为`18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`，未读取reserve/hidden标签。仅该月的MdAPE：Off-market R22 7.2691%、R52 7.4516%、R151 7.4076%；List-aware R35 3.7499%、R97 3.6550%。此单月是管线预检，不代表六个月结果或独立测试成绩。输出在`outputs/submission/preflight/202512/`。
 - R48/R50按房型/价格组选择的是逐房权重，旧`r40.blend()`只接收标量。预检中发现该接口不匹配后，改用校验过的逐房blend函数并增加回归测试。另将每次运行ID写入fit账本和run manifest，避免重复fit记录无法区分。10项聚焦测试通过，改动文件已`py_compile`通过；五份安全OOF资产哈希验证通过，R52及R151的15,642条预测精确重建。
 - 六个月正式回顾验证run为`validation_20261029T164023Z_cff43dc1`，共50,345行（五路线各10,069行），0重复ID、0无效价格；manifest记录数据SHA `18cf87fa122b544018fccbc15040403b0fed37080c44a75d1b55deca96d2c4bf`，reserved/hidden标签未读取。最终交付说明见`docs/SUBMISSION_TECHNICAL_HANDOFF_2026-10-29.md`；按MdAPE刷新后的候选说明见`docs/Step 1.md`。本地路径已从验证与提交manifest改为仓库相对路径，哈希未变。
+- 跨环境复跑已在最新bill提交`9e50e8d`的新隔离checkout中通过：`.venv`复跑8/8 fits，R52/R97两个CSV均与提交文件逐字节相同，官方检查通过；36个源文件哈希一致。`.venv`与`.venv-opt`均通过`pip check`且核心依赖版本相同；此项是第二套既有环境的复跑，不是全新安装依赖。
 - 官方`rubric.md`规定一份最多4页PDF，通过表单提交并链接不超过5分钟的YouTube视频（unlisted可、private不可）和公开或与组织方共享的GitHub仓库；仓库需含源代码及两份预测CSV。独立slides不是必交项，可在视频中用。Codex已完成技术文件；PDF、录制与上传视频、最终表单提交由团队成员处理。
 
 # 历史状态（截至2026-10-28）
